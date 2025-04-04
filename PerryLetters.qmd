@@ -54,3 +54,54 @@ tidy_BFPLetters_sentences
 
 Error above. Probably because dataframe isn't property formatted.
 
+```{r}
+install.packages("tm")
+```
+
+```{r}
+tidy_BFPLetters_stopwords <- tidy_BFPLetters %>%
+    anti_join(stop_words)
+```
+
+```{r}
+# Add a filename column to tidy_BFPLetters
+tidy_BFPLetters <- tidy_BFPLetters %>%
+    mutate(filename = "BFPerryTranscribedLetters.txt")
+
+# Now create the Document Term Matrix (DTM)
+tidy_BFPLetters_words <- tidy_BFPLetters %>%
+    count(filename, word)
+
+head(tidy_BFPLetters_words)
+
+BFPLetters_dtm <- tidy_BFPLetters_words %>%
+    cast_dtm(filename, word, n)
+```
+
+Format text for Document Term Matrix (DTM):
+- Actually done above, this created a column filename and then created the DTM. Two chuncks below produced errors.
+
+```{r}
+tidy_BFPLetters_words <- tidy_BFPLetters %>% count(filename, word)
+
+head(tidy_BFPLetters_words)
+```
+
+```{r}
+BFPLetters_dtm <- tidy_BFPLetters_words %>%
+    count(filename, word) %>%
+    cast_dtm(filename, word, n)
+```
+
+Train model: 
+- Uses LDA
+
+Load topicmodels package:
+
+```{r}
+install.packages("topicmodels")
+```
+```{r}
+BFP.lda <- LDA(BFPLetters_dtm, k = 5, control = list(seed = 12345))
+BFP.lda
+```
