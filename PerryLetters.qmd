@@ -1,0 +1,56 @@
+---
+title: "PerryLetters"
+---
+
+Textual Analysis
+Corpi: Benjamin F. Perry Letters and Elizabeth Frances McCall Perry Letters
+Collections located at the South Caroliniana Archive
+Transcribed by Allen Stokes (retired director of South Caroliniana)
+
+Load Text Anaylsis/Tidy Data libraries
+```{r}
+#install.packages("tidytext")
+#install.packages("readtext")
+#install.packages("widyr")
+#install.packages("SnowballC")
+```
+
+Seems to work better if you install the packages one at a time, rather than how I coded it above. Maybe should just run install.packages() directly on the command line?
+
+```{r}
+library("tidyverse")
+library("tidytext") 
+library("readtext")
+library("widyr")
+library("SnowballC")
+```
+
+Load BFPerryTranscribedLetters txt document and use readtext to :
+
+```{r}
+BFPLetters_file_path <- "/Users/crboatwright/PerryLetters/BFPerryTranscribedLetters.txt"
+BFPLetters_text_data <- readtext(BFPLetters_file_path)
+head(BFPLetters_text_data)
+```
+
+Tokenize the text by word:
+- This also makes the text lowercase and removed punctuation
+
+```{r}
+tidy_BFPLetters <- BFPLetters_text_data %>%
+    unnest_tokens(word, text)
+
+tidy_BFPLetters
+```
+
+Tokenize by sentence:
+
+```{r}
+tidy_BFPLetters_sentences <- BFPLetters_text_data %>%
+    unnest_tokens(sentence, text, token = "sentences")
+
+tidy_BFPLetters_sentences
+```
+
+Error above. Probably because dataframe isn't property formatted.
+

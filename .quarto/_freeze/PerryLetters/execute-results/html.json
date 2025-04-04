@@ -1,0 +1,15 @@
+{
+  "hash": "48a61a10f771766997226db00cf3e5b5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"PerryLetters\"\n---\n\n\n\nTextual Analysis\nCorpi: Benjamin F. Perry Letters and Elizabeth Frances McCall Perry Letters\nCollections located at the South Caroliniana Archive\nTranscribed by Allen Stokes (retired director of South Caroliniana)\n\nLoad Text Anaylsis/Tidy Data libraries\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#install.packages(\"tidytext\")\n#install.packages(\"readtext\")\n#install.packages(\"widyr\")\n#install.packages(\"SnowballC\")\n```\n:::\n\n\n\nSeems to work better if you install the packages one at a time, rather than how I coded it above. Maybe should just run install.packages() directly on the command line?\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(\"tidyverse\")\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(\"tidytext\") \nlibrary(\"readtext\")\nlibrary(\"widyr\")\nlibrary(\"SnowballC\")\n```\n:::\n\n\n\nLoad BFPerryTranscribedLetters txt document and use readtext to :\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nBFPLetters_file_path <- \"/Users/crboatwright/PerryLetters/BFPerryTranscribedLetters.txt\"\nBFPLetters_text_data <- readtext(BFPLetters_file_path)\nhead(BFPLetters_text_data)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nreadtext object consisting of 1 document and 0 docvars.\n# A data frame: 1 × 2\n  doc_id                        text               \n* <chr>                         <chr>              \n1 BFPerryTranscribedLetters.txt \"\\\"Benjamin F\\\"...\"\n```\n\n\n:::\n:::\n\n\n\nTokenize the text\n\n\ntidy_\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
