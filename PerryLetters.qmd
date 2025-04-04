@@ -102,6 +102,29 @@ Load topicmodels package:
 install.packages("topicmodels")
 ```
 ```{r}
+library(topicmodels)
 BFP.lda <- LDA(BFPLetters_dtm, k = 5, control = list(seed = 12345))
 BFP.lda
+```
+
+Create a bar chart indicating the topics:
+
+```{r}
+BFPLetters_topics <- tidy(BFP.lda, matrix = "beta")
+head(BFPLetters_topics)
+```
+
+Visualize:
+
+```{r}
+BFPLetters_top_terms <- BFPLetters_topics %>%
+    arrange(desc(beta)) %>%
+    group_by(topic) %>% slice(1:5)
+
+BFPLetters_top_terms %>%
+    mutate(term = reorder_within(term, beta, topic)) %>%
+    ggplot(aes(beta, term, fill = factor(topic))) +
+    geom_col(show.legend = FALSE) +
+    facet_wrap(~ topic, scales = "free") +
+    scale_y_reordered()
 ```
