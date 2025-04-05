@@ -96,7 +96,7 @@ install.packages("topicmodels")
 ```
 ```{r}
 library(topicmodels)
-BFP.lda <- LDA(BFPLetters_dtm, k = 5, control = list(seed = 12345))
+BFP.lda <- LDA(BFPLetters_dtm, k = 10, control = list(seed = 12345))
 BFP.lda
 ```
 
