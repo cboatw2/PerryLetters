@@ -13,6 +13,7 @@ install.packages("tidytext")
 install.packages("readtext")
 install.packages("widyr")
 install.packages("SnowballC")
+install.packages(stringi)
 ```
 
 Seems to work better if you install the packages one at a time, rather than how I coded it above. Maybe should just run install.packages() directly on the command line?
@@ -23,6 +24,7 @@ library("tidytext")
 library("readtext")
 library("widyr")
 library("SnowballC")
+library(stringi)
 ```
 
 Load BFPerryTranscribedLetters txt document and use readtext to create the dataframe:
