@@ -2294,18 +2294,18 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Irby,Person
 1857,Isaac Hayne & Captain,Person
 1857,J.I. Middleton,Person
-1857,James J.],Person
-1857,James M.] Gadberry &,Person
-1857,Janneys Hotel,Person
+1857,James J.],Person,James J.,
+1857,James M.] Gadberry &,Person,James M. Gadberry,
+1857,Janneys Hotel,Person,,Place
 1857,Jennie,Person
 1857,Jennie Carson,Person
 1857,Jim Moore,Person
 1857,Joe,Person
-1857,Joe Long�s cousin,Person
+1857,Joe Long�s cousin,Person,Joe Long's cousin,
 1857,John,Person
 1857,John Baldwin,Person
 1857,John Cunningham,Person
-1857,John Latimer] Westmoreland,Person
+1857,John Latimer] Westmoreland,Person,John Latimer Westmoreland,
 1857,John LeConte,Person
 1857,Johnson,Person
 1857,Jordan Pool,Person
@@ -2339,9 +2339,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Mary Jones,Person
 1857,Mary Mauldin,Person
 1857,Mary McLain,Person
-1857,Mary�s Hall,Person
+1857,Mary�s Hall,Person,Mary's Hall,Place
 1857,May,Person
-1857,Ma�s,Person
+1857,Ma�s,Person,Ma's,
 1857,McBee,Person
 1857,McBees,Person
 1857,McCarter,Person
@@ -2356,7 +2356,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Miller,Person
 1857,Millers,Person
 1857,Minerva,Person
-1857,Mis Graham,Person
+1857,Mis Graham,Person,Miss Graham,
 1857,Miss Branch,Person
 1857,Miss Caldwell,Person
 1857,Miss E. Barnwell,Person
@@ -2365,28 +2365,28 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Monarch,Person
 1857,Nance,Person
 1857,Nances,Person
-1857,Nathaniel] Morgan,Person
+1857,Nathaniel] Morgan,Person,Nathaniel Morgan,
 1857,Nature,Person
 1857,Neall,Person
 1857,Newberry,Person
 1857,Orr,Person
-1857,O.�Neall &,Person
+1857,O.�Neall &,Person,O. Neall,
 1857,Pamela,Person
 1857,Papa,Person
 1857,Patriot,Person
-1857,Pauline�s marriage,Person
+1857,Pauline�s marriage,Person,Pauline's marriage,
 1857,Pedicaris,Person
 1857,Pelham,Person
 1857,Pendergrast,Person
 1857,Perdicaris,Person
 1857,Perry,Person
-1857,Perry�s,Person
+1857,Perry�s,Person,Perry's,
 1857,Petigru,Person
-1857,Pickens C.H,Person
-1857,Pierce�s,Person
+1857,Pickens C.H,Person,,Place
+1857,Pierce�s,Person,Pierce's,
 1857,Pinckney,Person
 1857,Pirce,Person
-1857,Poinsett Wells,Person
+1857,Poinsett Wells,Person,,Place
 1857,Powell,Person
 1857,Preston,Person
 1857,Prince,Person
@@ -2402,7 +2402,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Rodgers,Person
 1857,Sam McClanahan,Person
 1857,Sharpes,Person
-1857,Sharpe�s &,Person
+1857,Sharpe�s &,Person,Sharpe's,
 1857,Simon Turner,Person
 1857,Simpkins,Person
 1857,Sims,Person
@@ -2434,7 +2434,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,W.A. McDaniel,Person
 1857,W.C. Preston,Person
 1857,W.H. Perry,Person
-1857,Harvard College,Person
+1857,Harvard College,Person,,Place
 1857,Wade Hampton Jr,Person
 1857,Waller R. Lane,Person
 1857,Wear,Person
@@ -2444,11 +2444,11 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Wightman,Person
 1857,Wiley,Person
 1857,William,Person
-1857,William Adolphus] Mooney,Person
+1857,William Adolphus] Mooney,Person,William Adolphus Mooney,
 1857,William Calhoun,Person
 1857,William Hayne Perry,Person
-1857,Cambridge,Person
-1857,William Henry] White,Person
+1857,Cambridge,Person,,Place
+1857,William Henry] White,Person,William Henry White,
 1857,William Lyles,Person
 1857,William Perry,Person
 1857,Williams,Person
@@ -2460,12 +2460,12 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,Wright,Person
 1857,Yancey,Person
 1857,Yeadon,Person
-1857,don,Person
-1857,� Croft,Person
+1857,don,Person,Don,
+1857,� Croft,Person,Croft,
 1857,Abbeville,Place
 1857,Alabama,Place
 1857,Allston,Place
-1857,Anna,Place
+1857,Anna,Place,,Person
 1857,Annas,Place
 1857,Baltimore,Place
 1857,Boston,Place
@@ -2510,18 +2510,18 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1857,South Carolina,Place
 1857,Spartanburg,Place
 1857,Spartanburgh,Place
-1857,St. Mary�s Hall,Place
+1857,St. Mary�s Hall,Place,St. Mary's Hall,
 1857,Tulula,Place
 1857,United States,Place
 1857,Virginia,Place
 1857,Wardlaw,Place
 1857,Washington,Place
-1857,Washington County Va &c,Place
+1857,Washington County Va &c,Place,Washington County Va,
 1857,Weldon,Place
 1857,West Point,Place
 1857,the Lexington Springs,Place
 1857,the United States,Place
-1858-1859,& Franks,Person
+1858-1859,& Franks,Person,Franks,
 1858-1859,A.P. Hayne,Person
 1858-1859,Adams,Person
 1858-1859,Aiken,Person
@@ -2532,7 +2532,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Allen,Person
 1858-1859,Allston,Person
 1858-1859,Anderson,Person
-1858-1859,Anderson Court,Person
+1858-1859,Anderson Court,Person,,Place
 1858-1859,Andrew P. Butler,Person
 1858-1859,Andrew Pickens,Person
 1858-1859,Ann,Person
@@ -2540,8 +2540,8 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Anna Green,Person
 1858-1859,Annapolis,Person
 1858-1859,Annas,Person
-1858-1859,Anna�s,Person
-1858-1859,Anna�s memory,Person
+1858-1859,Anna�s,Person,Anna's,
+1858-1859,Anna�s memory,Person,Anna's memory,
 1858-1859,Arnold,Person
 1858-1859,Arthur,Person
 1858-1859,Arthur Hayne,Person
@@ -2576,9 +2576,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Charles Lanman,Person
 1858-1859,Chesney Smith,Person
 1858-1859,Chesnut,Person
-1858-1859,Che� Smith,Person
+1858-1859,Che� Smith,Person,Che Smith,
 1858-1859,Choice,Person
-1858-1859,Citadel,Person
+1858-1859,Citadel,Person,,Place
 1858-1859,Clara,Person
 1858-1859,Clark,Person
 1858-1859,Cleveland,Person
@@ -2587,11 +2587,11 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Col Orr,Person
 1858-1859,Col Pickens,Person
 1858-1859,Colcock,Person
-1858-1859,Columbia S.C,Person
+1858-1859,Columbia S.C,Person,,Place
 1858-1859,Conner,Person
 1858-1859,Cook,Person
 1858-1859,Cox,Person
-1858-1859,Cox�s steammill,Person
+1858-1859,Cox�s steammill,Person,Cox's steammill,Place
 1858-1859,Crook,Person
 1858-1859,Crooks,Person
 1858-1859,Cunningham,Person
@@ -2613,8 +2613,8 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Edwards,Person
 1858-1859,Elford,Person
 1858-1859,Elizabeth Perry,Person
-1858-1859,Greenville,Person
-1858-1859,Episcopal,Person
+1858-1859,Greenville,Person,,Place
+1858-1859,Episcopal,Person,,Place
 1858-1859,Evans,Person
 1858-1859,Everett,Person
 1858-1859,F.W. Pickens,Person
@@ -2623,7 +2623,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Fanny,Person
 1858-1859,Felix Rodgers,Person
 1858-1859,Flora Jones,Person
-1858-1859,Francis Wellman] Fickling,Person
+1858-1859,Francis Wellman] Fickling,Person,Francis Wellman Fickling,
 1858-1859,Frank,Person
 1858-1859,Frank Parry,Person
 1858-1859,Frank Perry,Person
@@ -2650,7 +2650,6 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Harpers Ferry,Person
 1858-1859,Haynes,Person
 1858-1859,Henderson,Person
-1858-1859,Heretofore,Person
 1858-1859,Herndon,Person
 1858-1859,Hext,Person
 1858-1859,Hoke,Person
@@ -2662,10 +2661,10 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,J.H. Hammond,Person
 1858-1859,J.L. Orr,Person
 1858-1859,Jackson,Person
-1858-1859,James H.] Norwood,Person
+1858-1859,James H.] Norwood,Person,James H. Norwood,
 1858-1859,James Moore,Person
-1858-1859,James Parsons] Carroll,Person
-1858-1859,James] Farrow,Person
+1858-1859,James Parsons] Carroll,Person,James Parsons Carroll,
+1858-1859,James] Farrow,Person,James Farrow,
 1858-1859,Janney,Person
 1858-1859,Janneys,Person
 1858-1859,Joab Mauldins,Person
@@ -2673,14 +2672,14 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,John,Person
 1858-1859,John C. Calhoun,Person
 1858-1859,John Cunningham,Person
-1858-1859,John Durant] Ashmore,Person
+1858-1859,John Durant] Ashmore,Person,John Durant Ashmore,
 1858-1859,John Fowler,Person
 1858-1859,John LeConte,Person
 1858-1859,John Preston,Person
 1858-1859,Johnston,Person
 1858-1859,Jones,Person
-1858-1859,Joseph &,Person
-1858-1859,Joseph Daniel] Pope,Person
+1858-1859,Joseph &,Person,Joseph,
+1858-1859,Joseph Daniel] Pope,Person,Joseph Daniel Pope,
 1858-1859,Joseph Duncan,Person
 1858-1859,Kay,Person
 1858-1859,Keep,Person
@@ -2703,7 +2702,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Mary Mauldin,Person
 1858-1859,Mary Mauldin Betty & Oscar,Person
 1858-1859,Mary Mauldins,Person
-1858-1859,Mary�s,Person
+1858-1859,Mary�s,Person,Mary's,
 1858-1859,Mauldin,Person
 1858-1859,McBee,Person
 1858-1859,McBees,Person
@@ -2713,7 +2712,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,McPheters,Person
 1858-1859,Memminger,Person
 1858-1859,Menninger,Person
-1858-1859,Methodist,Person
+1858-1859,Methodist,Person,,Place
 1858-1859,Miller,Person
 1858-1859,Minerva,Person
 1858-1859,Miss Graham,Person
@@ -2726,11 +2725,11 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Nat Heyward,Person
 1858-1859,Newberry,Person
 1858-1859,Old Charles,Person
-1858-1859,Oliver Evans] Edwards,Person
+1858-1859,Oliver Evans] Edwards,Person,Oliver Evans Edwards,
 1858-1859,Oliver H. Perry,Person
 1858-1859,Orr,Person
 1858-1859,Oscar Mauldin,Person
-1858-1859,O.�Neall &,Person
+1858-1859,O.�Neall &,Person,O. Neall,
 1858-1859,Pamela,Person
 1858-1859,Pamela Cunningham,Person
 1858-1859,Patriot,Person
@@ -2745,7 +2744,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Pickens,Person
 1858-1859,Pinckney,Person
 1858-1859,Pinckney Dill,Person
-1858-1859,Poinsett Wells,Person
+1858-1859,Poinsett Wells,Person,,Place
 1858-1859,Pope,Person
 1858-1859,Porter,Person
 1858-1859,Powell,Person
@@ -2759,7 +2758,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Rhetts Bill,Person
 1858-1859,Rice,Person
 1858-1859,Richard Freeman,Person
-1858-1859,Robert Dav� daughter,Person
+1858-1859,Robert Dav� daughter,Person,Robert Dav's daughter,
 1858-1859,Robert Foster,Person
 1858-1859,Robert Goodloe Harper,Person
 1858-1859,Robert McKay,Person
@@ -2779,7 +2778,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Spartan Goodlett,Person
 1858-1859,Spratt,Person
 1858-1859,Stacey,Person
-1858-1859,Stacy & Ship[p,Person
+1858-1859,Stacy & Ship[p,Person,Stacy & Shipp,
 1858-1859,Stewart,Person
 1858-1859,Stokes,Person
 1858-1859,Susan,Person
@@ -2801,7 +2800,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,W.H. Perry,Person
 1858-1859,Benjamin F. Perry,Person
 1858-1859,Columbia,Person
-1858-1859,Harvard College,Person
+1858-1859,Harvard College,Person,,Place
 1858-1859,Waddy Williams,Person
 1858-1859,Wallace,Person
 1858-1859,Wardlaw,Person
@@ -2820,7 +2819,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,William Lawton,Person
 1858-1859,William Lyles,Person
 1858-1859,William McCreight,Person
-1858-1859,William Sidney] Mullins,Person
+1858-1859,William Sidney] Mullins,Person,William Sidney Mullins,
 1858-1859,William Smith,Person
 1858-1859,Willie,Person
 1858-1859,Willie Beattie,Person
@@ -2832,12 +2831,11 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Young DeTreville,Person
 1858-1859,Young Moore,Person
 1858-1859,Zach Mauldin,Person
-1858-1859,diar[r]hea,Person
 1858-1859,marry Arnold,Person
-1858-1859,nelson,Person
+1858-1859,nelson,Person,Nelson,
 1858-1859,Abbeville,Place
 1858-1859,Alabama,Place
-1858-1859,Anna,Place
+1858-1859,Anna,Place,,Person
 1858-1859,Annapolis,Place
 1858-1859,Annas,Place
 1858-1859,Austin,Place
@@ -2863,7 +2861,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Greenville,Place
 1858-1859,Hamlin,Place
 1858-1859,Hardin,Place
-1858-1859,Husband,Place
+1858-1859,Husband,Place,,Person
 1858-1859,Massachusetts,Place
 1858-1859,Mexico,Place
 1858-1859,Mississippi,Place
@@ -2887,12 +2885,12 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1858-1859,Wardlaw,Place
 1858-1859,Washington,Place
 1858-1859,West Point,Place
-1858-1859,Willie,Place
+1858-1859,Willie,Place,,Person
 1858-1859,the Slave States,Place
 1858-1859,the United States,Place
-1860-1862,& Col,Person
+1860-1862,& Col,Person,Col,
 1860-1862,3rd Lieut,Person
-1860-1862,A.[rthur] Hayne,Person
+1860-1862,A.[rthur] Hayne,Person,Arthur Hayne,
 1860-1862,Adams,Person
 1860-1862,Aiken,Person
 1860-1862,Aldrich,Person
@@ -2903,7 +2901,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Alice Roberts,Person
 1860-1862,Allen,Person
 1860-1862,Alston Hayne,Person
-1860-1862,Al�,Person
+1860-1862,Al�,Person,Al,
 1860-1862,Anderson,Person
 1860-1862,Ann,Person
 1860-1862,Annapolis,Person
@@ -2916,7 +2914,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Austin,Person
 1860-1862,B.F. Perry,Person
 1860-1862,B.T. Perry,Person
-1860-1862,B.[word,Person
+1860-1862,B.[word,Person,B.word,
 1860-1862,Ball,Person
 1860-1862,Barnett,Person
 1860-1862,Barnetts,Person
@@ -2931,13 +2929,13 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Benjamin F. Perry,Person
 1860-1862,Benjamin Franklin Perry,Person
 1860-1862,Benjamin Perry,Person
-1860-1862,Greenville,Person
+1860-1862,Greenville,Person,,Place
 1860-1862,Benson,Person
 1860-1862,Bill,Person
 1860-1862,Bill Beattie,Person
 1860-1862,Bill Thompson,Person
 1860-1862,Blackberry,Person
-1860-1862,Blands Ford,Person
+1860-1862,Blands Ford,Person,,Place
 1860-1862,Blassingame,Person
 1860-1862,Boggs,Person
 1860-1862,Bolling,Person
@@ -2956,7 +2954,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Charles,Person
 1860-1862,Charles Hill,Person
 1860-1862,Charley Ketchum,Person
-1860-1862,Charley O.�Neal,Person
+1860-1862,Charley O.�Neal,Person,Charley O'Neal,
 1860-1862,Chesnut,Person
 1860-1862,Clara,Person
 1860-1862,Clary Benson,Person
@@ -3031,7 +3029,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Graham,Person
 1860-1862,Grandma,Person
 1860-1862,Greenfield,Person
-1860-1862,Gregg�s Regiment,Person
+1860-1862,Gregg�s Regiment,Person,Gregg's Regiment,
 1860-1862,Griffin,Person
 1860-1862,Gus Hoke,Person
 1860-1862,Hagood,Person
@@ -3041,32 +3039,32 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Hawthorn,Person
 1860-1862,Hayne,Person
 1860-1862,Haynes,Person
-1860-1862,Headquarters,Person
+1860-1862,Headquarters,Person,,Place
 1860-1862,Henry Cauble,Person
 1860-1862,Hext,Person
 1860-1862,Hext McCall,Person
 1860-1862,Hillhouse,Person
-1860-1862,Hillhouse�s brother,Person
+1860-1862,Hillhouse�s brother,Person,Hillhouse's brother,
 1860-1862,Hoke,Person
 1860-1862,Hughson,Person
 1860-1862,Irby,Person
 1860-1862,Irvin,Person
 1860-1862,Irvine,Person
-1860-1862,Irvin�s,Person
+1860-1862,Irvin�s,Person,Irvin's,
 1860-1862,Isaac Hayne,Person
 1860-1862,Iva Williams,Person
 1860-1862,Izard,Person
 1860-1862,Jackson,Person
 1860-1862,James Benson,Person
 1860-1862,James H. Irby,Person
-1860-1862,James] McCullough,Person
+1860-1862,James] McCullough,Person,James McCullough,
 1860-1862,Janney,Person
 1860-1862,Janneys Hotel,Person
 1860-1862,Jeff Arnold,Person
-1860-1862,Jennings Goodlett &c,Person
+1860-1862,Jennings Goodlett &c,Person,Jennings Goodlett,
 1860-1862,Jesse Westmoreland,Person
 1860-1862,Jim Mays,Person
-1860-1862,"Jim Mays, Stroud",Person
+1860-1862,"Jim Mays, Stroud",Person,Jim Mays Stroud,
 1860-1862,Jim McDaniel,Person
 1860-1862,Jim Moore,Person
 1860-1862,Jno Ferguson,Person
@@ -3084,7 +3082,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,John Reeds,Person
 1860-1862,Johnson,Person
 1860-1862,Jones,Person
-1860-1862,Judhe W.�,Person
+1860-1862,Judhe W.�,Person,Judhe W.,
 1860-1862,Judisiary,Person
 1860-1862,Kennedy,Person
 1860-1862,Kershaw,Person
@@ -3099,16 +3097,14 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Lee,Person
 1860-1862,Levy,Person
 1860-1862,Lieut,Person
-1860-1862,Lieut Col�s. Wiley,Person
+1860-1862,Lieut Col�s. Wiley,Person,Lieut Col's. Wiley,
 1860-1862,Lindy,Person
 1860-1862,Lipscomb,Person
-1860-1862,Liver,Person
 1860-1862,Liz,Person
 1860-1862,Long,Person
 1860-1862,Longstreet,Person
 1860-1862,Lula,Person
-1860-1862,Lula�s,Person
-1860-1862,Lung Fever,Person
+1860-1862,Lula�s,Person,Lula's,
 1860-1862,Lynn Watsons,Person
 1860-1862,Magrath,Person
 1860-1862,Mahaffey,Person
@@ -3119,8 +3115,8 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Martin,Person
 1860-1862,Martin Edwards,Person
 1860-1862,Mauldin,Person
-1860-1862,Ma�s bundle,Person
-1860-1862,Ma�s letter,Person
+1860-1862,Ma�s bundle,Person,Ma's bundle,
+1860-1862,Ma�s letter,Person,Ma's letter,
 1860-1862,McBee,Person
 1860-1862,McCain,Person
 1860-1862,McClanahan,Person
@@ -3163,7 +3159,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Preacher Arnold,Person
 1860-1862,Preston,Person
 1860-1862,Probono Mil,Person
-1860-1862,Pu� Pool,Person
+1860-1862,Pu� Pool,Person,Pu Pool,
 1860-1862,Randal,Person
 1860-1862,Reed,Person
 1860-1862,Reynolds,Person
@@ -3172,7 +3168,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Richardson,Person
 1860-1862,Robber,Person
 1860-1862,Robert,Person
-1860-1862,Robert Barnwell &,Person
+1860-1862,Robert Barnwell &,Person,Robert Barnwell,
 1860-1862,Robert Pool,Person
 1860-1862,Robinson,Person
 1860-1862,Said,Person
@@ -3207,7 +3203,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Tell Willie,Person
 1860-1862,Tent,Person
 1860-1862,Thomas,Person
-1860-1862,Thomas Nuckolls] Dawkins,Person
+1860-1862,Thomas Nuckolls] Dawkins,Person,Thomas Nuckolls Dawkins,
 1860-1862,Thompson,Person
 1860-1862,Thos Crayton,Person
 1860-1862,Throat,Person
@@ -3217,9 +3213,8 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Trescot,Person
 1860-1862,Tugaloo,Person
 1860-1862,Tully Bolling,Person
-1860-1862,Tu�,Person
+1860-1862,Tu�,Person,Tu,
 1860-1862,W.H. Perry,Person
-1860-1862,P.S. Bring,Person
 1860-1862,W.M. Thomas,Person
 1860-1862,Walker,Person
 1860-1862,Wallace Thompson,Person
@@ -3238,13 +3233,13 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,William Edward],Person
 1860-1862,William Fuller,Person
 1860-1862,William H. Perry,Person
-1860-1862,William H.C.] Whiting,Person
-1860-1862,William L.] Yancey,Person
+1860-1862,William H.C.] Whiting,Person,William H.C. Whiting,
+1860-1862,William L.] Yancey,Person,William L. Yancey,
 1860-1862,William Martin,Person
-1860-1862,William O.[rlando,Person
+1860-1862,William O.[rlando,Person,William Orlando,
 1860-1862,William Thompson,Person
 1860-1862,Williams,Person
-1860-1862,Williams� Regiment,Person
+1860-1862,Williams� Regiment,Person,Williams' Regiment,
 1860-1862,Willie,Person
 1860-1862,Willie & Albert Rhetts,Person
 1860-1862,Willie Beattie,Person
@@ -3257,10 +3252,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,Yeargin,Person
 1860-1862,Young Austin,Person
 1860-1862,Young Sloan,Person
-1860-1862,[Lewis] Cass,Person
-1860-1862,rang a,Person
+1860-1862,[Lewis] Cass,Person,Lewis Cass,
 1860-1862,the Davis Guards,Person
-1860-1862,& Pickens,Place
+1860-1862,& Pickens,Place,Pickens,
 1860-1862,Abbeville,Place
 1860-1862,Alabama,Place
 1860-1862,Alexandria,Place
@@ -3316,7 +3310,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,New Haven,Place
 1860-1862,New Orleans,Place
 1860-1862,New York,Place
-1860-1862,New York &c,Place
+1860-1862,New York &c,Place,New York,
 1860-1862,North Carolina,Place
 1860-1862,Ocaquan,Place
 1860-1862,Occoquan,Place
@@ -3352,9 +3346,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1860-1862,the Ladies of Petersburg,Place
 1860-1862,the United States,Place
 1860-1862,the Va. Springs,Place
-1860-1862,the�County,Place
+1860-1862,the�County,Place,the County,
 1863-1882,Absalom Blythe,Person
-1863-1882,Adams Run,Person
+1863-1882,Adams Run,Person,,Place
 1863-1882,Aiken,Person
 1863-1882,Aikens Reg,Person
 1863-1882,Aldrich,Person
@@ -3368,7 +3362,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Alston,Person
 1863-1882,Alston Hayne,Person
 1863-1882,Anderson,Person
-1863-1882,Andrew Gordon] Magrath,Person
+1863-1882,Andrew Gordon] Magrath,Person,Andrew Gordon Magrath,
 1863-1882,Andy,Person
 1863-1882,Andy Johnson,Person
 1863-1882,Anna,Person
@@ -3400,7 +3394,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Ben Goodletts,Person
 1863-1882,Ben McDaniel,Person
 1863-1882,Benjamin Perry,Person
-1863-1882,Greenville,Person
+1863-1882,Greenville,Person,,Place
 1863-1882,Benson J. Lossing,Person
 1863-1882,Bill,Person
 1863-1882,Bill A,Person
@@ -3410,7 +3404,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Bill Fisher &,Person
 1863-1882,Bill Jones,Person
 1863-1882,Birnie,Person
-1863-1882,Blad�,Person
+1863-1882,Blad�,Person,Blad,
 1863-1882,Blassingame,Person
 1863-1882,Bonham,Person
 1863-1882,Bookman,Person
@@ -3419,10 +3413,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Boyce,Person
 1863-1882,Brady,Person
 1863-1882,Braggs,Person
-1863-1882,Branchville,Person
+1863-1882,Branchville,Person,,Place
 1863-1882,Brandy,Person
-1863-1882,Brandy Station,Person
-1863-1882,Dear,Person
+1863-1882,Brandy Station,Person,,Place
 1863-1882,Bread,Person
 1863-1882,Broadcast,Person
 1863-1882,Bryan,Person
@@ -3433,21 +3426,21 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Burt,Person
 1863-1882,Burt Perry,Person
 1863-1882,Butler,Person
-1863-1882,B.�ton,Person
+1863-1882,B.�ton,Person,B.ton,
 1863-1882,Caldwells,Person
 1863-1882,Calvin,Person
 1863-1882,Campbell,Person
 1863-1882,Carry,Person
 1863-1882,Carson,Person
 1863-1882,Charles,Person
-1863-1882,Charles Henry] Simonton,Person
+1863-1882,Charles Henry] Simonton,Person,Charles Henry Simonton,
 1863-1882,Charley,Person
 1863-1882,Charley Lanneau,Person
 1863-1882,Charlie,Person
 1863-1882,Chester,Person
-1863-1882,Chester C.H,Person
+1863-1882,Chester C.H,Person,,Place
 1863-1882,Childs,Person
-1863-1882,Christopher William] Dudley,Person
+1863-1882,Christopher William] Dudley,Person,Christopher William Dudley,
 1863-1882,Clay,Person
 1863-1882,Clerk,Person
 1863-1882,Colleague,Person
@@ -3479,7 +3472,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Earles Battery,Person
 1863-1882,Easley,Person
 1863-1882,Easleys,Person
-1863-1882,Easley�s,Person
+1863-1882,Easley�s,Person,Easley's,
 1863-1882,Ed Rowland,Person
 1863-1882,Ed Stokes,Person
 1863-1882,Editor,Person
@@ -3490,18 +3483,18 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Elfords,Person
 1863-1882,Eliza R. Laurens,Person
 1863-1882,Elizabeth Perry,Person
-1863-1882,Columbia,Person
+1863-1882,Columbia,Person,,Place
 1863-1882,Glencoe,Person
 1863-1882,Elizabethg Perry,Person
 1863-1882,Elizabetrh Perry,Person
 1863-1882,Ellen Janney,Person
-1863-1882,Ellerbe B.] Cash,Person
+1863-1882,Ellerbe B.] Cash,Person,Ellerbe B. Cash,
 1863-1882,Emily Earle,Person
 1863-1882,Emma,Person
 1863-1882,Emma Julia Blum,Person
 1863-1882,Enemy,Person
 1863-1882,Envelopes,Person
-1863-1882,Episcopal,Person
+1863-1882,Episcopal,Person,,Place
 1863-1882,Evans,Person
 1863-1882,F.J. Moses,Person
 1863-1882,Fannie Beattie,Person
@@ -3513,7 +3506,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Fishers,Person
 1863-1882,Foster,Person
 1863-1882,Foster Perry,Person
-1863-1882,Francis R.] Lubbock,Person
+1863-1882,Francis R.] Lubbock,Person,Francis R. Lubbock,
 1863-1882,Frank,Person
 1863-1882,Frank Cox,Person
 1863-1882,Frank Fisher,Person
@@ -3523,19 +3516,19 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Frost,Person
 1863-1882,Fuller,Person
 1863-1882,Furman,Person
-1863-1882,G. Allen] Huggins,Person
+1863-1882,G. Allen] Huggins,Person,G. Allen Huggins,
 1863-1882,Gary,Person
 1863-1882,Geddings,Person
 1863-1882,Gelncoe,Person
 1863-1882,Genl Butler,Person
 1863-1882,Genl Lee,Person
 1863-1882,George,Person
-1863-1882,George A.],Person
+1863-1882,George A.],Person,George A.,
 1863-1882,George Bryant,Person
 1863-1882,George Croft,Person
-1863-1882,George Franklin] Townes,Person
-1863-1882,George Gordon] Meade,Person
-1863-1882,George H.] Pendleton,Person
+1863-1882,George Franklin] Townes,Person,George Franklin Townes,
+1863-1882,George Gordon] Meade,Person,George Gordon Meade,
+1863-1882,George H.] Pendleton,Person,George H. Pendleton,
 1863-1882,Gibbes,Person
 1863-1882,Gibbs,Person
 1863-1882,Gilmore,Person
@@ -3544,18 +3537,17 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,God,Person
 1863-1882,Goodlett,Person
 1863-1882,Goodletts,Person
-1863-1882,Goodnight,Person
 1863-1882,Gordon Pool,Person
 1863-1882,Grady,Person
 1863-1882,Graham,Person
-1863-1882,Grahamville,Person
+1863-1882,Grahamville,Person,,Place
 1863-1882,Grandchildren,Person
 1863-1882,Grant,Person
 1863-1882,Greenwood,Person
 1863-1882,Gue,Person
 1863-1882,H. White,Person
-1863-1882,Hallie C.� &,Person
-1863-1882,Hallie C.�,Person
+1863-1882,Hallie C.� &,Person,Hallie C.,
+1863-1882,Hallie C.�,Person,Hallie C.,
 1863-1882,Hamilton,Person
 1863-1882,Hammett,Person
 1863-1882,Hammond,Person
@@ -3563,19 +3555,19 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Harris,Person
 1863-1882,Harrison,Person
 1863-1882,Harry,Person
-1863-1882,Harry] Hammond,Person
+1863-1882,Harry] Hammond,Person,Harry Hammond,
 1863-1882,Hayne,Person
 1863-1882,Hayne Perry,Person
 1863-1882,Haynes,Person
 1863-1882,Henry,Person
 1863-1882,Henry Buist,Person
 1863-1882,Henry Cauble,Person
-1863-1882,Henry Deas] Lesesne,Person
+1863-1882,Henry Deas] Lesesne,Person,Henry Deas Lesesne,
 1863-1882,Henry Heyward,Person
-1863-1882,Henry Pinckney],Person
-1863-1882,Henry Pinckney] Hammett &,Person
-1863-1882,Henry William] Garlington,Person
-1863-1882,Henry] Sparnick,Person
+1863-1882,Henry Pinckney],Person,Henry Pinckney,
+1863-1882,Henry Pinckney] Hammett &,Person,Henry Pinckney Hammett,
+1863-1882,Henry William] Garlington,Person,Henry William Garlington,
+1863-1882,Henry] Sparnick,Person,Henry Sparnick,
 1863-1882,Herald,Person
 1863-1882,Herbemont,Person
 1863-1882,Herndon,Person
@@ -3597,24 +3589,24 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Intelligencer,Person
 1863-1882,Isaac,Person
 1863-1882,Isaac Hayne,Person
-1863-1882,Izardrequested,Person
+1863-1882,Izardrequested,Person,Izard requested,
 1863-1882,J. Izard Middleton,Person
 1863-1882,J.B. Campbell,Person
 1863-1882,Jack,Person
 1863-1882,Jack Jenkins,Person
 1863-1882,Jackson,Person
 1863-1882,James,Person
-1863-1882,James B.] Campbell,Person
+1863-1882,James B.] Campbell,Person,James B. Campbell,
 1863-1882,James Gibbes,Person
 1863-1882,James Gibbs,Person
-1863-1882,James H.] Rion,Person
+1863-1882,James H.] Rion,Person,James H. Rion,
 1863-1882,James Perrin,Person
-1863-1882,James Petigru] Boyce,Person
-1863-1882,James] O.�Hanlon,Person
-1863-1882,James] Simmons,Person
+1863-1882,James Petigru] Boyce,Person,James Petigru Boyce,
+1863-1882,James] O.�Hanlon,Person,James O. Hanlon,
+1863-1882,James] Simmons,Person,James Simmons,
 1863-1882,Janney,Person
 1863-1882,Janneys,Person
-1863-1882,Jeff Davis &,Person
+1863-1882,Jeff Davis &,Person,Jeff Davis,
 1863-1882,Jenkins,Person
 1863-1882,Jennings,Person
 1863-1882,Jim Moore,Person
@@ -3626,16 +3618,16 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,John,Person
 1863-1882,John Ashe Alston,Person
 1863-1882,John Cunningham,Person
-1863-1882,John Durant] Ashmore,Person
+1863-1882,John Durant] Ashmore,Person,John Durant Ashmore,
 1863-1882,John Greens,Person
 1863-1882,John LeConte,Person
 1863-1882,John Marshal,Person
 1863-1882,John Perry,Person
 1863-1882,John Perrys,Person
-1863-1882,John T.] Hoffman,Person
+1863-1882,John T.] Hoffman,Person,John T. Hoffman,
 1863-1882,John W,Person
 1863-1882,John haul,Person
-1863-1882,John] Bauskett,Person
+1863-1882,John] Bauskett,Person,John Bauskett,
 1863-1882,Johnson,Person
 1863-1882,Johnsons,Person
 1863-1882,Johnston,Person
@@ -3652,7 +3644,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Laura,Person
 1863-1882,Laurens,Person
 1863-1882,LeConte,Person
-1863-1882,LeConte &c. Fannie,Person
+1863-1882,LeConte &c. Fannie,Person,LeConte & Fannie,
 1863-1882,LeContes,Person
 1863-1882,Lee,Person
 1863-1882,Legare,Person
@@ -3665,7 +3657,6 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Willie,Person
 1863-1882,Lizie,Person
 1863-1882,Lizzie,Person
-1863-1882,Your,Person
 1863-1882,Lizzie R. Smith,Person
 1863-1882,Long,Person
 1863-1882,Lord,Person
@@ -3678,17 +3669,17 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Manning,Person
 1863-1882,Mannings,Person
 1863-1882,Martin,Person
-1863-1882,Martin Clerk &,Person
-1863-1882,Martinsburg,Person
+1863-1882,Martin Clerk &,Person,Martin Clerk,
+1863-1882,Martinsburg,Person,,Place
 1863-1882,Mattie,Person
-1863-1882,Ma�s,Person
+1863-1882,Ma�s,Person,Ma's,
 1863-1882,McClanahan,Person
 1863-1882,McClures,Person
 1863-1882,McConley,Person
 1863-1882,McCord,Person
 1863-1882,McCready,Person
 1863-1882,McDuffie,Person
-1863-1882,McFie�s & Chasnut,Person
+1863-1882,McFie�s & Chasnut,Person,McFie's & Chasnut,
 1863-1882,McGowan,Person
 1863-1882,McJunkin,Person
 1863-1882,McLaws,Person
@@ -3696,7 +3687,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,McWilliam,Person
 1863-1882,Meade,Person
 1863-1882,Melton,Person
-1863-1882,Midss Gordon,Person
+1863-1882,Midss Gordon,Person,Miss Gordon,
 1863-1882,Mills,Person
 1863-1882,Miss,Person
 1863-1882,Miss Cox,Person
@@ -3718,17 +3709,17 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Murray,Person
 1863-1882,Nat,Person
 1863-1882,Nat Butler,Person
-1863-1882,Newberry,Person
-1863-1882,Newberry C.H,Person
-1863-1882,Niagara Falls &,Person
+1863-1882,Newberry,Person,,Place
+1863-1882,Newberry C.H,Person,,Place
+1863-1882,Niagara Falls &,Person,Niagara Falls,Place
 1863-1882,Norton,Person
 1863-1882,Order,Person
 1863-1882,Orr,Person
 1863-1882,Orrs,Person
 1863-1882,Pamela,Person
 1863-1882,Parker,Person
-1863-1882,Patrick Nelson] Lynch,Person
-1863-1882,Patrick] Cleburne,Person
+1863-1882,Patrick Nelson] Lynch,Person,Patrick Nelson Lynch,
+1863-1882,Patrick] Cleburne,Person,Patrick Cleburne,
 1863-1882,Patterson,Person
 1863-1882,Pengleton,Person
 1863-1882,Perkins,Person
@@ -3760,7 +3751,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Richard Stone,Person
 1863-1882,Richardson,Person
 1863-1882,Robert Bentham,Person
-1863-1882,Robert Brown] Elliott,Person
+1863-1882,Robert Brown] Elliott,Person,Robert Brown Elliott,
 1863-1882,Rom,Person
 1863-1882,Rufus Johnston,Person
 1863-1882,Rutherford,Person
@@ -3772,11 +3763,11 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Saluda,Person
 1863-1882,Sam Jones,Person
 1863-1882,Sam McClanahan,Person
-1863-1882,Samuel] McGowan,Person
-1863-1882,Sans Souci,Person
+1863-1882,Samuel] McGowan,Person,Samuel McGowan,
+1863-1882,Sans Souci,Person,,Place
 1863-1882,Sarah,Person
-1863-1882,Savannah,Person
-1863-1882,Savannah Rail Road,Person
+1863-1882,Savannah,Person,,Place
+1863-1882,Savannah Rail Road,Person,,Place
 1863-1882,Saw Willie,Person
 1863-1882,Scott,Person
 1863-1882,Sermon,Person
@@ -3808,7 +3799,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Swandale,Person
 1863-1882,Swap,Person
 1863-1882,T. Edwin Ware,Person
-1863-1882,T.B. Cou�,Person
+1863-1882,T.B. Cou�,Person,T.B. Cou,
 1863-1882,Taggert,Person
 1863-1882,Taylor,Person
 1863-1882,Tell Alfred,Person
@@ -3827,17 +3818,17 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Terry Edwards,Person
 1863-1882,Theodore Stark Esq,Person
 1863-1882,Thomas,Person
-1863-1882,Thomas A.] Hendricks,Person
-1863-1882,Thomas Edwin] Wares,Person
+1863-1882,Thomas A.] Hendricks,Person,Thomas A. Hendricks,
+1863-1882,Thomas Edwin] Wares,Person,Thomas Edwin Wares,
 1863-1882,Thompson,Person
-1863-1882,Thompsons�,Person
+1863-1882,Thompsons�,Person,Thompsons',
 1863-1882,Thomson,Person
 1863-1882,Thurston,Person
 1863-1882,Tilden,Person
 1863-1882,Tim,Person
 1863-1882,Tom,Person
 1863-1882,Tom Butler,Person
-1863-1882,Tom T.� &,Person
+1863-1882,Tom T.� &,Person,Tom T.,
 1863-1882,Trappier,Person
 1863-1882,Trenholm,Person
 1863-1882,Trescot,Person
@@ -3850,7 +3841,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Vest,Person
 1863-1882,W. H. Perry,Person
 1863-1882,W.H. Perry,Person
-1863-1882,W.[illiam] H.[enry] Foote,Person
+1863-1882,W.[illiam] H.[enry] Foote,Person,William Henry Foote,
 1863-1882,Waddle,Person
 1863-1882,Waddy,Person
 1863-1882,Waddy Thompson,Person
@@ -3871,12 +3862,12 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Will Cox,Person
 1863-1882,William,Person
 1863-1882,William Butler,Person
-1863-1882,William Dalrymple] Johnson,Person
+1863-1882,William Dalrymple] Johnson,Person,William Dalrymple Johnson,
 1863-1882,William Edward,Person
-1863-1882,William Gilnore] Simms,Person
-1863-1882,William J.] Hardee,Person
-1863-1882,William Lewis] Sharkey,Person
-1863-1882,William Pierce] Price,Person
+1863-1882,William Gilnore] Simms,Person,William Gilnore Simms,
+1863-1882,William J.] Hardee,Person,William J. Hardee,
+1863-1882,William Lewis] Sharkey,Person,William Lewis Sharkey,
+1863-1882,William Pierce] Price,Person,William Pierce Price,
 1863-1882,Williams,Person
 1863-1882,Willie Beattey,Person
 1863-1882,Willie Beattie,Person
@@ -3889,17 +3880,17 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Young,Person
 1863-1882,Young Wade Hampton,Person
 1863-1882,Zach Wards,Person
-1863-1882,[Earl] Van Dorn,Person
-1863-1882,[Hon,Person
-1863-1882,[John] Livingston,Person
-1863-1882,[Thomas Stephen],Person
-1863-1882,] F. McCaw of,Person
-1863-1882,a P. Script,Person
+1863-1882,[Earl] Van Dorn,Person,Earl Van Dorn,
+1863-1882,[Hon,Person,Hon,
+1863-1882,[John] Livingston,Person,John Livingston,
+1863-1882,[Thomas Stephen],Person,Thomas Stephen,
+1863-1882,] F. McCaw of,Person,F. McCaw,
+1863-1882,a P. Script,Person,A P. Script,
 1863-1882,marry Williams,Person
-1863-1882,mosaic�,Person
-1863-1882,�Dawkins,Person
-1863-1882,& Governor,Place
-1863-1882,A.S,Place
+1863-1882,�Dawkins,Person,Dawkins,
+1863-1882,& Governor,Place,Governor,Person
+1863-1882,A.S,Place,,Person
+1863-1882,Abbeville,Person,,Place
 1863-1882,Abbeville,Place
 1863-1882,Alabama,Place
 1863-1882,Albany,Place
@@ -3955,9 +3946,9 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Hawthorne,Place
 1863-1882,Holland,Place
 1863-1882,Horlbeck,Place
-1863-1882,Husband,Place
+1863-1882,Husband,Place,,Person
 1863-1882,Italy,Place
-1863-1882,Judges,Place
+1863-1882,Judges,Place,,Person
 1863-1882,Kellys,Place
 1863-1882,Laurens,Place
 1863-1882,Laurens County,Place
@@ -3969,7 +3960,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Marlborough,Place
 1863-1882,Martinsburg,Place
 1863-1882,Maryland,Place
-1863-1882,Mattie Orr,Place
+1863-1882,Mattie Orr,Place,,Person
 1863-1882,Memphis,Place
 1863-1882,Mobile,Place
 1863-1882,Mt. Vernon,Place
@@ -3984,7 +3975,7 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Oconee,Place
 1863-1882,P.S,Place
 1863-1882,Paris,Place
-1863-1882,Pen[n]sylvania,Place
+1863-1882,Pen[n]sylvania,Place,Pennsylvania,
 1863-1882,Pendleton,Place
 1863-1882,Pennsylvania,Place
 1863-1882,Petigru,Place
@@ -4001,8 +3992,8 @@ thru1846,the Virginia Springs,Place,Virginia Springs,
 1863-1882,Senatorship,Place
 1863-1882,Seneca,Place
 1863-1882,South Carolina,Place
-1863-1882,South Carolina &,Place
-1863-1882,South Carolina &c,Place
+1863-1882,South Carolina &,Place,South Carolina,
+1863-1882,South Carolina &c,Place,South Carolina,
 1863-1882,South Carolina Bills,Place
 1863-1882,Spartanburg,Place
 1863-1882,Spartanburgh,Place
