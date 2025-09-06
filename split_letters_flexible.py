@@ -8,7 +8,7 @@ date_re = re.compile(r"^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sun
 place_re = re.compile(r"^(Columbia|Greenville|Laurens C\.H\.|Anderson C\.H\.|Pickens C\.H\.|Newberry CH|Charleston|Spartanburgh C\.H\.|Kinder Hook|Boston|Albany|New Haven|Philadelphia|Washington|Water Loo P\.O\.)$", re.IGNORECASE)
 greeting_re = re.compile(r"^(My dear|My Dear|My dear Liz|My dear daughter|My dear Son|My Dear Willey|My dear Wife|My dear Little Daughter|My dear Sir)", re.IGNORECASE)
 
-with open(input_file, "r", encoding="latin-1") as f:
+with open(input_file, "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 letters = []
