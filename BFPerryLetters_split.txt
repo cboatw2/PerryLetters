@@ -1290,7 +1290,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 49
+Letter 50
 3 August 1846
 Kinder Hook
 
@@ -1311,7 +1311,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 50
+Letter 51
 4 August 1846
 New Haven
 
@@ -1330,7 +1330,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 51
+Letter 52
 6 August 1846
 Boston
 
@@ -1355,7 +1355,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 52
+Letter 53
 7 August 1846
 Boston
 
@@ -1372,7 +1372,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 53
+Letter 54
 12 August 1846
 Richmond
 
@@ -1399,7 +1399,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 54
+Letter 55
 28 October 1846
 Anderson C.H.
 
@@ -1418,7 +1418,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 55
+Letter 56
 29 October 1846
 Anderson
 
@@ -1447,7 +1447,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 56
+Letter 57
 3 November 1846
 Pickens
 
@@ -1466,7 +1466,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 57
+Letter 58
 Tuesday, 24 November 1846
 Columbia
 
@@ -1491,7 +1491,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Care of Mr. Edmond Hayne, Charleston
 
-Letter 58
+Letter 59
 26 November 1846
 Columbia
 
@@ -1518,7 +1518,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 59
+Letter 60
 29 November 1846
 Columbia
 
@@ -1550,7 +1550,7 @@ I have just re[ceive]d a Greenville Mountaineer with my letter in it & one from 
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 60
+Letter 61
 2 December 1846
 Columbia
 
@@ -1571,7 +1571,7 @@ General Thompson & Col. Herndon had a fight yesterday in Gladdens Hotel.  But th
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 61
+Letter 62
 5 December 1846
 Columbia
 
@@ -1600,7 +1600,7 @@ P.S. I bought of Miss Hampton at the Fair a silk waist coat worked by heralso a 
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 62
+Letter 63
 7 December 1846
 Columbia
 
@@ -1617,7 +1617,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 63
+Letter 64
 8 December 1846
 Columbia
 
@@ -1645,7 +1645,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 64
+Letter 65
 9 December 1846
 Columbia
 
@@ -1670,7 +1670,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 65
+Letter 66
 6 oclock, 16 December 1846
 Columbia
 
@@ -1696,7 +1696,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 66
+Letter 67
 Saturday morning, [1846]
 Columbia
 
@@ -1718,7 +1718,7 @@ I have but a few moments to write you by Mr. Butler.  Last night it was twelve o
 
 	I shall be at home Wednesday night.  We are all well.  Kiss the children for me.  Your affectionate husband., B.F. Perry
 
-Letter 67
+Letter 68
 Wednesday night, [1846]
 Columbia
 
@@ -1741,7 +1741,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 68
+Letter 69
 3 March 1847
 Spartanburgh  
 
@@ -1760,7 +1760,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 69
+Letter 70
 9 March 1847
 Laurens C.H.
 
@@ -1787,7 +1787,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 70
+Letter 71
 
 	The weather is so bad this morning that I shall not return home today unless there is a change.  The rain has been pouring down in torrents for the last two days.
 
@@ -1804,7 +1804,7 @@ Letter 70
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 70
+Letter 72
 23 March 1847
 Anderson C.H.
 
@@ -1833,7 +1833,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 71
+Letter 73
 10 May 1847
 Columbia
 
@@ -1866,7 +1866,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 72
+Letter 74
 13 May 1847
 Columbia
 
@@ -1890,7 +1890,7 @@ My dear Liz
 
 	Mr. Webster has just been into the court of Appeals where I saw him sitting on the bench with the Judges & a great crowd in the court house to see him.
 
-Letter 73
+Letter 75
 14 May 1847
 
 I will this morning conclude my long letter as I shall not have time to do so this evening after my return from the governors dinner.
@@ -1910,7 +1910,7 @@ I will this morning conclude my long letter as I shall not have time to do so th
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 74
+Letter 76
 16 May 1847
 Columbia
 
@@ -1935,7 +1935,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 75
+Letter 77
 20 May 1847
 Columbia
 
@@ -1950,7 +1950,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 76
+Letter 78
 7 June 1847
 Spartanburgh
 
@@ -1981,7 +1981,7 @@ I see Mr. Tench Carson here.  He looks quite gray.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 77
+Letter 79
 21 June 1847
 Anderson
 
@@ -2004,7 +2004,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 78
+Letter 80
 3 November 1847
 Pickens C.H.
 
@@ -2027,7 +2027,7 @@ I saw Lee & gave him the bundles for Mrs. Dunlap.  He gave me one for Anne.  I s
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 79
+Letter 81
 Tuesday morning, [ca. 3 November 1847]
 Pickens C.H.
 
@@ -2048,7 +2048,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 80
+Letter 82
 22 November 1847
 Columbia
 
@@ -2080,7 +2080,7 @@ He should be ashamed to mention the fact and I rather thought Major Jones who wa
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 81
+Letter 83
 24 November 1847
 Columbia
 
@@ -2103,7 +2103,7 @@ My dear Willie
 Mr. W.H.M. Perry
 Greenville
 
-Letter 82
+Letter 84
 24 November 1847
 Columbia
 
@@ -2132,7 +2132,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 83
+Letter 85
 26 November 1847
 Columbia
 
@@ -2163,7 +2163,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 84
+Letter 86
 29 November 1847
 Columbia
 
@@ -2192,7 +2192,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 85
+Letter 87
 30 November 1847
 Columbia
 
@@ -2225,7 +2225,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 86
+Letter 88
 1 December 1847
 Columbia
 
@@ -2252,7 +2252,7 @@ My dear Son
 W.H.M. Perry
 Greenville
 
-Letter 87
+Letter 89
 2 December 1847
 Columbia
 
@@ -2287,7 +2287,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 88
+Letter 90
 Sunday, 4 December 1847
 Columbia
 
@@ -2316,7 +2316,7 @@ P.S.  Col. Dargan will beat Col. [Christopher G.] Memminger for Chancellor.  We 
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 89
+Letter 91
 6 December 1847
 Columbia
 
@@ -2347,7 +2347,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Columbia
 
-Letter 90
+Letter 92
 8 December 1847
 Columbia
 
@@ -2372,7 +2372,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 92
+Letter 93
 10 December 1847
 Columbia
 
@@ -2401,7 +2401,7 @@ Columbia
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 93
+Letter 94
 12 December 1847
 Columbia
 
@@ -2425,7 +2425,7 @@ My dear Liz
 
 	If I have time I will write Willie a letter tomorrow evening.  Your affectionate husband, B.F. Perry
 
-Letter 94
+Letter 95
 Monday morning 
 
 Tell Anna I am delighted to hear she is so industrious & smart as to set the table &c.  I hope she will make a notable wife for some fine young man.
@@ -2435,7 +2435,7 @@ PSI sent your mothers chair by Col. Hodges wagon.  He will send it down by the f
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 95
+Letter 96
 13 December 1847
 Columbia
 
@@ -2464,7 +2464,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 96
+Letter 97
 Friday morning, [17December 1847]
 Columbia
 
@@ -2482,7 +2482,7 @@ My dear Liz
 
 	Tell Willie I shall be happy to see him & am sorry I have not time to write.  Tell Anna that I am delighted to hear of her goodness & industry.  And say to Frank he is a sweet boy & I love him very much.  Fanny I will not trouble you with any compliments to but will tell her myself when we meet.  Col. Northrop says there should always be a baby in the family if the family is able to afford it.  I think with him.  Your husband affectionately &c, B.F., Perry
 
-Letter 97
+Letter 98
 4 oclock, Friday evening
 
        I have home to eat dinner & whilst waiting for it will add a few lines to my letter.  We shall not get through before tomorrow morning.  I have received a ticket to a grand Military Ball tonight & shall go round & peep in about ten oclock & see the ladies look at General Shields.  Now is his time to marry somewhere.  He said he wished he was a Carolinian in his speech to the crowda voice replied we can make you one.  It is said that is left for some fair lady to do.  
@@ -2494,7 +2494,7 @@ Letter 97
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 98
+Letter 99
 Friday night, [1847]
 Anderson C.H.
 
@@ -2519,7 +2519,7 @@ P.S.  I have written & sent to Mr. Wells an obituary notice of Lt. Rodgers as Mr
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 99
+Letter 100
 Monday evening, [13 March 1848]
 Laurens C.H.
 
@@ -2542,7 +2542,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Waterloo P.O.
 
-Letter 100
+Letter 101
 28 March 1848
 Anderson C.H.
 
@@ -2571,7 +2571,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 101
+Letter 102
 Tuesday night, 25 April 1848
 Laurens C.H.
 
@@ -2581,7 +2581,7 @@ My dear Liz
 
 	I will now give a briefof my journey thus far.  Friday the day I left home, I met Major Wright & his bride & three young ladies from Pendleton going to General Wrights.  We stopped & had some conversation.  At Major Bollings I met Mr. [S.A.] Goodman, the editor of the Laurensville Herald.  I took dinner there, rode with Goodman some distance on the road to Laurens C.H.  Went to Esquire James Cunninghams & staid all night.  Found General Thos Jones there.  Cunningham told the people were disappointed in Col. Orrs appearance, that he would have done better not to have shown himself.
 
-Letter 102
+Letter 103
 Saturday morning 
 
 	I went to the muster & found a large crowd.  In the evening the rain commenced falling & we had no speaking.  The people seemed a good deal divided between Orr & myself.  That is his stronghold in Laurens.  In the evening I drove down to Captain Andersons & found him absent.  I then stopped a few minutes in Bowens & went on to Captain Cunninghams.  There I met Mr. Buist & Col. Evans of Spartanburgh.  Miss Pamela was unwell & I did not see her.  Mrs. John Cunningham was there.  They all desired to be remembered to you.  The grounds & gardens look beautiful.  Dr. Hillhouse & his wife had been there the evening before.  Mrs. Cunningham said she was very much pleased with my cousins.
@@ -2603,7 +2603,7 @@ Saturday morning
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 103
+Letter 104
 8 May 1848
 Columbia
 
@@ -2831,7 +2831,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 113
+Letter 112
 Tuesday night, [10 October 1848]
 Laurens C.H.
 
@@ -2856,7 +2856,7 @@ P.S. I have written Col. Townes by this mail.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 114
+Letter 113
 Wednesday morning, [18 October 1848]
 Laurens C.H.
 
@@ -2885,7 +2885,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 115
+Letter 114
 Monday night, [23 October 1848]
 Anderson C.H.
 
@@ -2912,7 +2912,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 116
+Letter 115
 Wednesday evening, [29 November] 1848
 Columbia
 
@@ -2939,7 +2939,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 117
+Letter 116
 Monday night 1848 [ca. November]
 Columbia
 
@@ -2953,7 +2953,7 @@ My dear Liz
 
 	Today I have been very busy in electing a President & preparing the papers.  Yesterday I was all day in the Court of Appeals hearing opinions.  The day before I was all day in the College.  Last evening Major Henry & myself went to see his daughter at Mr. Hooks school.  Mrs. H made a great many enquiries about you & the children & Dr. Crittendens family.  She really seemed glad to see me.
 
-Letter 118
+Letter 117
 Monday night after writing you a letter I went with General Adams, Col. Dawkins & Mr. Middleton to the Ball, having been invited as trustees.  There was as usual a large number of ladies & gentlemen.  They waltzed & danced.  We took champagne and looked on for an hour, & then went to Col. Alstons room where we sat till one oclock eating & talking &c.  I saw Miss McDuffie at the Ball & Col. Taylors daughters, Miss Brooks &c.  I enquired of Col. Taylor who that was with a rose in her head & he replied, she is my daughter & it will give me great pleasure to introduce you to her.  I laughed at the mistake & apologized.  
 
 	When I shall get through with the court is very uncertain.  Today the students were examined.  My name was on the committee, but I could not serve.  Tomorrow the Court of Errors will sit.  The case of Dr. Anderson is not yet tried.  I have to send a letter from him.  The printing of the Brief cost $32.00.
@@ -2977,7 +2977,7 @@ Greenville
 
 The left margin of this letter is torn and the tear affects only the first paragraph.
 
-Letter 119
+Letter 118
 Monday night, 1848 [ca. November, December]
 Columbia
 
@@ -3000,7 +3000,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 120
+Letter 119
 Friday night, 1848, [ca. November, December]
 Columbia
 
@@ -3027,7 +3027,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 121
+Letter 120
 Monday night, 1848 [ca. November, December]
 Columbia
 
@@ -3056,7 +3056,7 @@ P.S. [Richard T.] Brumby has been elected Professor of Chemistry.  Tell Willie I
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 122
+Letter 121
 Monday night, [1848]
 Pickens C.H.
 
@@ -3075,7 +3075,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 123
+Letter 122
 Monday night, [1848]
 Pickens C.H.
 
@@ -3104,7 +3104,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 125
+Letter 123
 Tuesday morning, [1848]
 Pickens C.H.
 My dear Liz
@@ -3120,7 +3120,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 126
+Letter 124
 Thursday night, [1848]
 Pickens C.H.
 
@@ -3145,7 +3145,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 127
+Letter 125
 Friday night, 1848
 Columbia
 
@@ -3176,7 +3176,7 @@ Columbia
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 128
+Letter 126
 Monday evening, [1848]
 Columbia
 
@@ -3199,7 +3199,7 @@ My dear Liz
 Mrs. Elizabeth Perry   
 Greenville
 
-Letter 129
+Letter 127
 Friday morning, [1848]
 Laurens C.H.
 
@@ -3215,7 +3215,7 @@ My dear Liz
 
 Mrs. Perry
 
-Letter 130
+Letter 128
 Thursday morning, [1848]
 Pickens C.H.
 
@@ -3236,7 +3236,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 131
+Letter 129
 Friday evening, [11 May 1849]
 Columbia
 
@@ -3266,7 +3266,7 @@ conspicuous seat amidst the Professors & Judges, surrounded by a crowded gallery
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 132
+Letter 130
 Sunday night, [13] May 1849
 Columbia
 
@@ -3305,7 +3305,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 133
+Letter 131
 Friday evening, May 1849
 Columbia
 
@@ -3336,7 +3336,7 @@ he had overseed for Mr. Wigfall father in law of Dr. Simmons.  He says the Dr. h
 
 	Kiss the children for me.  I will write you by the next mail.  Yours truly & affectionately, B.F. Perry  
 
-Letter 134
+Letter 132
 [18 June] 1849
 Anderson C.H.
 
@@ -3369,7 +3369,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 134
+Letter 133
 Tuesday, June [18]49
 Spartanburgh  
 
@@ -3394,7 +3394,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 135
+Letter 134
 23 October 1849
 Anderson C.H.
 
@@ -3415,7 +3415,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 136
+Letter 135
 24 October 1849
 Anderson C.H.
 
@@ -3436,7 +3436,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 137
+Letter 136
 29 October 1849
 Pickens
 
@@ -3459,7 +3459,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 138
+Letter 137
 13 November 1849
 Laurens C.H.
        
@@ -3502,7 +3502,7 @@ P.S. They are making the necessary surveys for the Laurens Rail Road and all see
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 139
+Letter 138
 Thursday night, 15 November 1849
 Laurens C.H.
 
@@ -3530,7 +3530,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 140
+Letter 139
 26 November 1849
 Columbia
 
@@ -3571,7 +3571,7 @@ P.S. I was shown a letter today from Mr. Stuart resigning his appointment in the
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 141
+Letter 140
 30 November 1849
 Columbia
 
@@ -3606,7 +3606,7 @@ I saw Col. Isaac Hayne the other day& he seemed more cordial & said he would sen
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 142
+Letter 141
 2 December 1849
 Columbia
 
@@ -3641,7 +3641,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 143
+Letter 142
 3 December 1849
 Columbia
 
@@ -3674,7 +3674,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 144
+Letter 143
 6 December 1849
 Columbia
 
@@ -3710,7 +3710,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 145
+Letter 144
 7 December 1849
 Columbia
 
@@ -3747,7 +3747,7 @@ My dear Little Daughter
 Anna Perry
 Greenville
 
-Letter 146
+Letter 145
 9 December 1849
 Columbia
 
@@ -3780,7 +3780,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 147
+Letter 146
 12 December 1849
 Columbia
 
@@ -3813,7 +3813,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 148
+Letter 147
 14 December 1849
 Columbia
 
@@ -3844,7 +3844,7 @@ I have commenced on a sheet of Willies & have not time to get anything else.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 149
+Letter 148
 16 December 1849
 Columbia
 
@@ -3871,7 +3871,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 150
+Letter 149
 18 December 1849
 Columbia
 
@@ -3925,7 +3925,7 @@ P.S. Wednesday 3 oclock.  I have just returned from the Court House & have dispo
 
 	I hope to hear from you tonight.  Yours truly, B.F. Perry
 
-Letter 151
+Letter 150
 13 March 1850
 Laurens C.H.
 
@@ -3955,7 +3955,7 @@ He also informs me that Mr. Cunningham had gone to Augusta to try to settle a di
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 152
+Letter 151
 15 March 1850
 Laurens C.H.
 
@@ -3980,7 +3980,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 153
+Letter 152
 28 March 1850
 Anderson C,H,
 
@@ -4005,7 +4005,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 154
+Letter 153
 2 April 1850
 Pickens C.H.
 
@@ -4030,7 +4030,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 155
+Letter 154
 17 April 1850
 Laurens C.H.
 
@@ -4053,7 +4053,7 @@ P.S. Dont forget to look for the Bonnett for Harriott Perry as I know she will b
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 156
+Letter 155
 Tuesday night, [ca. April 1859]
 Pickens C.H.
 
@@ -4084,7 +4084,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenvile
 
-Letter 157
+Letter 156
 6 May 1850
 Columbia
 
@@ -4109,7 +4109,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 159
+Letter 157
 9 May 1850
 Columbia
 
@@ -4139,7 +4139,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 160
+Letter 158
 10 May 1850
 Columbia
 
@@ -4170,7 +4170,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 161
+Letter 159
 12 May 1850
 Columbia
 
@@ -4199,7 +4199,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 162
+Letter 160
 28 June 1850
 Laurens C.H.
 
@@ -4214,7 +4214,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 163
+Letter 161
 24 November 1850
 Columbia
 
@@ -4243,7 +4243,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 164
+Letter 162
 27 November 1850
 Columbia
 
@@ -4271,7 +4271,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 165
+Letter 163
 30 November 1850
 Columbia
 
@@ -4302,7 +4302,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 166
+Letter 164
 2 December 1850
 Columbia
 
@@ -4325,7 +4325,7 @@ We had a pleasant excursion in spite of the rain.  The Col. Sent his carriage, t
        
        The weather is now very warm & wet.  When it clears off it will probably turn coldif so have the hogs killed.
 
-Letter 167
+Letter 165
 Tuesday evening
   
        General Whitner beat Col. Dawkins twenty votes & is Judge.  Wardlaw beat DeSaussure & Haynsworth a great ways & is Chancellor.  Burt is ahead for Secretary of State.
@@ -4343,7 +4343,7 @@ Tuesday evening
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 168
+Letter 166
 4 December 1850
 Columbia
 
@@ -4376,7 +4376,7 @@ Maj. Dawkins has become very sick on the defeat of the Col.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 169
+Letter 167
 8 December 1850
 Columbia
 
@@ -4404,7 +4404,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 170
+Letter 168
 10 December 1850
 Columbia
 
@@ -4435,7 +4435,7 @@ P.S. I recd a letter from Elford saying he had recd two hundred dollars from Gen
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 171
+Letter 169
 12 December 1850
 Columbia
 
@@ -4460,7 +4460,7 @@ P.S. Tell Anna & Fanny that I do not forget them although not mentioned in the b
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 172
+Letter 170
 15 December 1850
 Columbia
 
@@ -4489,7 +4489,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 174
+Letter 171
 17 December 1850
 Columbia
 
@@ -4514,7 +4514,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 175
+Letter 172
 19 December 1850
 Columbia
 
@@ -4531,7 +4531,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 176
+Letter 173
 19 December 1850
 Columbia
 
@@ -4558,7 +4558,7 @@ The Legislature in session & will be till midnight.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 177
+Letter 174
 Monday night, 14 April 1851
 Charleston
 
@@ -4587,7 +4587,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 178
+Letter 175
 3 June 1851
 Spartanburgh C.H.
 
@@ -4602,7 +4602,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 179
+Letter 176
 Friday morning, [7(?) June 1851]
 Laurens C.H.
 
@@ -4621,7 +4621,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 180
+Letter 177
 15 June 1851
 Anderson
 
@@ -4642,7 +4642,7 @@ P.S. I have just thought of another piece of news.  Last court I saw here a fine
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 181
+Letter 178
 14 October 1851
 Laurens C.H.
 
@@ -4661,7 +4661,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 182
+Letter 179
 24 November 1851
 Columbia
 
@@ -4692,7 +4692,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 183
+Letter 180
 25 November 1851
 Columbia
 
@@ -4722,7 +4722,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 184
+Letter 181
 27 November 1851
 Columbia
 
@@ -4759,7 +4759,7 @@ Mr. John Izard Middleton enquired kindly after you & children.  He said Mrs. Mid
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 185
+Letter 182
 28 November 1851
 Columbia
 
@@ -4794,7 +4794,7 @@ P.S. I do not care to rent my Farm at all & especially to the persons applying.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 186
+Letter 183
 28 November 1851
 Columbia
 
@@ -4815,7 +4815,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 187
+Letter 184
 26 April 1852
 Columbia
 
@@ -4838,7 +4838,7 @@ My dear daughter
 Miss Anna Perry
 Greenville
 
-Letter 188
+Letter 185
 27 April 1852
 Columbia
 
@@ -4867,7 +4867,7 @@ P.S. Col. William A. Williams arrived here last night & invited Irby, Col. Watts
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 189
+Letter 186
 29 April 1852
 Columbia
 
@@ -4886,7 +4886,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 190
+Letter 187
 1 May 1852
 Columbia
 
@@ -4921,7 +4921,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 191
+Letter 188
 3 May 1852
 Columbia
 
@@ -4951,7 +4951,7 @@ all the secessionists he met preferred them to the report of the Committee.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 192
+Letter 189
 21 June 1852
 Anderson C.H.
 
@@ -4974,7 +4974,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 192
+Letter 190
 29 September 1852
 Mineral Springs
 
@@ -4991,7 +4991,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 194
+Letter 191
 6 Oct. 18532
 Anderson C.H.
 
@@ -5014,7 +5014,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 195
+Letter 192
 26 November1852
 Columbia
 
@@ -5037,7 +5037,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 197
+Letter 193
 27 November 1852
 Columbia
 
@@ -5058,7 +5058,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 198
+Letter 194
 27 November 1852
 Columbia
 
@@ -5081,7 +5081,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 199
+Letter 195
 27 November 1852
 Columbia
 
@@ -5108,7 +5108,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 200
+Letter 196
 29 November 1852
 Columbia
 
@@ -5133,7 +5133,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 201
+Letter 197
 1 December 1852 
 Columbia
 
@@ -5152,7 +5152,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 202
+Letter 198
 3 December 1852
 Columbia
 
@@ -5190,7 +5190,7 @@ Hasan [Hamlin] Beattie.  It is rumored that Sam Mauldin is crazy & attempted to 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 203
+Letter 199
 3 December 1852
 Columbia
 
@@ -5219,7 +5219,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 204
+Letter 200
 4 December 1852
 Columbia
 
@@ -5250,7 +5250,7 @@ P.S. In regard to Susan & McBee I have nothing to say.  I am sorry to ever hear 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 205
+Letter 201
 4 December 1852
 Columbia
 
@@ -5277,7 +5277,7 @@ My dear Anna
 Miss Anna Perry
 Charleston
 
-Letter 206
+Letter 202
 5 December 1852
 Columbia
 
@@ -5308,7 +5308,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 207
+Letter 203
 7 December 1852
 House of Representatives, [Columbia]
 
@@ -5336,7 +5336,7 @@ P.S. Col. Glover clerk of the House will be elected Judge in the morning over Co
 
 P.S.  Mr. & Mrs. Efford and Miss Crayton have just arrived & I think you for the letter & will write you tomorrow again.
 
-Letter 208
+Letter 204
 8 December 1852
 Columbia
 
@@ -5357,7 +5357,7 @@ My dear Anna
 Miss Anna Perry
 Charleston
 
-Letter 208
+Letter 205
 10 December 1852
 Columbia
 
@@ -5378,7 +5378,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 209
+Letter 206
 Friday night, [10 December 1852]
 Columbia
 
@@ -5403,7 +5403,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 210
+Letter 207
 11 December 1852
 Columbia
 
@@ -5426,7 +5426,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 211
+Letter 208
 12 December 1852
 Columbia
 
@@ -5457,7 +5457,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 212
+Letter 209
 13 December 1852
 Columbia
 
@@ -5480,7 +5480,7 @@ My dear daughter
 Miss Anna Perry
 Charleston
 
-Letter 213
+Letter 210
 13 December 1852
 The State House
 
@@ -5505,7 +5505,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 214
+Letter 211
 13 December 1852
 Columbia
 
@@ -5522,7 +5522,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 215
+Letter 212
 14 December 1852
 Columbia
 
@@ -5543,7 +5543,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 216
+Letter 213
 15 December 1852
 Columbia
 
@@ -5564,7 +5564,7 @@ My dear Daughter
 Miss Anna Perry
 Charleston
 
-Letter 217
+Letter 214
 15 December 1852
 Columbia
 
@@ -5587,7 +5587,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 218
+Letter 215
 16 December1852
 Columbia
 
@@ -5612,7 +5612,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 219
+Letter 216
 Tuesday morning, January 1854
 Pickens C.H.
 
@@ -5634,7 +5634,7 @@ B.F. Perry
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 220
+Letter 217
 14 February 1853
 Columbia
 
@@ -5659,7 +5659,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 221
+Letter 218
 17 February 1853
 Washington
 
@@ -5692,7 +5692,7 @@ It is said Gardner will not only be acquitted but vindicated.  Col. Payne has no
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 222
+Letter 219
 19 February 1853
 Washington
 
@@ -5718,7 +5718,7 @@ assembled at any place.  They were all well dressed of course.
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 223
+Letter 220
 20 February 1853
 Washington City
 
@@ -5737,7 +5737,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 224
+Letter 221
 21 February 1853
 Washington City
 
@@ -5766,7 +5766,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 225
+Letter 222
 22 February 1853
 Washington City
 
@@ -5789,7 +5789,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 226
+Letter 223
 23 February 1853
 Washington City
 
@@ -5816,7 +5816,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 227
+Letter 224
 24 February 1853
 Washington City
 
@@ -5833,7 +5833,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 228
+Letter 225
 25 February 1853
 Washington City
 
@@ -5854,7 +5854,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 229
+Letter 226
 26 February 1853
 Washington City
 
@@ -5875,7 +5875,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 230
+Letter 227
 27 February 1853
 Washington City
 
@@ -5896,7 +5896,7 @@ I do not think your mother would be pleased boarding out & I am afraid Susan wil
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 231
+Letter 228
 28 February 1853
 Washington City
 
@@ -5919,7 +5919,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 232
+Letter 229
 28 February 1853
 Washington City
 
@@ -5942,7 +5942,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 233
+Letter 230
 1 March 1853
 Washington City
 
@@ -5965,7 +5965,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 234
+Letter 231
 3 March 1853
 Washington City
 
@@ -5987,7 +5987,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 235
+Letter 232
 3 March 1853
 Washington City
 
@@ -6008,7 +6008,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 236
+Letter 233
 4 March 12853
 Washington City
 
@@ -6031,7 +6031,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 237
+Letter 234
 4 March 1853
 Gadsbys Hotel
 
@@ -6047,7 +6047,7 @@ His Excellency President Pierce
 
 	I am with great respect yours &c, B.F. Perry
 
-Letter 238
+Letter 235
 5 March 1853
 Washington City
 
@@ -6062,7 +6062,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 238
+Letter 236
 6 March 1853
 Washington City
 
@@ -6089,7 +6089,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 239
+Letter 237
 7 March 1853
 Washington City
 
@@ -6115,7 +6115,7 @@ P.S. Col. Summer has gone on to New York to court a young lady Miss Doty after t
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 240
+Letter 238
 7 March 1853
 Washington City
 
@@ -6134,7 +6134,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 241
+Letter 239
 8 March 1853
 Washington City
 
@@ -6155,7 +6155,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 242
+Letter 240
 8 March 1853
 Washington City
 
@@ -6177,7 +6177,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 243
+Letter 241
 9 March 1853
 Washington City
 
@@ -6194,7 +6194,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 244
+Letter 242
 10 March 1853
 Washington City
 
@@ -6215,7 +6215,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 245
+Letter 243
 10 March 1853
 Washington City
 
@@ -6248,7 +6248,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 246
+Letter 244
 11 March 1853
 Washington City
 
@@ -6267,7 +6267,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 247
+Letter 245
 11 March 1853
 Washington City
 
@@ -6286,7 +6286,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 248
+Letter 246
 14 March 1853
 Washington City
 
@@ -6307,7 +6307,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 249
+Letter 247
 17 March 1853
 Washington City
 
@@ -6336,7 +6336,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 250
+Letter 248
 18 March 1853 
 Washington City
 
@@ -6353,7 +6353,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 251
+Letter 249
 18 March 1853
 Washington City
 
@@ -6376,7 +6376,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 252
+Letter 250
 20 March 1853
 Washington City
 
@@ -6403,7 +6403,7 @@ P.S.  Your letter of Monday is rece[ive]d.  I thank you for it.   Will write you
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 253
+Letter 251
 21 March 1853
 Washington City
 
@@ -6426,7 +6426,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 254
+Letter 252
 21 March 1853
 Washington City
 
@@ -6444,7 +6444,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 255
+Letter 253
 23 March 1853
 Washington City
 
@@ -6471,7 +6471,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 256
+Letter 254
 23 March 1853
 Washington City
 
@@ -6500,7 +6500,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 257
+Letter 255
 24 March 1853
 Washington City
 
@@ -6529,7 +6529,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 258
+Letter 256
 25 March 1853
 Washington City
 
@@ -6552,7 +6552,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 259
+Letter 257
 26 March 1853
 Washington City
 
@@ -6575,7 +6575,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 260
+Letter 258
 16 November 1853
 Columbia
 
@@ -6600,7 +6600,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 261
+Letter 259
 18 November 12853
 Charleston
 
@@ -6627,7 +6627,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 262
+Letter 260
 My dear Liz
 
 	I rece[ive]d your letter of Friday this morning and thank you kindly for it.  I am in such confusion here & so much to attend to, and so many of my friends to me that I have not time to write as I did in Washington.  I have just written two sheets for the Patriot.  I know you are willing for write for the Patriot although it may interfere with writing to you.
@@ -6647,7 +6647,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 262
+Letter 261
 29 November 1853
 Columbia
 
@@ -6676,7 +6676,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 263
+Letter 262
 1 December 1853
 Columbia
 
@@ -6689,7 +6689,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 264
+Letter 263
 1 December 1853
 Columbia
 
@@ -6714,7 +6714,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 265
+Letter 264
 3 December 1853
 Columbia
 
@@ -6735,7 +6735,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 266
+Letter 265
 4 December 1853
 Columbia
 
@@ -6750,7 +6750,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 267
+Letter 266
 4 December 1853
 Columbia
 
@@ -6767,7 +6767,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 268
+Letter 267
 6 December 1853
 Columbia
 
@@ -6792,7 +6792,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 269
+Letter 268
 7 December 1853
 Columbia
 
@@ -6821,7 +6821,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 270
+Letter 269
 8 December 1853
 Columbia
 
@@ -6848,7 +6848,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 271
+Letter 270
 9 December 1853
 Columbia
 
@@ -6869,7 +6869,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 272
+Letter 271
 11 December 1853
 Columbia
 
@@ -6894,7 +6894,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 273
+Letter 272
 12 December 1853
 Columbia
 
@@ -6909,7 +6909,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 274
+Letter 273
 13 December 1853	
 Columbia
 
@@ -6928,7 +6928,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 275
+Letter 274
 14 December 1853
 Columbia
 
@@ -6951,7 +6951,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 276
+Letter 275
 15 December 1853
 Columbia
 
@@ -6972,7 +6972,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 277
+Letter 276
 16 December 1853
 Columbia
 
@@ -6991,7 +6991,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 278
+Letter 277
 19 December 1853
 Columbia
 
@@ -7012,7 +7012,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Graanville.
 
-Letter 279
+Letter 278
 5 February 1854
 Greenville
 
@@ -7035,7 +7035,7 @@ My Dear Sir [George D. Tillman]
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 280
+Letter 279
 19 March 1854 Pickens C.H.
 
 My dear Liz
@@ -7055,7 +7055,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 281
+Letter 280
 9 April 1854
 Columbia
 
@@ -7082,7 +7082,7 @@ My dear Liz
 Mrs.  Elizabeth Perry
 Greenville
 
-Letter 282
+Letter 281
 12 April 1854
 Charleston
 
@@ -7105,7 +7105,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 283
+Letter 282
 1 May 1854
 Columbia
 
@@ -7120,7 +7120,7 @@ My dear Anna
 Miss Anna Perry
 Greenville
 
-Letter 284
+Letter 283
 2 May 1854
 Columbia
 
@@ -7141,7 +7141,7 @@ My dear Anna
 Miss Anna Perry
 Greenville
 
-Letter 285
+Letter 284
 4 May 1854
 Columbia
 
@@ -7176,7 +7176,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 286
+Letter 285
 4 May 1854
 Columbia
 
@@ -7197,7 +7197,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 287
+Letter 286
 4 May 1854
 Columbia
 
@@ -7214,7 +7214,7 @@ My dear daughter [Anna]
 Miss Anna Perry
 Greenville
 
-Letter 288
+Letter 287
 5 May 1854
 Columbia
 
@@ -7239,7 +7239,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Charleston
 
-Letter 289
+Letter 288
 5 May 1854
 Columbia
 
@@ -7258,7 +7258,7 @@ My dear Anna
 Miss Anna Perry
 Greenville
 
-Letter 290
+Letter 289
 9 May 1854
 Columbia
 
@@ -7280,7 +7280,7 @@ Yours &c., B.F. Perry
 Mrs. Elizabeth Perry 
 Charleston
 
-Letter 291
+Letter 290
 10 May 1864
 Columbia
 
@@ -7300,7 +7300,7 @@ a present is worth havingcame in time to pay for the carriage.
 Mr. Willie Perry
 Greenville
 
-Letter 292
+Letter 291
 14 May 1854
 Charleston
 
@@ -7319,7 +7319,7 @@ My dear daughter
 Miss Anna Perry
 Greenville
 
-Letter 293
+Letter 292
 11 October 1854
 Anderson C,H.
 
@@ -7343,7 +7343,7 @@ give you any uneasiness.  I heard by Goodlett & Easl[e]y all the news of Monday 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 294
+Letter 293
 18 October 1854
 Pickens C.H.
 
@@ -7366,7 +7366,7 @@ P.S.  Reed tells me that Miss Johnson has rejected Town[e]s.  I am not surprised
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 295
+Letter 294
 26 November 1854
 Columbia
 
@@ -7397,7 +7397,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 296
+Letter 295
 27 November 1854
 Columbia
 
@@ -7412,7 +7412,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 297
+Letter 296
 27 November 1854
 Columbia
 
@@ -7435,7 +7435,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 298
+Letter 297
 28 November 1854
 Columbia
 
@@ -7458,7 +7458,7 @@ My dear Lis
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 299
+Letter 298
 30 November 1854
 Greenville [Columbia]
 
@@ -7481,7 +7481,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 300
+Letter 299
 1 December 1854
 Columbia
 
@@ -7504,7 +7504,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 301
+Letter 300
 2 December 1854
 Columbia
 
@@ -7520,7 +7520,7 @@ My dear Liz
 
 	It has just occurred to me that the cars do not go tomorrow.
 
-Letter 302
+Letter 301
 Sunday, 1 oclock
 
 	I have just returned from the College Chapel & heard a fine sermon from President Thornwell.  I have just written an account of it for the Patriot.  Willie & Frank went also.  I saw a great many persons from Greenville there, the professors of the Furman University amongst them.  It was the first service in the new chapel.  There was an immense crowd.  The Building is a magnificent one, a sort of Grecian Temple.  The manse was fine.  I saw Miss Brenan in the Gallery, but did not speak to her.  Somehow or other I do not feel the same interest in her, since her intimacy with Alston.  I spoke to Mrs. Lieber & the doctor.  I saw [Richard T.] Brumby & his daughters, but did not have an opportunity of speaking to them.  Tomorrow everybody will be at the Chapel.
@@ -7532,7 +7532,7 @@ Sunday, 1 oclock
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 303
+Letter 302
 4 December 1854
 Columbia
 
@@ -7563,7 +7563,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 304
+Letter 303
 5 December 1854
 Columbia
 
@@ -7580,7 +7580,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 305
+Letter 304
 6 December 1854
 Columbia
 
@@ -7607,7 +7607,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 306
+Letter 305
 7 December 1854
 Columbia
 
@@ -7630,7 +7630,7 @@ P.S.  I have rece[ive]d Mrs. Pettits letter was gratified with its contents.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 307
+Letter 306
 7 December 1854
 Columbia
 
@@ -7641,7 +7641,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 308
+Letter 307
 8 December 1854
 Columbia
 
@@ -7668,7 +7668,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 309
+Letter 308
 10 December 1854
 Columbia
 
@@ -7693,7 +7693,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 310
+Letter 309
 11 December 1854
 Columbia
 
@@ -7712,7 +7712,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 311
+Letter 310
 12 December 1854
 Columbia
 
@@ -7733,7 +7733,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 312
+Letter 311
 15 December 1854
 Columbia 
 
@@ -7754,7 +7754,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 313
+Letter 312
 12 December 1854
 Columbia
 
@@ -7781,7 +7781,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 314
+Letter 313
 15 December 1854
 Columbia
 
@@ -7804,7 +7804,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 315
+Letter 314
 15 December 1854
 Columbia
 
@@ -7817,7 +7817,7 @@ My dear Anna
 Miss Anna Perry
 Greenville
 
-Letter 316
+Letter 315
 16 December 1854
 Columbia
 
@@ -7837,7 +7837,7 @@ My dear Liz
 
 	There have been a great many robberies here.  Col. Irby lost one hundred & thirty three dollars last night, stolen out of his pockets whilst asleep.
 
-Letter 317
+Letter 316
 Sunday morning.  I find myself in quite a predicament this morning.  In order to be secure against robbers last night, I put my clothes in my trunk & shut it down.  It never occurred to me that the key of the trunk was in my pantaloons pockets.  So I am in my shirt & drawers & nothing to put on but my dressing gown.  The boy waiting on me has been all over the house for keys but none will unlock my trunk.  The mechanics are all away from their shops and here I am not knowing what to do.  The breakfast bell has rung & I have written a long Editorial waiting my lick but all in vain.
 
 	Since writing the above I have had all the keys in the house sent me, but none fit.  It is now eleven oclock & I have now put on an old pair of pantaloons & gone down & got my breakfast.
@@ -7847,7 +7847,7 @@ Sunday morning.  I find myself in quite a predicament this morning.  In order to
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 318
+Letter 317
 18 December 1854
 Columbia
 
@@ -7868,7 +7868,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 319
+Letter 318
 19 December 1854
  Columbia
 
@@ -7907,7 +7907,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 320
+Letter 319
 20 December 1854
 Columbia
 
@@ -7940,7 +7940,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 321
+Letter 320
 26 December 1854
 Greenville
 
@@ -7956,7 +7956,7 @@ Mrs. [John] Pettit. My dear Madam
 
 	   I will write you again shortly.  Mrs. Perry unites with me in regards to you & Mr. Pettit.  Yours &c., B.F. Perry
 
-Letter 322
+Letter 321
 3 January 1855
 Columbia
 
@@ -7969,7 +7969,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 323
+Letter 322
 4 January 1855
 Charleston
 
@@ -7996,7 +7996,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 324
+Letter 323
 2 February 1855
 Greenville
 
@@ -8023,7 +8023,7 @@ My dear Anna
 Miss Anna Perry
 Charleston
 
-Letter 325
+Letter 324
 9 March 1855
 Greenville
 
@@ -8040,7 +8040,7 @@ My dear Sir [John Pettit]
 Mr. John Pettit
 Lafayette, Indiana
 
-Letter 326
+Letter 325
 11 March 1855
 Greenville
 
@@ -8062,7 +8062,7 @@ Fannie is now going to the Academies & seems fond of her books.  She & Annie are
 Miss Anna Perry
 Charleston
 
-Letter 327
+Letter 326
 12 March 1855
 Anderson C.H.
 
@@ -8079,7 +8079,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 328
+Letter 327
 15 April 1855
 Greenville
 
@@ -8102,7 +8102,7 @@ My Dear Daughter
 Miss Anna Perry
 Charleston
 
-Letter 329
+Letter 328
 6 May 1855
 Columbia
 
@@ -8127,7 +8127,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 330
+Letter 329
 7 May 1855
 Columbia
 
@@ -8148,7 +8148,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 331
+Letter 330
 3 May 1855
 Columbia
 
@@ -8171,7 +8171,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 332
+Letter 331
 3 May 1855
 Columbia
 
@@ -8190,7 +8190,7 @@ My dear Daughter
 Miss Anna Perry
 Charleston
 
-Letter 333
+Letter 332
 10 May 1855
 Columbia
 
@@ -8205,7 +8205,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 334
+Letter 333
 11 May 1855
 Columbia
 
@@ -8226,7 +8226,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 335
+Letter 334
 14 May 1855
 Columbia
 
@@ -8272,7 +8272,7 @@ Columbia
 
 	All of which is respectfully submitted.  B.F. Perry, Chairman
 
-Letter 336
+Letter 335
 14 May 1855
 Columbia
 
@@ -8293,7 +8293,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 337
+Letter 336
 25 November 1855
 Columbia
 
@@ -8316,7 +8316,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 338
+Letter 337
 29 November 1855
 Columbia
 
@@ -8333,7 +8333,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 339
+Letter 338
 29 November 1855
 Columbia
 
@@ -8359,7 +8359,7 @@ election taking place Wednesday.  It is very doubtful who will be elected.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 340
+Letter 339
 30 November 1855
 Columbia
 
@@ -8386,7 +8386,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 341
+Letter 340
 2 December 1855
 Columbia
 
@@ -8403,7 +8403,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 342
+Letter 341
 4 December 1855
 Columbia
 
@@ -8434,7 +8434,7 @@ P.S. Tell Mr. Elford to send the Patriot to Mr. Whal[e]y of Charleston [page fad
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 343
+Letter 342
 4 December 1855
 Columbia
 
@@ -8455,7 +8455,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 344
+Letter 343
 5 December 1855
 Columbia
 
@@ -8476,7 +8476,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 345
+Letter 344
 7 December 1855
 Columbia
 
@@ -8495,7 +8495,7 @@ My dear Son [Frank]
 Master Frank Perry
 Greenville
 
-Letter 346
+Letter 345
 7 December 1855
 Columbia
 
@@ -8512,7 +8512,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 347
+Letter 346
 9 December 1855
 Columbia
 
@@ -8549,7 +8549,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 348
+Letter 347
 10 December 1855
 Columbia
 
@@ -8566,7 +8566,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 349
+Letter 348
 11 December 1855
 Columbia
 
@@ -8598,7 +8598,7 @@ P.S. I now have nothing to do at night until my committee business is over.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 350
+Letter 349
 16 December 1855
 Columbia
 
@@ -8637,7 +8637,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 351
+Letter 350
 16 December 1855
 Columbia
 
@@ -8662,7 +8662,7 @@ My dear Daughter
 Miss Anna Perry
 Charleston
 
-Letter 352
+Letter 351
 [18] December 1855
 Columbia
 
@@ -8715,7 +8715,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 354          
+Letter 354
 Ca. 1855
 
 My dear Liz
@@ -8728,7 +8728,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 353
+Letter 355
 Wednesday, [ca. 1855]
 Columbia
 
@@ -8757,7 +8757,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 354
+Letter 356
 1 May 1856
 Columbia
 
@@ -8780,7 +8780,7 @@ P.S. Old Mr. McBee & myself rode down together & I ate dinner with him.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 355
+Letter 357
 3 May 1856
 Columbia
 
@@ -8809,7 +8809,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 356
+Letter 358
 4 May 1856
 Columbia
 
@@ -8842,7 +8842,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 357
+Letter 359
 6 May 1856
 Columbia
 
@@ -8859,7 +8859,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 358
+Letter 360
 6 May 1856
 Columbia
 
@@ -8882,7 +8882,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 359
+Letter 361
 6 May 1856
 Columbia
 
@@ -8905,7 +8905,7 @@ I must now conclude my letter & go to bed as I did not sleep much last night.  Y
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 360
+Letter 362
 8 May 1856
 Columbia
 
@@ -8932,7 +8932,7 @@ Necessary.  All day today I was engaged with Barnwell, Memminger and Dawkins on 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 361
+Letter 363
 10 May 1856
 Columbia
 
@@ -8953,7 +8953,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 362
+Letter 364
 21 October 1856
 Pickens C.H.
 
@@ -8976,7 +8976,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 363
+Letter 365
 October 1856
 Tuesday
 Anderson C.H.
@@ -8990,7 +8990,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 364
+Letter 366
 18 November 1856
 Columbia
 
@@ -9017,7 +9017,7 @@ My dear Liz
 Mrs. Elizabeth Perry	   
 Greenville
 
-Letter 365
+Letter 367
 21 November 1856
 
 My dear Liz
@@ -9039,7 +9039,7 @@ P.S. Gowers fine carriage to be raffled for & he has presented me with a chance.
 Mrs. Elizabeth Perry   
 Greenville
 
-Letter 366
+Letter 368
 23 November 1856
 Columbia
 
@@ -9074,7 +9074,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 367
+Letter 369
 24 November 1856
 Columbia
 
@@ -9093,7 +9093,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 368
+Letter 370
 25 November 1856
 Columbia
 
@@ -9112,7 +9112,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 369
+Letter 371
 25 November 1856
 Columbia
 
@@ -9143,7 +9143,7 @@ My dear Son [Frank]
 Mr. Frank Perry
 Greenville
 
-Letter 370
+Letter 372
 27 November 1856
 Columbia
 
@@ -9160,7 +9160,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 371
+Letter 373
 28 November 1856
 Columbia
 
@@ -9177,7 +9177,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 372
+Letter 374
 1 December 1856
 Columbia
 
@@ -9200,7 +9200,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 373
+Letter 375
 2 December 1856
 Congaree House
 
@@ -9233,7 +9233,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 374
+Letter 376
 3 December 1856
 Columbia
 
@@ -9254,7 +9254,7 @@ P.S. I wish you would answer all of my letters & say I am absent in Columbia & w
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 375
+Letter 377
 4 December 1856
 Columbia
 
@@ -9269,7 +9269,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 376
+Letter 378
 5 December 1856
 Columbia
 
@@ -9298,7 +9298,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 377
+Letter 379
 7 December 1856
 Columbia
 
@@ -9334,7 +9334,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 378
+Letter 380
 8 December 1856
 Columbia
 
@@ -9353,7 +9353,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 379
+Letter 381
 9 December 1856
 Columbia
 
@@ -9384,7 +9384,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 380
+Letter 382
 10 December 1856
 Columbia
 
@@ -9409,7 +9409,7 @@ My dear Anna
 Anna Perry
 Greenville
 
-Letter 381
+Letter 383
 11 December 1856
 Columbia
 
@@ -9430,7 +9430,7 @@ My dear Fannie
 Fannie Perry
 Greenville
 
-Letter 382
+Letter 384
 15 December 1856
 Congaree House
 
@@ -9445,7 +9445,7 @@ P.S. Tom McL daughter is to be married this week & he came down with me to be ab
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 383
+Letter 385
 15 December 1856
 Columbia
 
@@ -9458,7 +9458,7 @@ My dear Anna
 Miss Anna Perry
 Greenville
 
-Letter 384
+Letter 386
 17 December 1856
 Columbia
 
@@ -9479,7 +9479,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 385
+Letter 387
 19 December 1856
 Columbia
 
@@ -9496,7 +9496,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 386
+Letter 388
 10 February 1857
 Greenville
 
@@ -9517,7 +9517,7 @@ My dear Sir
  Lawrence
 Pickens, C.H.
 
-Letter 387
+Letter 389
 10 February 1857
 Greenville
 
@@ -9548,7 +9548,7 @@ My dear Son
 Mr. William Hayne Perry
 S.C. College
 
-Letter 388
+Letter 390
 20 February 1857
 Greenville
 
@@ -9577,7 +9577,7 @@ You speak of wishing to return to Greenville in April.  The expence is considera
 Mr. William Hayne Perry
 S.C. College
 
-Letter 389
+Letter 391
 6 April 1857
 Greenville
 
@@ -9598,7 +9598,7 @@ P.S. You say you have a bad cold.  Be careful to wear your winter clothing throu
 Mr. William Hayne Perry
 S.C. College
 
-Letter 390
+Letter 392
 3 May 1857
 Columbia
 
@@ -9631,7 +9631,7 @@ Tell your aunt Susan that your mother can find no chair to suit her.
 Miss Anna Perry
 Greenville
 
-Letter 391
+Letter 393
 6 May 1857
 Columbia
 
@@ -9662,7 +9662,7 @@ P.S. I wish I had kept Hext with me or Arthur for company.  I had rather have Ar
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 392
+Letter 394
 7 May 1857
 Columbia
 
@@ -9691,7 +9691,7 @@ P.S. Send my letter to the Patriot which is enclosed to you.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 393
+Letter 395
 2 June 1857
 Greenville
 
@@ -9713,7 +9713,7 @@ I shall come down to the meeting of the Board [page torn of Trustees].
 Mr. William Hayne Perry
 S.C. College
 
-Letter 394
+Letter 396
 10 June 1857
 Columbia
 
@@ -9731,7 +9731,7 @@ The trustees met this morning and heard the statement of McCay, and the rest of 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 395
+Letter 397
 11 June 1857
 Columbia
 
@@ -9754,7 +9754,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 396
+Letter 398
 13 June 1857
 Greenville
 
@@ -9770,7 +9770,7 @@ Flirtations are very common in fashionable lifer, & some times very provoking to
 
 	I am ready to make the explanation of facts, as you desire, but really, it seems to me, that this would only attract public attention & cause enquiries to be made as to the person alluded to, which otherwise would not be.  If I could recall the indiscretion of my remarks, which we really made in deep interest & concern for a Bride, most gladly would I do so.  If there was any way, by which I could make correction, without giving renewed injury, it would afford me pleasure to do so.
 
-Letter 397
+Letter 399
 30 June 1857
 Pickens C.H.
 
@@ -9793,7 +9793,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 398
+Letter 400
 21 August 1857
 Boston
 
@@ -9818,7 +9818,7 @@ Annapolis
 
 This letter has some tears at the bottom of the first sheet affecting text in the right and left margins and some staining along the right margin of the first sheet.
 
-Letter 399
+Letter 401
 28 August 1857
 Philadelphia
 
@@ -9837,7 +9837,7 @@ My dear Son [Frank Perry
 Frank Perry
 Annapolis
 
-Letter 400
+Letter 402
 28 August 1857
 Philadelphia
 
@@ -9864,7 +9864,7 @@ Cambridge
 
 This letter has a significant tear affecting the last five lines of the right margin of the sheet as well as sheets 2 and 3.
 
-Letter 401
+Letter 403
 6 September 1857
 Greenville
 
@@ -9895,7 +9895,7 @@ P.S. Your aunt Anna Hayne died about two weeks ago.  Frank Cox is going to Phila
 Frank Perry
 Annapolis
 
-Letter 402
+Letter 404
 8 September 1857
 Cambridge 
 
@@ -9944,7 +9944,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 403
+Letter 405
 18 September 1857
 Columbia
 
@@ -9957,7 +9957,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 404
+Letter 406
 20 September 1857
 Cambridge
 
@@ -9977,7 +9977,7 @@ Dear Papa
 Mr. B.F. Perry
 Greenville
 
-Letter 405
+Letter 407
 20 September 1857
 Greenville
 
@@ -9995,7 +9995,7 @@ Robt McKay
 Ordinary Greenville District So. Ca.
 A.D. Hoke M/D.
 
-Letter 406
+Letter 408
 20 September 1857
 Greenville
 
@@ -10022,7 +10022,7 @@ My dear Son
 Frank Perry
 Annapolis, Maryland
 
-Letter 407
+Letter 409
 21 September 1857
 Greenville
 
@@ -10051,7 +10051,7 @@ I have just returned from Columbia & found all well except little Arthur who is 
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 408
+Letter 410
 25 September 1857
 Greenville
 
@@ -10070,7 +10070,7 @@ My dear Son
 Frank Perry
 Annapolis, Maryland
 
-Letter 409
+Letter 411
 26 September 1857
 Harvard College
 
@@ -10112,7 +10112,7 @@ My dear Son
 Frank Perry
 Annapolis, Maryland
 
-Letter 410
+Letter 412
 27 September 1857
 Harvard College
 
@@ -10161,7 +10161,7 @@ My dear Daughter
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 411
+Letter 413
 28 September 1857
 Greenville
 
@@ -10178,7 +10178,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 412
+Letter 414
 2 October 1857
 Greenville
 
@@ -10210,7 +10210,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 413
+Letter 415
 4 October 1857
 Harvard College
 
@@ -10264,7 +10264,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 414
+Letter 416
 8 October 1857
 Greenville
 
@@ -10287,7 +10287,7 @@ My dear Daughter
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 415
+Letter 417
 11 October 1857
 Harvard College
 
@@ -10310,7 +10310,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 416
+Letter 418
 14 October 1857
 Greenville
 
@@ -10347,7 +10347,7 @@ P.S. Fold up your letters like I dodouble them in the same way.  Your mode is aw
 Frank Perry
 Annapolis
 
-Letter 417
+Letter 419
 17 October 1857
 Harvard College
 
@@ -10375,7 +10375,7 @@ P.S. There was a student named Perry in College last year, but he has quit, and 
 Mr. B.F. Perry
 Greenville
 
-Letter 418
+Letter 420
 24 October 1857
 Harvard College
 
@@ -10421,7 +10421,7 @@ You must request them to ask for the Patriot & Mountaineer direct to you.  It wi
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 419
+Letter 421
 25 October 1857
 Greenville
 
@@ -10458,7 +10458,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 420
+Letter 422
 1 November 1857
 Harvard College
 
@@ -10485,7 +10485,7 @@ Dear Anna
 Anna Perry
 Burlington, N.J.
 
-Letter 421
+Letter 423
 1 November 1857 
 Greenville
 
@@ -10520,7 +10520,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 421
+Letter 424
 8 November 1857
 Greenville
 
@@ -10559,7 +10559,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 422
+Letter 425
 15 November 1857
 Greenville
 
@@ -10582,7 +10582,7 @@ My dear Daughter
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 423
+Letter 426
 15 November 1857
 Greenville
 
@@ -10611,7 +10611,7 @@ Direct your next letter to me in Columbia.
 Frank Perry
 Annapolis
 
-Letter 424
+Letter 427
 22 November 1857
 Columbia
 
@@ -10640,7 +10640,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 425
+Letter 428
 22 November 1857
 Columbias
 
@@ -10663,7 +10663,7 @@ Columbias
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 426
+Letter 429
 22 November 1857
 Columbia
 
@@ -10699,7 +10699,7 @@ My dear Son
 W.H. Perry
 Harvard College
 
-Letter 427
+Letter 430
 22 November 1857
 Columbia
 
@@ -10722,7 +10722,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 428
+Letter 431
 22 November 1857
 Columbia
 
@@ -10747,7 +10747,7 @@ My dear Anna
 Miss Anna Perry
 Burlington, N.J.
 
-Letter 429
+Letter 432
 24 November 1857
 Columbia
 
@@ -10776,7 +10776,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 430
+Letter 433
 24 November 1857
 Columbia
 
@@ -10805,7 +10805,7 @@ My dear Daughter
 Anna Perry
 Burlington, N.J.
 
-Letter 431
+Letter 434
 26 November 1857
 Columbia
 
@@ -10823,7 +10823,7 @@ P.S. I rece[ive]d a letter from R.B. Rhett saying his concerns nearly cured.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 432
+Letter 435
 26 November 1857
 Columbia
 
@@ -10850,7 +10850,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 433
+Letter 436
 26 November 1857
 Columbia
 
@@ -10875,7 +10875,7 @@ P.S. In regard to my legal opinion nothing could be done with Perry as he did no
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 434
+Letter 437
 28 November 1857
 Columbia
 
@@ -10910,7 +10910,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 435
+Letter 438
 28 November 1857
 Columbia
 
@@ -10940,7 +10940,7 @@ My dear Daughter
 Anna Perry
 Burlington, N.J.
 
-Letter 436
+Letter 439
 28 November 1857
 Columbia
 
@@ -10975,7 +10975,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 437
+Letter 440
 30 November 1857
 Harvard College
 
@@ -10997,7 +10997,7 @@ Dear Anna
 Anna Perry
 Burlington, N.J.
 
-Letter 438
+Letter 441
 30 November 1857
 Columbia
 
@@ -11028,7 +11028,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 438
+Letter 442
 1 December 1857
 Columbia
 
@@ -11043,7 +11043,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 439
+Letter 443
 2 December 1857
 Columbia
 
@@ -11068,7 +11068,7 @@ In the opinion of a majority of the Committee it would be impoliti  at this time
 								B.F. Perry
 								J.I. Middleton
 
-Letter 440
+Letter 444
 2 December 1857
 Columbia
 
@@ -11095,7 +11095,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 441
+Letter 445
 3 December 1857
 Columbia
 
@@ -11114,7 +11114,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 442
+Letter 446
 3 December 1857
 Columbia
 
@@ -11139,7 +11139,7 @@ My dear Daughter
 Anna Perry
 Burlington, N.J.
 
-Letter 443
+Letter 447
 9 December 1857
 Columbia
 
@@ -11162,7 +11162,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 444
+Letter 448
 10 December 1857
 Columbia
 
@@ -11187,7 +11187,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 445
+Letter 449
 10 December 1857
 Columbia
 
@@ -11212,7 +11212,7 @@ My dear Daughter
 Anna Perry
 Burlington, N.J.
 
-Letter 446
+Letter 450
 13 December 1857
 Columbia
 
@@ -11235,7 +11235,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 447
+Letter 451
 14 December 1857
 Columbia
 
@@ -11252,7 +11252,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 448
+Letter 452
 15 December 1857
 Columbia 
 
@@ -11277,7 +11277,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 449
+Letter 453
 16 December 1857
 Columbia
 
@@ -11302,7 +11302,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 450
+Letter 454
 17 December 1857
 Columbia
 
@@ -11325,7 +11325,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 451
+Letter 455
 20 December 1857
 Columbia
 
@@ -11346,7 +11346,7 @@ My dear Sir [John LeConte, Washington, DC]
 Dr. John LeConte
 Washington, DC
 
-Letter 452
+Letter 456
 20 December 1857
 Columbia
 
@@ -11363,7 +11363,7 @@ My dear Sir
 Dr. John LeConte
 Washington, DC
 
-Letter 453
+Letter 457
 27 December 1857
 Harvard College
 
@@ -11388,7 +11388,7 @@ Dear Mama
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 454
+Letter 458
 27 December [18]57
 Harvard College
 
@@ -11411,7 +11411,7 @@ Dear Anna
 Anna Perry
 Philadelphia
 
-Letter 455
+Letter 459
 2 January 1857 [1858]
 Harvard College
 
@@ -11432,7 +11432,7 @@ Dear Papa
 Benjamin F. Perry
 Columbia
 
-Letter 456
+Letter 460
 3 January 1858
 Columbia
 
@@ -11447,7 +11447,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 457
+Letter 461
 17 January 1858
 Greenville
 
@@ -11474,7 +11474,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 458
+Letter 462
 24 January [18]58
 Annapolis
 
@@ -11491,7 +11491,7 @@ Dear Mama
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 459
+Letter 463
 24 January 1858
 Greenville
 
@@ -11516,7 +11516,7 @@ My dear Son
 Frank Perry 
 Annapolis
 
-Letter 460
+Letter 464
 30 January 1858
 Greenville
 
@@ -11545,7 +11545,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 461
+Letter 465
 7 February 1858
 Greenville
 
@@ -11564,7 +11564,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 462
+Letter 466
 14 February 1858
 Greenville
 
@@ -11593,7 +11593,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 463
+Letter 467
 21 February 1858
 Greenville
 
@@ -11618,7 +11618,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 464
+Letter 468
 27 February 1858
 Greenville
 
@@ -11631,7 +11631,7 @@ My dear Sir
 Hon[orable] J.H. Hammond
 Washington
 
-Letter 465
+Letter 469
 27 February 1858
 Greenville
 
@@ -11642,7 +11642,7 @@ My dear Sir
 Hon[orable] J.L. Orr
 Washington
 
-Letter 466
+Letter 470
 28 February 1858
 Greenville
 
@@ -11667,7 +11667,7 @@ My dear Son
 Frank Perry 
 Annapolis
 
-Letter 467
+Letter 471
 7 March 1858
 Greenville
 
@@ -11692,7 +11692,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 468
+Letter 472
 10 March 1858
 Greenville
 
@@ -11715,7 +11715,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 469
+Letter 473
 28 March 1858
 Greenville
 
@@ -11742,7 +11742,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 470
+Letter 474
 4 April 1858
 Greenville
 
@@ -11762,7 +11762,7 @@ Deal of nursing.  Her mother has not been out even to church for several weeks. 
 Frank Perry
 Annapolis
 
-Letter 471
+Letter 475
 11 April 1858
 Greenville
 
@@ -11789,7 +11789,7 @@ I hope, my dear son, that you are now studying hard & ambitious of keeping up wi
 Frank Perry
 Annapolis
 
-Letter 472
+Letter 476
 18 April 1858
 Greenville
 
@@ -11817,7 +11817,7 @@ Franks last letter was well written & gave us great encouragement.  But his Repo
 W.H. Perry
 Harvard College
 
-Letter 473
+Letter 477
 18 April 1858
 Greenville 
 
@@ -11842,7 +11842,7 @@ My dear Son
 Frank Perry 
 Annapolis
 
-Letter 474
+Letter 478
 25 April 1856
 Greenville
 
@@ -11867,7 +11867,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 475
+Letter 479
 26 April 1858
 Greenville
 
@@ -11899,7 +11899,7 @@ In being kind than spiteful & cold.  Never make an enemy if you can possibly avo
 W.H. Perry
 Annapolis
 
-Letter 476
+Letter 480
 2 May 1858
 Columbia
 
@@ -11922,7 +11922,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 477
+Letter 481
 2 May 1858
 Columbia
 
@@ -11953,7 +11953,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 478
+Letter 482
 3 May 1858
 Columbia
 
@@ -11990,7 +11990,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 479
+Letter 483
 4 May 1858
 Columbia
 
@@ -12019,7 +12019,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 480
+Letter 484
 5 May 1858
 Columbia
 
@@ -12056,7 +12056,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 481
+Letter 485
 6 May 1858
 Columbia
 
@@ -12075,7 +12075,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 482
+Letter 486
 7 May 1858
 Columbia
 
@@ -12106,7 +12106,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 483
+Letter 487
 9 May 1858
 Columbia
 
@@ -12135,7 +12135,7 @@ Your affectionate husband, B.F. Perry
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 484
+Letter 488
 9 May 1858
 Columbia
 
@@ -12156,7 +12156,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 485
+Letter 489
 10 May 1858
 Columbia
 
@@ -12183,7 +12183,7 @@ My dear Liz
        Mrs. Elizabeth Perry
        Greenville
 
-Letter 486
+Letter 490
 16 May 1858
 Greenville
        
@@ -12206,7 +12206,7 @@ Greenville
 Frank Perry 
 Annapolis
 
-Letter 487
+Letter 491
 30 May 1858
 Greenville
 
@@ -12227,7 +12227,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 488
+Letter 492
 5 June 1858
 Greenville
 
@@ -12254,7 +12254,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 489
+Letter 493
 13 June 1858
 Greenville
 
@@ -12273,7 +12273,7 @@ My dear Son
 Frank Parry
 Annapolis
 
-Letter 490
+Letter 494
 20 June 1858
 Greenville
 
@@ -12300,7 +12300,7 @@ P.S. Did you receive the draft for $50 I sent you two weeks ago.
 Frank Perry
 Annapolis
 
-Letter 491
+Letter 495
 3 August 1858
 Greenville
 
@@ -12334,7 +12334,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 492
+Letter 496
 My dear Son
 
 	We received your letter Friday evening, & were glad to hear you arrived safely at Cambridge.  Your mother has requested me to write you today, which is Sunday & say that she will write you again next week.
@@ -12362,7 +12362,7 @@ My dear Son
 W.H. Perry
 Cambridge
 
-Letter 492
+Letter 497
 18 September 1858
 Greenville
 
@@ -12391,7 +12391,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 493
+Letter 498
 28 September 1858
 Greenville
 
@@ -12412,7 +12412,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 494
+Letter 499
 3 October 1858
 Greenville
 
@@ -12437,7 +12437,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 495
+Letter 500
 10 October 1858
 Greenville
 
@@ -12462,7 +12462,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 496
+Letter 501
 16 October 1858
 Greenville
 
@@ -12481,7 +12481,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 497
+Letter 502
 24 October 1858
 Greenville
 
@@ -12502,7 +12502,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 498
+Letter 503
 1 November 1858
 Greenville
 
@@ -12521,7 +12521,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 499
+Letter 504
 6 November 1858
 Greenville
 
@@ -12540,7 +12540,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 500
+Letter 505
 21 November 1858
 Columbia
 
@@ -12557,7 +12557,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 501
+Letter 506
 28 November 1858
 Columbia
 
@@ -12582,7 +12582,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 502
+Letter 507
 5 December 1858
 Columbia SC
 
@@ -12603,7 +12603,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 503
+Letter 508
 20 December 1858
 Greenville SC
 
@@ -12622,7 +12622,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 504
+Letter 509
 26 December 1858
 Greenville SC
 
@@ -12649,7 +12649,7 @@ My dear Son
 Frank Perry 
 Annapolis
 
-Letter 505
+Letter 510
 2 January 1859
 Greenville
 
@@ -12672,7 +12672,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 503
+Letter 511
 9 January 1859
 Greenville
 
@@ -12687,7 +12687,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 504
+Letter 512
 13 January 1859
 Greenville
 
@@ -12714,7 +12714,7 @@ My dear Son
 B.F. Perry, Jr.
 Annapolis
 
-Letter 505
+Letter 513
 24 January 1859
 Greenville
 
@@ -12741,7 +12741,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 506
+Letter 514
 1 February 1859
 Greenville
 
@@ -12762,7 +12762,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 507
+Letter 515
 6 February 1859
 Greenville
 
@@ -12783,7 +12783,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 508
+Letter 516
 13 February 1859
 Greenville
 
@@ -12808,7 +12808,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 509
+Letter 517
 20 February 1859
 Greenville
 
@@ -12829,7 +12829,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 510
+Letter 518
 27 February 1859
 Greenville
 
@@ -12846,7 +12846,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 511
+Letter 519
 9 March 1859
 Greenville
 
@@ -12873,7 +12873,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 512
+Letter 520
 13 March 1859
 Greenville
 
@@ -12892,7 +12892,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 513
+Letter 521
 13 March 1859
 Greenville
 
@@ -12921,7 +12921,7 @@ My dear Son
 W.H. Perry
 Harvard College
 
-Letter 514
+Letter 522
 19 March 1859
 Greenville
 
@@ -12940,7 +12940,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 515
+Letter 523
 3 April 1859
 Greenville
 
@@ -12961,7 +12961,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 516
+Letter 524
 9 April 1859
 Greenville
 
@@ -12982,7 +12982,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 517
+Letter 525
 17 April 1859
 Greenville
 
@@ -12999,7 +12999,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 518
+Letter 526
 22 April 1859
 Greenville
 
@@ -13021,7 +13021,7 @@ Dear Sir [Charles Lanman]
 
 [Charles Lanman]
 
-Letter 519
+Letter 527
 24 April 1859
 Greenville
 
@@ -13040,7 +13040,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 520
+Letter 528
 27 April 1859
 Columbia
 
@@ -13067,7 +13067,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 521
+Letter 529
 1 May 1859																	
 Charleston Hotel
 
@@ -13084,7 +13084,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 521
+Letter 530
 8 May 1859
 Greenville
 
@@ -13109,7 +13109,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 522
+Letter 531
 15 May 1859
 Greenville
 
@@ -13128,7 +13128,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 523
+Letter 532
 22 May 1859
 Greenville
 
@@ -13149,7 +13149,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 524
+Letter 533
 29 May 1859
 Greenville
 
@@ -13166,7 +13166,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 525
+Letter 534
 4 June 1859
 Greenville
 
@@ -13183,7 +13183,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 526
+Letter 535
 4 June 1859
 Greenville
 
@@ -13206,7 +13206,7 @@ My dear Son
 W.H. Perry
 Harvard College
 
-Letter 527
+Letter 536
 11 June 1859
 Greenville
 
@@ -13221,7 +13221,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 528
+Letter 537
 10 July 1859
 Greenville
 
@@ -13245,7 +13245,7 @@ My dear Son
 	
 W.H. Perry
 
-Letter 529
+Letter 538
 18 September 1859
 Boston
 
@@ -13266,7 +13266,7 @@ My dear Son
 W.H. Perry 
 Greenville
 
-Letter 530
+Letter 539
 9 October 1859
 Greenville
 
@@ -13293,7 +13293,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 531
+Letter 540
 23 October 1859
 Greenville
 
@@ -13326,7 +13326,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 532
+Letter 541
 27 October 1859
 Greenville
 
@@ -13341,7 +13341,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 533
+Letter 542
 20 November 1859
 Greenville
 
@@ -13369,7 +13369,7 @@ In which I was concerned and succeeded in establishing the Will.
 Frank Perry
 Annapolis
 
-Letter 534
+Letter 543
 27 November 1859
 Greenville
 
@@ -13396,7 +13396,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 535
+Letter 544
 29 November 1859
 Columbia
 
@@ -13427,7 +13427,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 536
+Letter 545
 1 December 1859
 Columbia
 
@@ -13456,7 +13456,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 537
+Letter 546
 2 December 1859
 Columbia
 
@@ -13477,7 +13477,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 538
+Letter 547
 2 December 1859
 Columbia
 
@@ -13498,7 +13498,7 @@ P.S.  [James Parsons] Carroll is elected Chancellor.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 539
+Letter 548
 4 December 1859
 Columbia
 
@@ -13525,7 +13525,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 540
+Letter 549
 5 December 1859
 Columbia
 
@@ -13554,7 +13554,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 541
+Letter 550
 6 December 1859
 Columbia
 
@@ -13581,7 +13581,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 542
+Letter 551
 8 December 1859
 Columbia
 
@@ -13614,7 +13614,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 543
+Letter 552
 8 December 1859
 Columbia
 
@@ -13639,7 +13639,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 544
+Letter 553
 10 December 1859
 Columbia
 
@@ -13666,7 +13666,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 545
+Letter 554
 [10 December 1859]
 Saturday night
 Columbia
@@ -13694,7 +13694,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 546
+Letter 555
 12 December 1859
 Columbia
 
@@ -13715,7 +13715,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 547
+Letter 556
 [12] December [18]59
 Tuesday
 Columbia
@@ -13733,7 +13733,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 548
+Letter 557
 13 December 1859
 Columbia
 
@@ -13754,7 +13754,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 549
+Letter 558
 14 December 1859
 Columbia
 
@@ -13773,7 +13773,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 550
+Letter 559
 15 December 1859
 Columbia
 
@@ -13796,7 +13796,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 551
+Letter 560
 15 December 1859
 Columbia
 
@@ -13817,7 +13817,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 552
+Letter 561
 16 December 1859
 Columbia
 
@@ -13838,7 +13838,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 553
+Letter 562
 18 December 1859
 Sunday morning
 Columbia
@@ -13862,7 +13862,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 554
+Letter 563
 [21] December 1859
 Thursday
 Columbia
@@ -13884,7 +13884,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 555
+Letter 564
 25 December 1859
 Greenville
 
@@ -13907,7 +13907,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 556
+Letter 565
 29 December 1859
 Columbia
 
@@ -13937,7 +13937,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 557
+Letter 566
 1 January 1860
 Greenville
 
@@ -13960,7 +13960,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 558
+Letter 567
 8 January 1860
 Greenville
 
@@ -13985,7 +13985,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 559
+Letter 568
 14 January 1860
 Greenville
 
@@ -14006,7 +14006,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 560
+Letter 569
 22 January 1860
 Greenville
 
@@ -14029,7 +14029,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 561
+Letter 570
 29 January 1860
 Greenville
 
@@ -14054,7 +14054,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 562
+Letter 571
 19 February 1860
 Greenville
 
@@ -14081,7 +14081,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 563
+Letter 572
 26 February 1860
 Greenville
 
@@ -14102,7 +14102,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 564
+Letter 573
 4 March 1860
 Greenville
 
@@ -14121,7 +14121,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 565
+Letter 574
 11 March 1860
 Greenville
 
@@ -14136,7 +14136,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 566
+Letter 575
 25 March 1860
 Greenville
 
@@ -14163,7 +14163,7 @@ P.S. Pinckney Irvine & W S called to see us yesterday & asked about you.
 Frank Perry
 Annapolis
 
-Letter 567
+Letter 576
 1 April 1860
 Greenville
 
@@ -14181,7 +14181,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 568
+Letter 577
 15 April 1860
 Columbia
 
@@ -14216,7 +14216,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 569
+Letter 578
 16 April 1860
 Columbia
 
@@ -14235,7 +14235,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 570
+Letter 579
 17 April 1860
 Columbia
 
@@ -14254,7 +14254,7 @@ Columbia
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 571
+Letter 580
 18 April 1860
 Columbia
 
@@ -14277,7 +14277,7 @@ P.S.  I have just thought of a fix McMeekin of Greenville was in the other day i
 Mrs.  Elizabeth Perry
 Greenville
 
-Letter 572
+Letter 581
 20 April 1860
 Charleston
 
@@ -14302,7 +14302,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville.
 
-Letter 573
+Letter 582
 21 April 1860
 Charleston
 
@@ -14327,7 +14327,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville.
 
-Letter 574
+Letter 583
 21 April 1860
 Charleston
 
@@ -14350,7 +14350,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 575
+Letter 584
 22 April 1860
 Charleston
 
@@ -14365,7 +14365,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 576
+Letter 585
 24 April 1860
 Charleston
 
@@ -14382,7 +14382,7 @@ My dear Son
 W.H. Perry
 Greenville
 
-Letter 577
+Letter 586
 26 April 1860
 Charleston
 
@@ -14401,7 +14401,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 578
+Letter 587
 26 April 1860
 Charleston
 
@@ -14427,7 +14427,7 @@ Told me that I would then have myforth.  He looks very well & says his family ar
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 579
+Letter 588
 Sunday, 29 April 1860
 Charleston
 
@@ -14448,7 +14448,7 @@ P.S. I have bought you a sewing machine, the best, & simplist, for $20 & have pa
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 580
+Letter 589
 6 May 1860
 Greenville
 
@@ -14465,7 +14465,7 @@ My dear Son
 Frank Perry
 Annapolis
 
-Letter 581
+Letter 590
 14 May 1860
 Washington
 
@@ -14483,7 +14483,7 @@ I have got such a pen that I can hardly write.
 
 Benjamin Perry
 
-Letter 582
+Letter 591
 27 November 1860
 Columbia
 
@@ -14508,7 +14508,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 583
+Letter 592
 28 November 1860
 Columbia
 
@@ -14533,7 +14533,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 584
+Letter 593
 28 November 1860
 Columbia
 
@@ -14554,7 +14554,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 585
+Letter 594
 10 December 1860
 Columbia
 
@@ -14571,7 +14571,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 586
+Letter 595
 11 December 1860
 Columbia
 
@@ -14601,7 +14601,7 @@ I have just rece[ive]d your letters & thanks you kindly for them.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 587
+Letter 596
 [ca. 1860]
 
 A Trinute of Respect
@@ -14610,11 +14610,11 @@ of the shaft holding in his beak a wreath of Laurels, onea cannon ball and the o
 
 	Such a tribute of respect to the memory of their deceased son, by the gallant, generous & noble hearted classmates, has deeply touched the grieving hearts of his parents.  If the enduring qualities of one so young, could have drawn from his associates, such a beautiful & costly tribute of friendship to his memory, what a bright future may they not have hoped for in his manhood.
 
-Letter 587
+Letter 597
 2 February 1861
 Greenville
 
-Letter 588
+Letter 598
 His Excellency Governor Pickens
 My dear Sir
 
@@ -14624,7 +14624,7 @@ My dear Sir
 
 	I am with great respect, yours truly, B.F. Perry
 
-Letter 588
+Letter 599
 19 February 1861
 Greenville
 
@@ -14640,7 +14640,7 @@ My dear Sir [Governor Pickens]
 
 	I am with great respect, yours truly &c., B.F. Perry
 
-Letter 589
+Letter 600
 10 March 1861
 Greenville
 
@@ -14669,7 +14669,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Rosemont
 
-Letter 590
+Letter 601
 5 May 1861
 Greenville
 
@@ -14685,7 +14685,7 @@ My dear Son
 
 W.H. Perry
 
-Letter 591
+Letter 602
 5 May 1861
 Columbia
 
@@ -14704,7 +14704,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 592
+Letter 603
 10 June 1861
 Greenville
 
@@ -14737,7 +14737,7 @@ My dear Son
 W.H. Perry
 Columbia
 
-Letter 593
+Letter 604
 11 June 1861
 Camp Hampton
 
@@ -14754,7 +14754,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 594
+Letter 605
 13 June 1861
 Greenville
 
@@ -14791,7 +14791,7 @@ P.S. Your grandmother has sold her house to Buist for $4,000.00.
 
 W.H. Perry
 
-Letter 595
+Letter 606
 16 June 1861
 Camp Hampton
 Dear Papa
@@ -14809,7 +14809,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 596
+Letter 607
 16 June 1861
 Greenville
 
@@ -14829,7 +14829,7 @@ My dear Son
 
 W.H. Perry
 
-Letter 597
+Letter 608
 18 June 1861
 Camp Hampton
 
@@ -14852,7 +14852,7 @@ P.S. Give my love to Fannie, Hext, Hayne, Ben and his servants.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 598
+Letter 609
 25 June 1861
 Camp Hampton
 
@@ -14865,7 +14865,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 599
+Letter 610
 28 June 1861
 Camp Hampton
 
@@ -14882,7 +14882,7 @@ Dear Papa
  Benjamin Perry
 Greenville
 
-Letter 600
+Letter 611
 30 June 1861
 Petersburg, Va.
 
@@ -14901,7 +14901,7 @@ P.S. Ed Stokes desires to you all.  Give my love to all.
 Benjamin Perry
 Greenville
 
-Letter 601
+Letter 612
 11 July 1861
 Ashland
 
@@ -14920,7 +14920,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 602
+Letter 613
 14 July 1861
 Ashland, Va.
 
@@ -14937,7 +14937,7 @@ P.S. I forgot to mention in my last that we were furnished with one horse-pistol
 Benjamin Perry 
 Greenville
 
-Letter 603
+Letter 614
 19 July 1861
 Ashland, Va.
 
@@ -14954,7 +14954,7 @@ P.S. Tom Adams is now Captain of Bozemans Company, Bozeman having resigned on ac
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 604
+Letter 615
 20 July 1861
 Ashland, Va.
 
@@ -14967,7 +14967,7 @@ Dear Mamma
 Mrs. Elizabeth perry
 Greenville
 
-Letter 605
+Letter 616
 29 July 1861
 Camp Pickens
 
@@ -14980,7 +14980,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 606
+Letter 617
 1 August [1861]
 Camp Griffin Near Manassas
 
@@ -15003,7 +15003,7 @@ P.S. Bring or send on my shotgun as soon as possible.
 Benjamin Perry
 Greenville
 
-Letter 607
+Letter 618
 16 August 1861
 Camp Griffin
    
@@ -15021,7 +15021,7 @@ We will leave tomorrow morning.  I dont know exactly where we go, but it is some
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 608
+Letter 619
 20 August 1861
 Near Manassas
 
@@ -15046,7 +15046,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 609
+Letter 620
 21 August 1861
 Columbia
 
@@ -15071,7 +15071,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 610
+Letter 621
 21 August 1861
 Columbia
 
@@ -15094,7 +15094,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 611
+Letter 622
 23 August 1861
 Petersburgh, Va.
 
@@ -15121,7 +15121,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 612
+Letter 623
 24 August 1861
 Richmond
 
@@ -15140,7 +15140,7 @@ My dear Liz
 Mrs. Elizabeth Perry  
 Greenville
 
-Letter 613
+Letter 624
 24 August 1861
 Richmond
 
@@ -15163,7 +15163,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 614
+Letter 625
 8 September 1861
 Camp Griffin, Va.
 
@@ -15186,7 +15186,7 @@ P.S. Mr. Boggs went up to the 4th Regiment the other day and so I got the paper 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 615
+Letter 626
 11 September 1860 [1861]
 Camp Griffin, Va.
 
@@ -15207,7 +15207,7 @@ P.S. I got the paper signed by Fuller that you left, and sent it this morning by
 Benjamin Perry
 Greenville
 
-Letter 616
+Letter 627
 28 September 1861
 CampVa.
 
@@ -15222,7 +15222,7 @@ P.S. I dont expect you to get the bill I sent by Ferguson changed into Silver.  
 Benjamin Perry
 Greenville
 
-Letter 617
+Letter 628
 18 October 1861
 Camp Connor, Va.
 
@@ -15237,7 +15237,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 618
+Letter 629
 27 October 1861
 Camp Butler, Va.
 
@@ -15254,7 +15254,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 619
+Letter 630
 10 November 1861
 Camp Butler, Va.
 
@@ -15273,7 +15273,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 620
+Letter 631
 20 November 1861
 Camp Butler, Va.
 
@@ -15290,7 +15290,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 621
+Letter 632
 26 November 1861
 Virginia
 
@@ -15303,7 +15303,7 @@ Dear Papa
 Benjamin Perry
 Greenville
 
-Letter 622
+Letter 633
 7 December 1861
 Camp Butler, Va.
 
@@ -15320,7 +15320,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 623
+Letter 634
 10 December 1861
  Columbia
 
@@ -15359,7 +15359,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 624
+Letter 635
 19 December 1861
 Camp Wigfall
 
@@ -15380,7 +15380,7 @@ Dear Mamma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 625
+Letter 636
 22 December 1861
 Camp Wigfall
 
@@ -15402,7 +15402,7 @@ Dear Pa
 
 P.S. I would like some paper and a few Envelopes, by any opportunity you get to send them.  They have given us what they call Sibley tents (circular ones) instead of the old ones.  We have chimneys to them and are pretty comfortable.  My wall tent is at a house near Bacon Race for safe keeping, until we want it.
 
-Letter 626
+Letter 637
 24 November 1862
 Columbia
 
@@ -15433,7 +15433,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 626
+Letter 638
 24 November 1862
 Columbia
 
@@ -15459,7 +15459,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 627
+Letter 639
 25 November 1862
 Columbia
 
@@ -15498,7 +15498,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville  
 
-Letter 628
+Letter 640
 [ca. 25 November 1862], Tuesday
 Columbia
 
@@ -15529,7 +15529,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 628
+Letter 641
 29 November 1862, Saturday
 
 My dear Liz
@@ -15560,7 +15560,7 @@ P.S. Governor Pickens will have spent $50,000 whilst Governor!  What think you o
 
 [This letter is faded badly]
 
-Letter 629
+Letter 642
 3 December 1862, Wednesday
 Columbia
 
@@ -15595,7 +15595,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 629
+Letter 643
 3 December 1862
 Columbia
 
@@ -15630,7 +15630,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 630
+Letter 644
 4 December 1862
 Columbia
 
@@ -15657,7 +15657,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 631
+Letter 645
 5 December 1862
 Columbia
 
@@ -15695,7 +15695,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 632
+Letter 646
 7 December 1862
 Columbia
 
@@ -15720,7 +15720,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 633
+Letter 647
 7 December 1862
 Columbia
 
@@ -15747,7 +15747,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 635
+Letter 648
 8 December 1862
 
 My dear Liz
@@ -15775,7 +15775,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 636
+Letter 649
 13 December 1862
 Columbia
 
@@ -15785,7 +15785,7 @@ My dear Liz
 
 [The letter is faded badly]
 
-Letter 637
+Letter 650
 29 January 1863
 Columbia
 
@@ -15822,7 +15822,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 638
+Letter 651
 16 February 1863
 Greenville
 
@@ -15861,7 +15861,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 639
+Letter 652
 23 February 1863
 Greenville
 
@@ -15916,7 +15916,7 @@ In haste
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 640
+Letter 653
 26 February 1863
 Greenville
 
@@ -15951,7 +15951,7 @@ My dsear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 641
+Letter 654
 7 March 1863
 Greenville
 
@@ -15988,7 +15988,7 @@ My dea Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 642
+Letter 655
 19 March 1863
 Greenville
 
@@ -16017,7 +16017,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 643
+Letter 656
 23 March 1863
 Greenville
 
@@ -16044,7 +16044,7 @@ P.S. No war news of any great consequence.  A fight on the Rappahannock where Wi
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 644
+Letter 657
 25 March 1863
 Greenville
 
@@ -16069,7 +16069,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 645
+Letter 658
 18 April 1863
 Greenville
 
@@ -16103,7 +16103,7 @@ at Dr. Mooneys to see the papers, but he had taken them off with him.  They will
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 646
+Letter 659
 7 June 1863
 Brandy Station
 
@@ -16118,7 +16118,7 @@ Dear Pa
 Benjamin Perry
 Greenville
 
-Letter 647
+Letter 660
 9 July 1863
 Greenville
 
@@ -16149,7 +16149,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 648
+Letter 661
 11 July 1863
 Hagerstown, Md.
 
@@ -16164,7 +16164,7 @@ Dear Pa
 Benjamin Perry
 Greenville
 
-Letter 649
+Letter 662
 14 July [18]63
 Greenville
 
@@ -16183,7 +16183,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 650
+Letter 663
 19 July 1863
 Martinsburg, Va.
 
@@ -16198,7 +16198,7 @@ Dear Pa
 Benjamin Perry
 Greenville
 
-Letter 651
+Letter 664
 30 July 1863
 Culpepper C.H.
 
@@ -16213,7 +16213,7 @@ Dear Pa
 Benjamin Perry
 Greenville
 
-Letter 652
+Letter 665
 [July 1863] Tuesday morning
 [Greenville]
 
@@ -16236,7 +16236,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Glencoe
 
-Letter 652
+Letter 666
 3 August 1863
 Greenville
 My dear Liz
@@ -16262,7 +16262,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Glencoe
 
-Letter 653
+Letter 667
 23 September 1863
 Columbia
 
@@ -16298,7 +16298,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 654
+Letter 668
 [September 1863]
 Columbia
 
@@ -16325,7 +16325,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 654
+Letter 669
 30 October 1863
 Camp Near Culpepper
 
@@ -16342,7 +16342,7 @@ Dear Ma
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 655
+Letter 670
 3 November 1863
 Greenville
 
@@ -16365,7 +16365,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 656
+Letter 671
 27 November 1863
 Columbia
 
@@ -16384,7 +16384,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 657
+Letter 672
 29 November 1863
 Columbia
 
@@ -16407,7 +16407,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 658
+Letter 673
 1 December 1863
 Columbia
 
@@ -16430,7 +16430,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 659
+Letter 674
 2 December 1863 
 Columbia
 
@@ -16443,7 +16443,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 660
+Letter 675
 4 December 1863
 Columbia
 .My dear Liz
@@ -16463,7 +16463,7 @@ Columbia
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 661
+Letter 676
 15 June 1864
 Cavalry Camp, James Island
 
@@ -16473,7 +16473,7 @@ Dear Beattie
 
 	Our Camp is not very pleasantly situated but it is as good I suppose as can be found upon the Island.  We are anxious to get down to Adams Run to take possession of the quarters vacated by the Cavalry recently sent to Virginia.  I am afraid that the accounts we have of its being such a desirable location for camping are incorrect.  Perry I suppose will answer your letter shortly if he has not done so already.  I did intend to write you a lengthy epistle but am so disturbed by conversation 
 
-Letter 662
+Letter 677
 29 June 1864
 Camp, 2nd S.C. Cav[alry], Chisolmville
 
@@ -16496,7 +16496,7 @@ Greenville
 
 [This letter is faded badly]
 
-Letter 662
+Letter 678
 19 July 1864
 Greenville
 
@@ -16523,7 +16523,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Glencoe
 
-Letter 663
+Letter 679
 [ca. 29 November 1864] Tuesday morning
 Columbia
 
@@ -16554,7 +16554,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 663
+Letter 680
 1 December 1864
 Columbia
 
@@ -16573,7 +16573,7 @@ P.S. Col. Wares case comes up tomorrow before a committee ofvthe Senate & I, and
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 664
+Letter 681
 2 December 1864
 Columbia
 
@@ -16590,7 +16590,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 665
+Letter 682
 4 December 1864 (Sunday)
 Columbia
 
@@ -16617,7 +16617,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 666
+Letter 683
 6 December 1864
 Columbia
 
@@ -16644,7 +16644,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 667
+Letter 684
 7 December 1864
 Columbia
 
@@ -16669,7 +16669,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 668
+Letter 685
 8 December 1864
 Columbia
 
@@ -16694,7 +16694,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 669
+Letter 686
 8 December 1864
 Columbia
 
@@ -16713,7 +16713,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 670
+Letter 687
 9 December 1864
 Columbia
 
@@ -16738,7 +16738,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 672
+Letter 688
 13 December 1864
 Columbia
 
@@ -16759,7 +16759,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 673
+Letter 689
 13 December 1864
 Columbia
 
@@ -16782,7 +16782,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 674
+Letter 690
 14 December 1864
 Columbia
 
@@ -16803,7 +16803,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 675
+Letter 691
 15 December 1864
 House of Rep[resentatives, Columbia]
 
@@ -16824,7 +16824,7 @@ P.S. You may expect me Saturday night & send a horse & saddle to the depot for m
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 676
+Letter 692
 18 December 1864
 Columbia
 
@@ -16860,7 +16860,7 @@ P.S. I am afraid this long letter will tire out your patience in reading this.  
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 677
+Letter 693
 19 December 1864
 Columbia
 
@@ -16881,7 +16881,7 @@ P.S. I dine with Mr. Johnson tomorrow in company with the Governor & other notab
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 678
+Letter 694
 Tuesday nght, [1864]
 Columbia
 
@@ -16892,7 +16892,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 679
+Letter 695
 Sunday morning, [1864]
 Columbia
 
@@ -16914,7 +16914,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 680
+Letter 696
 Monday night, [1864]
 Columbia
 
@@ -16924,7 +16924,7 @@ My dear Liz
 
 	I shall come home Thursday.  That day is fastr day & the Legislature will not sit.  They adjourn Thursday week.  But I shall not come back.  The business will be pretty well through  by Fast day.
 
-Letter 681
+Letter 697
 Wednesday I am invited to dine with Theand I suppose he will give a magnificent feast as he has invited for three days beforehand.  I dont know who are to meet.  He came to me & said he had a favor to ask of me.  It was to dine with him Wednesday.   He did not ask Boyce or Croft who were sitting by me & whispered to me.
 
 	The Legisalature has done nothing today worth telling.  Tupper paid me your mothers Interest this morning.  Iin money at present.  Hext is well pleased here.  He went to church last night with Miss Ellen Janney.  Janney seems very kind to him & says his House is his home & that he is one of the finest boys he ever saw.  Ellen Janney is going to theCollege & seems pleased to hear that Fannie will be there.
@@ -16936,7 +16936,7 @@ Wednesday I am invited to dine with Theand I suppose he will give a magnificent 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 682
+Letter 698
 Friday morning, [December 1864]
 Columbia
 
@@ -16959,7 +16959,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 683
+Letter 699
 18 July 1865
 Willards Hotel, [Washington]
 
@@ -16986,7 +16986,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 684
+Letter 700
 20 July 1865
 Willards Hotel
 
@@ -17005,7 +17005,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 685
+Letter 701
 13 September 1865
 Greenville [Columbia]
 
@@ -17024,7 +17024,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 686
+Letter 702
 16 September 1865
 Columbia
 
@@ -17051,7 +17051,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 687
+Letter 703
 20 September 1865
 Columbia
 
@@ -17070,7 +17070,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 688
+Letter 704
 22 September 1865
 Columbia
 
@@ -17091,7 +17091,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 689
+Letter 705
 24 September 1865
 Columbia
 
@@ -17118,7 +17118,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 690
+Letter 706
 25 September 1865
 Columbia
 
@@ -17139,7 +17139,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 691
+Letter 707
 25 October 1865
 Columbia
 
@@ -17166,7 +17166,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 692
+Letter 708
 27 October 1865
 Columbia
 
@@ -17185,7 +17185,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 693
+Letter 709
 Sunday morning, 29 October 1865
 Columbia
 
@@ -17204,7 +17204,7 @@ P.S. I enclose the check./  Hand it to Mr. Grady.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 694
+Letter 710
 30 October 1865
 Columbia
 
@@ -17225,7 +17225,7 @@ P.S. I am elected for the long term U.S. Senator.  I send you the Ballot.  Also 
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 695
+Letter 711
 31 October 1865
 Columbia
 
@@ -17242,7 +17242,7 @@ My dear Lizzie
 Mrs. Elizabetrh Perry
 Greenville
 
-Letter 696
+Letter 712
 1 November 1865
 Columbia
 
@@ -17262,7 +17262,7 @@ P.S. I am grattified to inform you that Gov. Manning has been elected my associa
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 697
+Letter 713
 2 November 1865
 Columbia
 
@@ -17275,7 +17275,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 698
+Letter 714
 Friday, 3 November 1865
 Columbia
 
@@ -17302,7 +17302,7 @@ P.S.  Mrs. Pickens was very anxious no doubt to spend the Winter in Washington w
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 699
+Letter 715
 6 November 1865
 Columbia
 
@@ -17319,7 +17319,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Columbia
 
-Letter 700
+Letter 716
 28 November 1865
 Columbia
 
@@ -17348,7 +17348,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 701
+Letter 717
 Thursday, 30 November 1865
 Columbia
 
@@ -17369,7 +17369,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 702
+Letter 718
 2 December 1865
 Columbia
 
@@ -17400,7 +17400,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 703
+Letter 719
 5 December 1865
 Columbia
 
@@ -17425,7 +17425,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 704
+Letter 720
 6 December 1865
 Columbia
 
@@ -17440,7 +17440,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 705
+Letter 721
 8 December 1865
 Columbia
 
@@ -17463,7 +17463,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 706
+Letter 722
 12 December 1865
 Columbia
 
@@ -17486,7 +17486,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 707
+Letter 723
 14 December 1865
 Columbia
 
@@ -17505,7 +17505,7 @@ My dear Lizzie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 708
+Letter 724
 16 December 1865
 Columnia
 
@@ -17539,7 +17539,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 709
+Letter 725
 Sunday, 17 December 1865
 Columbia
 
@@ -17562,7 +17562,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 710
+Letter 726
 Wednesday evening,  [ca. Dec. 1865]
 [Columbia]
 
@@ -17585,7 +17585,7 @@ My dear Lizie
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 711
+Letter 727
 11 February 1866
 Willards Hotel, [Washington]
 
@@ -17608,7 +17608,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 712
+Letter 728
 16 February 1866
 Washington
 
@@ -17621,7 +17621,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 714
+Letter 729
 18 February 1866
 Washington
 
@@ -17656,7 +17656,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 715
+Letter 730
 9 August [1866]
 Columbia
 
@@ -17687,7 +17687,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 716
+Letter 731
 18 August 1866
 Philadelphia
 
@@ -17710,7 +17710,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 717
+Letter 732
 2 September 1866
 Greenville
 
@@ -17728,7 +17728,7 @@ My dear Sir [Benson J. Lossing Esq.]
 
 	I am with great respect & consideration yours truly &c., B.F. Perry
 
-Letter 718
+Letter 733
 10 September 1866
 Greenville
 
@@ -17753,7 +17753,7 @@ My dear Son
 W.H. Perry
 [Columbia]
 
-Letter 719
+Letter 734
 28 September 1866
 
 	The Legislature of this State was convevened some weeks since by his Excellency Governor Orr to organize the District Court for the trial of negroes, & fighting a civil rights Bill placing them upon an equality with white persons in giving testimony & being tried, sueing &c.  I was called to Columbia during the first week of the session as a member of the Greenville Rail Road directors.  I had the pleasure of seeing a great many of the members and talking to them about the prospects of the country.  They were very despondent & I tried to cheer them up by telling them that I felt confident that the Fall Elections throughout the middle & northern & western States would go in favor of the administration.  This they did not seem disposed to believe.  I saw Ex governor Pickens & his lady on their return from Baltimore.  The Governor did not seem hopeful of the results of the northern Elections.  Neither did Judge Dawkins who had just returned from the north with his family.  I may be mistaken, but time will show who is right in his judgement.  I found my belief on the following grounds.  The political parties were nearly equally divided in the Election between Lincoln & McClellan.  The one recei[ve]d something over two millions & the other eighteen hundred thousand votes.  Since that time a large number of the leaders of the Republican party have come over to the administration.  The people are gitting tired of constant political excitement & agitation.  The Capitalists are becoming apprehensive that another civil war may ensue which would endanger all their government securities.  They have been assured that the Southern States do not desire repudiation of the national debt which they greatly apprehended at one time.  The masses of the northern people are not in favour of negro suffrage.  A large number of the Federal Generals have taken sides with the President.   Their convention at Cleveland adopted & endorsed the Proceedings of the Philadelphia Convention.
@@ -17772,7 +17772,7 @@ Letter 719
 
 	I have likewise been personally successful, at last, in my political aspirations.  In the course of twelve months I was district attorney, commissioner of Assessments & district Judge  under the Confederacy, Provisional Governor of the State under appointment of President Johnson & United States Senator by election of the Legislature of South Carolina.  It was said, by a friend, with great truth, that all of my honors came at once clustering around me.
 
-Letter 720
+Letter 735
 10 October 1866
 Greenville
 
@@ -17786,7 +17786,7 @@ Dear Madam [Mrs. Eliza R. Laurens]
 
 	I am with great respect & esteem.  Yours truly &c., B.F. Perry
 
-Letter 720
+Letter 736
 4 November 1866 
 Columbia
 
@@ -17815,7 +17815,7 @@ My dear Liz
 Mrs. Elizabethg Perry
 Greenville
 
-Letter 721
+Letter 737
 28 November 1866
 Greenville [Columbia?]
 
@@ -17830,7 +17830,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 722
+Letter 738
 29 November 1866
 Columbia
 
@@ -17859,7 +17859,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 723
+Letter 739
 2 December 1866
 Columbia
 
@@ -17894,7 +17894,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 724
+Letter 740
 6 March 1867
 Greenville
 
@@ -17904,7 +17904,7 @@ My dear Sir [Col. T. Edwin Ware]
 
        Please call & see me.  I am with great respect, yours truly, B.F. Perry
 
-Letter 725
+Letter 741
 5 July 1868
 New York
 
@@ -17931,7 +17931,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 726
+Letter 742
 7 July 1868
 New York
 
@@ -17962,7 +17962,7 @@ My dear Liz
 Mrs. Elizabeth Perry 
 Greenville
 
-Letter 727
+Letter 743
 10 July 1868
 New York
 
@@ -17985,7 +17985,7 @@ P.S. Tomorrow the girls go to Greenwood cemetery.
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 728
+Letter 744
 24 April 1870
 Greenville
 
@@ -18006,7 +18006,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 729
+Letter 745
 24 August 1870
 Greenville
 
@@ -18023,7 +18023,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 730
+Letter 746
 25 August 1870
 Greenville
 
@@ -18036,7 +18036,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 731
+Letter 747
 26 August 1870
 Greenville
 
@@ -18063,7 +18063,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 732
+Letter 748
 30 August 1870
 Greenville
 
@@ -18078,7 +18078,7 @@ Greenville
 Mrs. Elizabeth Perry 
 Sans Souci
 
-Letter 733
+Letter 749
 30 November 1870
 Greenville
 
@@ -18101,7 +18101,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 734
+Letter 750
 8 December 1870
 Greenville
 
@@ -18118,7 +18118,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 735
+Letter 751
 21 December 1870
 Greenville
 
@@ -18131,7 +18131,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 736
+Letter 752
 22 December 1870
 Greenville
 
@@ -18148,7 +18148,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Sans Souci
 
-Letter 737
+Letter 753
 2 October 1872
 Spartanburg C.H.
 
@@ -18165,7 +18165,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 738
+Letter 754
 6 October 1872
 Yorkville
 
@@ -18184,7 +18184,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Greenville
 
-Letter 739
+Letter 755
 10 October 1872
 Chester C.H.
 
@@ -18198,7 +18198,7 @@ My dear Liz
 	I begin to feel [Horace] Greel[e]y will be beaten.  Pennsylvania , Ohio & Indiana have gone against the Democrats!  But I will not despair of the Republic.  I have heard nothing from Home or Hext since you left.  I have made a great many friends here.  I do hope Hayne will get better.  A great many Radicals will vote for me.  Gov. Scott has said he wishes me to beat Wallace.  Your affect[ionate] husband, B.F. Perry
 Mrs. Elizabeth Perry
 
-Letter 740
+Letter 756
 13 October 1872
 Greenville
 
@@ -18212,7 +18212,7 @@ My dear Liz
 
 	I think Willies election pretty sure.  He is in Abbeville & will remain there till after the election.  I hear very favorable accounts of his success there & in Pickens.
 
-Letter 740
+Letter 757
 22 October 1872
 Greenville
 
@@ -18237,7 +18237,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Aiken
 
-Letter 741
+Letter 758
 23 October 1872
 Greenville
 
@@ -18260,7 +18260,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 Aiken
 
-Letter 742
+Letter 759
 26 October 1872
 Greenville
 
@@ -18276,7 +18276,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 743
+Letter 760
 23 October 1872
 Greenville
 
@@ -18297,7 +18297,7 @@ My dear Son
 Hayne Perry
 Aiken
 
-Letter 744
+Letter 761
 30 October 1872
 Greenville
 
@@ -18314,7 +18314,7 @@ My dear Son
 Hayne Perry
 Aiken
 
-Letter 745
+Letter 762
 3 November 1872
 Greenville
 
@@ -18337,7 +18337,7 @@ Greenville
 Hayne Perry
 Aiken
 
-Letter 746
+Letter 763
 8 November 1872
 Greenville
 
@@ -18362,7 +18362,7 @@ My dear Son
 Hayne Perry
 Aiken
 
-Letter 747
+Letter 764
 13 November 1872
 Greenville
 
@@ -18395,7 +18395,7 @@ My dear Son
 Hayne Perry
 Aiken
 
-Letter 748
+Letter 765
 24 August 1875
 Greenville
 
@@ -18408,7 +18408,7 @@ We should feel as proud of their great actions & cherish their memories as dearl
 
 	Why then, my dear sir, when it is proposed to do honor to the memories of these illustrious men, Southern men as well as Northern men, should we hesitate to unite in the celebration?  I am sure we love & venerate our patriots & heroes as much as the people of [incomplete]
 
-Letter 749
+Letter 766
 5 September 1876
 Greenville
 
@@ -18423,7 +18423,7 @@ My dear Liz
 Mrs. Elizabeth Perry
 [Sans Souci?]
 
-Letter 750
+Letter 767
 5 September 1876
 Greenville
 
@@ -18441,7 +18441,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 751
+Letter 768
 19 September 1876
 Greenville
 
@@ -18459,7 +18459,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 752
+Letter 769
 22 September 1876
 Greenville
 
@@ -18471,7 +18471,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 753
+Letter 770
 26 September 1876
 Greenville
 
@@ -18487,7 +18487,7 @@ My dear Liz
 
 Mrs. Elizabeth Perry
 
-Letter 754
+Letter 771
 28 September 1876
 Greenville
 
@@ -18510,7 +18510,7 @@ My dear Son
 W.H. Perry
 Philadelphia
 
-Letter 755
+Letter 772
 3 October 1877
 Greenville
 
@@ -18522,7 +18522,7 @@ My dear Sir [His Excellency Governor Hampton]
 
 	With great respect, I am truly yours &c., B.F. Perry
 
-Letter 756
+Letter 773
 27 April 1879
 Sans Souci
 
@@ -18535,7 +18535,7 @@ My dear little Grandchildren
 
 	I have an abiding confidence my dear little grandchildren that you will both do honor to your grandparents & to your dear father & mother.  Would to God, that I could hope to see you both grown & settled in life.  It would be the crowning wish of my heart.  Your affectionate loving grandfather, B.F. Perry
 
-Letter 757
+Letter 774
 1 March 1881
 Greenville
 
@@ -18553,7 +18553,7 @@ Mr. Editor
 
 	The agreement in favor of the Laurens road is that it will be the means of putting us in connection with the West.  How building a road thirty six miles in another & opposite direction is going to do this I am at a loss to concur.  We already have a rail road to Newberry, Columbia & Charleston & let us extend that road over the mountains.  If the people of Laurens wish to connect their road with ours we are very willing for them to do so though it will injure Greenville.  But we are not willing to be taxed to assist in injuring ourselves.  B.F. Perry
 
-Letter 758
+Letter 775
 27 April 1881
 Sans Souci
 
@@ -18562,7 +18562,7 @@ My dear daughter
 
 	Your mother & I thank you most affectionately for your magnificent present on the forty fourth anniversary of our wedding day.  Its value is greatly enhanced by knowing that it is the work of your own hands, a display of your own taste & ingenuity.  It is a beautiful cushion & whilst reposing on it we will ever think of our loving & affectionate daughter, who is endowed with genius, beauty & all the Christian virtues in an eminent degree.  I hope most sincerely that you & your most estimable husband may live to receive a similar present from our dear little Emily, on the forty fourth anniversary of your wedding, and that she may possess all her mothers loving dispositions genius beauty & accomplishments & be then as happily married as she is with a noble promising little son & a sweet beautiful little daughter.  Your affectionate & loving Father, B.F. Perry
 
-Letter 759
+Letter 776
 13 December 1881
 Columbia
 
@@ -18583,7 +18583,7 @@ P.S. Tell Fred to feed the fish.  I ordered another trio of Plymouth Rock chicke
 Benjamin Perry
 Greenville
 
-Letter 760
+Letter 777
 30 August 1882
 Lexington, Ky.
 
