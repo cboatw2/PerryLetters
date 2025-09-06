@@ -1,27 +1,22 @@
 import re
 import os
 
-# Path to the source file
 source_file = "BFPerryLetters_split.txt"
-
-# Output directory for individual letters
 output_dir = "BFPerryLettersSeparated"
 os.makedirs(output_dir, exist_ok=True)
 
-# Read the entire file
 with open(source_file, "r", encoding="utf-8") as f:
     text = f.read()
 
-# Regex to match each letter header and its content
+# Improved regex: match "Letter N" and all content until next "Letter N" or EOF
 letter_pattern = re.compile(
-    r"(Letter (\d+)[\s\S]*?)(?=Letter \d+|$)", re.MULTILINE
+    r"(Letter \d+[\s\S]*?)(?=Letter \d+|$)", re.MULTILINE
 )
 
-# Find all letters
 letters = letter_pattern.findall(text)
 
-for letter_content, letter_number in letters:
-    filename = f"BFPerry_Letter{letter_number}.txt"
+for idx, letter_content in enumerate(letters, 1):
+    filename = f"BFPerry_Letter{idx}.txt"
     filepath = os.path.join(output_dir, filename)
     with open(filepath, "w", encoding="utf-8") as out:
         out.write(letter_content.strip())
