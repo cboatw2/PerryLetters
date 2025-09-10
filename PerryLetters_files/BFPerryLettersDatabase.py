@@ -56,5 +56,7 @@ CREATE TABLE IF NOT EXISTS mentioned_people (
 )
 """)
 
+#cur.execute("SELECT location_id FROM location WHERE name=?", (name,))
+
 conn.commit()
 conn.close()
