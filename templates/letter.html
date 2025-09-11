@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letter {{ letter['letter_number'] }}</title>
+</head>
+<body>
+    <h1>Letter {{ letter['letter_number'] }}</h1>
+    <p><strong>Date:</strong> {{ letter['date'] }}</p>
+    <p><strong>Sent From:</strong> {{ letter['sent_from_location_id'] }}</p>
+    <p><strong>Sent To:</strong> {{ letter['sent_to_location_id'] }}</p>
+    <p><strong>Sender:</strong> {{ letter['sender_id'] }}</p>
+    <p><strong>Recipient:</strong> {{ letter['recipient_id'] }}</p>
+    <p><strong>File:</strong> {{ letter['file_path'] }}</p>
+    <hr>
+    <a href="{{ url_for('index') }}">Back to Letters List</a>
+</body>
+</html>
