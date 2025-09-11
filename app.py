@@ -1,4 +1,4 @@
-from flask import Flask, render_template, g
+from flask import Flask, render_template, g, request
 import sqlite3
 
 app = Flask(__name__)
@@ -44,6 +44,24 @@ def locations():
     cur.execute("SELECT * FROM location ORDER BY name")
     locations = cur.fetchall()
     return render_template("locations.html", locations=locations)
+
+@app.route("/search")
+def search():
+    query = request.args.get("query", "").strip()
+    cur = get_db().cursor()
+    # Search by person name or location name
+    cur.execute("""
+        SELECT letter.*
+        FROM letter
+        LEFT JOIN people AS sender ON letter.sender_id = sender.person_id
+        LEFT JOIN people AS recipient ON letter.recipient_id = recipient.person_id
+        LEFT JOIN location AS from_loc ON letter.sent_from_location_id = from_loc.location_id
+        LEFT JOIN location AS to_loc ON letter.sent_to_location_id = to_loc.location_id
+        WHERE sender.name LIKE ? OR recipient.name LIKE ? OR from_loc.name LIKE ? OR to_loc.name LIKE ?
+        ORDER BY letter.letter_number
+    """, (f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"))
+    letters = cur.fetchall()
+    return render_template("index.html", letters=letters, query=query)
 
 if __name__ == "__main__":
     app.run(debug=True)

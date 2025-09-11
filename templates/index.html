@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>B.F. Perry Letters</title></head>
+<body>
+<h1>Letters</h1>
+<form method="get" action="{{ url_for('search') }}">
+  <input type="text" name="query" placeholder="Search by person or location">
+  <button type="submit">Search</button>
+</form>
+{% if query %}
+  <h2>Search results for "{{ query }}"</h2>
+{% endif %}
+<ul>
+{% for letter in letters %}
+  <li>
+    <a href="{{ url_for('letter', letter_id=letter['id']) }}">
+      Letter {{ letter['letter_number'] }} ({{ letter['date'] }})
+    </a>
+  </li>
+{% endfor %}
+</ul>
+</body>
+</html>
