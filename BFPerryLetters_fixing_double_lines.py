@@ -15,7 +15,22 @@ with open(input_file, "r", encoding="utf-8") as f:
         else:
             output_lines.append(line + '\n')
 
-with open(output_file, "w", encoding="utf-8") as f:
-    f.writelines(output_lines)
+# Overwrite lines without a letter_number and change entity_type from PERSON to LOCATION
+final_output_lines = []
+for line in output_lines:
+    parts = line.rstrip('\n').split(',')
+    # Skip header
+    if line.startswith("letter_number,entity_name,entity_type"):
+        final_output_lines.append(line)
+        continue
+    # If letter_number is missing or not a digit, change entity_type to LOCATION
+    if (not parts[0].isdigit()) and len(parts) == 3 and parts[2] == "PERSON":
+        parts[2] = "LOCATION"
+        final_output_lines.append(','.join(parts) + '\n')
+    else:
+        final_output_lines.append(line if line.endswith('\n') else line + '\n')
 
-print(f"Fixed lines saved to {output_file}.")
+with open(output_file, "w", encoding="utf-8") as f:
+    f.writelines(final_output_lines)
+
+print(f"Processed file overwritten: {output_file}")
