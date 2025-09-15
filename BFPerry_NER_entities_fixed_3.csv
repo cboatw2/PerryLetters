@@ -1,5 +1,4 @@
 letter_number,entity_name,entity_type
-
 111,Laurens C.H.,PERSON
 111,Liz,PERSON
 111,Joseph Rogers,PERSON
@@ -8,7 +7,7 @@ letter_number,entity_name,entity_type
 111,Box,PERSON
 111,Pendleton,LOCATION
 111,Saluda,PERSON
-111,John C.  Norriss&,PERSON
+111,John C.  Norriss,PERSON
 111,Orr,PERSON
 111,Anderson,PERSON
 111,Browns,PERSON
@@ -27,7 +26,6 @@ letter_number,entity_name,entity_type
 111,Ennoree,LOCATION
 111,Laurens,PERSON
 111,Liz,PERSON
-111,Kiss,PERSON
 111,B.F. Perry,PERSON
 111,Elizabeth Perry,PERSON
 111,Greenville,LOCATION
@@ -74,7 +72,6 @@ letter_number,entity_name,entity_type
 80,Tompson,PERSON
 80,Keiths,PERSON
 80,William,PERSON
-80,Kiss,PERSON
 80,Will,PERSON
 80,B.F. Perry,PERSON
 80,Elizabeth Perry,PERSON
@@ -118,7 +115,6 @@ letter_number,entity_name,entity_type
 139,Willie,PERSON
 139,Willie,PERSON
 139,B.F. Perry,PERSON
-139,P.S.,LOCATION
 139,Stuart,PERSON
 139,Smith,PERSON
 139,Elizabeth Perry,PERSON
@@ -145,7 +141,7 @@ letter_number,entity_name,entity_type
 43,Elizabeth McCall,PERSON
 43,Said,PERSON
 43,John Q. Adams,PERSON
-43,[George] McDuffie,PERSON
+43,George McDuffie,PERSON
 43,Perry,PERSON
 43,Greenville,LOCATION
 43,S.C.,LOCATION
@@ -286,7 +282,7 @@ letter_number,entity_name,entity_type
 273,William Aiken,PERSON
 273,Owens,PERSON
 273,William Ferguson,PERSON
-273,Samuel] McGowan,PERSON
+273,Samuel McGowan,PERSON
 273,Petigru,PERSON
 273,Bonham,PERSON
 273,Isaac Hayne,PERSON
@@ -320,7 +316,7 @@ letter_number,entity_name,entity_type
 298,Greenville,LOCATION
 298,Liz,PERSON
 298,Thornwell,PERSON
-298,James Louis] Petigru & Dr.,PERSON
+298,James Louis Petigru,PERSON
 298,Tre,PERSON
 298,Patriot,PERSON
 298,Luther McBee,PERSON
@@ -394,7 +390,7 @@ letter_number,entity_name,entity_type
 702,Arthur,PERSON
 702,Janney,PERSON
 702,Mills,PERSON
-702,& Governor,LOCATION
+702,Governor,LOCATION
 702,B.F. Perry,PERSON
 702,Elizabeth Perry,PERSON
 702,Greenville,LOCATION
@@ -432,7 +428,7 @@ letter_number,entity_name,entity_type
 272,Liz,PERSON
 272,Willie,PERSON
 272,Anna,PERSON
-272,William R.] Taber,PERSON
+272,William R. Taber,PERSON
 272,Thompson,PERSON
 272,B.F. Perry,PERSON
 272,Elizabeth Perry,PERSON
@@ -482,7 +478,6 @@ letter_number,entity_name,entity_type
 306,B.F. Perry,PERSON
 306,Elizabeth Perry,PERSON
 306,Greenville,LOCATION
-460,Letter 460,PERSON
 460,Anna,PERSON
 460,Greenville,LOCATION
 460,Philadelphia,LOCATION
@@ -518,7 +513,7 @@ letter_number,entity_name,entity_type
 689,Magrath,PERSON
 689,Preston,PERSON
 689,Magrath,LOCATION
-689,William J.] Hardee,PERSON
+689,William J. Hardee,PERSON
 689,Sherman,PERSON
 689,Sherman,PERSON
 689,Pickens,PERSON
@@ -540,7 +535,7 @@ letter_number,entity_name,entity_type
 42,Benton,PERSON
 42,Benton,PERSON
 42,Benton,PERSON
-42,[William Lowndes],PERSON
+42,William Lowndes,PERSON
 42,Yancey,PERSON
 42,Benton,PERSON
 42,Freemont,PERSON
@@ -553,16 +548,15 @@ letter_number,entity_name,entity_type
 42,James Diament,PERSON
 42,Calhoun,LOCATION
 42,Webster,PERSON
-42,John Adams] Dix,PERSON
+42,John Adams Dix,PERSON
 42,New York,LOCATION
-42,John] Davis,PERSON
+42,John Davis,PERSON
 42,Massachusetts,LOCATION
 42,William Segar,PERSON
 42,Benton,PERSON
 42,Mountaineer,PERSON
 42,Yancey,PERSON
-42,Kiss,PERSON
-42,Lizyour,LOCATION
+42,Liz,LOCATION
 42,B.F. Perry,PERSON
 42,Elizabeth Perry,PERSON
 42,Greenville,LOCATION
@@ -580,7 +574,6 @@ letter_number,entity_name,entity_type
 56,Rowlands,PERSON
 56,Abbeville,LOCATION
 56,Abbeville,LOCATION
-56,Kiss,PERSON
 56,Frank,PERSON
 56,Skylark,PERSON
 56,Tell,PERSON
@@ -588,14 +581,15 @@ letter_number,entity_name,entity_type
 56,B.F. Perry,PERSON
 56,Elizabeth Perry,PERSON
 56,Greenville,LOCATION
-138,138,PERSON
 138,Laurens C.H.,PERSON
 138,Liz,PERSON
 138,Cunningham,PERSON
-138,Nashe vs Rodgers,PERSON
+138,Nashe,PERSON
+138,Rodgers,PERSON
 138,Hudgens,LOCATION
 138,Kennedy,PERSON
-138,Anderson & Neeley,PERSON
+138,Anderson,PERSON
+138,Neeley,PERSON
 138,Cunninghams,PERSON
 138,Moore,PERSON
 138,Charleston,LOCATION
@@ -605,7 +599,6 @@ letter_number,entity_name,entity_type
 138,Williams,PERSON
 138,Williams,PERSON
 138,Nance,PERSON
-138,Kiss,PERSON
 138,B.F. Perry,PERSON
 138,Elizabeth Perry,PERSON
 138,Greenville,LOCATION
@@ -613,8 +606,7 @@ letter_number,entity_name,entity_type
 81,Liz,PERSON
 81,Elford,PERSON
 81,Willie,PERSON
-81,Tell Jim,PERSON
-81,Kiss,PERSON
+81,Jim,PERSON
 81,B.F. Perry,PERSON
 81,Elizabeth Perry,PERSON
 81,Greenville,LOCATION
@@ -646,7 +638,7 @@ letter_number,entity_name,entity_type
 104,Said Col,PERSON
 104,Williams,PERSON
 104,Anderson,PERSON
-104,taylor,PERSON
+104,Taylor,PERSON
 104,Williams,PERSON
 104,Miss Earle,PERSON
 104,Newberry,PERSON
@@ -659,7 +651,6 @@ letter_number,entity_name,entity_type
 104,Elford,PERSON
 104,Charleston,LOCATION
 104,Brown,PERSON
-104,P.M.,PERSON
 104,B.F. Perry,PERSON
 104,Elizabeth Perry,PERSON
 104,Greenville,LOCATION
@@ -717,7 +708,7 @@ letter_number,entity_name,entity_type
 106,Whigs,PERSON
 106,Burt,PERSON
 106,Pickens,PERSON
-106,Tell Jim,PERSON
+106,Jim,PERSON
 106,Laurens,PERSON
 106,B.F. Perry,PERSON
 106,Elizabeth Perry,PERSON
@@ -727,9 +718,9 @@ letter_number,entity_name,entity_type
 660,Martin,PERSON
 660,ONeall,PERSON
 660,Gettysburg,LOCATION
-660,Pen[n]sylvania,LOCATION
+660,Pennsylvania,LOCATION
 660,Wilie,PERSON
-660,Tell Alfred,PERSON
+660,Alfred,PERSON
 660,B.F. Perry,PERSON
 660,Elizabeth Perry,PERSON
 660,Glencoe,LOCATION
@@ -741,14 +732,14 @@ letter_number,entity_name,entity_type
 97,Broach,PERSON
 97,Anne,PERSON
 97,Jones,PERSON
-97,Tell Anna,PERSON
+97,Anna,PERSON
 97,Frank,PERSON
 97,Fanny,PERSON
 97,B.F.,LOCATION
 674,Liz,PERSON
 674,Elford,PERSON
 674,Frank McBee,PERSON
-674,Tell Vardry,PERSON
+674,Vardry,PERSON
 674,Tench Pool,PERSON
 674,Taylor,PERSON
 674,B.F. Perry,PERSON
@@ -762,7 +753,6 @@ letter_number,entity_name,entity_type
 112,Pendleton,LOCATION
 112,Anderson,PERSON
 112,B.F. Perry,PERSON
-112,P.S.,LOCATION
 112,Elizabeth Perry,PERSON
 112,Greenville,LOCATION
 648,Liz,PERSON
@@ -804,19 +794,18 @@ letter_number,entity_name,entity_type
 40,Poinsett,PERSON
 40,Poinsett,PERSON
 40,Yancey,PERSON
-40,Richard F.] Simpson,PERSON
-40,Isaac] Holmes,PERSON
-40,James] Black,PERSON
-40,Joseph] Woodward &,PERSON
+40,Richard F. Simpson,PERSON
+40,Isaac Holmes,PERSON
+40,James Black,PERSON
+40,Joseph Woodward,PERSON
 40,Thompson,PERSON
-40,John J.] Crittenden of,PERSON
+40,John J. Crittenden,PERSON
 40,Kentucky,LOCATION
-40,William S.] Archer,PERSON
+40,William S. Archer,PERSON
 40,Calhoun,PERSON
 40,McDuffie,PERSON
 40,Benton,PERSON
 40,Washington,LOCATION
-40,Kiss,PERSON
 40,B.F. Perry,PERSON
 40,Elizabeth Perry,PERSON
 40,Greenville,LOCATION
@@ -843,7 +832,6 @@ letter_number,entity_name,entity_type
 54,Jones,PERSON
 54,Rowland,PERSON
 54,Butler,PERSON
-54,Kiss,PERSON
 54,B.F. Perry,PERSON
 54,Elizabeth Perry,PERSON
 54,Greenville,LOCATION
@@ -852,12 +840,12 @@ letter_number,entity_name,entity_type
 68,Thomas Butler,PERSON
 68,William Rowland,PERSON
 68,Simms,PERSON
-68,Trustees of,PERSON
+68,Trustees,PERSON
 68,Gibbs,PERSON
 68,Goodwin,PERSON
 68,McCord,PERSON
 68,Frank,PERSON
-68,Tell Anna,PERSON
+68,Anna,PERSON
 68,Walker,PERSON
 68,Bob Spurgeon,PERSON
 68,Bob,PERSON
@@ -891,7 +879,7 @@ letter_number,entity_name,entity_type
 304,Elizabeth Perry,PERSON
 304,Greenville,LOCATION
 310,Liz,PERSON
-310,George Alfred],PERSON
+310,George Alfred,PERSON
 310,Blue Ridge,LOCATION
 310,Bill,PERSON
 310,Whitner,PERSON
@@ -914,7 +902,7 @@ letter_number,entity_name,entity_type
 476,Nance,PERSON
 476,Wiley,PERSON
 476,Col Wares,PERSON
-476,marry Arnold,PERSON
+476,Arnold,PERSON
 476,Arnold,PERSON
 476,B.F. Perry,PERSON
 476,W.H. Perry,PERSON
@@ -924,7 +912,7 @@ letter_number,entity_name,entity_type
 338,G.M. Thorp,PERSON
 338,Blake,PERSON
 338,Kingsville,LOCATION
-338,Suzanne Mandeville] Sparks,PERSON
+338,Suzanne Mandeville Sparks,PERSON
 338,Perry,PERSON
 338,Blake,PERSON
 338,Perry,PERSON
@@ -956,7 +944,7 @@ letter_number,entity_name,entity_type
 489,Greenville,LOCATION
 516,Greenville,LOCATION
 516,Robert Foster,PERSON
-516,Patriot,PERSON
+516,Patriot,LOCATION
 516,Willie,PERSON
 516,Annapolis,PERSON
 516,B.F. Perry,PERSON
@@ -1020,7 +1008,7 @@ letter_number,entity_name,entity_type
 258,College,LOCATION
 258,Brumby,PERSON
 258,McCall,PERSON
-258,W  Hayne,PERSON
+258,W.  Hayne,PERSON
 258,Hayne,PERSON
 258,Willie,PERSON
 258,Brown,PERSON
@@ -1068,7 +1056,7 @@ letter_number,entity_name,entity_type
 700,Elford,PERSON
 700,Buist,PERSON
 700,Johnson,PERSON
-700,South Carolina &,LOCATION
+700,South Carolina,LOCATION
 700,South Carolina,LOCATION
 700,B.F. Perry,PERSON
 700,Elizabeth Perry,PERSON
@@ -1084,11 +1072,10 @@ letter_number,entity_name,entity_type
 728,New Orleans,LOCATION
 728,New Orleans,LOCATION
 728,Patterson,PERSON
-728,S.,PERSON
-728,William Lewis] Sharkey,PERSON
-728,M.  Governor,PERSON
+728,William Lewis Sharkey,PERSON
+728,M. Governor,PERSON
 728,Sharkey,PERSON
-728,W[illiam] H[enry] Foote,PERSON
+728,W[illiam Henry Foote,PERSON
 728,Bookman,PERSON
 728,Perry,PERSON
 728,S.C.,LOCATION
@@ -1096,7 +1083,6 @@ letter_number,entity_name,entity_type
 728,Elford,PERSON
 728,Miss Walker,PERSON
 728,Elford,PERSON
-728,Tues,PERSON
 728,B.F. Perry,PERSON
 728,Elizabeth Perry,PERSON
 728,Greenville,LOCATION
@@ -1139,7 +1125,7 @@ letter_number,entity_name,entity_type
 259,Liz,PERSON
 259,Patriot,PERSON
 259,Irby,PERSON
-259,Samuel Henry] Dickson,PERSON
+259,Samuel Henry Dickson,PERSON
 259,King,PERSON
 259,John Cunningham,PERSON
 259,Cunningham,PERSON
@@ -1155,7 +1141,7 @@ letter_number,entity_name,entity_type
 259,Liz,PERSON
 259,Edward Hayne,PERSON
 259,Arthur Hayne,PERSON
-259,WHayne,PERSON
+259,W. Hayne,PERSON
 259,Hayne,PERSON
 259,Turner,PERSON
 259,Arthur,PERSON
@@ -1186,7 +1172,7 @@ letter_number,entity_name,entity_type
 503,Annapolis,LOCATION
 517,Greenville,LOCATION
 517,Decatur,PERSON
-517,nelson,PERSON
+517,Nelson,PERSON
 517,Jones,PERSON
 517,Thomas,PERSON
 517,West Point,LOCATION
@@ -1210,7 +1196,7 @@ letter_number,entity_name,entity_type
 271,Chesnut,PERSON
 271,Evans,PERSON
 271,Petigru,PERSON
-271,Julia A.] Hext,PERSON
+271,Julia A. Hext,PERSON
 271,Brooks,PERSON
 271,Brooks,PERSON
 271,Darlington,LOCATION
@@ -1244,7 +1230,7 @@ letter_number,entity_name,entity_type
 339,Frank,PERSON
 339,Frank,PERSON
 339,Frank,PERSON
-339,martin,PERSON
+339,Martin,PERSON
 339,Preston Brooks,PERSON
 339,Washington,LOCATION
 339,South Carolina,LOCATION
@@ -1257,7 +1243,7 @@ letter_number,entity_name,entity_type
 339,Elizabeth Perry,PERSON
 339,Greenville,LOCATION
 311,Liz,PERSON
-311,[Thomas Martin] Wagner,PERSON
+311,Thomas Martin Wagner,PERSON
 311,Bill,PERSON
 311,Anna,PERSON
 311,Charleston,LOCATION
@@ -1278,7 +1264,7 @@ letter_number,entity_name,entity_type
 477,Arthur,PERSON
 477,Willie Beattie,PERSON
 477,Sallie Cleveland,PERSON
-477,Episcopal,PERSON
+477,Episcopal,LOCATION
 477,Willie,LOCATION
 477,B.F. Perry,PERSON
 477,Frank Perry,PERSON
@@ -1293,7 +1279,7 @@ letter_number,entity_name,entity_type
 463,Arthur,PERSON
 463,Fanny,PERSON
 463,Orr,PERSON
-463,John Durant] Ashmore,PERSON
+463,John Durant Ashmore,PERSON
 463,Anderson,PERSON
 463,Jones,PERSON
 463,Dawkins,PERSON
@@ -1324,13 +1310,12 @@ letter_number,entity_name,entity_type
 305,Greenville,LOCATION
 69,Liz,PERSON
 69,Thompson,PERSON
-69,James H.] Irby,PERSON
+69,James H. Irby,PERSON
 69,Maria,PERSON
 69,Dawkins,PERSON
 69,Irby,LOCATION
 69,Henry,PERSON
 69,Withers,PERSON
-69,Kiss,PERSON
 69,B.F. Perry,PERSON
 69,Elizabeth Perry,PERSON
 69,Greenville,LOCATION
@@ -1403,7 +1388,6 @@ letter_number,entity_name,entity_type
 96,Hunt,PERSON
 96,Orr,PERSON
 96,Wallace,PERSON
-96,Kiss,PERSON
 96,B.F. Perry,PERSON
 96,Elizabeth Perry,PERSON
 96,Greenville,LOCATION
@@ -1428,7 +1412,7 @@ letter_number,entity_name,entity_type
 675,Grant,PERSON
 675,Herald,PERSON
 675,Ben Goodlettsnone,PERSON
-675,Tell Hext,PERSON
+675,Hext,PERSON
 675,B.F. Perry,PERSON
 675,Elizabeth Perry,PERSON
 675,Greenville,LOCATION
@@ -1617,7 +1601,7 @@ letter_number,entity_name,entity_type
 117,Elias Earle,PERSON
 117,Jones,PERSON
 117,Dawkins,PERSON
-117,Church,PERSON
+117,Church,LOCATION
 117,B.F. Perry,PERSON
 117,Elizabeth Perry,PERSON
 117,Greenville,LOCATION
@@ -1628,9 +1612,9 @@ letter_number,entity_name,entity_type
 671,Lee,PERSON
 671,James Perrin,PERSON
 671,Jones,PERSON
-671,Tell Susan,PERSON
-671,Tell Fannie,PERSON
-671,Hallie C.  Your,PERSON
+671,Susan,PERSON
+671,Fannie,PERSON
+671,Hallie C. Your,PERSON
 671,B.F. Perry,PERSON
 671,Elizabeth Perry,PERSON
 671,Greenville,LOCATION
@@ -1645,7 +1629,7 @@ letter_number,entity_name,entity_type
 92,Withers,PERSON
 92,Ball,PERSON
 92,Nathaniel Ridley,PERSON
-92,John A.] Quitman,PERSON
+92,John A. Quitman,PERSON
 92,Prior,PERSON
 92,Howard,PERSON
 92,Greenville,LOCATION
@@ -1655,15 +1639,15 @@ letter_number,entity_name,entity_type
 79,Anderson,PERSON
 79,Liz,PERSON
 79,Pendleton,LOCATION
-79,[John C.] Calhoun &,PERSON
+79,John C. Calhoun,PERSON
 79,Sharp,PERSON
 79,Keith,PERSON
 79,Pickens,PERSON
 79,Sloan,PERSON
 79,Webb,PERSON
-79,James L.] Orr,PERSON
+79,James L. Orr,PERSON
 79,Perrin,PERSON
-79,Joseph N.] Whitner,PERSON
+79,Joseph N. Whitner,PERSON
 79,Roper,PERSON
 79,Greenville,LOCATION
 79,Isaac Henry,PERSON
@@ -1674,7 +1658,6 @@ letter_number,entity_name,entity_type
 79,Charles,PERSON
 79,Thompson,PERSON
 79,Pickens,PERSON
-79,Kiss,PERSON
 79,B.F. Perry,PERSON
 79,Elizabeth Perry,PERSON
 79,Greenville,LOCATION
@@ -1720,7 +1703,7 @@ letter_number,entity_name,entity_type
 51,Edwards,PERSON
 51,Silliman,PERSON
 51,Day,PERSON
-51,McCallenquired,PERSON
+51,McCall,PERSON
 51,Day,PERSON
 51,McCall,PERSON
 51,Edwards,PERSON
@@ -1732,7 +1715,6 @@ letter_number,entity_name,entity_type
 51,Rodgers,PERSON
 51,Boston,LOCATION
 51,New York,LOCATION
-51,Kiss,PERSON
 51,B.F. Perry,PERSON
 51,Elizabeth Perry,PERSON
 51,Greenville,LOCATION
@@ -1755,7 +1737,7 @@ letter_number,entity_name,entity_type
 329,Elizabeth Perry,PERSON
 329,Greenville,LOCATION
 301,Thornwell,PERSON
-301,Patriot,PERSON
+301,Patriot,LOCATION
 301,Greenville,LOCATION
 301,Grecian Temple,PERSON
 301,Miss Brenan,PERSON
@@ -1777,8 +1759,8 @@ letter_number,entity_name,entity_type
 467,Miller,PERSON
 467,Hamlin Beatty,PERSON
 467,Sally Cleveland,PERSON
-467,MissMcBee,PERSON
-467,Patriot,PERSON
+467,Miss McBee,PERSON
+467,Patriot,LOCATION
 467,B.F. Perry,PERSON
 467,Frank Perry,PERSON
 467,Annapolis,LOCATION
@@ -1827,7 +1809,7 @@ letter_number,entity_name,entity_type
 249,Elford,PERSON
 249,Washington,LOCATION
 249,Susan,PERSON
-249,Patriot,PERSON
+249,Patriot,LOCATION
 249,B.F. Perry,PERSON
 249,Elizabeth Perry,PERSON
 249,Greenville,LOCATION
@@ -1889,7 +1871,7 @@ letter_number,entity_name,entity_type
 261,McBee,PERSON
 261,Butler,PERSON
 261,Willie,PERSON
-261,Tell Reuben,PERSON
+261,Reuben,PERSON
 261,Marion,LOCATION
 261,B.F. Perry,PERSON
 261,Elizabeth Perry,PERSON
@@ -1901,7 +1883,6 @@ letter_number,entity_name,entity_type
 739,Manning,PERSON
 739,Douglass,PERSON
 739,Fairfield,LOCATION
-739,Resolutions,PERSON
 739,Jeff Davis,PERSON
 739,Hext,PERSON
 739,Willie,PERSON
@@ -1972,7 +1953,7 @@ letter_number,entity_name,entity_type
 704,Trenholm,LOCATION
 704,Stephen Elliott,PERSON
 704,Wade Hampton,PERSON
-704,] F. McCaw of,PERSON
+704,F. McCaw,PERSON
 704,Harrison,PERSON
 704,Anderson,PERSON
 704,Trescott,PERSON
@@ -2028,7 +2009,7 @@ letter_number,entity_name,entity_type
 738,Columbia,LOCATION
 738,Bryce,PERSON
 738,Bryan,PERSON
-738,Charlestonhim,LOCATION
+738,Charleston,LOCATION
 738,Trenholm,LOCATION
 738,Martin,PERSON
 738,Isaac Hayne.,PERSON
@@ -2056,9 +2037,9 @@ letter_number,entity_name,entity_type
 506,Annapolis,PERSON
 260,Liz,PERSON
 260,Washington,LOCATION
-260,Patriot,PERSON
-260,Patriot,PERSON
-260,Henry &,PERSON
+260,Patriot,LOCATION
+260,Patriot,LOCATION
+260,Henry,PERSON
 260,Arthur P. Hayne,PERSON
 260,Robinson,PERSON
 260,Spratt,PERSON
@@ -2099,8 +2080,8 @@ letter_number,entity_name,entity_type
 274,Greenville,LOCATION
 512,Greenville,LOCATION
 512,Gaillard,PERSON
-512,Patriot,PERSON
-512,Mountaineer,PERSON
+512,Patriot,LOCATION
+512,Mountaineer,LOCATION
 512,Gaillard,PERSON
 512,Anna,PERSON
 512,Anna,LOCATION
@@ -2110,7 +2091,7 @@ letter_number,entity_name,entity_type
 248,Washington City,LOCATION
 248,Liz,PERSON
 248,Washington,LOCATION
-248,George A.] Gardiner,PERSON
+248,George A. Gardiner,PERSON
 248,Gardiners,PERSON
 248,B.F. Perry,PERSON
 248,Elizabeth Perry,PERSON
@@ -2223,10 +2204,9 @@ letter_number,entity_name,entity_type
 44,Breakfast,LOCATION
 44,Philadelphia,LOCATION
 44,New York,LOCATION
-44,West Point&c,LOCATION
+44,West Point,LOCATION
 44,Susan,PERSON
 44,McBee,PERSON
-44,Kiss,PERSON
 44,B.F. Perry,PERSON
 44,Elizabeth Perry,PERSON
 44,Greenville,LOCATION
@@ -2266,7 +2246,7 @@ letter_number,entity_name,entity_type
 670,Wiley,PERSON
 670,Johny,PERSON
 670,Charley,PERSON
-670,Tell Alfred,PERSON
+670,Alfred,PERSON
 670,Boyce,PERSON
 670,Earle,PERSON
 670,Williamston,LOCATION
@@ -2288,9 +2268,9 @@ letter_number,entity_name,entity_type
 93,Richardson,PERSON
 93,Harpers,PERSON
 93,Fanny,PERSON
-93,Tell Anna,PERSON
-93,Tell Frank,PERSON
-93,Tell Willie,PERSON
+93,Anna,PERSON
+93,Frank,PERSON
+93,Willie,PERSON
 93,B.F. Perry,PERSON
 93,Elizabeth Perry,PERSON
 93,Greenville,LOCATION
@@ -2300,26 +2280,24 @@ letter_number,entity_name,entity_type
 87,Georgia,LOCATION
 87,Harralson,PERSON
 87,South Carolina,LOCATION
-87,Franklin J.] Moses,PERSON
+87,Franklin J. Moses,PERSON
 87,Dargan,PERSON
-87,John Smyth] Richardson,PERSON
+87,John Smyth Richardson,PERSON
 87,Allen,PERSON
 87,Thomas E.] Ware,PERSON
 87,Richard F. Simpson,PERSON
 87,Anderson C.H.,PERSON
 87,Broyles,PERSON
-87,{Joel Roberts] Poinsett,PERSON
+87,Joel Roberts Poinsett,PERSON
 87,Waldo,PERSON
 87,Edward,PERSON
-87,Tell Wille,PERSON
+87,Wille,PERSON
 87,Edwin P. Jones,PERSON
 87,Equity,LOCATION
 87,Jones,PERSON
-87,Kiss,PERSON
 87,B.F. Perry,PERSON
 87,Elizabeth Perry,PERSON
 87,Greenville,LOCATION
-664,Letter 664,PERSON
 664,Martinsburg,PERSON
 664,Richmond,LOCATION
 664,Richmond,LOCATION
@@ -2428,19 +2406,17 @@ letter_number,entity_name,entity_type
 91,Benedict Arnold,PERSON
 91,Whitemarsh B. Seabrook,PERSON
 91,Archey,LOCATION
-91,B.F.,LOCATION
 91,Elizabeth Perry,PERSON
 91,Columbia,LOCATION
 672,Liz,PERSON
 672,Duncan Brooks,PERSON
 672,Wallace Thompson,PERSON
-672,Sermon,PERSON
 672,Pickens,PERSON
 672,Pickens,PERSON
 672,Janneys,PERSON
 672,Dunkin,PERSON
 672,Hext,PERSON
-672,Tell Edward,PERSON
+672,Edward,PERSON
 672,John,PERSON
 672,Easleys,PERSON
 672,Perry Duncan,PERSON
@@ -2449,7 +2425,7 @@ letter_number,entity_name,entity_type
 672,Tell Fannie,PERSON
 672,Elford,PERSON
 672,Elford,PERSON
-672,Husband,LOCATION
+672,Husband,PERSON
 672,B.F. Perry,PERSON
 672,Elizabeth Perry,PERSON
 672,Greenville,LOCATION
@@ -2509,7 +2485,7 @@ letter_number,entity_name,entity_type
 666,Charley,PERSON
 666,Bill,PERSON
 666,Monarch,PERSON
-666,Andrew Gordon] Magrath,PERSON
+666,Andrew Gordon Magrath,PERSON
 666,Sitton,PERSON
 666,Thompson,PERSON
 666,Willie,PERSON
@@ -2521,8 +2497,7 @@ letter_number,entity_name,entity_type
 666,Trenholm,LOCATION
 666,Charleston,LOCATION
 666,Hext,PERSON
-666,G.,PERSON
-666,Husband,LOCATION
+666,Husband,PERSON
 666,B.F. Perry,PERSON
 666,Elizabeth Perry,PERSON
 666,Glencoe,LOCATION
@@ -2533,7 +2508,7 @@ letter_number,entity_name,entity_type
 85,Taylor,PERSON
 85,Isaac Hayne,PERSON
 85,Gilmore Simms,PERSON
-85,Tell Anne,PERSON
+85,Anne,PERSON
 85,Martin,PERSON
 85,Patterson,PERSON
 85,Kohls Russia,PERSON
@@ -2548,7 +2523,7 @@ letter_number,entity_name,entity_type
 85,Haynesworth,LOCATION
 85,Whitner,PERSON
 85,Thompson,PERSON
-85,James Lawrence] Orr,PERSON
+85,James Lawrence Orr,PERSON
 85,Newberry,PERSON
 85,Orr,PERSON
 85,Greenville,LOCATION
@@ -2614,8 +2589,8 @@ letter_number,entity_name,entity_type
 52,Butler,PERSON
 52,New London,LOCATION
 52,New York,LOCATION
-52,Tell Susan,PERSON
-52,Tell Will,PERSON
+52,Susan,PERSON
+52,Will,PERSON
 52,B.F. Perry,PERSON
 52,Elizabeth Perry,PERSON
 52,Greenville,LOCATION
@@ -2692,7 +2667,7 @@ letter_number,entity_name,entity_type
 302,Elizabeth Perry,PERSON
 302,Greenville,LOCATION
 538,Boston,LOCATION
-538,Patriot,PERSON
+538,Patriot,LOCATION
 538,Edward Stokes,PERSON
 538,Frank,PERSON
 538,Patriot,PERSON
@@ -2744,7 +2719,6 @@ letter_number,entity_name,entity_type
 289,Fillmore,PERSON
 289,Columbia,LOCATION
 289,Greenville,LOCATION
-289,&,PERSON
 289,Elford,PERSON
 289,McDaniel,PERSON
 289,Hext,PERSON
@@ -2758,7 +2732,7 @@ letter_number,entity_name,entity_type
 706,Herbemont,PERSON
 706,Pickens,PERSON
 706,J.B. Campbell,PERSON
-706,Christopher William] Dudley,PERSON
+706,Christopher William Dudley,PERSON
 706,Heyward,PERSON
 706,B.F. Perry,PERSON
 706,Elizabeth Perry,PERSON
@@ -2768,13 +2742,13 @@ letter_number,entity_name,entity_type
 712,Manning,PERSON
 712,Greenville,LOCATION
 712,Manning,PERSON
-712,Charles Henry] Simonton,PERSON
+712,Charles Henry Simonton,PERSON
 712,Buist,PERSON
 712,Frank Porcher,PERSON
 712,Johnson,PERSON
 712,Pickens,PERSON
 712,Pickens,PERSON
-712,a P. Script,PERSON
+712,A P. Script,PERSON
 712,B.F. Perry,PERSON
 712,P.S.,LOCATION
 712,Manning,PERSON
@@ -2796,12 +2770,11 @@ letter_number,entity_name,entity_type
 707,Hampton,PERSON
 707,Orr,PERSON
 707,Trenholm,PERSON
-707,Martin Clerk &,PERSON
+707,Martin Clerk,PERSON
 707,Trescot,PERSON
 707,Washington,LOCATION
 707,New York,LOCATION
 707,U.S.,LOCATION
-707,&c.,PERSON
 707,LeContes,PERSON
 707,Janney,PERSON
 707,New York,LOCATION
@@ -2832,7 +2805,7 @@ letter_number,entity_name,entity_type
 511,Annapolis,LOCATION
 277,Liz,PERSON
 277,Taber,PERSON
-277,Patriot,PERSON
+277,Patriot,LOCATION
 277,Anna,PERSON
 277,Anna,PERSON
 277,Anna,PERSON
@@ -2874,7 +2847,8 @@ letter_number,entity_name,entity_type
 539,Alfred,PERSON
 539,Spartan Goodlett,PERSON
 539,Sally Crook,PERSON
-539,EdgefieldRobert Dav,PERSON
+539,Edgefield,LOCATION
+539,Robert Dav,PERSON
 539,Beaufort,LOCATION
 539,Irvine,PERSON
 539,Pinckney,PERSON
@@ -2931,7 +2905,6 @@ letter_number,entity_name,entity_type
 459,Ma,PERSON
 459,Ma,PERSON
 459,W.H. Perry,PERSON
-459,,LOCATION
 459,Benjamin F. Perry,LOCATION
 459,Columbia,LOCATION
 47,New York,LOCATION
@@ -2966,7 +2939,6 @@ letter_number,entity_name,entity_type
 53,Liz,PERSON
 53,Susan,PERSON
 53,Liz,PERSON
-53,Kiss,PERSON
 53,B.F. Perry,PERSON
 53,Elizabeth Perry,PERSON
 53,Greenville,LOCATION
@@ -2979,8 +2951,7 @@ letter_number,entity_name,entity_type
 698,Anne,PERSON
 698,Wares,PERSON
 698,Sullivan,PERSON
-698,W,PERSON
-698,Husband,LOCATION
+698,Husband,PERSON
 698,B.F. Perry,PERSON
 698,Elizabeth Perry,PERSON
 698,Greenville,LOCATION
@@ -3010,13 +2981,13 @@ letter_number,entity_name,entity_type
 101,Reed,PERSON
 101,Broadmouth,PERSON
 101,Orr,PERSON
-101,Tell Jim,PERSON
+101,Jim,PERSON
 101,Anne,PERSON
-101,Said McBees,PERSON
+101,McBees,PERSON
 101,Perry,PERSON
 101,Susan,PERSON
-101,Tell Willie,PERSON
-101,Tell Anna,PERSON
+101,Willie,PERSON
+101,Anna,PERSON
 101,Frank,PERSON
 101,B.F. Perry,PERSON
 101,Elizabeth Perry,PERSON
@@ -3051,30 +3022,29 @@ letter_number,entity_name,entity_type
 84,Whitner,PERSON
 84,Edward,PERSON
 84,Washington,LOCATION
-84,Kiss,PERSON
 84,B.F. Perry,PERSON
 84,Elizabeth Perry,PERSON
 84,Greenville,LOCATION
 90,Liz,PERSON
 90,Washington,LOCATION
 90,Susan,PERSON
-90,Tell Willie,PERSON
+90,Willie,PERSON
 90,Anna,PERSON
 90,Frank,PERSON
 90,Anne,PERSON
 90,Fanny,PERSON
-90,Franklin J.] Moses,PERSON
+90,Franklin J. Moses,PERSON
 90,Bill,PERSON
 90,Carrol,PERSON
 90,Charlotte Smith,PERSON
-90,George] Gliddon,PERSON
+90,George Gliddon,PERSON
 90,Henry,PERSON
 90,Caesoria,PERSON
 90,Cleopatra,PERSON
 90,Poinsett,PERSON
 90,Edward Bishop,PERSON
 90,North Carolina,LOCATION
-90,John P.] Richardson,PERSON
+90,John P. Richardson,PERSON
 90,Petrus,PERSON
 90,Miss Harper,PERSON
 90,Harper,PERSON
@@ -3085,23 +3055,21 @@ letter_number,entity_name,entity_type
 90,Edgefield,LOCATION
 90,College,LOCATION
 90,Ball,PERSON
-90,Commencement Ball,PERSON
+90,Commencement Ball,LOCATION
 90,Poinsett,PERSON
 90,Robert Wilson,PERSON
-90,Francis Hugh] Wardlaw,PERSON
+90,Francis Hugh Wardlaw,PERSON
 90,Gilmore Simms,PERSON
-90,Resolutions,PERSON
-90,John Smyth] Richardson,PERSON
-90,Tell Willie,PERSON
-90,Tell Anna,PERSON
-90,Tell Frank,PERSON
+90,John Smyth Richardson,PERSON
+90,Willie,PERSON
+90,Anna,PERSON
+90,Frank,PERSON
 90,Fanny,PERSON
 90,B.F. Perry,PERSON
-90,P.S.,LOCATION
 90,Dargan,PERSON
-90,Christopher G.] Memminger,PERSON
+90,Christopher G. Memminger,PERSON
 90,Dargan,PERSON
-90,Joseph N.] Whitner,PERSON
+90,Joseph N. Whitner,PERSON
 90,Elizabeth Perry,PERSON
 90,Greenville,LOCATION
 673,Liz,PERSON
@@ -3123,7 +3091,7 @@ letter_number,entity_name,entity_type
 673,Washington,LOCATION
 673,Virginia,LOCATION
 673,Elford,PERSON
-673,Tell Fannie,PERSON
+673,Fannie,PERSON
 673,Butler,PERSON
 673,B.F. Perry,PERSON
 673,Elizabeth Perry,PERSON
@@ -3152,13 +3120,12 @@ letter_number,entity_name,entity_type
 129,Pope,PERSON
 129,Daniel,PERSON
 129,Jones,PERSON
-129,James L.] Petigrus,PERSON
+129,James L. Petigrus,PERSON
 129,H. Thurston,PERSON
 129,Willie,PERSON
 129,Taylor,PERSON
 129,Bonham,PERSON
-129,Tell Jim,PERSON
-129,Tell,PERSON
+129,Jim,PERSON
 129,B.F. Perry,PERSON
 129,Elizabeth Perry,PERSON
 129,Greenville,LOCATION
@@ -3193,7 +3160,8 @@ letter_number,entity_name,entity_type
 614,John Hughson,PERSON
 614,McKay,PERSON
 614,Manassas Junction,LOCATION
-614,Gaillard & Moore,PERSON
+614,Gaillard,PERSON
+614,Moore,PERSON
 614,Grandma,PERSON
 614,W.H. Perry,PERSON
 614,Tom Adams,PERSON
@@ -3217,18 +3185,18 @@ letter_number,entity_name,entity_type
 172,Elizabeth Perry,PERSON
 172,Greenville,LOCATION
 166,Liz,PERSON
-166,,LOCATION
-166,	Frank,LOCATION
+166,Frank,LOCATION
 166,Frank,PERSON
 166,Tom Poe,PERSON
 166,Frank,PERSON
 166,Tom,PERSON
-166,Frank a Harmonica,PERSON
-166,china,LOCATION
+166,Frank,PERSON
+166,China,LOCATION
 166,Barnwell,PERSON
 166,Taylor,PERSON
 166,Barnwell,PERSON
-166,John Izard] Middleton & DeSaussure &,PERSON
+166,John Izard Middleton,PERSON
+166,DeSaussure,PERSON
 166,Preston,PERSON
 166,Lieber,PERSON
 166,Ben Perry,PERSON
@@ -3270,9 +3238,8 @@ letter_number,entity_name,entity_type
 600,McMahon,LOCATION
 600,Levy,PERSON
 600,Barnett,PERSON
-600,Tell Ben,PERSON
+600,Ben,PERSON
 600,Cunninghams,PERSON
-600,Kiss,PERSON
 600,Cunningham,PERSON
 600,Greenville,LOCATION
 600,B.T. Perry,PERSON
@@ -3318,7 +3285,7 @@ letter_number,entity_name,entity_type
 34,Charleston,LOCATION
 34,Tom Butler & Rowland,PERSON
 34,F. Wardlaw,PERSON
-34,Tell Amma,PERSON
+34,Amma,PERSON
 34,Heyward,PERSON
 34,Maybins,LOCATION
 34,Cleveland,PERSON
@@ -3331,14 +3298,14 @@ letter_number,entity_name,entity_type
 20,Liz,PERSON
 20,Butler,PERSON
 20,Greenville,LOCATION
-20,Cunninghamsso,PERSON
+20,Cunninghams,PERSON
 20,Jim,PERSON
 20,Elford,PERSON
 20,Charleston,LOCATION
 20,Elford,PERSON
 20,Hayne,PERSON
 20,Elford,PERSON
-20,Lawrence M.] Keitt,PERSON
+20,Lawrence M. Keitt,PERSON
 20,Keitt,PERSON
 20,Harper,PERSON
 20,Anne,PERSON
@@ -3346,13 +3313,13 @@ letter_number,entity_name,entity_type
 20,Taylor,PERSON
 20,Charleston,LOCATION
 20,Cunninghams,PERSON
-20,Simms Greenville Story,PERSON
+20,Simms,PERSON
 20,Greenville,LOCATION
 20,B.F. Perry,PERSON
 20,Elizabeth Perry,PERSON
 20,Greenville,LOCATION
 199,Liz,PERSON
-199,& Annas,PERSON
+199,Annas,PERSON
 199,Anna,LOCATION
 199,Petigru,PERSON
 199,Georgia,LOCATION
@@ -3410,9 +3377,9 @@ letter_number,entity_name,entity_type
 416,Frank,PERSON
 416,Frank,PERSON
 416,Emma,PERSON
-416,C,PERSON
-416,Susan & Anna,PERSON
-416,the Lexington Springs,LOCATION
+416,Susan,PERSON
+416,Anna,PERSON
+416,Lexington Springs,LOCATION
 416,Anna,PERSON
 416,Pickens,PERSON
 416,Arthur,PERSON
@@ -3423,7 +3390,6 @@ letter_number,entity_name,entity_type
 416,Anna Perry,PERSON
 416,Burlington,LOCATION
 416,N.J.,LOCATION
-402,Letter 402,PERSON
 402,Philadelphia,LOCATION
 402,William Hayne Perry,PERSON
 402,Perdicaris,PERSON
@@ -3464,9 +3430,9 @@ letter_number,entity_name,entity_type
 358,Frank,PERSON
 358,Wiley,PERSON
 358,Casey,PERSON
-358,Samuel] Rogers,PERSON
+358,Samuel Rogers,PERSON
 358,LaBorde,PERSON
-358,Episcopal,PERSON
+358,Episcopal,LOCATION
 358,Shand,PERSON
 358,Alexander Taylor,PERSON
 358,Taylor,PERSON
@@ -3489,7 +3455,6 @@ letter_number,entity_name,entity_type
 358,Elizabeth Perry,PERSON
 358,Greenville,LOCATION
 204,Anna,PERSON
-204,&,PERSON
 204,Elford,PERSON
 204,Charleston,LOCATION
 204,Elford,PERSON
@@ -3503,11 +3468,10 @@ letter_number,entity_name,entity_type
 562,Wallace,PERSON
 562,Fanny,PERSON
 562,Annas,PERSON
-562,Tell Fanny,PERSON
-562,Simms History,PERSON
+562,Fanny,PERSON
+562,Simms,PERSON
 562,S.C.,LOCATION
 562,Frank,PERSON
-562,F today,PERSON
 562,Janney,PERSON
 562,LeConte,PERSON
 562,Franks,PERSON
@@ -3517,7 +3481,6 @@ letter_number,entity_name,entity_type
 562,Spratt,PERSON
 562,Spratt,PERSON
 562,LeConte,PERSON
-562,Ls,PERSON
 562,B.F. Perry,PERSON
 562,Elizabeth Perry,PERSON
 562,Greenville,LOCATION
@@ -3532,12 +3495,12 @@ letter_number,entity_name,entity_type
 210,Brooks,PERSON
 210,South Carolina,LOCATION
 210,Edgefield,PERSON
-210,John] Livingston,PERSON
+210,John Livingston,PERSON
 210,New York,LOCATION
 210,Thompson,PERSON
 210,Anna,LOCATION
 210,Elford,PERSON
-210,Tell Willie,PERSON
+210,Willie,PERSON
 210,Anderson,PERSON
 210,B.F. Perry,PERSON
 210,Elizabeth Perry,PERSON
@@ -3608,8 +3571,7 @@ letter_number,entity_name,entity_type
 748,Elizabeth Perry,PERSON
 749,Greenville,LOCATION
 749,Liz,PERSON
-749,,LOCATION
-749,	Willie,LOCATION
+749,Willie,LOCATION
 749,Miss Cox,PERSON
 749,Hammetts,LOCATION
 749,Ben,PERSON
@@ -3660,9 +3622,8 @@ letter_number,entity_name,entity_type
 588,Susan,PERSON
 588,Hext,PERSON
 588,Columbia,LOCATION
-588,Tell Willie,PERSON
+588,Willie,PERSON
 588,B.F. Perry,PERSON
-588,P.S.,LOCATION
 588,Elizabeth Perry,PERSON
 588,Greenville,LOCATION
 239,Washington City,LOCATION
@@ -3675,8 +3636,8 @@ letter_number,entity_name,entity_type
 239,Thompson,PERSON
 239,the United States,LOCATION
 239,May,PERSON
-239,Patriot,PERSON
-239,Patriot,PERSON
+239,Patriot,LOCATION
+239,Patriot,LOCATION
 239,B.F. Perry,PERSON
 239,Elizabeth Perry,PERSON
 239,Greenville,LOCATION
@@ -3689,7 +3650,7 @@ letter_number,entity_name,entity_type
 577,Orr,PERSON
 577,Laurens,PERSON
 577,Charleston,LOCATION
-577,New York &c.,LOCATION
+577,New York,LOCATION
 577,LeConte,PERSON
 577,Lulas,LOCATION
 577,Lula,PERSON
@@ -3765,7 +3726,7 @@ letter_number,entity_name,entity_type
 359,McKay,LOCATION
 359,Jones,PERSON
 359,Flora Jones,PERSON
-359,Tell Anna,PERSON
+359,Anna,PERSON
 359,B.F. Perry,PERSON
 359,Elizabeth Perry,PERSON
 359,Greenville,LOCATION
@@ -3776,10 +3737,11 @@ letter_number,entity_name,entity_type
 403,Anna,PERSON
 403,Willie,PERSON
 403,Columbia,LOCATION
-403,Frank Cox & Tench Cox,PERSON
+403,Frank Cox,PERSON
+403,Tench Cox,PERSON
 403,Willie,PERSON
 403,Anna,PERSON
-403,Patriot,PERSON
+403,Patriot,
 403,Greene,PERSON
 403,B.F. Perry,PERSON
 403,P.S.,LOCATION
@@ -3795,14 +3757,13 @@ letter_number,entity_name,entity_type
 365,Liz,PERSON
 365,McKay,LOCATION
 365,Barrett,PERSON
-365,&c.,LOCATION
 365,B.F. Perry,PERSON
 365,Elizabeth Perry,PERSON
 365,Greenville,LOCATION
 371,Frank,PERSON
 371,Willie,PERSON
 371,Wells,PERSON
-371,Tell Anna,PERSON
+371,Anna,PERSON
 371,Evans,PERSON
 371,Beadon,PERSON
 371,Brooks,PERSON
@@ -3865,12 +3826,11 @@ letter_number,entity_name,entity_type
 198,Greenville,LOCATION
 21,Dean,PERSON
 21,Massachusetts,LOCATION
-21,Samuel] Hoar,PERSON
-21,Christopher G.] Memminger,PERSON
+21,Samuel Hoar,PERSON
+21,Christopher G. Memminger,PERSON
 21,Mauldin,PERSON
 21,Cunninghams,PERSON
 21,Jim,PERSON
-21,Christmasthen,LOCATION
 21,Moore,PERSON
 21,Greenville,LOCATION
 21,Frank Burt,PERSON
@@ -3883,7 +3843,6 @@ letter_number,entity_name,entity_type
 21,Thomas,PERSON
 21,Thomas,PERSON
 21,John,PERSON
-21,Kiss,PERSON
 21,B.F. Perry,PERSON
 21,Elizabeth Perry,PERSON
 21,Greenville,LOCATION
@@ -3892,12 +3851,11 @@ letter_number,entity_name,entity_type
 35,Laurens,PERSON
 35,Elias Earle,PERSON
 35,Earle,PERSON
-35,Tell Willy,PERSON
-35,Tell Anna,PERSON
-35,Tell Frank,PERSON
+35,Willy,PERSON
+35,Anna,PERSON
+35,Frank,PERSON
 35,Earle,PERSON
 35,B.F. Perry,PERSON
-35,P.S.,LOCATION
 35,Elizabeth Perry,PERSON
 35,Greenville,LOCATION
 6,Liz,PERSON
@@ -3919,12 +3877,11 @@ letter_number,entity_name,entity_type
 6,David Johnson,PERSON
 6,John Belton],PERSON
 6,Reid,PERSON
-6,Daniel Elliott] Huger,PERSON
+6,Daniel Elliott Huger,PERSON
 6,Barnwell Rhett,PERSON
-6,Francis Wilkinson] Pickens,PERSON
-6,Andrew Pickens] Butler,PERSON
+6,Francis Wilkinson Pickens,PERSON
+6,Andrew Pickens Butler,PERSON
 6,Middleton,PERSON
-6,Kiss,PERSON
 6,B.F. Perry,PERSON
 6,Elizabeth Perry,PERSON
 6,Greenville,LOCATION
@@ -3976,7 +3933,7 @@ letter_number,entity_name,entity_type
 167,Josiah B. Perry,PERSON
 167,Jones,PERSON
 167,the U. States,LOCATION
-167,Russel[l] Middleton,PERSON
+167,Russell Middleton,PERSON
 167,the U. States,LOCATION
 167,Charleston,LOCATION
 167,B.F. Perry,PERSON
@@ -4040,7 +3997,8 @@ letter_number,entity_name,entity_type
 165,Greenville,LOCATION
 171,Liz,PERSON
 171,Memminger,PERSON
-171,North Carolina & Georgia,LOCATION
+171,North Carolina,LOCATION
+171,Georgia,LOCATION
 171,Jones,PERSON
 171,Tom Jones,PERSON
 171,Frank,PERSON
@@ -4075,8 +4033,6 @@ letter_number,entity_name,entity_type
 617,Lieut,PERSON
 617,Grandma,PERSON
 617,W.H. Perry,PERSON
-617,,LOCATION
-617,P.S. Bring,LOCATION
 617,Benjamin Perry,PERSON
 617,Greenville,LOCATION
 159,Liz,PERSON
@@ -4103,7 +4059,7 @@ letter_number,entity_name,entity_type
 4,Susan,PERSON
 4,Will,PERSON
 4,Augusta,LOCATION
-4,ben Yancey,PERSON
+4,Ben Yancey,PERSON
 4,Augusta,LOCATION
 4,Ben Yancey,PERSON
 4,Anna,LOCATION
@@ -4112,17 +4068,16 @@ letter_number,entity_name,entity_type
 4,Calhoun,PERSON
 4,Rhetts,PERSON
 4,Huger,PERSON
-4,John Peter] Richardson,PERSON
+4,John Peter Richardson,PERSON
 4,John Belton,PERSON
 4,McWillie,PERSON
-4,George] McDuffie,PERSON
+4,George McDuffie,PERSON
 4,Preston,PERSON
-4,Andrew Pickens] Butler,PERSON
+4,Andrew Pickens Butler,PERSON
 4,Albert Rhett,PERSON
 4,Hayne,PERSON
 4,Keith,PERSON
 4,Town,LOCATION
-4,Kiss,PERSON
 4,B.F. Perry,PERSON
 4,Annas,LOCATION
 4,Keith,PERSON
@@ -4139,7 +4094,7 @@ letter_number,entity_name,entity_type
 37,Cunningham,PERSON
 37,Pamela,PERSON
 37,Arnold,PERSON
-37,Laurensville Herald,PERSON
+37,Laurensville Herald,LOCATION
 37,Wardlaw,LOCATION
 37,McDuffies,PERSON
 37,McDuffie,PERSON
@@ -4150,18 +4105,16 @@ letter_number,entity_name,entity_type
 37,Ben Yanceys,PERSON
 37,Perwho,PERSON
 37,Pamela,PERSON
-37,Kiss,PERSON
 37,Laurens,PERSON
 37,Newberry,PERSON
 37,Charleston,LOCATION
 37,Wells,PERSON
 37,B.F. Perry,PERSON
-37,P.S.,LOCATION
 37,Elizabeth Perry,PERSON
 37,Greenville,LOCATION
 367,Liz,PERSON
 367,Huger,PERSON
-367,Tell Anna,PERSON
+367,Anna,PERSON
 367,Taylor,PERSON
 367,Reynolds,PERSON
 367,Thornwell,PERSON
@@ -4197,10 +4150,8 @@ letter_number,entity_name,entity_type
 415,Greenville,PERSON
 415,New-York,LOCATION
 415,B.F. Perry,PERSON
-415,P.S.,LOCATION
 415,Greenville,LOCATION
 415,Anna Perry,PERSON
-415,Sr,LOCATION
 415,N.J.,LOCATION
 415,Greenville,LOCATION
 415,Greenville,LOCATION
@@ -4275,11 +4226,8 @@ letter_number,entity_name,entity_type
 575,Annapolis,LOCATION
 561,Liz,PERSON
 561,William McCreight,PERSON
-561,William Sidney] Mullins,PERSON
-561,Resolutions,PERSON
-561,Resolutions,PERSON
+561,William Sidney Mullins,PERSON
 561,Bill,PERSON
-561,Kiss,PERSON
 561,B.F. Perry,PERSON
 561,Elizabeth Perry,PERSON
 561,Greenville,LOCATION
@@ -4290,7 +4238,7 @@ letter_number,entity_name,entity_type
 207,Spartanburgh,LOCATION
 207,Clerk,PERSON
 207,Beatty,PERSON
-207,Allard Belin] Flagg,PERSON
+207,Allard Belin Flagg,PERSON
 207,McKay,PERSON
 207,Anna,LOCATION
 207,Becky,LOCATION
@@ -4397,7 +4345,7 @@ letter_number,entity_name,entity_type
 206,Butler,PERSON
 206,Thornwell,PERSON
 206,Spartanburgh,LOCATION
-206,Thomas Worth] Glover,PERSON
+206,Thomas Worth Glover,PERSON
 206,Isaac Hayne,PERSON
 206,Anna,PERSON
 206,Duncan,PERSON
@@ -4413,7 +4361,7 @@ letter_number,entity_name,entity_type
 212,Liz,PERSON
 212,John Jones,PERSON
 212,Becky Sharp,PERSON
-212,William R.] Tabr,PERSON
+212,William R. Tabr,PERSON
 212,Duncan,PERSON
 212,Annas,PERSON
 212,Greenville,LOCATION
@@ -4444,12 +4392,11 @@ letter_number,entity_name,entity_type
 428,Annas,PERSON
 428,LeConte,PERSON
 428,Charleston,LOCATION
-428,William Adolphus] Mooney,PERSON
-428,Nathaniel] Morgan,PERSON
-428,John Latimer] Westmoreland,PERSON
+428,William Adolphus Mooney,PERSON
+428,Nathaniel Morgan,PERSON
+428,John Latimer Westmoreland,PERSON
 428,Greenville,LOCATION
 428,Spartan Goodlett,PERSON
-428,Kiss,PERSON
 428,Susan & Anne,PERSON
 428,Husband,LOCATION
 428,B.F. Perry,PERSON
@@ -4466,7 +4413,6 @@ letter_number,entity_name,entity_type
 414,Miller,PERSON
 414,Anna,PERSON
 414,Arthur,PERSON
-414,&c.,LOCATION
 414,B.F. Perry,PERSON
 414,Frank Perry,PERSON
 414,Annapolis,LOCATION
@@ -4516,12 +4462,11 @@ letter_number,entity_name,entity_type
 36,Greenville,LOCATION
 36,Pickens,PERSON
 36,Thompson,PERSON
-36,George Washington] Dargan,PERSON
+36,George Washington Dargan,PERSON
 36,Preston,PERSON
 36,Preston,PERSON
 36,Pickens,PERSON
-36,Maybins Hotel,PERSON
-36,banners,&c,PERSON
+36,Maybins Hotel,LOCATION
 36,South Carolina,LOCATION
 36,Aiken,PERSON
 36,Ellet,PERSON
@@ -4543,7 +4488,6 @@ letter_number,entity_name,entity_type
 36,Pamela,PERSON
 36,Arnold,PERSON
 36,Simms,PERSON
-36,Kiss,PERSON
 36,B.F. Perry,PERSON
 36,Elizabeth Perry,PERSON
 22,Liz,PERSON
@@ -4552,17 +4496,14 @@ letter_number,entity_name,entity_type
 22,Jim,PERSON
 22,Yancey,LOCATION
 22,Cunninghams,PERSON
-22,Laurens C. House,PERSON
-22,P.S.,LOCATION
+22,Laurens C. House,LOCATION
 22,Cunninghams,PERSON
 22,Jim,PERSON
 22,Pamelas,PERSON
 22,Pamela,PERSON
 22,Cunninghams,PERSON
 22,Gibbes,PERSON
-22,Gift,PERSON
 22,Greenville,LOCATION
-22,Kiss,PERSON
 22,B.F. Perry,PERSON
 22,Elizabeth Perry,PERSON
 22,Greenville,LOCATION
@@ -4574,9 +4515,11 @@ letter_number,entity_name,entity_type
 5,Taylor,PERSON
 5,Taylor,PERSON
 5,Burt,PERSON
-5,Frederick William] Davie & Reed,PERSON
+5,Frederick William Davie,PERSON
+5,Reed,PERSON
 5,United States,LOCATION
-5,Daniel Elliott] Huger & Barnwell Rhett & Col,PERSON
+5,Daniel Elliott Huger,PERSON
+5,Barnwell Rhett,PERSON
 5,Pendleton,PERSON
 5,Charleston,LOCATION
 5,W. Gilmore Simms,PERSON
@@ -4593,7 +4536,6 @@ letter_number,entity_name,entity_type
 158,Dunkins,PERSON
 158,Richardson,PERSON
 158,Petigru,PERSON
-158,Resolutions,PERSON
 158,Evans,PERSON
 158,Johnstone,PERSON
 158,Petigru,PERSON
@@ -4678,7 +4620,7 @@ letter_number,entity_name,entity_type
 164,Williams,PERSON
 164,Lieber,PERSON
 164,Lieber,PERSON
-164,William Easl[e]y,PERSON
+164,William Easley,PERSON
 164,Frank,PERSON
 164,Greenville,LOCATION
 164,Willie,PERSON
@@ -4695,37 +4637,37 @@ letter_number,entity_name,entity_type
 1,Evans,PERSON
 1,Pendleton,PERSON
 1,Pendleton,PERSON
-1,Alexander Dromgoole] Sims of Darlington,PERSON
+1,Alexander Dromgoole Sims of Darlington,PERSON
 1,Evans,PERSON
 1,Texas,LOCATION
 1,Camden,LOCATION
 1,McWillie,PERSON
-1,[William] Blanding,PERSON
+1,William Blanding,PERSON
 1,McCray,PERSON
 1,B.F. Perry,PERSON
 1,Elizabeth Perry,PERSON
 1,Greenville,LOCATION
 148,Liz,PERSON
 148,Adams,PERSON
-148,Franklin Harper] Elmore,PERSON
+148,Franklin Harper Elmore,PERSON
 148,Williams,PERSON
 148,Williams,PERSON
 148,Anderson,PERSON
 148,Henry,PERSON
 148,Spartanburg,LOCATION
 148,Marshall,PERSON
-148,Laurens C.H.,PERSON
-148,Tell Anna,PERSON
-148,John Preston & old,PERSON
+148,Laurens C.H.,LOCATION
+148,Anna,PERSON
+148,John Preston,PERSON
 148,Hampton,PERSON
-148,Tell Frank,PERSON
+148,Frank,PERSON
 148,Willie,PERSON
-148,Tell Fanny,PERSON
+148,Fanny,PERSON
 148,Willie,PERSON
 148,B.F. Perry,PERSON
 148,Elizabeth Perry,PERSON
 148,Greenville,LOCATION
-160,Laurens C.H.,PERSON
+160,Laurens C.H.,LOCATION
 160,Liz,PERSON
 160,Irby,PERSON
 160,Burt,PERSON
@@ -4735,7 +4677,7 @@ letter_number,entity_name,entity_type
 606,Tom Adams,PERSON
 606,Hext,PERSON
 606,Virginia,LOCATION
-606,Tell Ma,PERSON
+606,Ma,PERSON
 606,Tom Adams,PERSON
 606,Stairley,PERSON
 606,Randal,PERSON
@@ -4790,7 +4732,7 @@ letter_number,entity_name,entity_type
 174,Yeadon,PERSON
 174,Winston,PERSON
 174,Richmond,LOCATION
-174,Patriot,PERSON
+174,Patriot,LOCATION
 174,Duncan,PERSON
 174,Ford,PERSON
 174,Miss Gerard,PERSON
@@ -4803,12 +4745,12 @@ letter_number,entity_name,entity_type
 174,B.F. Perry,PERSON
 174,Elizabeth Perry,PERSON
 174,Greenville,LOCATION
-26,Laurens C.H.,PERSON
+26,Laurens C.H.,LOCATION
 26,Liz,PERSON
 26,Palmer,PERSON
 26,Palmer,PERSON
 26,Palmer,PERSON
-26,Edward] Frost,PERSON
+26,Edward Frost,PERSON
 26,Pamela,PERSON
 26,Greenville,LOCATION
 26,Poinsett,PERSON
@@ -4856,9 +4798,9 @@ letter_number,entity_name,entity_type
 32,Martin,PERSON
 32,Bundle,PERSON
 32,Susan B. McColl,PERSON
-32,Episcopal,PERSON
-32,Tell Anna,PERSON
-32,Tell Frank,PERSON
+32,Episcopal,LOCATION
+32,Anna,PERSON
+32,Frank,PERSON
 32,DeTreville,PERSON
 32,B.F. Perry,PERSON
 32,Elizabeth Perry,PERSON
@@ -4928,7 +4870,7 @@ letter_number,entity_name,entity_type
 362,Jones,PERSON
 362,Wells,PERSON
 362,Dunkin,PERSON
-362,Patriot,PERSON
+362,Patriot,LOCATION
 362,Adams,PERSON
 362,Adams,PERSON
 362,Greenville,LOCATION
@@ -4944,9 +4886,8 @@ letter_number,entity_name,entity_type
 376,Willie,PERSON
 376,Brenan,PERSON
 376,McCays,PERSON
-376,Patriot,PERSON
+376,Patriot,LOCATION
 376,B.F. Perry,PERSON
-376,P.S.,LOCATION
 376,Elizabeth Perry,PERSON
 376,Greenville,LOCATION
 410,Greenville,LOCATION
@@ -4994,7 +4935,7 @@ letter_number,entity_name,entity_type
 570,B.F. Perry,PERSON
 570,Frank Perry,PERSON
 570,Annapolis,LOCATION
-216,Pickens C.H.,PERSON
+216,Pickens C.H.,LOCATION
 216,Liz,PERSON
 216,Frank,PERSON
 216,Will,PERSON
@@ -5014,7 +4955,7 @@ letter_number,entity_name,entity_type
 202,Greenville,LOCATION
 202,Crofts,PERSON
 202,Keith,PERSON
-202,Olin Miller] Dantzler,PERSON
+202,Olin Miller Dantzler,PERSON
 202,Dantzler,PERSON
 202,B.F. Perry,PERSON
 202,Elizabeth Perry,PERSON
@@ -5034,7 +4975,7 @@ letter_number,entity_name,entity_type
 772,Hampton,PERSON
 772,Professors,PERSON
 772,Jenkins,PERSON
-772,Harry] Hammond,PERSON
+772,Harry Hammond,PERSON
 772,B.F. Perry,PERSON
 766,Greenville,LOCATION
 766,Liz,PERSON
@@ -5053,7 +4994,6 @@ letter_number,entity_name,entity_type
 767,Hampton,PERSON
 767,Seneca,LOCATION
 767,Pickens,PERSON
-767,G,PERSON
 767,Philadelphia,LOCATION
 767,Snyder,PERSON
 767,Henry,PERSON
@@ -5068,9 +5008,7 @@ letter_number,entity_name,entity_type
 203,Bruce,PERSON
 203,Griffin,LOCATION
 203,William Wallace,PERSON
-203,Poem,PERSON
 203,Bruce,PERSON
-203,Poem,PERSON
 203,Wallace,PERSON
 203,Bruce,PERSON
 203,Barclay,PERSON
@@ -5084,7 +5022,6 @@ letter_number,entity_name,entity_type
 203,Elford,PERSON
 203,Poor Mauldin,PERSON
 203,B.F. Perry,PERSON
-203,P.S.,LOCATION
 203,Efford,PERSON
 203,Crayton,LOCATION
 565,Liz,PERSON
@@ -5113,12 +5050,13 @@ letter_number,entity_name,entity_type
 565,Fairs,PERSON
 565,Allen,PERSON
 565,Janney,PERSON
-565,Joseph Daniel] Pope,PERSON
+565,Joseph Daniel Pope,PERSON
 565,Frost,PERSON
 565,LeContes,PERSON
 565,LeConte,PERSON
 565,Pope,PERSON
-565,Stacy & Ship[p,PERSON
+565,Stacy,PERSON
+565,Shipp,PERSON
 565,B.F. Perry,PERSON
 565,Elizabeth Perry,PERSON
 565,Greenville,LOCATION
@@ -5149,7 +5087,7 @@ letter_number,entity_name,entity_type
 217,Keith,PERSON
 217,Orangeburg,LOCATION
 217,Keith,PERSON
-217,Patriot,PERSON
+217,Patriot,LOCATION
 217,Washington,LOCATION
 217,Charleston,LOCATION
 217,Janney,PERSON
@@ -5161,7 +5099,7 @@ letter_number,entity_name,entity_type
 217,Virgil,PERSON
 217,Frank,PERSON
 217,God,PERSON
-217,Patriot,PERSON
+217,Patriot,LOCATION
 217,B.F. Perry,PERSON
 217,Elizabeth Perry,PERSON
 217,Greenville,LOCATION
@@ -5185,18 +5123,16 @@ letter_number,entity_name,entity_type
 388,Bill,PERSON
 388,Bill,PERSON
 388,B.F. Perry,PERSON
-388,,LOCATION
 388, Lawrence,LOCATION
 388,Pickens,LOCATION
 377,Liz,PERSON
 377,Annas,PERSON
 377,Willie,PERSON
-377,Tell Anna,PERSON
+377,Anna,PERSON
 377,B.F. Perry,PERSON
 377,Elizabeth Perry,PERSON
 377,Greenville,LOCATION
 411,Anna,LOCATION
-411,Ill,PERSON
 411,Pringle,LOCATION
 411,New-Haven,LOCATION
 411,Long,PERSON
@@ -5216,7 +5152,6 @@ letter_number,entity_name,entity_type
 411,Washington,LOCATION
 411,Cobb,PERSON
 411,Philadelphia,LOCATION
-411,Lectures,PERSON
 411,Washington,LOCATION
 411,Annapolis,PERSON
 411,Washington,LOCATION
@@ -5264,7 +5199,6 @@ letter_number,entity_name,entity_type
 439,Susan,PERSON
 439,Patriot,PERSON
 439,Elford,PERSON
-439,&,PERSON
 439,LeConte,PERSON
 439,Wright,PERSON
 439,Robert Maxwell,PERSON
@@ -5301,7 +5235,6 @@ letter_number,entity_name,entity_type
 33,Coleman,PERSON
 33,Resolutions,PERSON
 33,Jackson,PERSON
-33,Kiss,PERSON
 33,B.F. Perry,PERSON
 33,Elizabeth Perry,PERSON
 33,Greenville,LOCATION
@@ -5323,26 +5256,25 @@ letter_number,entity_name,entity_type
 613,Westmoreland,PERSON
 613,Richmond,LOCATION
 613,William H. Perry,PERSON
-613,P.S.,LOCATION
 613,Richmond,LOCATION
 613,Benjamin Perry,PERSON
 613,Greenville,LOCATION
-175,Spartanburgh C.H.,PERSON
+175,Spartanburgh C.H.,LOCATION
 175,Liz,PERSON
-175,Bobo & Col,PERSON
-175,Maybin of Columbia,PERSON
+175,Bobo,PERSON
+175,Col Maybin of Columbia,PERSON
 175,B.F. Perry,PERSON
 175,Elizabeth Perry,PERSON
 175,Greenville,LOCATION
 161,Liz,PERSON
 161,ONeall,PERSON
-161,[John Izard] Middleton,PERSON
+161,John Izard Middleton,PERSON
 161,James Simons,PERSON
 161,Charleston,LOCATION
 161,Jones,PERSON
 161,Greenville,LOCATION
 161,Duncan,PERSON
-161,martin,PERSON
+161,Martin,PERSON
 161,Herndon,PERSON
 161,Col Dawkins,PERSON
 161,Dawkins,PERSON
@@ -5389,9 +5321,9 @@ letter_number,entity_name,entity_type
 149,Reed,PERSON
 149,Elias Earle,PERSON
 149,White,PERSON
-149,Tell Frank,PERSON
-149,Tell Anna,PERSON
-149,Tell Fanny,PERSON
+149,Frank,PERSON
+149,Anna,PERSON
+149,Fanny,PERSON
 149,Susan,PERSON
 149,Grisham,PERSON
 149,George,PERSON
@@ -5401,7 +5333,6 @@ letter_number,entity_name,entity_type
 149,Anne Williams,PERSON
 149,Jones,LOCATION
 149,B.F. Perry,PERSON
-149,P.S.,LOCATION
 149,Lewis,PERSON
 149,Thurston,PERSON
 149,Tom Butler,PERSON
@@ -5418,10 +5349,8 @@ letter_number,entity_name,entity_type
 2,Greenville,PERSON
 2,Laurens,PERSON
 2,Coleman,PERSON
-2,James Lawrence] Orr,PERSON
+2,James Lawrence Orr,PERSON
 2,Edward,PERSON
-2,Tell,PERSON
-2,Kiss,PERSON
 2,B.F. Perry,PERSON
 2,Elizabeth Perry,PERSON
 2,Greenville,LOCATION
@@ -5432,7 +5361,7 @@ letter_number,entity_name,entity_type
 639,Governors,PERSON
 639,Whaleys Resolutions,PERSON
 639,Croft,PERSON
-639,James] McCullough,PERSON
+639,James McCullough,PERSON
 639,Sass,PERSON
 639,Duncan,PERSON
 639,Alabama,LOCATION
@@ -5483,7 +5412,7 @@ letter_number,entity_name,entity_type
 611,Richmond,LOCATION
 611,Alexandria,LOCATION
 611,W.H. Perry,PERSON
-611,P.S. Ed Stokes,PERSON
+611,Ed Stokes,PERSON
 611,Benjamin Perry,PERSON
 611,Greenville,LOCATION
 605,Greenville,LOCATION
@@ -5495,7 +5424,7 @@ letter_number,entity_name,entity_type
 605,W.M. Thomas,PERSON
 605,Croft,PERSON
 605,Hampton,PERSON
-605,Patriot,PERSON
+605,Patriot,LOCATION
 605,the Davis Guards,PERSON
 605,B.F. Perry,PERSON
 605,P.S.,LOCATION
@@ -5505,7 +5434,7 @@ letter_number,entity_name,entity_type
 163,Calhoun,PERSON
 163,McLure,PERSON
 163,Chester,PERSON
-163,Patriot,PERSON
+163,Patriot,LOCATION
 163,Petigru,PERSON
 163,Grisham,PERSON
 163,Lieber,PERSON
@@ -5559,12 +5488,12 @@ letter_number,entity_name,entity_type
 19,Burt,PERSON
 19,Greenville,LOCATION
 19,Cunninghams,PERSON
-19,Laurens C. House,PERSON
+19,Laurens C. House,LOCATION
 19,Cunningham,PERSON
 19,Walker,PERSON
-19,Fields,PERSON
+19,Fields,LOCATION
 19,Pickens,PERSON
-19,Fields,PERSON
+19,Fields,LOCATION
 19,B.F. Perry,PERSON
 19,Elizabeth Perry,PERSON
 19,Greenville,LOCATION
@@ -5576,7 +5505,7 @@ letter_number,entity_name,entity_type
 31,Johnson,PERSON
 31,Barnwell,PERSON
 31,Pickens,PERSON
-31,James Edward] Henry,PERSON
+31,James Edward Henry,PERSON
 31,Poinsett,PERSON
 31,Poinsett,PERSON
 31,Blanding,PERSON
@@ -5606,7 +5535,7 @@ letter_number,entity_name,entity_type
 25,Greenville,LOCATION
 349,Liz,PERSON
 349,McGowan,PERSON
-349,Patriot,PERSON
+349,Patriot,LOCATION
 349,Adams,PERSON
 349,Labordes,PERSON
 349,Lieber,PERSON
@@ -5615,7 +5544,7 @@ letter_number,entity_name,entity_type
 349,Henderson,LOCATION
 349,Willie,PERSON
 349,Liz,PERSON
-349,Benjamin Henry] Willson,PERSON
+349,Benjamin Henry Willson,PERSON
 349,Greenville,LOCATION
 349,Elford,PERSON
 349,Martin,PERSON
@@ -5677,7 +5606,7 @@ letter_number,entity_name,entity_type
 407,the United States,LOCATION
 407,C.J. Elford,PERSON
 407,Atty,LOCATION
-407,Greenville Dist,PERSON
+407,Greenville Dist,LOCATION
 407,W.A. McDaniel,PERSON
 407,Clerk,PERSON
 407,Greenville,LOCATION
@@ -5707,7 +5636,7 @@ letter_number,entity_name,entity_type
 567,Annapolis,LOCATION
 201,Anna,PERSON
 201,Charleston,LOCATION
-201,Rail Road,PERSON
+201,Rail Road,LOCATION
 201,Elizas,LOCATION
 201,Janney,PERSON
 201,Janneys,PERSON
@@ -5749,7 +5678,6 @@ letter_number,entity_name,entity_type
 759,B.F. Perry,PERSON
 759,Elizabeth Perry,PERSON
 765,Greenville,LOCATION
-765,[Hon,PERSON
 765,J. Izard Middleton,PERSON
 765,Charleston,LOCATION
 765,South Carolina,LOCATION
@@ -5763,7 +5691,7 @@ letter_number,entity_name,entity_type
 771,Keith,PERSON
 771,Lizzie R. Smith,PERSON
 771,Hamburg,LOCATION
-771,South Carolina &c.,LOCATION
+771,South Carolina,LOCATION
 771,Smith,PERSON
 771,Philadelphia,LOCATION
 771,Ben,PERSON
@@ -5775,7 +5703,8 @@ letter_number,entity_name,entity_type
 771,B.F. Perry,PERSON
 770,Greenville,LOCATION
 770,Liz,PERSON
-770,Vance & Isaac Bryan,PERSON
+770,Vance Bryan,PERSON
+770,Isaac Bryan,PERSON
 770,Speights,PERSON
 770,Cook,PERSON
 770,Speights,PERSON
@@ -5813,7 +5742,7 @@ letter_number,entity_name,entity_type
 764,marry Williams,PERSON
 764,Alex McBee,PERSON
 764,Willie,PERSON
-764,Henry] Sparnick,PERSON
+764,Henry Sparnick,PERSON
 764,B.F. Perry,PERSON
 764,Hayne Perry,PERSON
 764,Aiken,LOCATION
@@ -5848,7 +5777,7 @@ letter_number,entity_name,entity_type
 214,McGowan,PERSON
 214,Gourdin,PERSON
 214,Trenholm,PERSON
-214,[Charles Alexander] Thornwell,PERSON
+214,Charles Alexander Thornwell,PERSON
 214,Anna,PERSON
 214,Elizabeth Perry,PERSON
 214,Greenville,LOCATION
@@ -5886,7 +5815,7 @@ letter_number,entity_name,entity_type
 200,Hext,PERSON
 200,Keith,PERSON
 200,Dantzler,PERSON
-200,Olin Miller] Dantzler,PERSON
+200,Olin Miller Dantzler,PERSON
 200,North Carolina,LOCATION
 200,Butler,PERSON
 200,Charleston,LOCATION
@@ -5929,7 +5858,7 @@ letter_number,entity_name,entity_type
 228,Orr,PERSON
 228,Bailey,PERSON
 228,Virginia,LOCATION
-228,Patriot,PERSON
+228,Patriot,LOCATION
 228,Bailey,PERSON
 228,Thompson,PERSON
 228,Fox,PERSON
@@ -5944,7 +5873,7 @@ letter_number,entity_name,entity_type
 360,Adams,PERSON
 360,Greenville,LOCATION
 360,South Carolina,LOCATION
-360,Tell Willie,PERSON
+360,Willie,PERSON
 360,Johnston,PERSON
 360,Pickens,PERSON
 360,LeConte,PERSON
@@ -5993,7 +5922,6 @@ letter_number,entity_name,entity_type
 412,the United States,LOCATION
 412,Charleston,LOCATION
 412,Willie,PERSON
-412,P.S.,LOCATION
 412,Miss Branch,PERSON
 412,Anna Perry,PERSON
 412,Burlington,LOCATION
@@ -6027,17 +5955,15 @@ letter_number,entity_name,entity_type
 348,Elford,PERSON
 348,Pickens,PERSON
 348,McBee,PERSON
-348,Mountaineer,PERSON
+348,Mountaineer,LOCATION
 348,Willie Taylor,PERSON
 348,Bill,PERSON
-348,James H.] Adams,PERSON
-348,Thomas] Dawkins,PERSON
-348,drank,PERSON
+348,James H. Adams,PERSON
+348,Thomas Dawkins,PERSON
 348,Herndon,PERSON
 348,Hayne,PERSON
 348,Elford,PERSON
 348,B.F. Perry,PERSON
-348,P.S.,LOCATION
 348,Elizabeth Perry,PERSON
 348,Greenville,LOCATION
 24,Liz,PERSON
@@ -6048,7 +5974,6 @@ letter_number,entity_name,entity_type
 24,Washington,LOCATION
 24,Greenville,LOCATION
 24,Greenville,LOCATION
-24,Kiss,PERSON
 24,B.F. Perry,PERSON
 24,Elizabeth Perry,PERSON
 24,Greenville,LOCATION
@@ -6066,7 +5991,6 @@ letter_number,entity_name,entity_type
 30,Butler,PERSON
 30,Luther,PERSON
 30,Duncan,PERSON
-30,Kiss,PERSON
 30,B.F. Perry,PERSON
 30,Elizabeth Perry,PERSON
 30,Greenville,LOCATION
@@ -6092,7 +6016,7 @@ letter_number,entity_name,entity_type
 18,B.F. Perry,PERSON
 18,Elizabeth Perry,PERSON
 18,Greenville,LOCATION
-189,Anderson C.H.,PERSON
+189,Anderson C.H.,LOCATION
 189,Liz,PERSON
 189,Paris,LOCATION
 189,Dunkin,PERSON
@@ -6118,8 +6042,7 @@ letter_number,entity_name,entity_type
 604,Elizabeth Perry,PERSON
 604,Greenville,LOCATION
 162,Liz,PERSON
-162,,LOCATION
-162,	Willie,LOCATION
+162,Willie,LOCATION
 162,Frank,PERSON
 162,Duncan,PERSON
 162,Frank,PERSON
@@ -6127,13 +6050,14 @@ letter_number,entity_name,entity_type
 162,Frank,PERSON
 162,Jim,PERSON
 162,Hayne,PERSON
-162,Susan 7 Anne,PERSON
+162,Susan,PERSON
+162,Anne,PERSON
 162,South Carolina,LOCATION
 162,Goodwin,PERSON
 162,Burt,PERSON
 162,Frank,PERSON
 162,Frank,PERSON
-162,Christopher William] Dudley,PERSON
+162,Christopher William Dudley,PERSON
 162,Wardlaw,LOCATION
 162,Jno,PERSON
 162,South Carolina,LOCATION
@@ -6184,7 +6108,7 @@ letter_number,entity_name,entity_type
 610,Greenville,LOCATION
 638,Liz,PERSON
 638,Sass,PERSON
-638,Thomas Nuckolls] Dawkins,PERSON
+638,Thomas Nuckolls Dawkins,PERSON
 638,Aldrich,PERSON
 638,Dawkins,PERSON
 638,Aldrich,PERSON
@@ -6226,7 +6150,7 @@ letter_number,entity_name,entity_type
 635,W.H. Perry,PERSON
 635,Elizabeth Perry,PERSON
 635,Greenville,LOCATION
-153,Pickens C.H.,PERSON
+153,Pickens C.H.,LOCATION
 153,Liz,PERSON
 153,Elford,PERSON
 153,Wellborn Perry,PERSON
@@ -6280,11 +6204,11 @@ letter_number,entity_name,entity_type
 15,Martin,PERSON
 15,Haynes,PERSON
 15,Haynes,PERSON
-15,James Smith] Rhett,PERSON
+15,James Smith Rhett,PERSON
 15,Gilmore Simms,PERSON
 15,Frost,PERSON
 15,Pickens,PERSON
-15,Josiah James] Evans,PERSON
+15,Josiah James Evans,PERSON
 15,Seabrook,PERSON
 15,Roper,PERSON
 15,Henry L. Pinckney,PERSON
@@ -6308,11 +6232,11 @@ letter_number,entity_name,entity_type
 184,Center,PERSON
 184,Blanding,PERSON
 184,Williams,PERSON
-184,Daniel Elliott] Huger,PERSON
+184,Daniel Elliott Huger,PERSON
 184,Edmund Rhett,PERSON
-184,[William Alexander] Rosborough,PERSON
+184,William Alexander Rosborough,PERSON
 184,Chester,PERSON
-184,printHamilton,LOCATION
+184,Hamilton,LOCATION
 184,Petigru,PERSON
 184,Augustus Hoke,PERSON
 184,B.F. Perry,PERSON
@@ -6328,13 +6252,12 @@ letter_number,entity_name,entity_type
 29,Maxwell,PERSON
 29,Greenvillein,LOCATION
 29,Charleston,LOCATION
-29,Tell Jim,PERSON
-29,Tell Willie,PERSON
-29,knifeAnna,PERSON
+29,Jim,PERSON
+29,Willie,PERSON
+29,Anna,PERSON
 29,Frank,PERSON
 29,God,PERSON
 29,B.F. Perry,PERSON
-29,P.S.,LOCATION
 29,Taylor,PERSON
 29,Martin,PERSON
 29,Taylor,PERSON
@@ -6404,9 +6327,9 @@ letter_number,entity_name,entity_type
 345,Manning,PERSON
 345,Virginian,LOCATION
 345,Watts,PERSON
-345,Tell Frank,PERSON
+345,Frank,PERSON
 345,Willie,PERSON
-345,Husband,LOCATION
+345,Husband,PERSON
 345,B.F. Perry,PERSON
 345,Elizabeth Perry,PERSON
 345,Greenville,LOCATION
@@ -6415,13 +6338,13 @@ letter_number,entity_name,entity_type
 379,Willie,PERSON
 379,Burt,PERSON
 379,Orr,PERSON
-379,Tell Frank,PERSON
+379,Frank,PERSON
 379,Columbia,LOCATION
 379,Elford,PERSON
 379,Westfield,PERSON
-379,Tell Anna,PERSON
-379,Peter] Stokes,PERSON
-379,Tell Hext,PERSON
+379,Anna,PERSON
+379,Peter Stokes,PERSON
+379,Hext,PERSON
 379,Arthur,PERSON
 379,Paul Hayne,PERSON
 379,Greenville,LOCATION
@@ -6498,10 +6421,10 @@ letter_number,entity_name,entity_type
 543,Annapolis,LOCATION
 557,Liz,PERSON
 557,Wells,PERSON
-557,Fair,PERSON
+557,Fair,LOCATION
 557,Allen,PERSON
 557,LeConte,PERSON
-557,Joseph &,PERSON
+557,Joseph,PERSON
 557,LeConte,PERSON
 557,Greenville,LOCATION
 557,McBees,PERSON
@@ -6532,7 +6455,7 @@ letter_number,entity_name,entity_type
 219,Ingersoll,PERSON
 219,New Haven,LOCATION
 219,Collin,LOCATION
-219,Colin M.] Ingersoll,PERSON
+219,Colin M. Ingersoll,PERSON
 219,South Carolina,LOCATION
 219,Hamilton,PERSON
 219,Arthur Hayne,PERSON
@@ -6551,11 +6474,11 @@ letter_number,entity_name,entity_type
 580,Charleston,LOCATION
 580,Janney,PERSON
 580,Greenville,LOCATION
-580,Patriot,PERSON
+580,Patriot,LOCATION
 580,Adams,PERSON
 580,Geddings,PERSON
-580,Fair,PERSON
-580,Fair,PERSON
+580,Fair,LOCATION
+580,Fair,LOCATION
 580,Charleston,LOCATION
 580,Pope,PERSON
 580,Virginia,LOCATION
@@ -6595,10 +6518,10 @@ letter_number,entity_name,entity_type
 741,Washington,LOCATION
 741,Simms,PERSON
 741,Hough,PERSON
-741,Tom T &,PERSON
+741,Tom T,PERSON
 741,Simms,PERSON
 741,Washington,LOCATION
-741,[John] Livingston,PERSON
+741,John Livingston,PERSON
 741,South Carolina,LOCATION
 741,Simonton,PERSON
 741,Hampton,PERSON
@@ -6615,7 +6538,7 @@ letter_number,entity_name,entity_type
 741,B.F. Perry,PERSON
 741,Elizabeth Perry,PERSON
 741,Greenville,LOCATION
-755,Chester C.H.,PERSON
+755,Chester C.H.,LOCATION
 755,Liz,PERSON
 755,Winnsboro,LOCATION
 755,Springs,PERSON
@@ -6655,7 +6578,7 @@ letter_number,entity_name,entity_type
 768,Earle,PERSON
 768,Conner,PERSON
 768,Johnson,PERSON
-768,Robert Brown] Elliott,PERSON
+768,Robert Brown Elliott,PERSON
 768,Tildens,LOCATION
 768,Ben,PERSON
 768,Williams,PERSON
@@ -6686,7 +6609,7 @@ letter_number,entity_name,entity_type
 754,Aiken,PERSON
 754,Dickson,PERSON
 754,Wilson,PERSON
-754,Episcopal,PERSON
+754,Episcopal,LOCATION
 754,Johnson,PERSON
 754,Chester,PERSON
 754,Willie,PERSON
@@ -6720,8 +6643,8 @@ letter_number,entity_name,entity_type
 581,Al,PERSON
 581,Butler,PERSON
 581,Kentucky,LOCATION
-581,William O[rlando,PERSON
-581,[Lewis] Cass,PERSON
+581,William Orlando,PERSON
+581,Lewis Cass,PERSON
 581,Arthur,PERSON
 581,New Orleans,LOCATION
 581,Hayne,PERSON
@@ -6761,7 +6684,7 @@ letter_number,entity_name,entity_type
 218,McCordquite,PERSON
 218,Graham,PERSON
 218,James,PERSON
-218,Stephen] Decatur,PERSON
+218,Stephen Decatur,PERSON
 218,Gardner,PERSON
 218,Thompson,PERSON
 218,the United States,LOCATION
@@ -6778,7 +6701,6 @@ letter_number,entity_name,entity_type
 218,Gardner,PERSON
 218,Burt,PERSON
 218,Elford,PERSON
-218,Kiss,PERSON
 218,Anna,PERSON
 218,B.F. Perry,PERSON
 218,Elizabeth Perry,PERSON
@@ -6791,13 +6713,13 @@ letter_number,entity_name,entity_type
 556,Rhetts Bill,PERSON
 556,Greenville,LOCATION
 556,Spratt,PERSON
-556,Poinsett Wells,PERSON
+556,Poinsett Wells,LOCATION
 556,B.F. Perry,PERSON
 556,Elizabeth Perry,PERSON
 556,Greenville,LOCATION
 230,Washington City,LOCATION
 230,Liz,PERSON
-230,the City of Washington &,LOCATION
+230,the City of Washington,LOCATION
 230,the United States,LOCATION
 230,Stephens,PERSON
 230,South Carolina,LOCATION
@@ -6831,8 +6753,8 @@ letter_number,entity_name,entity_type
 542,Frank Perry,PERSON
 542,Annapolis,LOCATION
 387,Liz,PERSON
-387,William Adolphus] Mooney &,PERSON
-387,John Wickliffe] Stokes,PERSON
+387,William Adolphus Mooney,PERSON
+387,John Wickliffe Stokes,PERSON
 387,B.F. Perry,PERSON
 387,Elizabeth Perry,PERSON
 387,Greenville,LOCATION
@@ -6856,7 +6778,6 @@ letter_number,entity_name,entity_type
 393,Greenville,LOCATION
 393,Minerva,PERSON
 393,B.F. Perry,PERSON
-393,P.S.,LOCATION
 393,Hext,PERSON
 393,Arthur,PERSON
 393,Arthur,PERSON
@@ -6885,7 +6806,7 @@ letter_number,entity_name,entity_type
 422,Frank Coxe,PERSON
 422,Philadelphia,LOCATION
 422,Bill Beattie,PERSON
-422,Washington County Va &c.,LOCATION
+422,Washington County Va,LOCATION
 422,Tresevant,PERSON
 422,Willie,PERSON
 422,Anna Perry,PERSON
@@ -6894,8 +6815,8 @@ letter_number,entity_name,entity_type
 344,Frank,PERSON
 344,Susan Hoke,PERSON
 344,Burt,PERSON
-344,Tell Fanny,PERSON
-344,Tell Hext,PERSON
+344,Fanny,PERSON
+344,Hext,PERSON
 344,Martin,PERSON
 344,Columbia,LOCATION
 344,Anna,PERSON
@@ -6921,7 +6842,7 @@ letter_number,entity_name,entity_type
 350,Anna Perry,PERSON
 436,Liz,PERSON
 436,Frank Pickens,PERSON
-436,Isaac Hayne & Captain,PERSON
+436,Isaac Hayne,PERSON
 436,Cunningham,PERSON
 436,Cunningham,PERSON
 436,Cunningham,PERSON
@@ -6939,14 +6860,12 @@ letter_number,entity_name,entity_type
 436,Chesnut,PERSON
 436,LeConte,PERSON
 436,Anna,PERSON
-436,Kiss,PERSON
 436,Tell Fannie,PERSON
 436,B.F. Perry,PERSON
-436,P.S.,LOCATION
 436,Perry,PERSON
 436,Elizabeth Perry,PERSON
 436,Greenville,LOCATION
-28,Laurens C.H.,PERSON
+28,Laurens C.H.,LOCATION
 28,Papa,PERSON
 28,B.F. Perry,PERSON
 28,William Perry,PERSON
@@ -6982,18 +6901,17 @@ letter_number,entity_name,entity_type
 185,Stateburgh,LOCATION
 185,Elizabeth Perry,PERSON
 185,Greenville,LOCATION
-14,Laurens C.H.,PERSON
+14,Laurens C.H.,LOCATION
 14,Liz,PERSON
 14,Young,PERSON
 14,Jones,LOCATION
 14,Sherry,PERSON
-14,Pamela Cunningham &,PERSON
+14,Pamela Cunningham,PERSON
 14,Liz,PERSON
-14,Kiss,PERSON
 14,B.F. Perry,PERSON
 14,Elizabeth Perry,PERSON
 14,Greenville,LOCATION
-191,Anderson C.H.,PERSON
+191,Anderson C.H.,LOCATION
 191,Liz,PERSON
 191,Greenville,LOCATION
 191,Reed,PERSON
@@ -7073,7 +6991,7 @@ letter_number,entity_name,entity_type
 620,LeConte,PERSON
 620,Janney,PERSON
 620,Abbeville,LOCATION
-620,Jennings Goodlett &c.,PERSON
+620,Jennings Goodlett,PERSON
 620,Manassas,LOCATION
 620,Petersburg,LOCATION
 620,B.F. Perry,PERSON
@@ -7099,8 +7017,8 @@ letter_number,entity_name,entity_type
 634,Sullivan,PERSON
 634,Stokes,PERSON
 634,Alston Hayne,PERSON
-634,al,PERSON
-634,John & Harry,PERSON
+634,John,PERSON
+634,Harry,PERSON
 634,Glencoe,LOCATION
 634,Yeadon,LOCATION
 634,Wardlaw,PERSON
@@ -7110,12 +7028,11 @@ letter_number,entity_name,entity_type
 634,B.F. Perry,PERSON
 634,Elizabeth Perry,PERSON
 634,Greenville,LOCATION
-152,Anderson C,PERSON
+152,Anderson C,LOCATION
 152,Liz,PERSON
 152,Withers,PERSON
 152,Smith,PERSON
 152,Pendleton,LOCATION
-152,beaux,LOCATION
 152,Withers,PERSON
 152,Greenville,LOCATION
 152,Greenville,LOCATION
@@ -7125,12 +7042,12 @@ letter_number,entity_name,entity_type
 152,Nashville,LOCATION
 152,Tom,PERSON
 152,Pickens,PERSON
-152,Alexander] Evins,PERSON
+152,Alexander Evins,PERSON
 152,Harrison,PERSON
 152,Cotton,PERSON
 152,Simpson,PERSON
 152,Barn,PERSON
-152,Tell Reuben,PERSON
+152,Reuben,PERSON
 152,Charles,PERSON
 152,Jim,PERSON
 152,Pickens,PERSON
@@ -7212,9 +7129,7 @@ letter_number,entity_name,entity_type
 636,Williams,PERSON
 636,Charleston,LOCATION
 636,W.H. Perry,PERSON
-636,P.S.,LOCATION
-636,Envelopes,LOCATION
-178,Laurens C.H.,PERSON
+178,Laurens C.H.,LOCATION
 178,Liz,PERSON
 178,Patriot,PERSON
 178,Anderson,PERSON
@@ -7254,10 +7169,10 @@ letter_number,entity_name,entity_type
 193,Taylor,PERSON
 193,Charleston,LOCATION
 193,Isaac Hayne,PERSON
-193,Perry Emory] Duncan,PERSON
+193,Perry Emory Duncan,PERSON
 193,William Pinckney,PERSON
 193,Burt,PERSON
-193,Richard] DeTreville,PERSON
+193,Richard DeTreville,PERSON
 193,Duncan,PERSON
 193,Jones,PERSON
 193,Duncan,PERSON
@@ -7267,7 +7182,7 @@ letter_number,entity_name,entity_type
 193,Adams,PERSON
 193,Watts,PERSON
 193,Columbia,LOCATION
-193,Make Reuben,PERSON
+193,Reuben,PERSON
 193,B.F. Perry,PERSON
 193,Elizabeth Perry,PERSON
 193,Greenville,LOCATION
@@ -7281,11 +7196,10 @@ letter_number,entity_name,entity_type
 16,Charleston,LOCATION
 16,Pinckney,PERSON
 16,Hayne,PERSON
-16,Perry Emory] Duncan,PERSON
+16,Perry Emory Duncan,PERSON
 16,Bee,PERSON
 16,Young,PERSON
-16,William] Aiken,PERSON
-16,Kiss,PERSON
+16,William Aiken,PERSON
 16,Samuel Earle,PERSON
 16,God,PERSON
 16,B.F. Perry,PERSON
@@ -7336,8 +7250,6 @@ letter_number,entity_name,entity_type
 420,Anna Trezevants,PERSON
 420,Bill Beattie,PERSON
 420,Willie,PERSON
-420,,LOCATION
-420,Write,LOCATION
 420,Anna Perry,PERSON
 420,Burlington,LOCATION
 420,N.J.,LOCATION
@@ -7362,7 +7274,7 @@ letter_number,entity_name,entity_type
 434,LeConte,PERSON
 434,Elford,PERSON
 434,Duncan,PERSON
-434,Anna &,PERSON
+434,Anna,PERSON
 434,Mary Mauldin,PERSON
 434,America,LOCATION
 434,Pickens,PERSON
@@ -7370,7 +7282,6 @@ letter_number,entity_name,entity_type
 434,Bill,PERSON
 434,ONeall,PERSON
 434,B.F. Perry,PERSON
-434,P.S.,LOCATION
 434,Elizabeth Perry,PERSON
 434,Greenville,LOCATION
 352,Liz,PERSON
@@ -7383,7 +7294,6 @@ letter_number,entity_name,entity_type
 352,Clerk,PERSON
 352,John Watson,PERSON
 352,Frank,PERSON
-352,B.F.,LOCATION
 352,Perry,PERSON
 352,Elizabeth Perry,PERSON
 352,Greenville,LOCATION
@@ -7420,7 +7330,6 @@ letter_number,entity_name,entity_type
 391,John Baldwin,PERSON
 391,Faculty,PERSON
 391,B.F. Perry,PERSON
-391,P.S.,LOCATION
 391,B.F. Perry,PERSON
 391,William Hayne Perry,PERSON
 232,Washington City,LOCATION
@@ -7439,8 +7348,8 @@ letter_number,entity_name,entity_type
 554,Liz,PERSON
 554,Resolutions,PERSON
 554,Washington,LOCATION
-554,James] Farrow,PERSON
-554,Oliver Evans] Edwards,PERSON
+554,James Farrow,PERSON
+554,Oliver Evans Edwards,PERSON
 554,Bill,PERSON
 554,McFarland,PERSON
 554,Greenville,LOCATION
@@ -7518,7 +7427,7 @@ letter_number,entity_name,entity_type
 583,Kemble,PERSON
 583,Rhett,PERSON
 583,Preston,PERSON
-583,William L.] Yancey,PERSON
+583,William L. Yancey,PERSON
 583,John Cunningham,PERSON
 583,Yancey,LOCATION
 583,Meek,PERSON
@@ -7538,9 +7447,9 @@ letter_number,entity_name,entity_type
 756,Greenville,LOCATION
 756,Chester,PERSON
 756,Winnsboro,LOCATION
-756,James H.] Rion,PERSON
+756,James H. Rion,PERSON
 756,Winnsboro,LOCATION
-756,inson,PERSON
+756,Inson,PERSON
 756,Campbell,PERSON
 756,Columbia,LOCATION
 756,A.S.,LOCATION
@@ -7556,15 +7465,15 @@ letter_number,entity_name,entity_type
 742,Bullen,PERSON
 742,South Carolina,LOCATION
 742,South Carolina,LOCATION
-742,George H.] Pendleton,PERSON
+742,George H. Pendleton,PERSON
 742,New York,LOCATION
 742,Pennsylvania,LOCATION
-742,Thomas A.] Hendricks,PERSON
-742,John T.] Hoffman,PERSON
+742,Thomas A. Hendricks,PERSON
+742,John T. Hoffman,PERSON
 742,Collin Ferguson,PERSON
 742,New Haven,LOCATION
 742,Livingston,PERSON
-742,Niagara Falls &,PERSON
+742,Niagara Falls,PERSON
 742,Albany,LOCATION
 742,Livingston,PERSON
 742,Livingston,PERSON
@@ -7583,7 +7492,6 @@ letter_number,entity_name,entity_type
 743,Mt. Vernon,LOCATION
 743,Grady,PERSON
 743,B.F. Perry,PERSON
-743,P.S.,LOCATION
 743,Greenwood,PERSON
 743,Elizabeth Perry,PERSON
 743,Greenville,LOCATION
@@ -7609,7 +7517,7 @@ letter_number,entity_name,entity_type
 757,Philadelphia,LOCATION
 757,Willie,PERSON
 757,Ben,PERSON
-757,Tell Hayne,PERSON
+757,Hayne,PERSON
 757,Willie,PERSON
 757,B.F. Perry,PERSON
 757,Elizabeth Perry,PERSON
@@ -7622,16 +7530,16 @@ letter_number,entity_name,entity_type
 582,Spratt,PERSON
 582,Spratt,PERSON
 582,Spratt,PERSON
-582,Spratt & Ingersoll,PERSON
+582,Spratt,PERSON
+582,Ingersoll,PERSON
 582,New Haven,LOCATION
 582,Charleston,LOCATION
 582,Greenville,LOCATION
 582,Rice,PERSON
 582,Greenville,LOCATION
-582,Tell Fannie,PERSON
+582,Fannie,PERSON
 582,B[word,PERSON
 582,Mordecais,PERSON
-582,rang a,PERSON
 582,B.F. Perry,PERSON
 582,Elizabeth Perry,PERSON
 582,Greenville,LOCATION
@@ -7640,13 +7548,8 @@ letter_number,entity_name,entity_type
 596,Philadelphia,LOCATION
 596,Benjamin Franklin Perry,PERSON
 596,the United States,LOCATION
-596,Erected,PERSON
-596,Laurel,LOCATION
-596,Pure,PERSON
 596,Frank,PERSON
 596,the United States,LOCATION
-596,Taken,LOCATION
-596,Laurels,LOCATION
 596,the United States,LOCATION
 569,Greenville,LOCATION
 569,Irvine,PERSON
@@ -7685,7 +7588,7 @@ letter_number,entity_name,entity_type
 233,Washington,LOCATION
 233,Gardiner,PERSON
 233,Pierce,PERSON
-233,James Moore] Wayne,PERSON
+233,James Moore Wayne,PERSON
 233,the United States,LOCATION
 233,Gardiner,PERSON
 233,McQueen,PERSON
@@ -7729,16 +7632,15 @@ letter_number,entity_name,entity_type
 390,Greenville,LOCATION
 390,Anna,PERSON
 390,Frank,PERSON
-390,Poinsett Wells,PERSON
-390,Keep,PERSON
+390,Poinsett Wells,LOCATION
 390,Greenville,LOCATION
 390,Professors,PERSON
 390,Robert Foster,PERSON
 390,B.F. Perry,PERSON
 390,William Hayne Perry,PERSON
 384,Liz,PERSON
-384,Furman,PERSON
-384,Patriot,PERSON
+384,Furman,LOCATION
+384,Patriot,LOCATION
 384,B.F. Perry,PERSON
 384,Tom McL,PERSON
 384,Peter Cauble,PERSON
@@ -7816,7 +7718,7 @@ letter_number,entity_name,entity_type
 192,Irvine,PERSON
 192,Evans,PERSON
 192,Ball,PERSON
-192,Anna recd,PERSON
+192,Anna,PERSON
 192,Thompson,PERSON
 192,Sam Townes,PERSON
 192,Duncan,PERSON
@@ -7825,7 +7727,6 @@ letter_number,entity_name,entity_type
 192,Elizabeth Perry,PERSON
 192,Greenville,LOCATION
 17,Liz,PERSON
-17,Pickens Resolutions,PERSON
 17,Rhett,PERSON
 17,Jim,PERSON
 17,Aiken,PERSON
@@ -7833,7 +7734,6 @@ letter_number,entity_name,entity_type
 17,Sam Earle,PERSON
 17,Washington,LOCATION
 17,McElroys,PERSON
-17,Equity,LOCATION
 17,Charles Sullivan,PERSON
 17,Elizabeth Perry,PERSON
 17,Greenville,LOCATION
@@ -7851,9 +7751,9 @@ letter_number,entity_name,entity_type
 186,Elizabeth Perry,PERSON
 186,Greenville,LOCATION
 179,Liz,PERSON
-179,Patriot,PERSON
+179,Patriot,LOCATION
 179,Jones,PERSON
-179,Newberry C.H.,PERSON
+179,Newberry C.H.,LOCATION
 179,Whitner,PERSON
 179,Powe,PERSON
 179,Goodwyn,PERSON
@@ -7880,11 +7780,10 @@ letter_number,entity_name,entity_type
 151,Miss Mory,PERSON
 151,Greenville,LOCATION
 151,South Carolina,LOCATION
-151,Tell Willie,PERSON
-151,al,PERSON
+151,Willie,PERSON
+151,Al,PERSON
 151,Anderson,PERSON
 151,Wrights,PERSON
-151,Kiss,PERSON
 151,B.F. Perry,PERSON
 151,Elizabeth Perry,PERSON
 151,Greenville,LOCATION
@@ -7896,12 +7795,10 @@ letter_number,entity_name,entity_type
 637,Martin,PERSON
 637,LeContes,PERSON
 637,Fainny,PERSON
-637,Fair,PERSON
-637,Leap,PERSON
+637,Fair,LOCATION
 637,Janneys Hotel,PERSON
 637,Greenfield,PERSON
 637,Greenville,PERSON
-637,Throat,PERSON
 637,Greenville,LOCATION
 637,B.F. Perry,PERSON
 637,Elizabeth Perry,PERSON
@@ -7950,7 +7847,8 @@ letter_number,entity_name,entity_type
 145,Alabama,LOCATION
 145,Genl Adams,PERSON
 145,Thos Pickens,PERSON
-145,Tom Butler & Erwin Jones,PERSON
+145,Tom Butler,PERSON
+145,Erwin Jones,PERSON
 145,Dangol,PERSON
 145,Jones,PERSON
 145,Beard,PERSON
@@ -7988,10 +7886,11 @@ letter_number,entity_name,entity_type
 141,Yeadons,PERSON
 141,Clark Mills,PERSON
 141,Porter,PERSON
-141,Episcopal,PERSON
+141,Episcopal,LOCATION
 141,Willie,PERSON
-141,Isaac Hayne &,PERSON
-141,Isaac & William Taylor,PERSON
+141,Isaac Hayne,PERSON
+141,Isaac Taylor,PERSON
+141,William Taylor,PERSON
 141,Elford,PERSON
 141,Erwin,PERSON
 141,Jones,LOCATION
@@ -8005,7 +7904,7 @@ letter_number,entity_name,entity_type
 141,Rhett,PERSON
 141,Anne,PERSON
 141,Isaac Hayne,PERSON
-141,Tell Fanny,PERSON
+141,Fanny,PERSON
 141,Canada,LOCATION
 141,Cloaks,PERSON
 141,B.F. Perry,PERSON
@@ -8020,7 +7919,6 @@ letter_number,entity_name,entity_type
 627,Ma,PERSON
 627,Tell Grandma,PERSON
 627,W.H. Perry,PERSON
-627,P.S.,LOCATION
 627,Silver,LOCATION
 627,Stairley,PERSON
 627,Bill Beattie,PERSON
@@ -8033,7 +7931,7 @@ letter_number,entity_name,entity_type
 8,Foster,PERSON
 8,Earle,PERSON
 8,Huger,PERSON
-8,James Henry] Hammond,PERSON
+8,James Henry Hammond,PERSON
 8,Burt,PERSON
 8,Huger,PERSON
 8,Anna,PERSON
@@ -8056,7 +7954,7 @@ letter_number,entity_name,entity_type
 633,W.H. Perry,PERSON
 633,Elizabeth Perry,PERSON
 633,Greenville,LOCATION
-155,Pickens C.H.,PERSON
+155,Pickens C.H.,LOCATION
 155,Liz,PERSON
 155,Elford,PERSON
 155,Elford,PERSON
@@ -8072,7 +7970,7 @@ letter_number,entity_name,entity_type
 155,California,LOCATION
 155,Greenville,LOCATION
 155,Pickens,PERSON
-155,& Harriett,PERSON
+155,Harriett,PERSON
 155,B.F. Perry,PERSON
 155,Elizabeth Perry,PERSON
 155,Greenvile,LOCATION
@@ -8085,10 +7983,9 @@ letter_number,entity_name,entity_type
 182,Reese,PERSON
 182,Fre,PERSON
 182,B.F. Perry,PERSON
-182,P.S.,LOCATION
 182,Elizabeth Perry,PERSON
 182,Greenville,LOCATION
-13,Laurens C.H.,PERSON
+13,Laurens C.H.,LOCATION
 13,Liz,PERSON
 13,Jones,PERSON
 13,Lister,PERSON
@@ -8121,7 +8018,7 @@ letter_number,entity_name,entity_type
 196,Dinkins,PERSON
 196,Anna,PERSON
 196,William Ford,PERSON
-196,Josiah James] Evans,PERSON
+196,Josiah James Evans,PERSON
 196,Middleton,PERSON
 196,Middleton,PERSON
 196,Manning,PERSON
@@ -8146,7 +8043,6 @@ letter_number,entity_name,entity_type
 419,Boston,LOCATION
 419,Fanny,PERSON
 419,William Hayne Perry,PERSON
-419,P.S.,LOCATION
 419,Perry,PERSON
 419,College,LOCATION
 419,B.F. Perry,PERSON
@@ -8155,7 +8051,7 @@ letter_number,entity_name,entity_type
 425,Columbia,LOCATION
 425,Frank,PERSON
 425,Susan Perry,PERSON
-425,marry boysno,PERSON
+425,Boysno,PERSON
 425,LeConte,PERSON
 425,Frank,PERSON
 425,Frank,PERSON
@@ -8212,7 +8108,7 @@ letter_number,entity_name,entity_type
 431,Reed,PERSON
 431,LeConte,PERSON
 431,Farrow,PERSON
-431,Bail[e]y,PERSON
+431,Bailey,PERSON
 431,Laurens,PERSON
 431,Gantt,PERSON
 431,Gantt,PERSON
@@ -8233,7 +8129,7 @@ letter_number,entity_name,entity_type
 394,Minerva,PERSON
 394,Minerva,PERSON
 394,Willie,PERSON
-394,Fredertick Gustavus] Behre,PERSON
+394,Fredertick Gustavus Behre,PERSON
 394,Behre,PERSON
 394,Barnwell,PERSON
 394,LeConte,PERSON
@@ -8320,11 +8216,11 @@ letter_number,entity_name,entity_type
 545,Rhett,PERSON
 545,Edwards,PERSON
 545,Pope,PERSON
-545,Francis Wellman] Fickling,PERSON
-545,James H.] Norwood,PERSON
+545,Francis Wellman Fickling,PERSON
+545,James H. Norwood,PERSON
 545,Bill,PERSON
 545,Rhett,PERSON
-545,William Sidney] Mullins,PERSON
+545,William Sidney Mullins,PERSON
 545,Laborde,PERSON
 545,Gist,PERSON
 545,Allen,PERSON
@@ -8344,8 +8240,8 @@ letter_number,entity_name,entity_type
 592,Isaac Hayne,PERSON
 592,Allen,PERSON
 592,Cook,PERSON
-592,Governorten,LOCATION
-592,Robert Barnwell &,PERSON
+592,Governor,LOCATION
+592,Robert Barnwell,PERSON
 592,B.F. Perry,PERSON
 592,Elizabeth Perry,PERSON
 592,Greenville,LOCATION
@@ -8372,7 +8268,7 @@ letter_number,entity_name,entity_type
 747,Liz,PERSON
 747,Sans Souci,PERSON
 747,Lindy,PERSON
-747,Husband,LOCATION
+747,Husband,PERSON
 747,B.F. Perry,PERSON
 747,Hoke,PERSON
 747,Bryan,PERSON
@@ -8397,7 +8293,7 @@ letter_number,entity_name,entity_type
 752,Jack,PERSON
 752,Henry,PERSON
 752,Jack,PERSON
-752,Husband,LOCATION
+752,Husband,PERSON
 752,B.F. Perry,PERSON
 752,Elizabeth Perry,PERSON
 587,Charleston,LOCATION
@@ -8431,7 +8327,7 @@ letter_number,entity_name,entity_type
 593,Greenville,LOCATION
 222,Washington City,LOCATION
 222,Liz,PERSON
-222,Thomas Edwin] Ware,PERSON
+222,Thomas Edwin Ware,PERSON
 222,Adam Jones,PERSON
 222,Wares,PERSON
 222,Burt,PERSON
@@ -8444,7 +8340,7 @@ letter_number,entity_name,entity_type
 222,Thompson,PERSON
 222,Thompson,PERSON
 222,Gardiner,PERSON
-222,Charles Magill] Conrad,PERSON
+222,Charles Magill Conrad,PERSON
 222,Clingman,PERSON
 222,Elford,PERSON
 222,Irwin,PERSON
@@ -8519,9 +8415,7 @@ letter_number,entity_name,entity_type
 236,Greenville,LOCATION
 578,Liz,PERSON
 578,Orr,PERSON
-578,& Col,PERSON
 578,Duncan,PERSON
-578,Resolutions,PERSON
 578,Adams,PERSON
 578,Becky,LOCATION
 578,Johnson,PERSON
@@ -8539,8 +8433,8 @@ letter_number,entity_name,entity_type
 395,William Hayne Perry,PERSON
 381,Liz,PERSON
 381,Patriot,PERSON
-381,Al]l]ston,PERSON
-381,Al[l]ston,PERSON
+381,Allston,PERSON
+381,Allston,PERSON
 381,Petigru,PERSON
 381,T. Croft,PERSON
 381,Burt,PERSON
@@ -8559,7 +8453,6 @@ letter_number,entity_name,entity_type
 356,Duncan,PERSON
 356,Georgia,LOCATION
 356,Furmans,PERSON
-356,Col,PERSON
 356,B.F. Perry,PERSON
 356,McBee,PERSON
 356,Elizabeth Perry,PERSON
@@ -8602,7 +8495,7 @@ letter_number,entity_name,entity_type
 424,Green,PERSON
 424,Miller,PERSON
 424,Greens,PERSON
-424,Patriot,PERSON
+424,Patriot,LOCATION
 424,Bartows,PERSON
 424,Rodgers,PERSON
 424,Butler,PERSON
@@ -8657,7 +8550,7 @@ letter_number,entity_name,entity_type
 418,Miller,PERSON
 418,May,PERSON
 418,Cobb,PERSON
-418,Patriot,PERSON
+418,Patriot,LOCATION
 418,Arthur,PERSON
 418,Anna,PERSON
 418,B.F. Perry,PERSON
@@ -8666,12 +8559,9 @@ letter_number,entity_name,entity_type
 12,Liz,PERSON
 12,Earle,PERSON
 12,Preston,PERSON
-12,Resolutions,PERSON
 12,Earle,PERSON
 12,Johnson,PERSON
 12,Texas,LOCATION
-12,Kiss,PERSON
-12,B.F,LOCATION
 12,Perry,PERSON
 12,Elizabeth Perry,PERSON
 12,Greenville,LOCATION
@@ -8684,7 +8574,7 @@ letter_number,entity_name,entity_type
 197,Martin,PERSON
 197,Hayne,PERSON
 197,Charleston,LOCATION
-197,David Lowry],PERSON
+197,David Lowry,PERSON
 197,North Carolina,LOCATION
 197,Brumby,PERSON
 197,Anna,PERSON
@@ -8707,16 +8597,15 @@ letter_number,entity_name,entity_type
 183,Butler,PERSON
 183,Sam Townes,PERSON
 183,Tell Anna,PERSON
-183,Patriot,PERSON
+183,Patriot,LOCATION
 183,B.F. Perry,PERSON
 183,Elizabeth Perry,PERSON
 183,Greenville,LOCATION
 632,Stairley,PERSON
 632,Long,PERSON
-632,Liver,PERSON
 632,Camp,LOCATION
 632,Long,PERSON
-632,William H.C.] Whiting,PERSON
+632,William H.C. Whiting,PERSON
 632,Savannah,LOCATION
 632,Elford,PERSON
 632,Elford,PERSON
@@ -8734,15 +8623,14 @@ letter_number,entity_name,entity_type
 632,W.H. Perry,PERSON
 632,Benjamin Perry,PERSON
 632,Greenville,LOCATION
-154,Laurens C.H.,PERSON
+154,Laurens C.H.,LOCATION
 154,Liz,PERSON
 154,Andersons,PERSON
 154,Edward,PERSON
 154,Irby,PERSON
 154,Jim,PERSON
-154,Negroes,LOCATION
+154,Negroes,PERSON
 154,B.F. Perry,PERSON
-154,P.S.,LOCATION
 154,Elizabeth Perry,PERSON
 154,Greenville,LOCATION
 140,Liz,PERSON
@@ -8753,17 +8641,16 @@ letter_number,entity_name,entity_type
 140,Willie,PERSON
 140,Martin,PERSON
 140,Erwin,PERSON
-140,Tell Anna,PERSON
+140,Anna,PERSON
 140,Stuart,PERSON
 140,Greenville,LOCATION
-140,Kiss,PERSON
 140,B.F. Perry,PERSON
 140,Elizabeth Perry,PERSON
 140,Greenville,LOCATION
-9,Laurens C. House,PERSON
+9,Laurens C. House,LOCATION
 9,Liz,PERSON
 9,Pamela,PERSON
-9,Andrew P.] Butler,PERSON
+9,Andrew P. Butler,PERSON
 9,Greenville,LOCATION
 9,Burt,PERSON
 9,Edgefield,LOCATION
@@ -8774,7 +8661,7 @@ letter_number,entity_name,entity_type
 9,Pamela,PERSON
 9,Rosemont,LOCATION
 9,Butler,PERSON
-9,Francis W.] Pickens,PERSON
+9,Francis W. Pickens,PERSON
 9,John C. Calhouns,PERSON
 9,Miss Carroll,PERSON
 9,Coleman,PERSON
@@ -8793,18 +8680,17 @@ letter_number,entity_name,entity_type
 626,Bill Thompson,PERSON
 626,Moore,PERSON
 626,W.H. Perry,PERSON
-626,P.S.,LOCATION
 626,West,PERSON
 626,Benjamin Perry,PERSON
 626,Greenville,LOCATION
 168,Liz,PERSON
 168,Memminger,PERSON
-168,Elias Chumpton] Leitner,PERSON
+168,Elias Chumpton Leitner,PERSON
 168,Greenville,LOCATION
 168,James Washington,PERSON
 168,Harrison,PERSON
 168,Anderson,PERSON
-168,James] Chesnut,PERSON
+168,James Chesnut,PERSON
 168,Erwin Patton,PERSON
 168,Laurens C.H.,PERSON
 168,Mauldin,PERSON
@@ -8812,17 +8698,16 @@ letter_number,entity_name,entity_type
 168,Young,PERSON
 168,Governors,PERSON
 168,Pickens,PERSON
-168,paris,LOCATION
+168,Paris,LOCATION
 168,Sally,PERSON
 168,Jinny Lind,PERSON
 168,Philadelphia,LOCATION
-168,Tell Anna,PERSON
+168,Anna,PERSON
 168,McBee,PERSON
 168,Carson,PERSON
 168,Croft,PERSON
 168,Liz,PERSON
 168,B.F. Perry,PERSON
-168,P.S.,LOCATION
 168,Elford,PERSON
 168,Thompson,PERSON
 168,New York,LOCATION
@@ -8839,8 +8724,8 @@ letter_number,entity_name,entity_type
 618,Manassas,LOCATION
 618,Manassas,LOCATION
 618,Richmond,LOCATION
-618,Lieut,LOCATION
-618,the Ladies of Petersburg,LOCATION
+618,Lieut,PERSON
+618,the Ladies of Petersburg,PERSON
 618,Hampton,PERSON
 618,Bill Beattie,PERSON
 618,Charlottesville,LOCATION
@@ -8852,7 +8737,7 @@ letter_number,entity_name,entity_type
 618,McDaniel,PERSON
 618,Bill Thompson,PERSON
 618,Jesse Westmoreland,PERSON
-618,Orange.,LOCATION
+618,Orange,LOCATION
 618,Elford,PERSON
 618,Alex McBee,PERSON
 618,Sally Thompson,PERSON
@@ -8862,7 +8747,6 @@ letter_number,entity_name,entity_type
 618,Aunt Susan,PERSON
 618,Aunt Annie,PERSON
 618,Cousins Annie,PERSON
-618,Concert,PERSON
 618,W.H. Perry,PERSON
 618,Elizabeth Perry,PERSON
 618,Greenville,LOCATION
@@ -8877,7 +8761,7 @@ letter_number,entity_name,entity_type
 156,McBees,PERSON
 156,Said,PERSON
 156,McBee,PERSON
-156,Tell Wilie,PERSON
+156,Wilie,PERSON
 156,Jim,PERSON
 156,Herndon,PERSON
 156,Thompson,PERSON
@@ -8925,12 +8809,13 @@ letter_number,entity_name,entity_type
 624,Chesnut,PERSON
 624,Bartell,PERSON
 624,Willie,PERSON
-624,india,LOCATION
+624,India,LOCATION
 624,Gill,PERSON
 624,Petersburgh,PERSON
 624,Austin,PERSON
 624,Willie,PERSON
-624,John & Prince,PERSON
+624,John,PERSON
+624,Prince,PERSON
 624,Sharpe,PERSON
 624,Greenville,LOCATION
 624,Georgia,LOCATION
@@ -8968,7 +8853,7 @@ letter_number,entity_name,entity_type
 38,Cornelia Crittenden,PERSON
 38,Abbeville,LOCATION
 38,Ellet,PERSON
-38,Thomas Jefferson] Withers,,PERSON
+38,Thomas Jefferson Withers,PERSON
 38,Hugh,LOCATION
 38,Wigfall,PERSON
 38,Brussels,LOCATION
@@ -8982,7 +8867,6 @@ letter_number,entity_name,entity_type
 38,Preston,PERSON
 38,Paris,LOCATION
 38,Liz,PERSON
-38,Kiss,PERSON
 38,B.F. Perry,PERSON
 38,Elizabeth Perry,PERSON
 38,Greenville,LOCATION
@@ -8993,7 +8877,7 @@ letter_number,entity_name,entity_type
 195,Charleston,LOCATION
 195,Charleston,LOCATION
 195,Jones,PERSON
-195,DawkinsBonham,PERSON
+195,Dawkins Bonham,PERSON
 195,Keith,PERSON
 195,Greenville,LOCATION
 195,Anna,PERSON
@@ -9005,22 +8889,19 @@ letter_number,entity_name,entity_type
 195,B.F. Perry,PERSON
 195,Elizabeth Perry,PERSON
 195,Greenville,LOCATION
-10,Anderson C.H.,PERSON
+10,Anderson C.H.,LOCATION
 10,Liz,PERSON
 10,Greenville,LOCATION
-10,N. Carolinasold,LOCATION
+10,N. Carolinas,LOCATION
 10,Jim,PERSON
 10,Butler,PERSON
 10,Haynsworth,PERSON
 10,Greenville,LOCATION
-10,EliasEarle,PERSON
+10,Elias Earle,PERSON
 10,Earle,PERSON
 10,Butler,PERSON
 10,Butler,PERSON
-10,B.,PERSON
 10,Earle,PERSON
-10,Happen,PERSON
-10,Kiss,PERSON
 10,Liz,PERSON
 10,Elizabeth Perry,PERSON
 10,Greenville,LOCATION
@@ -9047,7 +8928,7 @@ letter_number,entity_name,entity_type
 368,Liz,PERSON
 368,Franks,PERSON
 368,Charleston,LOCATION
-368,Petigruvery,PERSON
+368,Petigru,PERSON
 368,Alston,PERSON
 368,McGrath,PERSON
 368,Johnson,PERSON
@@ -9062,9 +8943,9 @@ letter_number,entity_name,entity_type
 368,Greenville,LOCATION
 368,Greenville,LOCATION
 368,Wilson,PERSON
-368,Ball,PERSON
-368,Ball,PERSON
-368,Fairs,PERSON
+368,Ball,LOCATION
+368,Ball,LOCATION
+368,Fairs,LOCATION
 368,Robert Duncan,PERSON
 368,Charleston,LOCATION
 368,Barnwell Duncan,PERSON
@@ -9088,8 +8969,8 @@ letter_number,entity_name,entity_type
 354,Elizabeth Perry,PERSON
 354,Greenville,LOCATION
 340,Liz,PERSON
-340,Willie Gill Watson &,PERSON
-340,Episcopal,PERSON
+340,Willie Gill Watson,PERSON
+340,Episcopal,LOCATION
 340,Casey,PERSON
 340,Willie,PERSON
 340,Irby,PERSON
@@ -9120,8 +9001,6 @@ letter_number,entity_name,entity_type
 426,Powell,PERSON
 426,Arthur,PERSON
 426,B.F. Perry,PERSON
-426,,LOCATION
-426,Direct,LOCATION
 426,Columbia,LOCATION
 426,Frank Perry,PERSON
 426,Annapolis,LOCATION
@@ -9164,7 +9043,6 @@ letter_number,entity_name,entity_type
 546,Liz,PERSON
 546,Thomas,PERSON
 546,Petigru,PERSON
-546,Resolutions,PERSON
 546,Harpers Ferry,PERSON
 546,Young,PERSON
 546,Albert Micajah,PERSON
@@ -9181,7 +9059,7 @@ letter_number,entity_name,entity_type
 220,Washington City,LOCATION
 220,Liz,PERSON
 220,Burt,PERSON
-220,Patriot,PERSON
+220,Patriot,LOCATION
 220,Burts,PERSON
 220,Burt,PERSON
 220,Frank Burt,PERSON
@@ -9223,7 +9101,6 @@ letter_number,entity_name,entity_type
 552,Elizabeth Perry,PERSON
 552,Greenville,LOCATION
 585,Charleston,LOCATION
-585,Tell F,PERSON
 585,Bill,PERSON
 585,New York,LOCATION
 585,South Carolina,LOCATION
@@ -9232,7 +9109,8 @@ letter_number,entity_name,entity_type
 591,Liz,PERSON
 591,Willie,PERSON
 591,Edmund Rhett,PERSON
-591,Willie & Albert Rhetts,PERSON
+591,Willie Rhetts,PERSON
+591,Albert Rhetts,PERSON
 591,LeConte,PERSON
 591,McGowan,PERSON
 591,LeConte,PERSON
@@ -9241,15 +9119,14 @@ letter_number,entity_name,entity_type
 591,LeConte,PERSON
 591,Graham,PERSON
 591,Barnetts,PERSON
-591,Kiss,PERSON
 591,B.F. Perry,PERSON
 591,Elizabeth Perry,PERSON
 591,Greenville,LOCATION
 744,Greenville,LOCATION
 744,Liz,PERSON
-744,Sans Souci,PERSON
+744,Sans Souci,LOCATION
 744,George,PERSON
-744,[Thomas Stephen],PERSON
+744,Thomas Stephen,PERSON
 744,Simmons,PERSON
 744,B.F. Perry,PERSON
 744,Elizabeth Perry,PERSON
@@ -9281,7 +9158,7 @@ letter_number,entity_name,entity_type
 751,Elizabeth Perry,PERSON
 745,Greenville,LOCATION
 745,Liz,PERSON
-745,Sans Souci,PERSON
+745,Sans Souci,LOCATION
 745,B.F. Perry,PERSON
 745,Elizabeth Perry,PERSON
 590,Washington,LOCATION
@@ -9315,7 +9192,7 @@ letter_number,entity_name,entity_type
 584,Porcher,PERSON
 584,Dudley,PERSON
 584,Baltimore,LOCATION
-584,Tell Willie,PERSON
+584,Willie,PERSON
 584,Mahaffey,PERSON
 584,Porcher,PERSON
 584,Greenville,LOCATION
@@ -9331,7 +9208,7 @@ letter_number,entity_name,entity_type
 235,Elizabeth Perry,PERSON
 235,Greenville,LOCATION
 553,Liz,PERSON
-553,& Franks,PERSON
+553,Franks,PERSON
 553,Arthur,PERSON
 553,Orr,PERSON
 553,LeConte,PERSON
@@ -9341,11 +9218,11 @@ letter_number,entity_name,entity_type
 553,Orr,PERSON
 553,My Bill,PERSON
 553,Frank,PERSON
-553,Tell Alfred,PERSON
+553,Alfred,PERSON
 553,Orr,PERSON
-553,Patriot,PERSON
+553,Patriot,LOCATION
 553,Arthur,PERSON
-553,Episcopal,PERSON
+553,Episcopal,LOCATION
 553,Bryce,PERSON
 553,Smith,PERSON
 553,B.F. Perry,PERSON
@@ -9357,26 +9234,24 @@ letter_number,entity_name,entity_type
 547,Johnston,PERSON
 547,Dunkin,PERSON
 547,Petigru,PERSON
-547,Resolutions,PERSON
 547,Bryant,PERSON
 547,Bill,PERSON
 547,Stokes,PERSON
 547,B.F. Perry,PERSON
-547,P.S.,LOCATION
-547,James Parsons] Carroll,PERSON
+547,James Parsons Carroll,PERSON
 547,Elizabeth Perry,PERSON
 547,Greenville,LOCATION
 221,Washington City,LOCATION
 221,Liz,PERSON
 221,Col Orr,PERSON
 221,Thompson,PERSON
-221,Patriot,PERSON
+221,Patriot,LOCATION
 221,South Carolina,LOCATION
 221,Alabama,LOCATION
 221,Stephens,PERSON
 221,Greenville,LOCATION
 221,Orr,PERSON
-221,Benjamin D.] Naebors,PERSON
+221,Benjamin D. Naebors,PERSON
 221,Aiken,PERSON
 221,Gardiner,PERSON
 221,Abbott,PERSON
@@ -9420,20 +9295,20 @@ letter_number,entity_name,entity_type
 396,Elizabeth Perry,PERSON
 396,Greenville,LOCATION
 341,Liz,PERSON
-341,Susan & Anna,PERSON
+341,Susan,PERSON
+341,Anna,PERSON
 341,Anna,PERSON
 341,Frank,PERSON
 341,Charleston,LOCATION
 341,Dargan,PERSON
 341,Anna,PERSON
-341,Tell Frank,PERSON
+341,Frank,PERSON
 341,Irby,PERSON
 341,McBee,PERSON
 341,B.F. Perry,PERSON
-341,P.S.,LOCATION
 341,Elford,PERSON
-341,Patriot,PERSON
-341,Whal[e]y,PERSON
+341,Patriot,LOCATION
+341,Whaley,PERSON
 341,Charleston,LOCATION
 341,Mdid,PERSON
 341,Elizabeth Perry,PERSON
@@ -9443,7 +9318,8 @@ letter_number,entity_name,entity_type
 427,Thomas,PERSON
 427,Randall Croft,PERSON
 427,Williams,PERSON
-427,Dyer & George Wells,PERSON
+427,Dyer,PERSON
+427,George Wells,PERSON
 427,Greenville,LOCATION
 427,Bell,PERSON
 427,Greenville,LOCATION
@@ -9494,7 +9370,6 @@ letter_number,entity_name,entity_type
 355,Equity,LOCATION
 355,Brown,PERSON
 355,Brown,PERSON
-355,Kiss,PERSON
 355,B.F. Perry,PERSON
 355,Elizabeth Perry,PERSON
 355,Greenville,LOCATION
@@ -9515,7 +9390,7 @@ letter_number,entity_name,entity_type
 180,Martin,PERSON
 180,Markley,PERSON
 180,Isaac Hayne,PERSON
-180,martin seemed kind &,PERSON
+180,Martin,PERSON
 180,Lieber,PERSON
 180,Duncan,PERSON
 180,B.F. Perry,PERSON
@@ -9523,7 +9398,7 @@ letter_number,entity_name,entity_type
 180,Greenville,LOCATION
 194,Liz,PERSON
 194,Keith,PERSON
-194,Peter] Shand,PERSON
+194,Peter Shand,PERSON
 194,Anna,PERSON
 194,Janneys,PERSON
 194,Taylor,PERSON
@@ -9588,7 +9463,7 @@ letter_number,entity_name,entity_type
 625,Williams,PERSON
 625,Butler,PERSON
 625,Alexandria,LOCATION
-625,Headquarters,PERSON
+625,Headquarters,LOCATION
 625,Manassas,LOCATION
 625,Richmond,LOCATION
 625,Alexandria,LOCATION
@@ -9603,9 +9478,8 @@ letter_number,entity_name,entity_type
 625,Annie,PERSON
 625,Hext,PERSON
 625,Aleck,PERSON
-625,Tell Hext,PERSON
+625,Hext,PERSON
 625,W.H. Perry,PERSON
-625,P.S.,LOCATION
 625,Boggs,PERSON
 625,Elizabeth Perry,PERSON
 625,Greenville,LOCATION
@@ -9635,8 +9509,7 @@ letter_number,entity_name,entity_type
 143,Anna,PERSON
 143,Keith,PERSON
 143,Columbia,LOCATION
-143,James H.] Adams,PERSON
-143,Kiss,PERSON
+143,James H. Adams,PERSON
 143,B.F. Perry,PERSON
 143,Elizabeth Perry,PERSON
 143,Greenville,LOCATION
@@ -9655,7 +9528,7 @@ letter_number,entity_name,entity_type
 157,Withers,PERSON
 157,Gilreaths,PERSON
 157,Charleston,LOCATION
-157,Tell Frank,PERSON
+157,Frank,PERSON
 157,B.F. Perry,PERSON
 157,Elizabeth Perry,PERSON
 157,Greenville,LOCATION
@@ -9749,7 +9622,6 @@ letter_number,entity_name,entity_type
 656,Tell Alfred,PERSON
 656,Barton,PERSON
 656,B.F. Perry,PERSON
-656,P.S.,LOCATION
 656,Charleston,LOCATION
 656,Tennessee,LOCATION
 656,Willie,PERSON
@@ -9758,7 +9630,7 @@ letter_number,entity_name,entity_type
 642,Liz,PERSON
 642,Yeadon,PERSON
 642,Greenville,LOCATION
-642,Parlor,PERSON
+642,Parlor,LOCATION
 642,Lady,PERSON
 642,Col,PERSON
 642,James H. Irby,PERSON
@@ -9817,17 +9689,16 @@ letter_number,entity_name,entity_type
 89,Charleston,LOCATION
 89,Sill,PERSON
 89,Richardson,PERSON
-89,Kiss,PERSON
 89,B.F. Perry,PERSON
 89,Elizabeth Perry,PERSON
 89,Greenville,LOCATION
 118,Liz,PERSON
 118,ThompsonYoung,PERSON
 118,Sullivan,PERSON
-118,John L.] Manning,PERSON
+118,John L. Manning,PERSON
 118,Irby,PERSON
-118,Franklin Harper] Elmore,PERSON
-118,Christopher G.] Memminger,PERSON
+118,Franklin Harper Elmore,PERSON
+118,Christopher G. Memminger,PERSON
 118,Henry,PERSON
 118,Smith,PERSON
 118,Shand,PERSON
@@ -9881,7 +9752,6 @@ letter_number,entity_name,entity_type
 76,Miss Walker,PERSON
 76,Ellet,PERSON
 76,Theodore Gourdine,PERSON
-76,Kiss,PERSON
 76,B.F. Perry,PERSON
 76,Elizabeth Perry,PERSON
 76,Greenville,LOCATION
@@ -9891,7 +9761,7 @@ letter_number,entity_name,entity_type
 62,Hammond,PERSON
 62,Hampton,PERSON
 62,Hampton,PERSON
-62,John Algernon Sidney],PERSON
+62,John Algernon Sidney,PERSON
 62,Johnson,PERSON
 62,Caldwell,PERSON
 62,DeSaussure,PERSON
@@ -9905,14 +9775,13 @@ letter_number,entity_name,entity_type
 62,DeSaussure,PERSON
 62,Martin,PERSON
 62,B.F. Perry,PERSON
-62,P.S.,LOCATION
 62,Hampton,PERSON
 62,Elizabeth Perry,PERSON
 681,Liz,PERSON
 681,Dunkin,PERSON
 681,LeConte,PERSON
 681,Holbeck,PERSON
-681,Thomas Edwin] Wares,PERSON
+681,Thomas Edwin Wares,PERSON
 681,Willie,PERSON
 681,Grahamville,PERSON
 681,Wilmington,PERSON
@@ -9933,7 +9802,9 @@ letter_number,entity_name,entity_type
 454,Wiley,PERSON
 454,Stokes,PERSON
 454,Gilreath,PERSON
-454,Carn,[John A.] Inglis & Legare,PERSON
+454,Carn,PERSON
+454,John A. Inglis,PERSON
+454,Legare,PERSON
 454,Preston,LOCATION
 454,B.F. Perry,PERSON
 454,Elizabeth Perry,PERSON
@@ -9945,14 +9816,14 @@ letter_number,entity_name,entity_type
 332,Beadon,PERSON
 332,Theodore Croft,PERSON
 332,Annas,PERSON
-332,Franklin J.] Moses,PERSON
+332,Franklin J. Moses,PERSON
 332,Adams,PERSON
 332,B.F. Perry,PERSON
 332,Elizabeth Perry,PERSON
 332,Greenville,LOCATION
-326,Anderson C.H.,PERSON
+326,Anderson C.H.,LOCATION
 326,Liz,PERSON
-326,Patriot,PERSON
+326,Patriot,LOCATION
 326,B.F. Perry,PERSON
 326,Elizabeth Perry,PERSON
 326,Greenville,LOCATION
@@ -10018,9 +9889,9 @@ letter_number,entity_name,entity_type
 246,Hext,PERSON
 246,Gardiner,PERSON
 246,Patriot,PERSON
-246,James M.] Carlisle,PERSON
+246,James M. Carlisle,PERSON
 246,Gardiners,PERSON
-246,Joseph H.] Bradl[e]y &,PERSON
+246,Joseph H. Bradl[e]y &,PERSON
 246,Carlisle,PERSON
 246,Gardiner,PERSON
 246,Perry,PERSON
@@ -10079,11 +9950,10 @@ letter_number,entity_name,entity_type
 291,Charleston,LOCATION
 291,Tell Frank,PERSON
 291,Patriot,PERSON
-291,Kiss Hext,PERSON
+291,Hext,PERSON
 291,B.F. Perry,PERSON
 291,Anna Perry,PERSON
 291,Greenville,LOCATION
-722,Letter 722,PERSON
 722,Liz,PERSON
 722,S.C.,LOCATION
 722,Orr,PERSON
@@ -10108,15 +9978,15 @@ letter_number,entity_name,entity_type
 736,California,LOCATION
 736,Alston,PERSON
 736,Charleston,LOCATION
-736,James B.] Campbell,PERSON
-736,Henry Pinckney] Hammett  &,PERSON
+736,James B. Campbell,PERSON
+736,Henry Pinckney Hammett,PERSON
 736,Greenville,LOCATION
-736,George Franklin] Townes,PERSON
+736,George Franklin Townes,PERSON
 736,Reid,PERSON
 736,Florida,LOCATION
 736,Swains,PERSON
 736,Charleston,LOCATION
-736,James] Simmons,PERSON
+736,James Simmons,PERSON
 736,B.F. Perry,PERSON
 736,Elizabethg Perry,PERSON
 736,Greenville,LOCATION
@@ -10146,8 +10016,8 @@ letter_number,entity_name,entity_type
 723,Janney,PERSON
 723,Gibbes,PERSON
 723,Janney,PERSON
-723,William Dalrymple] Johnson,PERSON
-723,Henry Deas] Lesesne,PERSON
+723,William Dalrymple Johnson,PERSON
+723,Henry Deas Lesesne,PERSON
 723,Charleston,LOCATION
 723,Presley,PERSON
 723,Sullivan,PERSON
@@ -10196,12 +10066,13 @@ letter_number,entity_name,entity_type
 284,W. Thompson,PERSON
 284,Albert Rhetts,PERSON
 284,Sally Taylor,PERSON
-284,John Charles] McClenaghan,PERSON
+284,John Charles McClenaghan,PERSON
 284,Rhett,PERSON
 284,B.F. Perry,PERSON
 284,Elizabeth Perry,PERSON
 509,Ann,PERSON
-509,Susan & Ann,PERSON
+509,Susan,PERSON
+509,Ann,PERSON
 509,Willie,PERSON
 509,Greenville,LOCATION
 509,Sherborn,LOCATION
@@ -10241,7 +10112,6 @@ letter_number,entity_name,entity_type
 521,New York,LOCATION
 521,anball,PERSON
 521,Carson,PERSON
-521,al,PERSON
 521,Frank,PERSON
 521,Hext,PERSON
 521,Smith,PERSON
@@ -10320,12 +10190,12 @@ letter_number,entity_name,entity_type
 441,Perry,PERSON
 441,Memminger,PERSON
 441,Hammond,PERSON
-441,& Hammond,PERSON
+441,Hammond,PERSON
 441,McBee,PERSON
 441,Pickens,PERSON
 441,Greenville,LOCATION
 441,Wells,PERSON
-441,George Wells & Ds,PERSON
+441,George Wells,PERSON
 441,Greenville,LOCATION
 441,Elias D. Earles,PERSON
 441,Herndon,PERSON
@@ -10383,7 +10253,7 @@ letter_number,entity_name,entity_type
 680,Wilmington,PERSON
 680,Sherman,PERSON
 680,Richmondthat,PERSON
-680,Tell Anne,PERSON
+680,Anne,PERSON
 680,B.F. Perry,PERSON
 680,Wares,PERSON
 680,T.B. Cou,PERSON
@@ -10393,7 +10263,7 @@ letter_number,entity_name,entity_type
 694,Hext,PERSON
 694,Fannie Irvine,PERSON
 694,Hext,PERSON
-694,James]  OHanlons,PERSON
+694,James OHanlons,PERSON
 694,Sitton,PERSON
 694,Greenville,LOCATION
 694,B.F. Perry,PERSON
@@ -10418,11 +10288,7 @@ letter_number,entity_name,entity_type
 119,Susan,PERSON
 119,Susan,PERSON
 119,Liz,PERSON
-119,china,LOCATION
-119,Box,PERSON
-119,inkstand ivory,PERSON
-119,ivory match box,PERSON
-119,parlor ball,PERSON
+119,China,LOCATION
 119,Lunatic,PERSON
 119,Anderson,PERSON
 119,Eaton,LOCATION
@@ -10434,10 +10300,10 @@ letter_number,entity_name,entity_type
 119,Isaac Hayne,PERSON
 119,Charleston,LOCATION
 119,Martin,PERSON
-119,Adley Hogan],PERSON
+119,Adley Hogan,PERSON
 119,Bursar,PERSON
-119,John L.] Manning,PERSON
-119,Francis W.] Pickens,PERSON
+119,John L. Manning,PERSON
+119,Francis W. Pickens,PERSON
 119,Martha Calhoun,PERSON
 119,Edward Earle,PERSON
 119,Tom Pickens,PERSON
@@ -10455,9 +10321,8 @@ letter_number,entity_name,entity_type
 88,Legislature,LOCATION
 88,Frosts son,PERSON
 88,Edward,PERSON
-88,Kiss Anna,PERSON
+88,Anna,PERSON
 88,Edward,PERSON
-88,Kiss,PERSON
 88,B.F. Perry,PERSON
 88,Perry,PERSON
 88,Greenville,LOCATION
@@ -10468,13 +10333,13 @@ letter_number,entity_name,entity_type
 643,Boyce,PERSON
 643,Charleston,LOCATION
 643,Fannies,LOCATION
-643,sawCrittenden,PERSON
+643,Crittenden,PERSON
 643,John Cunningham,PERSON
 643,Pamela,PERSON
 643,B.F. Perry,PERSON
 643,Elizabeth Perry,PERSON
 643,Greenville,LOCATION
-125,Tell Willie,PERSON
+125,Willie,PERSON
 125,Yancey,PERSON
 125,Dawkins,PERSON
 125,Burser,PERSON
@@ -10492,7 +10357,6 @@ letter_number,entity_name,entity_type
 125,Orr,PERSON
 125,Edwards,PERSON
 125,Alston,PERSON
-125,Kiss,PERSON
 125,B.F. Perry,PERSON
 125,Elizabeth Perry,PERSON
 125,Greenville,LOCATION
@@ -10526,7 +10390,6 @@ letter_number,entity_name,entity_type
 131,Henry,PERSON
 131,Henry,PERSON
 131,Lieber,PERSON
-131,Kiss,PERSON
 131,B.F. Perry,PERSON
 657,Greenville,LOCATION
 657,Liz,PERSON
@@ -10542,7 +10405,7 @@ letter_number,entity_name,entity_type
 657,B.F. Perry,PERSON
 657,Elizabeth Perry,PERSON
 657,Glencoe,LOCATION
-127,Laurens C.H.,PERSON
+127,Laurens C.H.,LOCATION
 127,Liz,PERSON
 127,Cunninghams,PERSON
 127,Barksdales,PERSON
@@ -10658,13 +10521,14 @@ letter_number,entity_name,entity_type
 61,Roachs,PERSON
 61,Thompson,PERSON
 61,Thompson,PERSON
-61,Walker & Jane,PERSON
+61,Walker,PERSON
+61,Jane,PERSON
 61,Roach,PERSON
 61,Columbia,LOCATION
 61,Griffin,PERSON
 61,Martin,PERSON
 61,Yancey,PERSON
-61,George Washington] Dargan,PERSON
+61,George Washington Dargan,PERSON
 61,Arthur,PERSON
 61,Hayne,PERSON
 61,B.F. Perry,PERSON
@@ -10697,7 +10561,6 @@ letter_number,entity_name,entity_type
 49,Van Buren,PERSON
 49,Boston,LOCATION
 49,New Haven,LOCATION
-49,Kiss,PERSON
 49,Greenville,LOCATION
 49,B.F. Perry,PERSON
 49,Elizabeth Perry,PERSON
@@ -10754,7 +10617,6 @@ letter_number,entity_name,entity_type
 319,B.F. Perry,PERSON
 319,Elizabeth Perry,PERSON
 319,Greenville,LOCATION
-480,Letter 480,PERSON
 480,Thompson,PERSON
 480,Mexico,LOCATION
 480,George Wells,PERSON
@@ -10775,7 +10637,6 @@ letter_number,entity_name,entity_type
 494,Anna,PERSON
 494,Flat Rock,LOCATION
 494,B.F. Perry,PERSON
-494,P.S.,LOCATION
 494,Frank Perry,PERSON
 494,Annapolis,LOCATION
 537,Greenville,LOCATION
@@ -10783,12 +10644,12 @@ letter_number,entity_name,entity_type
 251,Washington City,LOCATION
 251,Liz,PERSON
 251,Gardiner,PERSON
-251,Bradl[e]y,PERSON
+251,Bradley,PERSON
 251,Maryland,LOCATION
 251,Cherry,PERSON
 251,Jackson,PERSON
 251,Patriot,PERSON
-251,Bradl[e]y,PERSON
+251,Bradley,PERSON
 251,Tuttle,PERSON
 251,McCall,PERSON
 251,New Haven,LOCATION
@@ -10808,13 +10669,13 @@ letter_number,entity_name,entity_type
 245,Thompson,PERSON
 245,Greenville,LOCATION
 245,Gardiner,PERSON
-245,the Republic of the arguments,LOCATION
+245,the Republic,LOCATION
 245,Gardiner,PERSON
 245,Thompson,PERSON
 245,South Carolina,LOCATION
 245,Isaac Hayne,PERSON
 245,Colcock,PERSON
-245,Nathaniel P.],PERSON
+245,Nathaniel P.,PERSON
 245,Thompson,PERSON
 245,Thompson,PERSON
 245,Patriot,PERSON
@@ -10854,7 +10715,7 @@ letter_number,entity_name,entity_type
 292,Sharpe,PERSON
 292,McCall,PERSON
 292,Greenville,LOCATION
-292,Husband,LOCATION
+292,Husband,PERSON
 292,B.F. Perry,PERSON
 292,Elizabeth Perry,PERSON
 292,Greenville,LOCATION
@@ -10867,13 +10728,9 @@ letter_number,entity_name,entity_type
 286,Greenville,LOCATION
 735,Greenville,LOCATION
 735,Eliza R. Laurens,PERSON
-735,Raffle,PERSON
 735,Greenville,LOCATION
-735,Raffle,PERSON
 735,B.F. Perry,PERSON
 721,Lizzie,PERSON
-721,,LOCATION
-721,	Your,LOCATION
 721,Wiley,PERSON
 721,Buist,PERSON
 721,Grady,LOCATION
@@ -10962,16 +10819,15 @@ letter_number,entity_name,entity_type
 293,Harriet Perry,PERSON
 293,Greenville,LOCATION
 293,Charleston,LOCATION
-293,& Warren,PERSON
+293,Warren,PERSON
 293,Steeles,PERSON
 293,Anderson,PERSON
 293,Glover,PERSON
-293,P.S.,LOCATION
 293,Johnson,PERSON
 293,Elizabeth Perry,PERSON
 293,Greenville,LOCATION
 278,Greenville,LOCATION
-278,[George D. Tillman,PERSON
+278,George D. Tillman,PERSON
 278,Taber,PERSON
 278,Lieber,PERSON
 278,B.F. Perry,PERSON
@@ -11026,7 +10882,6 @@ letter_number,entity_name,entity_type
 250,Bradleys,PERSON
 250,Carlisles,PERSON
 250,B.F. Perry,PERSON
-250,P.S.,LOCATION
 250,Thompson,PERSON
 250,Elizabeth Perry,PERSON
 250,Greenville,LOCATION
@@ -11076,13 +10931,14 @@ letter_number,entity_name,entity_type
 481,Col Pickens,PERSON
 481,New York,LOCATION
 481,Allston,PERSON
-481,Quitman Keitt & Bonham,PERSON
+481,Quitman Keitt,PERSON
+481,Bonham,PERSON
 481,Anna,PERSON
 481,B.F. Perry,PERSON
 481,Elizabeth Perry,PERSON
 481,Greenville,LOCATION
 318,Liz,PERSON
-318,William Dunlap] Simpson,PERSON
+318,William Dunlap Simpson,PERSON
 318,Laurens,PERSON
 318,Preston,PERSON
 318,Asheville,LOCATION
@@ -11103,7 +10959,7 @@ letter_number,entity_name,entity_type
 318,Leavy,PERSON
 318,Lindy,PERSON
 318,Greenville,LOCATION
-318,Andrew B.] Crook,PERSON
+318,Andrew B. Crook,PERSON
 318,Miss Brenan,PERSON
 318,Hasle,PERSON
 318,B.F. Perry,PERSON
@@ -11116,7 +10972,7 @@ letter_number,entity_name,entity_type
 330,Christopher William,PERSON
 330,Thompson,PERSON
 330,Robert Thurston,PERSON
-330,William Henry] Millburns,PERSON
+330,William Henry Millburns,PERSON
 330,King,PERSON
 330,deTreville,PERSON
 330,Bivings,PERSON
@@ -11152,7 +11008,7 @@ letter_number,entity_name,entity_type
 324,Greenville,LOCATION
 324,John Pettit,PERSON
 324,Pettit,PERSON
-324,Patriot,PERSON
+324,Patriot,LOCATION
 324,States,LOCATION
 324,States,LOCATION
 324,Pettit,PERSON
@@ -11222,10 +11078,10 @@ letter_number,entity_name,entity_type
 697,Ellen Janney,PERSON
 697,Janney,PERSON
 697,Ellen Janney,PERSON
-697,John] Bauskett,PERSON
+697,John Bauskett,PERSON
 697,Alfred Huger,PERSON
 697,Marlborough,LOCATION
-697,Ellerbe B.] Cash,PERSON
+697,Ellerbe B. Cash,PERSON
 697,Elizabeth Perry,PERSON
 697,Greenville,LOCATION
 683,Liz,PERSON
@@ -11243,7 +11099,7 @@ letter_number,entity_name,entity_type
 683,Trescott,PERSON
 683,Magrath,PERSON
 683,Charleston,LOCATION
-683,Tell Susan,PERSON
+683,Susan,PERSON
 683,Hext,PERSON
 683,John LeConte,PERSON
 683,Willie,PERSON
@@ -11263,13 +11119,12 @@ letter_number,entity_name,entity_type
 60,Edgefield,LOCATION
 60,Clark Mills,PERSON
 60,Charleston,LOCATION
-60,z\I,PERSON
 60,Elmore,PERSON
 60,Butler,PERSON
 60,Barnwell Rhett,PERSON
 60,Pickens,PERSON
 60,ONeall,PERSON
-60,Hammond &c.,PERSON
+60,Hammond,PERSON
 60,B.F. Perry,PERSON
 60,Elizabeth Perry,PERSON
 668,Liz,PERSON
@@ -11301,7 +11156,7 @@ letter_number,entity_name,entity_type
 654,Abbeville,LOCATION
 654,Savannah,LOCATION
 654,Fort,LOCATION
-654,[Earl] Van Dorn,PERSON
+654,Earl Van Dorn,PERSON
 654,Tennessee,LOCATION
 654,Ed Stokes,PERSON
 654,Virginia,LOCATION
@@ -11316,7 +11171,7 @@ letter_number,entity_name,entity_type
 654,Glencoe,LOCATION
 132,Anderson C.H.,PERSON
 132,Liz,PERSON
-132,[Thomas,PERSON
+132,Thomas,PERSON
 132,Powell,PERSON
 132,Crayton,LOCATION
 132,Patterson,PERSON
@@ -11328,7 +11183,7 @@ letter_number,entity_name,entity_type
 132,Pendleton,LOCATION
 132,Keith,PERSON
 132,Whitner,PERSON
-132,Tell Reuben,PERSON
+132,Reuben,PERSON
 132,Mary,PERSON
 132,B.F. Perry,PERSON
 132,Elizabeth Perry,PERSON
@@ -11354,7 +11209,6 @@ letter_number,entity_name,entity_type
 126,Georgia,LOCATION
 126,Austen,PERSON
 126,Washington,LOCATION
-126,Kiss,PERSON
 126,B.F. Perry,PERSON
 126,Elizabeth Perry,PERSON
 126,Greenville,LOCATION
@@ -11379,18 +11233,18 @@ letter_number,entity_name,entity_type
 678,Liz,PERSON
 678,Hext,PERSON
 678,Susan,PERSON
-678,Tell Alfred,PERSON
+678,Alfred,PERSON
 678,Charleston,LOCATION
 678,Lee,PERSON
 678,Maryland,LOCATION
-678,Tell Bill Fisher,PERSON
+678,Bill Fisher,PERSON
 678,B.F. Perry,PERSON
 678,Elizabeth Perry,PERSON
 678,Glencoe,LOCATION
 644,Liz,PERSON
 644,Crittenden,PERSON
 644,Manning,PERSON
-644,& Pickens,LOCATION
+644,Pickens,LOCATION
 644,Orr,PERSON
 644,Virginia,LOCATION
 644,Arthur,PERSON
@@ -11398,7 +11252,7 @@ letter_number,entity_name,entity_type
 644,B.F. Perry,PERSON
 644,Elizabeth Perry,PERSON
 644,Greenville,LOCATION
-122,Pickens C.H.,PERSON
+122,Pickens C.H.,LOCATION
 122,Liz,PERSON
 122,Elford,PERSON
 122,Pendleton,LOCATION
@@ -11445,11 +11299,10 @@ letter_number,entity_name,entity_type
 650,LeConte,PERSON
 650,Judges,LOCATION
 650,Columbia,LOCATION
-650,Greenvilleto Asheville,PERSON
-650,H,PERSON
+650,Greenville,LOCATION
+650,Asheville,LOCATION
 650,Glencoe,PERSON
 650,B.F. Perry,PERSON
-650,P.S.,LOCATION
 650,Elizabeth Perry,PERSON
 650,Glencoe,LOCATION
 58,Liz,PERSON
@@ -11461,7 +11314,7 @@ letter_number,entity_name,entity_type
 58,Mexico,LOCATION
 58,E.D. Earle,PERSON
 58,Reed,PERSON
-58,Gilmore Simms &,PERSON
+58,Gilmore Simms,PERSON
 58,Pamelas,PERSON
 58,John Cunningham,PERSON
 58,Boyce,PERSON
@@ -11483,8 +11336,6 @@ letter_number,entity_name,entity_type
 64,Hayne,PERSON
 64,Walker,PERSON
 64,Charleston,LOCATION
-64,Kiss,PERSON
-64,Tell,PERSON
 64,B.F. Perry,PERSON
 64,Elizabeth Perry,PERSON
 687,Liz,PERSON
@@ -11500,15 +11351,15 @@ letter_number,entity_name,entity_type
 687,Pickens,PERSON
 687,Edgefield,LOCATION
 687,Cunningham,PERSON
-687,James Petigru] Boyce,PERSON
-687,William Pierce] Price,PERSON
-687,Henry William] Garlington,PERSON
-687,Samuel] McGowan,PERSON
+687,James Petigru Boyce,PERSON
+687,William Pierce Price,PERSON
+687,Henry William Garlington,PERSON
+687,Samuel McGowan,PERSON
 687,Georgia,LOCATION
 687,Pickens,PERSON
 687,Pickens,PERSON
-687,Coosawhatchie,PERSON
-687,Patrick] Cleburne,PERSON
+687,Coosawhatchie,LOCATION
+687,Patrick Cleburne,PERSON
 687,Hood,PERSON
 687,Sherman,PERSON
 687,Savannah,LOCATION
@@ -11523,7 +11374,7 @@ letter_number,entity_name,entity_type
 693,Johnson,PERSON
 693,LeConte,PERSON
 693,Lula,PERSON
-693,William Gilnore] Simms,PERSON
+693,William Gilnore Simms,PERSON
 693,Orr,PERSON
 693,South Carolina,LOCATION
 693,Hill,PERSON
@@ -11535,7 +11386,6 @@ letter_number,entity_name,entity_type
 693,Wares,PERSON
 693,Crofts,PERSON
 693,B.F. Perry,PERSON
-693,P.S.,LOCATION
 693,Johnson,PERSON
 693,Elizabeth Perry,PERSON
 693,Greenville,LOCATION
@@ -11547,7 +11397,6 @@ letter_number,entity_name,entity_type
 70,Jim,PERSON
 70,Cunninghams,PERSON
 70,Sundaystopped,PERSON
-70,Kiss,PERSON
 70,B.F. Perry,PERSON
 70,Elizabeth Perry,PERSON
 70,Greenville,LOCATION
@@ -11565,10 +11414,10 @@ letter_number,entity_name,entity_type
 308,Elizabeth Perry,PERSON
 308,Greenville,LOCATION
 320,Greenville,LOCATION
-320,[John] Pettit,PERSON
+320,John Pettit,PERSON
 320,Columbia,LOCATION
 320,Perry,PERSON
-320,William John] Grayson,PERSON
+320,William John Grayson,PERSON
 320,South Carolina,LOCATION
 320,South Carolina,LOCATION
 320,Carolina,LOCATION
@@ -11601,7 +11450,7 @@ letter_number,entity_name,entity_type
 446,Burlington,LOCATION
 446,N.J.,LOCATION
 452,Liz,PERSON
-452,Patriot,PERSON
+452,Patriot,LOCATION
 452,Anna,LOCATION
 452,Philadelphia,LOCATION
 452,Mahaffey,PERSON
@@ -11677,7 +11526,7 @@ letter_number,entity_name,entity_type
 254,Thompson,PERSON
 254,Henry,PERSON
 254,Patriot,PERSON
-254,Bradl[e]ys,PERSON
+254,Bradleys,PERSON
 254,B.F. Perry,PERSON
 254,Elizabeth Perry,PERSON
 254,Greenville,LOCATION
@@ -11834,8 +11683,6 @@ letter_number,entity_name,entity_type
 724,Melton,PERSON
 724,Gibbes,PERSON
 724,Bill,PERSON
-724,turkey,LOCATION
-724,mutton,LOCATION
 724,Washington,LOCATION
 724,Fishers,PERSON
 724,Butler,PERSON
@@ -11856,7 +11703,7 @@ letter_number,entity_name,entity_type
 725,Washington,LOCATION
 725,Greenville,LOCATION
 725,Greenville,LOCATION
-725,Henry Pinckney],PERSON
+725,Henry Pinckney,PERSON
 725,Hammett,PERSON
 725,Hammett,PERSON
 725,Mattie Orr,LOCATION
@@ -11933,8 +11780,7 @@ letter_number,entity_name,entity_type
 296,John Cunningham,PERSON
 296,Wagner,PERSON
 296,Greenville,LOCATION
-296,F.,PERSON
-296,Tell Anna,PERSON
+296,Anna,PERSON
 296,Beadon,PERSON
 296,Evans,PERSON
 296,Siegling,PERSON
@@ -11974,9 +11820,9 @@ letter_number,entity_name,entity_type
 255,Liz,PERSON
 255,Thompson,PERSON
 255,Thompson,PERSON
-255,Greenville Court,PERSON
+255,Greenville Court,LOCATION
 255,Gardiner,PERSON
-255,Patriot,PERSON
+255,Patriot,LOCATION
 255,Evans,PERSON
 255,Greenville,LOCATION
 255,Butler,PERSON
@@ -12009,7 +11855,7 @@ letter_number,entity_name,entity_type
 269,Elford,PERSON
 269,Elford,PERSON
 269,Calhoun,PERSON
-269,Patriot,PERSON
+269,Patriot,LOCATION
 269,John Cunningham,PERSON
 269,Brown,PERSON
 269,Young Gantt,PERSON
@@ -12090,14 +11936,14 @@ letter_number,entity_name,entity_type
 447,Anna,PERSON
 447,LeConte,PERSON
 447,Savannah,LOCATION
-447,B.F.  Perry,PERSON
+447,B.F. Perry,PERSON
 447,Elizabeth Perry,PERSON
 447,Greenville,LOCATION
 309,Liz,PERSON
 309,Thompson,PERSON
-309,Patriot,PERSON
+309,Patriot,LOCATION
 309,Adams,PERSON
-309,Patriot,PERSON
+309,Patriot,LOCATION
 309,B.F. Perry,PERSON
 309,Elizabeth Perry,PERSON
 309,Greenville,LOCATION
@@ -12109,7 +11955,7 @@ letter_number,entity_name,entity_type
 692,Maggie,PERSON
 692,Janney,PERSON
 692,Elford,PERSON
-692,John Durant] Ashmore,PERSON
+692,John Durant Ashmore,PERSON
 692,Pinson,LOCATION
 692,South Carolina,LOCATION
 692,Bill,PERSON
@@ -12140,16 +11986,14 @@ letter_number,entity_name,entity_type
 692,Swap,PERSON
 692,Cunningham,PERSON
 692,B.F. Perry,PERSON
-692,P.S.,LOCATION
 692,Elizabeth Perry,PERSON
 692,Greenville,LOCATION
 71,Richard Harrison,PERSON
 71,Sumter,LOCATION
 71,Nelson,PERSON
 71,Bradleys,PERSON
-71,Kiss,PERSON
 71,Frank,PERSON
-71,Tell Will,PERSON
+71,Will,PERSON
 71,Anna,PERSON
 71,B.F. Perry,PERSON
 71,Elizabeth Perry,PERSON
@@ -12184,15 +12028,14 @@ letter_number,entity_name,entity_type
 59,Teague,PERSON
 59,Greenville,LOCATION
 59,Ashe,PERSON
-59,Franklin Harper] Elmore,PERSON
+59,Franklin Harper Elmore,PERSON
 59,ONeall,PERSON
 59,Thomas Jefferson,PERSON
 59,St. Mathew,LOCATION
 59,Martin,PERSON
 59,Yancey,PERSON
 59,Columbia,LOCATION
-59,Tell,PERSON
-59,Tell Anna,PERSON
+59,Anna,PERSON
 59,Frank,PERSON
 59,B.F. Perry,PERSON
 59,Elizabeth Perry,PERSON
@@ -12218,10 +12061,10 @@ letter_number,entity_name,entity_type
 137,Greenville,LOCATION
 651,Greenville,LOCATION
 651,Liz,PERSON
-651,Bill Fisher &,PERSON
+651,Bill Fisher,PERSON
 651,Elford,PERSON
 651,Anderson,PERSON
-651,Newberry C.H.,PERSON
+651,Newberry C.H.,LOCATION
 651,Susan,PERSON
 651,Gelncoe,PERSON
 651,Harry,PERSON
@@ -12230,7 +12073,7 @@ letter_number,entity_name,entity_type
 651,Duncan,PERSON
 651,Willie,PERSON
 651,Anne,PERSON
-651,Midss Gordon,PERSON
+651,Miss Gordon,PERSON
 651,Charleston,LOCATION
 651,Zach Wards,PERSON
 651,Alfred,PERSON
@@ -12254,7 +12097,7 @@ letter_number,entity_name,entity_type
 645,B.F. Perry,PERSON
 645,Elizabeth Perry,PERSON
 645,Greenville,LOCATION
-123,Pickens C.H.,PERSON
+123,Pickens C.H.,LOCATION
 123,Liz,PERSON
 123,Gantt,PERSON
 123,Elliott Keith,PERSON
@@ -12290,17 +12133,16 @@ letter_number,entity_name,entity_type
 679,Arthur,PERSON
 679,Augusta,LOCATION
 679,Georgia,LOCATION
-679,Savannah Rail Road,PERSON
+679,Savannah Rail Road,LOCATION
 679,Wheeler,PERSON
 679,Withers,PERSON
 679,Barrel,PERSON
-679,Tell Susan,PERSON
+679,Susan,PERSON
 679,Vardry,PERSON
-679,YourHusband,LOCATION
 679,B.F. Perry,PERSON
 679,Elizabeth Perry,PERSON
 679,Greenville,LOCATION
-109,Lauren C.H.,PERSON
+109,Lauren C.H.,LOCATION
 109,Liz,PERSON
 109,Garlington,PERSON
 109,Williams,PERSON
@@ -12339,7 +12181,6 @@ letter_number,entity_name,entity_type
 653,Sam McClanahan,PERSON
 653,Grady,LOCATION
 653,Charleston,LOCATION
-653,South Carolina Bills,LOCATION
 653,S.O. Goodlett,PERSON
 653,Wilmington,PERSON
 653,Evans,PERSON
@@ -12377,7 +12218,6 @@ letter_number,entity_name,entity_type
 121,Pendleton,LOCATION
 121,Orr,PERSON
 121,Greenville,LOCATION
-121,Kiss,PERSON
 121,B.F. Perry,PERSON
 121,Elizabeth Perry,PERSON
 121,Greenville,LOCATION
@@ -12397,7 +12237,6 @@ letter_number,entity_name,entity_type
 73,Coleman,PERSON
 73,McBee,PERSON
 73,Earle,PERSON
-73,Tell,PERSON
 73,Webster,PERSON
 73,Columbia,LOCATION
 73,Ball,PERSON
@@ -12429,7 +12268,7 @@ letter_number,entity_name,entity_type
 684,Wilmington,PERSON
 684,L,PERSON
 684,Bill,PERSON
-684,James] OHanlon,PERSON
+684,James OHanlon,PERSON
 684,William,PERSON
 684,Foster Perry,PERSON
 684,Rome,LOCATION
@@ -12461,9 +12300,7 @@ letter_number,entity_name,entity_type
 67,George Town,PERSON
 67,George Town,PERSON
 67,Robert Barnwell,PERSON
-67,Kiss,PERSON
 67,B.F. Perry,PERSON
-479,Letter 479,PERSON
 479,Greenville,LOCATION
 479,Arthur,PERSON
 479,Anna,PERSON
@@ -12502,15 +12339,14 @@ letter_number,entity_name,entity_type
 337,Elizabeth Perry,PERSON
 337,Greenville,LOCATION
 451,Liz,PERSON
-451,Patriot,PERSON
+451,Patriot,LOCATION
 451,Swain,PERSON
 451,Greenville,LOCATION
 451,Greenville,LOCATION
 451,Greenville,LOCATION
 451,Anna,LOCATION
 451,B.F. Perry,PERSON
-451,,LOCATION
-451,       Col,LOCATION
+451,Col,LOCATION
 451,Hayne,PERSON
 451,Charleston,LOCATION
 451,Elizabeth Perry,PERSON
@@ -12528,7 +12364,6 @@ letter_number,entity_name,entity_type
 445,Cunningham,PERSON
 445,Bill,PERSON
 445,Juror,PERSON
-445,Kiss,PERSON
 445,Irby,PERSON
 445,B.F. Perry,PERSON
 445,Elizabeth Perry,PERSON
@@ -12536,7 +12371,7 @@ letter_number,entity_name,entity_type
 323,Greenville,LOCATION
 323,Anna,PERSON
 323,Charleston,LOCATION
-323,Patriot,PERSON
+323,Patriot,LOCATION
 323,Charleston,LOCATION
 323,Charleston,LOCATION
 323,Fanny,PERSON
@@ -12555,7 +12390,7 @@ letter_number,entity_name,entity_type
 486,Petigru,PERSON
 486,Longstreet,PERSON
 486,Evans,PERSON
-486,Tell Hext,PERSON
+486,Hext,PERSON
 486,Herndon,PERSON
 486,Herndon,PERSON
 486,Annas,LOCATION
@@ -12592,7 +12427,7 @@ letter_number,entity_name,entity_type
 243,Gardiner,PERSON
 243,Washington,LOCATION
 243,New York,LOCATION
-243,South Carolina &c.,LOCATION
+243,South Carolina,LOCATION
 243,Gardiner,PERSON
 243,Greenville,LOCATION
 243,Elford,PERSON
@@ -12635,7 +12470,7 @@ letter_number,entity_name,entity_type
 257,Elizabeth Perry,PERSON
 257,Greenville,LOCATION
 280,Liz,PERSON
-280,Patriot,PERSON
+280,Patriot,LOCATION
 280,Duncan,PERSON
 280,Newberry,PERSON
 280,George Butler,PERSON
@@ -12644,14 +12479,13 @@ letter_number,entity_name,entity_type
 280,Taber,PERSON
 280,Janneys,PERSON
 280,Robert Cunningham,PERSON
-280,William H.] Thomas,PERSON
+280,William H. Thomas,PERSON
 280,Beattie,PERSON
 280,Janney,PERSON
 280,Janney,PERSON
 280,Anna,PERSON
 280,Thomas,PERSON
 280,Hamlin Beattie,PERSON
-280,Yours,LOCATION
 280,B.F. Perry,PERSON
 280,Elizabeth Perry,PERSON
 280,Greenville,LOCATION
@@ -12659,12 +12493,11 @@ letter_number,entity_name,entity_type
 294,Wardlaw,LOCATION
 294,Duncan,PERSON
 294,Anna,PERSON
-294,Said,PERSON
 294,Willie,PERSON
 294,DeLorme,PERSON
 294,Henry Cauble,PERSON
 294,Cunningham,PERSON
-294,Louis Trezevant] Wigfall &,PERSON
+294,Louis Trezevant Wigfall,PERSON
 294,Sams,PERSON
 294,Beaufort,LOCATION
 294,Martin,PERSON
@@ -12684,7 +12517,7 @@ letter_number,entity_name,entity_type
 727,Trescot,PERSON
 727,Orr,PERSON
 727,Reverdy Johnson,PERSON
-727,Tell Willie,PERSON
+727,Willie,PERSON
 727,B.F. Perry,PERSON
 727,Elizabeth Perry,PERSON
 727,Greenville,LOCATION
@@ -12726,7 +12559,7 @@ letter_number,entity_name,entity_type
 281,Charleston,LOCATION
 281,Liz,PERSON
 281,Brown,PERSON
-281,Patriot,PERSON
+281,Patriot,LOCATION
 281,Isaac Hayne,PERSON
 281,Orr,PERSON
 281,Yeadon,PERSON
@@ -12802,7 +12635,6 @@ letter_number,entity_name,entity_type
 518,Frank Perry,PERSON
 518,Annapolis,LOCATION
 487,Liz,PERSON
-487,diar[r]hea,PERSON
 487,Janney,PERSON
 487,Fair,PERSON
 487,Dargan,PERSON
@@ -12852,8 +12684,8 @@ letter_number,entity_name,entity_type
 444,Spartan Goodlett,PERSON
 444,Law,PERSON
 444,Gregg,PERSON
-444,James M.] Gadberry &,PERSON
-444,James J.],PERSON
+444,James M. Gadberry,PERSON
+444,James J.,PERSON
 444,McCarter,PERSON
 444,McCrady,PERSON
 444,Banks,PERSON
@@ -12898,7 +12730,7 @@ letter_number,entity_name,entity_type
 336,Willie,PERSON
 336,Sam,PERSON
 336,Anna,PERSON
-336,Tell Fannie,PERSON
+336,Fannie,PERSON
 336,Husband,LOCATION
 336,B.F. Perry,PERSON
 336,Elizabeth Perry,PERSON
@@ -12907,7 +12739,7 @@ letter_number,entity_name,entity_type
 450,McGowan,PERSON
 450,Banks,PERSON
 450,Anna,PERSON
-450,Patriot,PERSON
+450,Patriot,LOCATION
 450,Brooks,PERSON
 450,Greenville,LOCATION
 450,Greenville,LOCATION
@@ -12929,7 +12761,8 @@ letter_number,entity_name,entity_type
 478,Anna,PERSON
 478,Earle,PERSON
 478,Arthur,PERSON
-478,Mary Mauldin Betty & Oscar,PERSON
+478,Mary Mauldin Betty,PERSON
+478,Oscar,PERSON
 478,Georgia Sperman,PERSON
 478,B.F. Perry,PERSON
 478,Frank Perry,PERSON
@@ -12949,7 +12782,7 @@ letter_number,entity_name,entity_type
 685,Greenville,LOCATION
 685,Wares,PERSON
 685,McConley,PERSON
-685,G. Allen] Huggins,PERSON
+685,G. Allen Huggins,PERSON
 685,LeConte,PERSON
 685,Hext,PERSON
 685,LaBordes,PERSON
@@ -12976,24 +12809,21 @@ letter_number,entity_name,entity_type
 66,Earle,PERSON
 66,Seabrook,PERSON
 66,Barnes,PERSON
-66,Kiss,PERSON
 66,B.F,LOCATION
 66,Elizabeth Perry,PERSON
 66,Greenville,LOCATION
-72,Anderson C.H.,PERSON
+72,Anderson C.H.,LOCATION
 72,Liz,PERSON
 72,Thompson,PERSON
 72,Suddith,PERSON
 72,Greenville,LOCATION
 72,Henry,PERSON
 72,Thomas Case,PERSON
-72,I.,PERSON
 72,Whitner,PERSON
-72,John] Bausketts,PERSON
+72,John Bausketts,PERSON
 72,McDuffie,PERSON
 72,Perrin,PERSON
 72,Sharpe,PERSON
-72,Kiss,PERSON
 72,B. F. Perry,PERSON
 72,Elizabeth Perry,PERSON
 72,Greenville,LOCATION
@@ -13002,7 +12832,7 @@ letter_number,entity_name,entity_type
 691,Columbia,LOCATION
 691,Martin,PERSON
 691,Sam Jones,PERSON
-691,James] OHanlon,PERSON
+691,James OHanlon,PERSON
 691,OHanlons Will,PERSON
 691,Hext,PERSON
 691,Ray,PERSON
@@ -13024,7 +12854,7 @@ letter_number,entity_name,entity_type
 120,Thos P. Butler,PERSON
 120,Greenville,LOCATION
 120,Preston,PERSON
-120,William] Faber,PERSON
+120,William Faber,PERSON
 120,Rhetts,LOCATION
 120,Elliott,PERSON
 120,Thompson,PERSON
@@ -13037,8 +12867,7 @@ letter_number,entity_name,entity_type
 120,Orr,PERSON
 120,Reuben,PERSON
 120,B.F. Perry,PERSON
-120,P.S.,LOCATION
-120,Richard T.],PERSON
+120,Richard T.,PERSON
 120,Brumby,LOCATION
 120,Tell Willie,PERSON
 120,Elizabeth Perry,PERSON
@@ -13075,7 +12904,7 @@ letter_number,entity_name,entity_type
 652,B.F. Perry,PERSON
 652,Elizabeth Perry,PERSON
 652,Glencoe,LOCATION
-134,Anderson C.H.,PERSON
+134,Anderson C.H.,LOCATION
 134,Liz,PERSON
 134,Burt,PERSON
 134,Harrison,PERSON
@@ -13089,7 +12918,7 @@ letter_number,entity_name,entity_type
 134,B.F Perry,PERSON
 134,Elizabeth Perry,PERSON
 134,Greenville,LOCATION
-99,Anderson C.H.,PERSON
+99,Anderson C.H.,LOCATION
 99,Liz,PERSON
 99,Greenville,LOCATION
 99,Anderson,PERSON
@@ -13097,15 +12926,13 @@ letter_number,entity_name,entity_type
 99,Pendleton,LOCATION
 99,Pendleton,LOCATION
 99,Cooley,PERSON
-99,Kiss,PERSON
 99,Greenville,LOCATION
 99,B.F. Perry,PERSON
-99,P.S.,LOCATION
 99,Wells,PERSON
 99,Butler,PERSON
 99,Elizabeth Perry,PERSON
 99,Greenville,LOCATION
-108,Laurens C.H.,PERSON
+108,Laurens C.H.,LOCATION
 108,Liz,PERSON
 108,Thompson,PERSON
 108,Laurens,PERSON
@@ -13116,7 +12943,6 @@ letter_number,entity_name,entity_type
 108,Sullivan,PERSON
 108,Johnson,PERSON
 108,God,PERSON
-108,Kiss,PERSON
 108,B.F. Perry,PERSON
 108,Elizabeth Perry,PERSON
 108,Greenville,LOCATION
