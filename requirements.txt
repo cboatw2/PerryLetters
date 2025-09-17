@@ -1,0 +1,12 @@
+Flask
+spacy
+pytesseract
+pdf2image
+Pillow
+requests
+
+# After installing, run:
+# python -m spacy download en_core_web_sm
+
+#To install all dependcencies, run: 
+#pip install -r requirements.txt
