@@ -63,5 +63,45 @@ def search():
     letters = cur.fetchall()
     return render_template("index.html", letters=letters, query=query)
 
+@app.route("/mentioned_people_over_time")
+def mentioned_people_over_time():
+    cur = get_db().cursor()
+    # Get year and count of mentioned people per year
+    cur.execute("""
+        SELECT 
+            SUBSTR(letter.date, -4, 4) AS year,
+            COUNT(DISTINCT mentioned_people.person_id) AS people_count
+        FROM mentioned_people
+        JOIN letter ON mentioned_people.letter_id = letter.id
+        WHERE LENGTH(letter.date) >= 4
+        GROUP BY year
+        ORDER BY year
+    """)
+    people_data = {row['year']: row['people_count'] for row in cur.fetchall()}
+
+    # Get number of letters per year
+    cur.execute("""
+        SELECT 
+            SUBSTR(date, -4, 4) AS year,
+            COUNT(*) AS letter_count
+        FROM letter
+        WHERE LENGTH(date) >= 4
+        GROUP BY year
+        ORDER BY year
+    """)
+    letter_data = {row['year']: row['letter_count'] for row in cur.fetchall()}
+
+    # Combine years
+    all_years = sorted(set(people_data.keys()) | set(letter_data.keys()))
+    people_counts = [people_data.get(year, 0) for year in all_years]
+    letter_counts = [letter_data.get(year, 0) for year in all_years]
+
+    return render_template(
+        "mentioned_people_over_time.html",
+        years=all_years,
+        people_counts=people_counts,
+        letter_counts=letter_counts
+    )
+
 if __name__ == "__main__":
     app.run(debug=True)
