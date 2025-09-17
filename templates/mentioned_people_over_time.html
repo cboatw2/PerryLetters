@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mentioned People Over Time</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Mentioned People Over Time</h1>
+<canvas id="myChart" width="600" height="300"></canvas>
+<script>
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: {{ years|tojson }},
+            datasets: [
+                {
+                    label: 'Unique Mentioned People',
+                    data: {{ people_counts|tojson }},
+                    borderColor: 'blue',
+                    fill: false
+                },
+                {
+                    label: 'Letters Written',
+                    data: {{ letter_counts|tojson }},
+                    borderColor: 'red',
+                    fill: false
+                }
+            ]
+        },
+        options: {
+            scales: {
+                x: { title: { display: true, text: 'Year' } },
+                y: { title: { display: true, text: 'Count' }, beginAtZero: true }
+            }
+        }
+    });
+</script>
+<a href="{{ url_for('index') }}">Back to Letters List</a>
+</body>
+</html>
