@@ -13,25 +13,17 @@
         type: 'line',
         data: {
             labels: {{ years|tojson }},
-            datasets: [
-                {
-                    label: 'Unique Mentioned People',
-                    data: {{ people_counts|tojson }},
-                    borderColor: 'blue',
-                    fill: false
-                },
-                {
-                    label: 'Letters Written',
-                    data: {{ letter_counts|tojson }},
-                    borderColor: 'red',
-                    fill: false
-                }
-            ]
+            datasets: [{
+                label: 'Unique Mentioned People',
+                data: {{ counts|tojson }},
+                borderColor: 'blue',
+                fill: false
+            }]
         },
         options: {
             scales: {
                 x: { title: { display: true, text: 'Year' } },
-                y: { title: { display: true, text: 'Count' }, beginAtZero: true }
+                y: { title: { display: true, text: 'People Mentioned' }, beginAtZero: true }
             }
         }
     });
