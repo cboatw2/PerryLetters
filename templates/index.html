@@ -2,6 +2,8 @@
 <html>
 <head><title>B.F. Perry Letters</title></head>
 <body>
+{% extends "base.html" %}
+{% block content %}
 <h1>Letters</h1>
 <form method="get" action="{{ url_for('search') }}">
   <input type="text" name="query" placeholder="Search by person or location">
@@ -20,5 +22,6 @@
 {% endfor %}
 </ul>
 <a href="{{ url_for('mentioned_people_over_time') }}">Mentioned People Over Time</a>
+{% endblock %}
 </body>
 </html>

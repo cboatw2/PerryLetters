@@ -4,6 +4,8 @@
     <title>Letter {{ letter['letter_number'] }}</title>
 </head>
 <body>
+    {% extends "base.html" %}
+    {% block content %}
     <h1>Letter {{ letter['letter_number'] }}</h1>
     <p><strong>Date:</strong> {{ letter['date'] }}</p>
     <p><strong>Sent From:</strong> {{ letter['sent_from_location_id'] }}</p>
@@ -13,5 +15,6 @@
     <p><strong>File:</strong> {{ letter['file_path'] }}</p>
     <hr>
     <a href="{{ url_for('index') }}">Back to Letters List</a>
+    {% endblock %}
 </body>
 </html>
