@@ -1,5 +1,5 @@
-input_file = "BFPerry_NER_entities.csv"
-output_file = "BFPerry_NER_entities_cleaned.csv"
+input_file = "BFPerry_Letters_NER/BFPerry_NER_entities.csv"
+output_file = "BFPerry_Letters_NER/BFPerry_NER_entities_quotations_removed.csv"
 
 with open(input_file, "r", encoding="utf-8") as f:
     lines = f.readlines()

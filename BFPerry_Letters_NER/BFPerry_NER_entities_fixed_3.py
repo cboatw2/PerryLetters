@@ -1,25 +1,36 @@
-input_file = "BFPerry_Letters_NER/BFPerry_NER_entities_fixed_2.csv"
-output_file = "BFPerry_Letters_NER/BFPerry_NER_entities_fixed_3.csv"
+import re
+
+input_file = "BFPerry_Letters_NER/BFPerryLetters_NER_doubleline_entity_correction.csv"
+output_file = "BFPerry_Letters_NER/BFPerryLetters_NER_final.csv"
 
 output_lines = []
 prev_letter_number = ""
 
 with open(input_file, "r", encoding="utf-8") as f:
     for line in f:
-        parts = line.rstrip('\n').split(',')
+        line = line.rstrip('\n')
+        parts = line.split(',')
+
         # Header line
         if line.startswith("letter_number,entity_name,entity_type"):
-            output_lines.append(line if line.endswith('\n') else line + '\n')
+            output_lines.append(line + '\n')
             continue
-        # If 3 columns, update prev_letter_number
-        if len(parts) == 3:
+
+        # If the first column is not a digit, fill with previous letter_number
+        if not parts[0].isdigit():
+            parts = [prev_letter_number] + parts
+
+        # Update prev_letter_number if present
+        if parts[0].isdigit():
             prev_letter_number = parts[0]
-            output_lines.append(line if line.endswith('\n') else line + '\n')
-        # If 2 columns, fill letter_number from previous row
-        elif len(parts) == 2:
-            output_lines.append(f"{prev_letter_number},{parts[0]},{parts[1]}\n")
-        else:
-            output_lines.append(line if line.endswith('\n') else line + '\n')
+
+        # If entity_type is missing, add PERSON
+        if len(parts) == 2:
+            parts.append("PERSON")
+        elif len(parts) == 1:
+            parts += ["", "PERSON"]
+
+        output_lines.append(','.join(parts) + '\n')
 
 with open(output_file, "w", encoding="utf-8") as f:
     f.writelines(output_lines)

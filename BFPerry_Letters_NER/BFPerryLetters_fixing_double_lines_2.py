@@ -1,5 +1,5 @@
-input_file = "BFPerry_NER_entities_fixed.csv"
-output_file = "BFPerry_NER_entities_fixed_2.csv"
+input_file = "BFPerry_Letters_NER/BFPerry_NER_entities_quotations_removed.csv"
+output_file = "BFPerry_Letters_NER/BFPerryLetters_NER_doubleline_entity_correction.csv"
 
 output_lines = []
 with open(input_file, "r", encoding="utf-8") as f:
