@@ -1,5 +1,5 @@
-input_file = "BFPerry_NER_entities_fixed_2.csv"
-output_file = "BFPerry_NER_entities_fixed_3.csv"
+input_file = "BFPerry_Letters_NER/BFPerry_NER_entities_fixed_2.csv"
+output_file = "BFPerry_Letters_NER/BFPerry_NER_entities_fixed_3.csv"
 
 output_lines = []
 prev_letter_number = ""
