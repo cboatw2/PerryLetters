@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mentioned People Over Time</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
 {% extends "base.html" %}
 {% block content %}
 <h1>Mentioned People Over Time</h1>
 <canvas id="myChart" width="600" height="300"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     const ctx = document.getElementById('myChart').getContext('2d');
     const chart = new Chart(ctx, {
@@ -32,5 +26,3 @@
 </script>
 <a href="{{ url_for('index') }}">Back to Letters List</a>
 {% endblock %}
-</body>
-</html>
