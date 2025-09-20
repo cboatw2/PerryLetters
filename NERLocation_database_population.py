@@ -2,7 +2,7 @@ import sqlite3
 import csv
 
 db_file = "BFPerryLetters.db"
-csv_file = "BFPerry_Letters_NER/BFPerry_NER_entities_fixed_3.csv"
+csv_file = "BFPerry_Letters_NER/BFPerryLetters_NER_final.csv"  # Updated path
 
 conn = sqlite3.connect(db_file)
 cur = conn.cursor()
