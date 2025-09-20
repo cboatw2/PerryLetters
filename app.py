@@ -56,7 +56,19 @@ def locations():
     cur = get_db().cursor()
     cur.execute("SELECT * FROM location ORDER BY name")
     locations = cur.fetchall()
-    return render_template("locations.html", locations=locations)
+
+    # For each location, get the letter numbers where it is mentioned
+    location_letters = {}
+    for loc in locations:
+        cur.execute("""
+            SELECT letter.letter_number, letter.file_path
+            FROM mentioned_location
+            JOIN letter ON mentioned_location.letter_id = letter.id
+            WHERE mentioned_location.location_id = ?
+        """, (loc['location_id'],))
+        location_letters[loc['location_id']] = cur.fetchall()
+
+    return render_template("locations.html", locations=locations, location_letters=location_letters)
 
 @app.route("/search")
 def search():
@@ -99,7 +111,12 @@ def edit_location(location_id):
     cur = get_db().cursor()
     if request.method == "POST":
         name = request.form["name"]
-        cur.execute("UPDATE location SET name=? WHERE location_id=?", (name, location_id))
+        state = request.form.get("state", "")
+        country = request.form.get("country", "")
+        cur.execute(
+            "UPDATE location SET name=?, state=?, country=? WHERE location_id=?",
+            (name, state, country, location_id)
+        )
         get_db().commit()
         return redirect(url_for('locations'))
     cur.execute("SELECT * FROM location WHERE location_id=?", (location_id,))

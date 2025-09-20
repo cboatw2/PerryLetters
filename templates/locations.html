@@ -2,18 +2,42 @@
 {% block content %}
 <h2>Locations</h2>
 <table class="table table-striped">
-  <tr><th>ID</th><th>Name</th><th>Actions</th></tr>
-  {% for loc in locations %}
+  <thead>
     <tr>
-      <td>{{ loc['location_id'] }}</td>
-      <td>{{ loc['name'] }}</td>
-      <td>
-        <a class="btn btn-sm btn-primary" href="{{ url_for('edit_location', location_id=loc['location_id']) }}">Edit</a>
-        <form action="{{ url_for('delete_location', location_id=loc['location_id']) }}" method="post" style="display:inline;">
-          <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Delete this location?');">Delete</button>
-        </form>
-      </td>
+      <th>ID</th>
+      <th>Name</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Mentioned In Letters</th>
+      <th>Actions</th>
     </tr>
-  {% endfor %}
+  </thead>
+  <tbody>
+    {% for loc in locations %}
+      <tr>
+        <td>{{ loc['location_id'] }}</td>
+        <td>{{ loc['name'] }}</td>
+        <td>{{ loc['state'] or '' }}</td>
+        <td>{{ loc['country'] or '' }}</td>
+        <td>
+          {% for letter in location_letters[loc['location_id']] %}
+            {% if letter['file_path'] %}
+              <a href="{{ url_for('static', filename=letter['file_path']) }}" target="_blank">
+                {{ letter['letter_number'] }}
+              </a>{% if not loop.last %}, {% endif %}
+            {% else %}
+              {{ letter['letter_number'] }}{% if not loop.last %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        </td>
+        <td>
+          <a class="btn btn-sm btn-primary" href="{{ url_for('edit_location', location_id=loc['location_id']) }}">Edit</a>
+          <form action="{{ url_for('delete_location', location_id=loc['location_id']) }}" method="post" style="display:inline;">
+            <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Delete this location?');">Delete</button>
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
 </table>
 {% endblock %}
