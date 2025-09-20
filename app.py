@@ -1,4 +1,4 @@
-from flask import Flask, render_template, g, request
+from flask import Flask, render_template, g, request, redirect, url_for
 import sqlite3
 
 app = Flask(__name__)
@@ -102,6 +102,44 @@ def mentioned_people_over_time():
         people_counts=people_counts,
         letter_counts=letter_counts
     )
+
+@app.route("/location/edit/<int:location_id>", methods=["GET", "POST"])
+def edit_location(location_id):
+    cur = get_db().cursor()
+    if request.method == "POST":
+        name = request.form["name"]
+        cur.execute("UPDATE location SET name=? WHERE location_id=?", (name, location_id))
+        get_db().commit()
+        return redirect(url_for('locations'))
+    cur.execute("SELECT * FROM location WHERE location_id=?", (location_id,))
+    location = cur.fetchone()
+    return render_template("edit_location.html", location=location)
+
+@app.route("/location/delete/<int:location_id>", methods=["POST"])
+def delete_location(location_id):
+    cur = get_db().cursor()
+    cur.execute("DELETE FROM location WHERE location_id=?", (location_id,))
+    get_db().commit()
+    return redirect(url_for('locations'))
+
+@app.route("/person/edit/<int:person_id>", methods=["GET", "POST"])
+def edit_person(person_id):
+    cur = get_db().cursor()
+    if request.method == "POST":
+        name = request.form["name"]
+        cur.execute("UPDATE people SET name=? WHERE person_id=?", (name, person_id))
+        get_db().commit()
+        return redirect(url_for('people'))
+    cur.execute("SELECT * FROM people WHERE person_id=?", (person_id,))
+    person = cur.fetchone()
+    return render_template("edit_person.html", person=person)
+
+@app.route("/person/delete/<int:person_id>", methods=["POST"])
+def delete_person(person_id):
+    cur = get_db().cursor()
+    cur.execute("DELETE FROM people WHERE person_id=?", (person_id,))
+    get_db().commit()
+    return redirect(url_for('people'))
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -5,6 +5,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+{% extends "base.html" %}
+{% block content %}
 <h1>Mentioned People Over Time</h1>
 <canvas id="myChart" width="600" height="300"></canvas>
 <script>
@@ -29,5 +31,6 @@
     });
 </script>
 <a href="{{ url_for('index') }}">Back to Letters List</a>
+{% endblock %}
 </body>
 </html>
