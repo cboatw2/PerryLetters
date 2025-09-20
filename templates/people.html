@@ -6,6 +6,7 @@
     <tr>
       <th>ID</th>
       <th>Name</th>
+      <th>Mentioned In Letters</th>
       <th>Actions</th>
     </tr>
   </thead>
@@ -14,6 +15,17 @@
       <tr>
         <td>{{ person['person_id'] }}</td>
         <td>{{ person['name'] }}</td>
+        <td>
+          {% for letter in person_letters[person['person_id']] %}
+            {% if letter['file_path'] %}
+              <a href="{{ url_for('static', filename=letter['file_path']) }}" target="_blank">
+                {{ letter['letter_number'] }}
+              </a>{% if not loop.last %}, {% endif %}
+            {% else %}
+              {{ letter['letter_number'] }}{% if not loop.last %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        </td>
         <td>
           <a class="btn btn-sm btn-primary" href="{{ url_for('edit_person', person_id=person['person_id']) }}">Edit</a>
           <form action="{{ url_for('delete_person', person_id=person['person_id']) }}" method="post" style="display:inline;">
