@@ -34,9 +34,22 @@ def letter(letter_id):
 @app.route("/people")
 def people():
     cur = get_db().cursor()
-    cur.execute("SELECT * FROM people ORDER BY name")
+    # Get all people
+    cur.execute("SELECT * FROM people")
     people = cur.fetchall()
-    return render_template("people.html", people=people)
+
+    # For each person, get the letter numbers where they are mentioned
+    person_letters = {}
+    for person in people:
+        cur.execute("""
+            SELECT letter.letter_number, letter.file_path
+            FROM mentioned_people
+            JOIN letter ON mentioned_people.letter_id = letter.id
+            WHERE mentioned_people.person_id = ?
+        """, (person['person_id'],))
+        person_letters[person['person_id']] = cur.fetchall()
+
+    return render_template("people.html", people=people, person_letters=person_letters)
 
 @app.route("/locations")
 def locations():
