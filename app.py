@@ -54,7 +54,14 @@ def people():
 @app.route("/locations")
 def locations():
     cur = get_db().cursor()
-    cur.execute("SELECT * FROM location ORDER BY name")
+    # Only select locations that are mentioned in at least one letter
+    cur.execute("""
+        SELECT * FROM location
+        WHERE location_id IN (
+            SELECT DISTINCT location_id FROM mentioned_location
+        )
+        ORDER BY name
+    """)
     locations = cur.fetchall()
 
     # For each location, get the letter numbers where it is mentioned
