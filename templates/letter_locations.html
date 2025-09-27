@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Letter Location Relationships</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Letter Number</th>
+      <th>Date</th>
+      <th>Sent From</th>
+      <th>Sent To</th>
+      <th>Mentioned Locations</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for letter in letters %}
+      <tr>
+        <td>{{ letter['letter_number'] }}</td>
+        <td>{{ letter['date'] }}</td>
+        <td>{{ letter['sent_from'] or '—' }}</td>
+        <td>{{ letter['sent_to'] or '—' }}</td>
+        <td>
+          {% if letter_mentions[letter['id']] %}
+            {{ letter_mentions[letter['id']] | join(', ') }}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
