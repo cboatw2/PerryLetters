@@ -4,6 +4,7 @@ pytesseract
 pdf2image
 Pillow
 requests
+geopy
 
 # After installing, run:
 # python -m spacy download en_core_web_sm
