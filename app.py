@@ -156,5 +156,35 @@ def delete_person(person_id):
     get_db().commit()
     return redirect(url_for('people'))
 
+@app.route("/letter_locations")
+def letter_locations():
+    cur = get_db().cursor()
+    # Only include letters where sender_id is in the allowed list
+    allowed_senders = (1, 143, 261, 267, 447, 935)
+    cur.execute(f"""
+        SELECT l.id, l.letter_number, l.date,
+               from_loc.name AS sent_from,
+               to_loc.name AS sent_to
+        FROM letter l
+        LEFT JOIN location AS from_loc ON l.sent_from_location_id = from_loc.location_id
+        LEFT JOIN location AS to_loc ON l.sent_to_location_id = to_loc.location_id
+        WHERE l.sender_id IN {allowed_senders}
+        ORDER BY l.letter_number
+    """)
+    letters = cur.fetchall()
+
+    # For each letter, get mentioned locations
+    letter_mentions = {}
+    for letter in letters:
+        cur.execute("""
+            SELECT loc.name
+            FROM mentioned_location
+            JOIN location AS loc ON mentioned_location.location_id = loc.location_id
+            WHERE mentioned_location.letter_id = ?
+        """, (letter['id'],))
+        letter_mentions[letter['id']] = [row['name'] for row in cur.fetchall()]
+
+    return render_template("letter_locations.html", letters=letters, letter_mentions=letter_mentions)
+
 if __name__ == "__main__":
     app.run(debug=True)
