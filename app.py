@@ -186,5 +186,104 @@ def letter_locations():
 
     return render_template("letter_locations.html", letters=letters, letter_mentions=letter_mentions)
 
+@app.route("/map")
+def map_view():
+    cur = get_db().cursor()
+    cur.execute("""
+        SELECT l.id, l.letter_number, l.date,
+               from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon,
+               to_loc.name AS sent_to, to_loc.latitude AS to_lat, to_loc.longitude AS to_lon
+        FROM letter l
+        LEFT JOIN location AS from_loc ON l.sent_from_location_id = from_loc.location_id
+        LEFT JOIN location AS to_loc ON l.sent_to_location_id = to_loc.location_id
+        ORDER BY l.letter_number
+    """)
+    letters = cur.fetchall()
+
+    letter_data = []
+    years = set()
+    for letter in letters:
+        cur.execute("""
+            SELECT loc.name, loc.latitude, loc.longitude
+            FROM mentioned_location
+            JOIN location AS loc ON mentioned_location.location_id = loc.location_id
+            WHERE mentioned_location.letter_id = ?
+        """, (letter['id'],))
+        mentioned = [dict(name=row[0], lat=row[1], lon=row[2]) for row in cur.fetchall()]
+        year = letter["date"][:4] if letter["date"] else ""
+        years.add(year)
+        letter_data.append({
+            "letter_number": letter["letter_number"],
+            "date": letter["date"],
+            "year": year,
+            "sent_from": {"name": letter["sent_from"], "lat": letter["from_lat"], "lon": letter["from_lon"]},
+            "sent_to": {"name": letter["sent_to"], "lat": letter["to_lat"], "lon": letter["to_lon"]},
+            "mentioned": mentioned
+        })
+
+    # Example: Add your own context for each year
+    year_context = {
+        "1861": "American Civil War begins",
+        "1865": "American Civil War ends",
+        "1870": "15th Amendment ratified",
+        # ...add more as needed
+    }
+
+    return render_template(
+        "map.html",
+        letter_data=letter_data,
+        years=sorted(list(years)),
+        year_context=year_context
+    )
+
+@app.route("/worldview_mapping")
+def worldview_mapping():
+    cur = get_db().cursor()
+    cur.execute("""
+        SELECT l.id, l.letter_number, l.date,
+               from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon,
+               to_loc.name AS sent_to, to_loc.latitude AS to_lat, to_loc.longitude AS to_lon
+        FROM letter l
+        LEFT JOIN location AS from_loc ON l.sent_from_location_id = from_loc.location_id
+        LEFT JOIN location AS to_loc ON l.sent_to_location_id = to_loc.location_id
+        ORDER BY l.letter_number
+    """)
+    letters = cur.fetchall()
+
+    letter_data = []
+    years = set()
+    for letter in letters:
+        cur.execute("""
+            SELECT loc.name, loc.latitude, loc.longitude
+            FROM mentioned_location
+            JOIN location AS loc ON mentioned_location.location_id = loc.location_id
+            WHERE mentioned_location.letter_id = ?
+        """, (letter['id'],))
+        mentioned = [dict(name=row[0], lat=row[1], lon=row[2]) for row in cur.fetchall()]
+        year = letter["date"][:4] if letter["date"] else ""
+        years.add(year)
+        letter_data.append({
+            "letter_number": letter["letter_number"],
+            "date": letter["date"],
+            "year": year,
+            "sent_from": {"name": letter["sent_from"], "lat": letter["from_lat"], "lon": letter["from_lon"]},
+            "sent_to": {"name": letter["sent_to"], "lat": letter["to_lat"], "lon": letter["to_lon"]},
+            "mentioned": mentioned
+        })
+
+    year_context = {
+        "1861": "American Civil War begins",
+        "1865": "American Civil War ends",
+        "1870": "15th Amendment ratified",
+        # ...add more as needed
+    }
+
+    return render_template(
+        "worldview_mapping.html",
+        letter_data=letter_data,
+        years=sorted(list(years)),
+        year_context=year_context
+    )
+
 if __name__ == "__main__":
     app.run(debug=True)
