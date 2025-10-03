@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Worldview Mapping</h2>
+<div id="map" style="height: 600px;"></div>
+
+<!-- Timeline slider -->
+<div class="my-3" style="width:100%; max-width:900px; margin:auto;">
+  <label for="timeline" style="font-weight:bold;">
+    Year: <span id="selected-year"></span>
+  </label>
+  <input
+    type="range"
+    id="timeline"
+    min="0"
+    max="{{ years|length - 1 }}"
+    value="0"
+    style="width:100%; display:block; margin-bottom:0.5em;"
+  >
+  <div id="year-labels" style="display:flex; justify-content:space-between; font-size:0.95em; margin-top:-0.5em;">
+    {% for y in years %}
+      <span>{{ y }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Historic context -->
+<div id="historic-context" class="alert alert-info"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+const letterData = {{ letter_data|tojson }};
+const years = {{ years|tojson }};
+const yearContext = {{ year_context|tojson }};
+
+const map = L.map('map').setView([34, -82], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+let markers = [];
+function updateMap(year) {
+  // Remove old markers
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+  // Add markers for selected year
+  letterData.filter(l => l.year === year).forEach(letter => {
+    // Sent From
+    if (letter.sent_from.lat && letter.sent_from.lon) {
+      markers.push(
+        L.marker([letter.sent_from.lat, letter.sent_from.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
+        .addTo(map)
+        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`)
+      );
+    }
+    // Sent To
+    if (letter.sent_to.lat && letter.sent_to.lon) {
+      markers.push(
+        L.marker([letter.sent_to.lat, letter.sent_to.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
+        .addTo(map)
+        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`)
+      );
+    }
+    // Mentioned Locations
+    letter.mentioned.forEach(loc => {
+      if (loc.lat && loc.lon) {
+        markers.push(
+          L.circleMarker([loc.lat, loc.lon], {radius: 7, color: 'green'})
+          .addTo(map)
+          .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`)
+        );
+      }
+    });
+  });
+}
+
+// Timeline slider logic
+const timeline = document.getElementById('timeline');
+const selectedYear = document.getElementById('selected-year');
+const historicContext = document.getElementById('historic-context');
+
+function updateYearDisplay(idx) {
+  const year = years[idx];
+  selectedYear.textContent = year;
+  historicContext.textContent = yearContext[year] || "No historic context for this year.";
+  updateMap(year);
+}
+
+// Initialize
+timeline.addEventListener('input', function() {
+  updateYearDisplay(this.value);
+});
+updateYearDisplay(0);
+</script>
+{% endblock %}
