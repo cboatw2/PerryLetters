@@ -1,5 +1,6 @@
 from flask import Flask, render_template, g, request, redirect, url_for
 import sqlite3
+import json
 
 app = Flask(__name__)
 DATABASE = "BFPerryLetters.db"
@@ -203,6 +204,11 @@ def map_view():
     letter_data = []
     years = set()
     for letter in letters:
+        # Use the year column from the database
+        year = letter["year"]
+        # Only add years between 1842 and 1882 (inclusive)
+        if year and year.isdigit() and 1842 <= int(year) <= 1882:
+            years.add(year)
         cur.execute("""
             SELECT loc.name, loc.latitude, loc.longitude
             FROM mentioned_location
@@ -221,13 +227,8 @@ def map_view():
             "mentioned": mentioned
         })
 
-    # Example: Add your own context for each year
-    year_context = {
-        "1861": "American Civil War begins",
-        "1865": "American Civil War ends",
-        "1870": "15th Amendment ratified",
-        # ...add more as needed
-    }
+    with open("year_context.json", "r") as f:
+        year_context = json.load(f)
 
     return render_template(
         "map.html",
@@ -240,7 +241,7 @@ def map_view():
 def worldview_mapping():
     cur = get_db().cursor()
     cur.execute("""
-        SELECT l.id, l.letter_number, l.date,
+        SELECT l.id, l.letter_number, l.date, l.year,
                from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon,
                to_loc.name AS sent_to, to_loc.latitude AS to_lat, to_loc.longitude AS to_lon
         FROM letter l
@@ -260,8 +261,10 @@ def worldview_mapping():
             WHERE mentioned_location.letter_id = ?
         """, (letter['id'],))
         mentioned = [dict(name=row[0], lat=row[1], lon=row[2]) for row in cur.fetchall()]
-        year = letter["date"][:4] if letter["date"] else ""
-        years.add(year)
+        year = letter["year"] if letter["year"] else ""
+        # Only add valid years between 1842 and 1882
+        if year.isdigit() and 1842 <= int(year) <= 1882:
+            years.add(year)
         letter_data.append({
             "letter_number": letter["letter_number"],
             "date": letter["date"],
@@ -271,17 +274,16 @@ def worldview_mapping():
             "mentioned": mentioned
         })
 
-    year_context = {
-        "1861": "American Civil War begins",
-        "1865": "American Civil War ends",
-        "1870": "15th Amendment ratified",
-        # ...add more as needed
-    }
+    # Remove empty years and sort
+    years = sorted(y for y in years if y)
+
+    with open("year_context.json", "r") as f:
+        year_context = json.load(f)
 
     return render_template(
         "worldview_mapping.html",
         letter_data=letter_data,
-        years=sorted(list(years)),
+        years=years,
         year_context=year_context
     )
 

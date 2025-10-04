@@ -16,9 +16,9 @@
     value="0"
     style="width:100%; display:block; margin-bottom:0.5em;"
   >
-  <div id="year-labels" style="display:flex; justify-content:space-between; font-size:0.95em; margin-top:-0.5em;">
+  <div id="year-labels" style="display:flex; justify-content:space-between; font-size:0.7em; margin-top:-0.5em;">
     {% for y in years %}
-      <span>{{ y }}</span>
+      <span style="display:inline-block; transform: rotate(-90deg); white-space:nowrap; font-size:0.8em;">{{ y }}</span>
     {% endfor %}
   </div>
 </div>
@@ -41,38 +41,43 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let markers = [];
 function updateMap(year) {
-  // Remove old markers
   markers.forEach(m => map.removeLayer(m));
   markers = [];
-  // Add markers for selected year
+  let bounds = [];
+
   letterData.filter(l => l.year === year).forEach(letter => {
     // Sent From
     if (letter.sent_from.lat && letter.sent_from.lon) {
-      markers.push(
-        L.marker([letter.sent_from.lat, letter.sent_from.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
+      let marker = L.marker([letter.sent_from.lat, letter.sent_from.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
         .addTo(map)
-        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`)
-      );
+        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`);
+      markers.push(marker);
+      bounds.push([letter.sent_from.lat, letter.sent_from.lon]);
     }
     // Sent To
     if (letter.sent_to.lat && letter.sent_to.lon) {
-      markers.push(
-        L.marker([letter.sent_to.lat, letter.sent_to.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
+      let marker = L.marker([letter.sent_to.lat, letter.sent_to.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
         .addTo(map)
-        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`)
-      );
+        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`);
+      markers.push(marker);
+      bounds.push([letter.sent_to.lat, letter.sent_to.lon]);
     }
     // Mentioned Locations
     letter.mentioned.forEach(loc => {
       if (loc.lat && loc.lon) {
-        markers.push(
-          L.circleMarker([loc.lat, loc.lon], {radius: 7, color: 'green'})
+        let marker = L.circleMarker([loc.lat, loc.lon], {radius: 7, color: 'green'})
           .addTo(map)
-          .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`)
-        );
+          .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`);
+        markers.push(marker);
+        bounds.push([loc.lat, loc.lon]);
       }
     });
   });
+
+  // Fit map to markers if any exist
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, {padding: [30, 30]});
+  }
 }
 
 // Timeline slider logic
