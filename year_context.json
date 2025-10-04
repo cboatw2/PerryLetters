@@ -1,6 +1,28 @@
 {
-    "1861": "American Civil War begins",
-    "1865": "American Civil War ends",
-    "1870": "15th Amendment ratified"
-    // ...add more as needed
+    "1842": ["John Tyler presidency"],
+    "1845": ["James K. Polk presidency begins", "U.S. annexes Texas"],
+    "1846": [
+        "Mexican-American War begins",
+        "Oregon Treaty signed, encouraged by John C. Calhoun's urging Secretary of State, James Buchanan, to accept British offers",
+        "Wilmot Proviso introduced"
+    ],
+    "1848": ["Mexican-American War ends", "Zachary Taylor elected president"],
+    "1849": ["California requests entrance to Union as free state"],
+    "1850": [
+        "Compromise of 1850",
+        "John C. Calhoun dies",
+        "Slave trade abolished in Washington D.C.",
+        "Millard Fillmore becomes president"
+    ],
+    "1853": ["Franklin Pierce becomes president"],
+    "1857": ["James Buchanan becomes president"],
+    "1861": ["Abraham Lincoln becomes president", "American Civil War begins"],
+    "1865": [
+        "American Civil War ends",
+        "Greenville County, South Carolina, established",
+        "Greenville occupied by Union forces until May 2nd"
+    ],
+    "1866": ["Severe drought in South Carolina decimates crops, especially corn"],
+    "1868": ["John William DeForest serves as chief of Freedman's Bureau. Describes Greenville as bankrupt"],
+    "1870": ["15th Amendment ratified"]
 }

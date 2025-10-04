@@ -88,7 +88,13 @@ const historicContext = document.getElementById('historic-context');
 function updateYearDisplay(idx) {
   const year = years[idx];
   selectedYear.textContent = year;
-  historicContext.textContent = yearContext[year] || "No historic context for this year.";
+  if (Array.isArray(yearContext[year])) {
+    historicContext.innerHTML = yearContext[year].join('<br>');
+  } else if (yearContext[year]) {
+    historicContext.textContent = yearContext[year];
+  } else {
+    historicContext.textContent = "No historic context for this year.";
+  }
   updateMap(year);
 }
 
