@@ -12,14 +12,25 @@
         "Compromise of 1850",
         "John C. Calhoun dies",
         "Slave trade abolished in Washington D.C.",
-        "Millard Fillmore becomes president"
+        "Millard Fillmore becomes president",
+        "Erskine College receives its charter, Presbyterian",
+        "Furman College receives its charter, Baptist"
     ],
+    "1851": ["Wofford College receives its charter, Methodist"],
+    "1852": ["Harriet Beecher Stowe publishes <i>Uncle Tom's Cabin</i>"],
     "1853": ["Franklin Pierce becomes president"],
+    "1855": ["Greenville Female Baptist College opens"],
+    "1856": ["Newberry College receives its charter, Lutheran"],
     "1857": ["James Buchanan becomes president"],
-    "1861": ["Abraham Lincoln becomes president", "American Civil War begins"],
+    "1859": ["Columbia Fmale College opens, Methodist"],
+    "1860": ["Due West Female College opens, Associate Reformed Presbyterian"],
+    "1861": [
+        "Abraham Lincoln becomes president", "Civil War begins",
+        "William Gilmore Simms publishes <i>History of South Carolina</i> focusing on sectional differences within the United States and the South's role in the Revolutionary War"
+    ],
     "1865": [
-        "American Civil War ends",
-        "Greenville County, South Carolina, established",
+        "Civil War ends",
+        "Greenville County, South Carolina established",
         "Greenville occupied by Union forces until May 2nd"
     ],
     "1866": ["Severe drought in South Carolina decimates crops, especially corn"],

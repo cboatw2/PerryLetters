@@ -219,6 +219,7 @@ def map_view():
         year = letter["date"][:4] if letter["date"] else ""
         years.add(year)
         letter_data.append({
+            "letter_id": letter["id"],  # <-- Add this line
             "letter_number": letter["letter_number"],
             "date": letter["date"],
             "year": year,
@@ -266,6 +267,7 @@ def worldview_mapping():
         if year.isdigit() and 1842 <= int(year) <= 1882:
             years.add(year)
         letter_data.append({
+            "letter_id": letter["id"],  # <-- Add this line
             "letter_number": letter["letter_number"],
             "date": letter["date"],
             "year": year,

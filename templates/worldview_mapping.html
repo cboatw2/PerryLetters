@@ -50,7 +50,7 @@ function updateMap(year) {
     if (letter.sent_from.lat && letter.sent_from.lon) {
       let marker = L.marker([letter.sent_from.lat, letter.sent_from.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
         .addTo(map)
-        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`);
+        .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`);
       markers.push(marker);
       bounds.push([letter.sent_from.lat, letter.sent_from.lon]);
     }
@@ -58,7 +58,7 @@ function updateMap(year) {
     if (letter.sent_to.lat && letter.sent_to.lon) {
       let marker = L.marker([letter.sent_to.lat, letter.sent_to.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
         .addTo(map)
-        .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`);
+        .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`);
       markers.push(marker);
       bounds.push([letter.sent_to.lat, letter.sent_to.lon]);
     }
@@ -67,7 +67,7 @@ function updateMap(year) {
       if (loc.lat && loc.lon) {
         let marker = L.circleMarker([loc.lat, loc.lon], {radius: 7, color: 'green'})
           .addTo(map)
-          .bindPopup(`<b>Letter ${letter.letter_number}</b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`);
+          .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`);
         markers.push(marker);
         bounds.push([loc.lat, loc.lon]);
       }
