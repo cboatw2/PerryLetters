@@ -278,6 +278,8 @@ def worldview_mapping():
 
     # Remove empty years and sort
     years = sorted(y for y in years if y)
+    # add an "All time" option at beginning
+    years = ["All"] + years
 
     with open("year_context.json", "r") as f:
         year_context = json.load(f)

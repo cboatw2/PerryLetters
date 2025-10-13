@@ -40,47 +40,128 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let markers = [];
-function updateMap(year) {
-  markers.forEach(m => map.removeLayer(m));
-  markers = [];
-  let bounds = [];
+const markersByLeafletId = {}; // map leaflet id -> marker (for popup cycling)
 
-  letterData.filter(l => l.year === year).forEach(letter => {
-    // Sent From
-    if (letter.sent_from.lat && letter.sent_from.lon) {
-      let marker = L.marker([letter.sent_from.lat, letter.sent_from.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
-        .addTo(map)
-        .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Sent From: ${letter.sent_from.name}<br>Date: ${letter.date}`);
-      markers.push(marker);
-      bounds.push([letter.sent_from.lat, letter.sent_from.lon]);
-    }
-    // Sent To
-    if (letter.sent_to.lat && letter.sent_to.lon) {
-      let marker = L.marker([letter.sent_to.lat, letter.sent_to.lon], {icon: L.icon({iconUrl: 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png', iconSize: [32,32], iconAnchor: [16,32]})})
-        .addTo(map)
-        .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Sent To: ${letter.sent_to.name}<br>Date: ${letter.date}`);
-      markers.push(marker);
-      bounds.push([letter.sent_to.lat, letter.sent_to.lon]);
-    }
-    // Mentioned Locations
+// Build aggregated location index so a single marker represents all mentions at same coords
+function buildLocationIndex(letters) {
+  const index = {}; // key -> { name, lat, lon, mentions: [ {letter_number, date, file} ] }
+  letters.forEach(letter => {
+    // handle sent_from and sent_to as single-mention locations (optional)
+    [['sent_from', 'blue-dot'], ['sent_to', 'red-dot']].forEach(([key, icon]) => {
+      const loc = letter[key];
+      if (loc && loc.lat && loc.lon) {
+        const k = `${loc.lat},${loc.lon}`;
+        index[k] = index[k] || { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [] , defaultIcon: icon};
+        index[k].mentions.push({
+          letter_number: letter.letter_number,
+          date: letter.date,
+          file: `/static/BFPerryLettersSeparated/BFPerry_Letter${letter.letter_number}.txt`
+        });
+      }
+    });
+
+    // mentioned locations (can be many per letter)
     letter.mentioned.forEach(loc => {
-      if (loc.lat && loc.lon) {
-        let marker = L.circleMarker([loc.lat, loc.lon], {radius: 7, color: 'green'})
-          .addTo(map)
-          .bindPopup(`<b><a href="/letter/${letter.letter_id}" target="_blank">Letter ${letter.letter_number}</a></b><br>Mentioned: ${loc.name}<br>Date: ${letter.date}`);
-        markers.push(marker);
-        bounds.push([loc.lat, loc.lon]);
+      if (loc && loc.lat && loc.lon) {
+        const k = `${loc.lat},${loc.lon}`;
+        index[k] = index[k] || { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: 'green-circle' };
+        index[k].mentions.push({
+          letter_number: letter.letter_number,
+          date: letter.date,
+          file: `/static/BFPerryLettersSeparated/BFPerry_Letter${letter.letter_number}.txt`
+        });
       }
     });
   });
+  return index;
+}
 
-  // Fit map to markers if any exist
+function makePopupHtml(locEntry, idx) {
+  const m = locEntry.mentions[idx];
+  const total = locEntry.mentions.length;
+  const prevDisabled = idx === 0 ? 'disabled' : '';
+  const nextDisabled = idx === total - 1 ? 'disabled' : '';
+  // show link to letter text and basic info; Prev/Next buttons to cycle mentions
+  return `
+    <div>
+      <strong>${locEntry.name}</strong><br/>
+      <a href="${m.file}" target="_blank">View Letter ${m.letter_number}</a><br/>
+      <small>${m.date || ''}</small>
+      <div style="margin-top:6px; text-align:center;">
+        <button onclick="cycleMention(this, -1)" data-marker-id="${locEntry._leafletId}" data-index="${idx}" ${prevDisabled}>&laquo; Prev</button>
+        <span style="margin:0 8px">${idx + 1} / ${total}</span>
+        <button onclick="cycleMention(this, 1)" data-marker-id="${locEntry._leafletId}" data-index="${idx}" ${nextDisabled}>Next &raquo;</button>
+      </div>
+    </div>
+  `;
+}
+
+// global function called by buttons inside popup; element is the clicked button
+function cycleMention(btn, delta) {
+  const markerId = btn.getAttribute('data-marker-id');
+  const currentIndex = parseInt(btn.getAttribute('data-index'), 10);
+  const marker = markersByLeafletId[markerId];
+  if (!marker) return;
+  const locEntry = marker._locEntry;
+  let newIndex = currentIndex + delta;
+  if (newIndex < 0) newIndex = 0;
+  if (newIndex >= locEntry.mentions.length) newIndex = locEntry.mentions.length - 1;
+  // update popup content and data-index attributes
+  const newHtml = makePopupHtml(locEntry, newIndex);
+  marker.setPopupContent(newHtml);
+  // reopen to ensure updated content (Leaflet keeps popup open)
+  marker.openPopup();
+}
+
+function addAggregatedMarkers(lettersToShow) {
+  // remove old
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+  Object.keys(markersByLeafletId).forEach(k => delete markersByLeafletId[k]);
+
+  const locIndex = buildLocationIndex(lettersToShow);
+  const bounds = [];
+
+  Object.values(locIndex).forEach(locEntry => {
+    // create marker: use circleMarker for mentioned/default, special icons for sent_from/to if desired
+    let marker;
+    if (locEntry.defaultIcon === 'green-circle') {
+      marker = L.circleMarker([locEntry.lat, locEntry.lon], { radius: 7, color: 'green' });
+    } else {
+      const iconUrl = locEntry.defaultIcon === 'blue-dot'
+        ? 'https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png'
+        : 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
+      marker = L.marker([locEntry.lat, locEntry.lon], { icon: L.icon({ iconUrl, iconSize: [32,32], iconAnchor: [16,32] }) });
+    }
+
+    // attach locEntry to marker for cycling
+    marker._locEntry = locEntry;
+    // add to map
+    marker.addTo(map);
+    // after adding, Leaflet assigns _leaflet_id
+    locEntry._leafletId = marker._leaflet_id;
+    markersByLeafletId[String(marker._leaflet_id)] = marker;
+
+    // create initial popup (first mention)
+    const popupHtml = makePopupHtml(locEntry, 0);
+    marker.bindPopup(popupHtml);
+
+    markers.push(marker);
+    bounds.push([locEntry.lat, locEntry.lon]);
+  });
+
   if (bounds.length > 0) {
-    map.fitBounds(bounds, {padding: [30, 30]});
+    map.fitBounds(bounds, { padding: [30,30] });
   }
 }
 
-// Timeline slider logic
+// updateMap chooses lettersToShow by year and calls addAggregatedMarkers
+function updateMap(year) {
+  const lettersToShow = (year === "All") ? letterData : letterData.filter(l => l.year === year);
+  addAggregatedMarkers(lettersToShow);
+}
+
+// Timeline slider logic (unchanged)
 const timeline = document.getElementById('timeline');
 const selectedYear = document.getElementById('selected-year');
 const historicContext = document.getElementById('historic-context');
