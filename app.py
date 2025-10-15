@@ -5,6 +5,13 @@ import json
 app = Flask(__name__)
 DATABASE = "BFPerryLetters.db"
 
+# load year context once at startup
+try:
+    with open("year_context.json", "r", encoding="utf-8") as f:
+        YEAR_CONTEXT = json.load(f)
+except Exception:
+    YEAR_CONTEXT = {}
+
 def get_db():
     db = getattr(g, '_database', None)
     if db is None:
@@ -191,7 +198,7 @@ def letter_locations():
 def map_view():
     cur = get_db().cursor()
     cur.execute("""
-        SELECT l.id, l.letter_number, l.date,
+        SELECT l.id, l.letter_number, l.date, l.year,
                from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon,
                to_loc.name AS sent_to, to_loc.latitude AS to_lat, to_loc.longitude AS to_lon
         FROM letter l
@@ -204,11 +211,14 @@ def map_view():
     letter_data = []
     years = set()
     for letter in letters:
-        # Use the year column from the database
-        year = letter["year"]
-        # Only add years between 1842 and 1882 (inclusive)
-        if year and year.isdigit() and 1842 <= int(year) <= 1882:
+        # prefer the year column, fall back to last 4 chars of date
+        year = (letter["year"] or "").strip()
+        if not year and letter["date"]:
+            year = letter["date"][-4:]
+        # only keep valid numeric years in range
+        if year.isdigit() and 1842 <= int(year) <= 1882:
             years.add(year)
+
         cur.execute("""
             SELECT loc.name, loc.latitude, loc.longitude
             FROM mentioned_location
@@ -216,10 +226,9 @@ def map_view():
             WHERE mentioned_location.letter_id = ?
         """, (letter['id'],))
         mentioned = [dict(name=row[0], lat=row[1], lon=row[2]) for row in cur.fetchall()]
-        year = letter["date"][:4] if letter["date"] else ""
-        years.add(year)
+
         letter_data.append({
-            "letter_id": letter["id"],  # <-- Add this line
+            "letter_id": letter["id"],
             "letter_number": letter["letter_number"],
             "date": letter["date"],
             "year": year,
@@ -228,14 +237,11 @@ def map_view():
             "mentioned": mentioned
         })
 
-    with open("year_context.json", "r") as f:
-        year_context = json.load(f)
-
     return render_template(
         "map.html",
         letter_data=letter_data,
-        years=sorted(list(years)),
-        year_context=year_context
+        years=sorted(years, key=int),
+        year_context=YEAR_CONTEXT
     )
 
 @app.route("/worldview_mapping")
@@ -262,12 +268,15 @@ def worldview_mapping():
             WHERE mentioned_location.letter_id = ?
         """, (letter['id'],))
         mentioned = [dict(name=row[0], lat=row[1], lon=row[2]) for row in cur.fetchall()]
-        year = letter["year"] if letter["year"] else ""
-        # Only add valid years between 1842 and 1882
+
+        year = (letter["year"] or "").strip()
+        if not year and letter["date"]:
+            year = letter["date"][-4:]
         if year.isdigit() and 1842 <= int(year) <= 1882:
             years.add(year)
+
         letter_data.append({
-            "letter_id": letter["id"],  # <-- Add this line
+            "letter_id": letter["id"],
             "letter_number": letter["letter_number"],
             "date": letter["date"],
             "year": year,
@@ -276,20 +285,25 @@ def worldview_mapping():
             "mentioned": mentioned
         })
 
-    # Remove empty years and sort
-    years = sorted(y for y in years if y)
-    # add an "All time" option at beginning
-    years = ["All"] + years
-
-    with open("year_context.json", "r") as f:
-        year_context = json.load(f)
+    years = ["All"] + sorted(years, key=int)
 
     return render_template(
         "worldview_mapping.html",
         letter_data=letter_data,
         years=years,
-        year_context=year_context
+        year_context=YEAR_CONTEXT
     )
+
+# year_context variable as suggested
+year_context = {
+  "1861": {
+    "Personal": ["Letter about family farm"],
+    "South Carolina": ["SC militia mobilizes"],
+    "National": ["Civil War begins"],
+    "International": ["European reaction"]
+  },
+  # ... other years ...
+}
 
 if __name__ == "__main__":
     app.run(debug=True)

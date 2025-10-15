@@ -166,16 +166,38 @@ const timeline = document.getElementById('timeline');
 const selectedYear = document.getElementById('selected-year');
 const historicContext = document.getElementById('historic-context');
 
+function renderYearContext(year) {
+  const ctx = yearContext[year];
+  if (!ctx) return "No historic context for this year.";
+
+  // If the context is a simple array or string (legacy), handle it
+  if (Array.isArray(ctx)) return ctx.join('<br>');
+  if (typeof ctx === 'string') return ctx;
+
+  // Expecting an object with sections: Personal, South Carolina, National, International
+  const sections = ["Personal", "South Carolina", "National", "International"];
+  let html = '';
+  sections.forEach(sec => {
+    const items = ctx[sec];
+    if (items && (Array.isArray(items) ? items.length : String(items).trim().length)) {
+      html += `<h5 style="margin-top:8px;margin-bottom:4px;">${sec}</h5>`;
+      if (Array.isArray(items)) {
+        html += '<ul style="margin-top:0;margin-bottom:6px;padding-left:18px;">' +
+                items.map(i => `<li>${i}</li>`).join('') +
+                '</ul>';
+      } else {
+        html += `<div style="margin-bottom:6px;">${items}</div>`;
+      }
+    }
+  });
+  return html || "No historic context for this year.";
+}
+
+// replace previous inline logic with renderYearContext
 function updateYearDisplay(idx) {
   const year = years[idx];
   selectedYear.textContent = year;
-  if (Array.isArray(yearContext[year])) {
-    historicContext.innerHTML = yearContext[year].join('<br>');
-  } else if (yearContext[year]) {
-    historicContext.textContent = yearContext[year];
-  } else {
-    historicContext.textContent = "No historic context for this year.";
-  }
+  historicContext.innerHTML = renderYearContext(year);
   updateMap(year);
 }
 
