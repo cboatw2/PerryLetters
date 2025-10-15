@@ -1,224 +1,94 @@
 {
-    "1842": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["John Tyler presidency"],
-        "International": []
-    },,
-    "1845": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["James K. Polk presidency begins", "U.S. annexes Texas"],
-        "International": []
-    }, 
-    "1846": {
-        "Home": [],
-        "South Carolina": ["John C. Calhoun encourages adoption of Oregon Treaty"],
-        "National": ["Wilmot Proviso introduced"],
-        "International": ["Oregon Treaty signed by Secretary of State, James Buchanan, after accepting British offers", "Mexican-American War begins"]
-    },
-    "1848": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["Zachary Taylor elected president"],
-        "International": ["Mexican-American War ends"]
-    },
-    "1849": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["California requests entrance to Union as free state"],
-        "International": []
-    },
-    "1850": {
-        "Home": [],
-        "South Carolina": ["John C. Calhoun dies", "Erskine College receives its charter, Presbyterian", "Furman College receives its charter, Baptist"],
-        "National": ["Compromise of 1850", "Slave trade abolished in Washington D.C."],
-        "International": []
-    },
-    "1851": {
-        "Home": [],
-        "South Carolina": ["Wofford College receives its charter, Methodist"],
-        "National": [],
-        "International": []
-    },
-    "1852": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["Harriet Beecher Stowe publishes <i>Uncle Tom's Cabin</i>"],
-        "International": []
-    },
-    "1853": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["Franklin Pierce becomes president"],
-        "International": []
-    },
-    "1854": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1855": {
-        "Home": [],
-        "South Carolina": ["Greenville Female Baptist College opens"],
-        "National": [],
-        "International": []
-    },
-    "1856": {
-        "Home": [],
-        "South Carolina": ["Newberry College receives its charter, Lutheran"],
-        "National": [],
-        "International": []
-    },
-    "1857": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["James Buchanan becomes president"],
-        "International": []
-    },
-    "1859": {
-        "Home": [],
-        "South Carolina": ["Columbia Fmale College opens, Methodist"],
-        "National": [],
-        "International": []
-    },
-    "1860": {
-        "Home": [],
-        "South Carolina": ["Due West Female College opens, Associate Reformed Presbyterian"],
-        "National": []
-        "International": []
-    },
-    "1861": {
-        "Home": [],
-        "South Carolina": ["William Gilmore Simms publishes <i>History of South Carolina</i> focusing on sectional differences within the United States and the South's role in the Revolutionary War"],
-        "National": ["Abraham Lincoln becomes president", "Civil War begins"],
-        "International": []
-    },
-    "1862": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1863": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1864": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1865": {
-        "Home": [],
-        "South Carolina": [ "Greenville County, South Carolina established", "Greenville occupied by Union forces until May 2nd"],
-        "National": ["Civil War ends"],
-        "International": []
-    },
-    "1866": {
-        "Home": [],
-        "South Carolina": ["Severe drought in South Carolina decimates crops, especially corn"],
-        "National": [],
-        "International": []
-    },
-    "1867": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1868": {
-        "Home": [],
-        "South Carolina": ["John William DeForest serving as chief of Freedman's Bureau describes Greenville as bankrupt"],
-        "National": [],
-        "International": []
-    },
-    "1869": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1870": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["15th Amendment ratified"],
-        "International": []
-    },
-    "1871:": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1872": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1873": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["Panic of 1873 begins"],
-        "International": []
-    },
-    "1874": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1875": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1876": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1877": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["Compromise of 1877 ends Reconstruction"],
-        "International": []
-    },
-    "1878": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1879": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1880": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
-    "1881": {
-        "Home": [],
-        "South Carolina": [],
-        "National": ["James A. Garfield becomes president"],
-        "International": []
-    },
-    "1882": {
-        "Home": [],
-        "South Carolina": [],
-        "National": [],
-        "International": []
-    },
+  "1842": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["John Tyler presidency"],
+    "International": []
+  },
+  "1845": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["James K. Polk presidency begins", "U.S. annexes Texas"],
+    "International": []
+  },
+  "1846": {
+    "Home": [],
+    "South Carolina": ["John C. Calhoun encourages adoption of Oregon Treaty"],
+    "National": ["Wilmot Proviso introduced"],
+    "International": ["Oregon Treaty signed by Secretary of State James Buchanan", "Mexican-American War begins"]
+  },
+  "1848": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["Zachary Taylor elected president"],
+    "International": ["Mexican-American War ends"]
+  },
+  "1849": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["California requests entrance to Union as free state"],
+    "International": []
+  },
+  "1850": {
+    "Home": [],
+    "South Carolina": ["John C. Calhoun dies", "Erskine College receives its charter, Presbyterian", "Furman College receives its charter, Baptist"],
+    "National": ["Compromise of 1850", "Slave trade abolished in Washington D.C."],
+    "International": []
+  },
+  "1851": {
+    "Home": [],
+    "South Carolina": ["Wofford College receives its charter, Methodist"],
+    "National": [],
+    "International": []
+  },
+  "1852": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["Harriet Beecher Stowe publishes Uncle Tom's Cabin"],
+    "International": []
+  },
+  "1853": {
+    "Home": [],
+    "South Carolina": [],
+    "National": ["Franklin Pierce becomes president"],
+    "International": []
+  },
+  "1854": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1855": { "Home": [], "South Carolina": ["Greenville Female Baptist College opens"], "National": [], "International": [] },
+  "1856": { "Home": [], "South Carolina": ["Newberry College receives its charter, Lutheran"], "National": [], "International": [] },
+  "1857": { "Home": [], "South Carolina": [], "National": ["James Buchanan becomes president"], "International": [] },
+  "1859": { "Home": [], "South Carolina": ["Columbia Female College opens, Methodist"], "National": [], "International": [] },
+  "1860": { "Home": [], "South Carolina": ["Due West Female College opens, Associate Reformed Presbyterian"], "National": [], "International": [] },
+  "1861": {
+    "Home": [],
+    "South Carolina": ["William Gilmore Simms publishes History of South Carolina"],
+    "National": ["Abraham Lincoln becomes president", "Civil War begins"],
+    "International": []
+  },
+  "1862": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1863": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1864": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1865": {
+    "Home": [],
+    "South Carolina": ["Greenville County established", "Greenville occupied by Union forces until May 2nd"],
+    "National": ["Civil War ends"],
+    "International": []
+  },
+  "1866": { "Home": [], "South Carolina": ["Severe drought decimates crops"], "National": [], "International": [] },
+  "1867": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1868": { "Home": [], "South Carolina": ["DeForest describes Greenville as bankrupt"], "National": [], "International": [] },
+  "1869": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1870": { "Home": [], "South Carolina": [], "National": ["15th Amendment ratified"], "International": [] },
+  "1871": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1872": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1873": { "Home": [], "South Carolina": [], "National": ["Panic of 1873 begins"], "International": [] },
+  "1874": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1875": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1876": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1877": { "Home": [], "South Carolina": [], "National": ["Compromise of 1877 ends Reconstruction"], "International": [] },
+  "1878": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1879": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1880": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1881": { "Home": [], "South Carolina": [], "National": ["James A. Garfield becomes president"], "International": [] },
+  "1882": { "Home": [], "South Carolina": [], "National": [], "International": [] }
 }

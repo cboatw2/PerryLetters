@@ -1,16 +1,22 @@
 from flask import Flask, render_template, g, request, redirect, url_for
 import sqlite3
+import os
 import json
 
 app = Flask(__name__)
 DATABASE = "BFPerryLetters.db"
 
 # load year context once at startup
-try:
-    with open("year_context.json", "r", encoding="utf-8") as f:
-        YEAR_CONTEXT = json.load(f)
-except Exception:
-    YEAR_CONTEXT = {}
+def load_year_context():
+    p = os.path.join(os.path.dirname(__file__), "year_context.json")
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        app.logger.error("load_year_context error: %s", e)
+        return {}
+
+YEAR_CONTEXT = load_year_context()
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -285,13 +291,14 @@ def worldview_mapping():
             "mentioned": mentioned
         })
 
+    year_context = load_year_context()
     years = ["All"] + sorted(years, key=int)
 
     return render_template(
         "worldview_mapping.html",
         letter_data=letter_data,
         years=years,
-        year_context=YEAR_CONTEXT
+        year_context=year_context
     )
 
 # year_context variable as suggested
