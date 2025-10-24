@@ -15,41 +15,65 @@ with open(input_file, 'r', encoding='utf-8') as f:
 # Skip first two lines
 content_lines = lines[2:]
 
-# Pattern to match letter start (day of week followed by date)
-# Matches patterns like "Thursday night, 30 November [1837]"
-start_pattern = re.compile(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)', re.IGNORECASE)
+# Pattern to match letter start: day of week OR date format (DD Month YYYY)
+# Matches "Thursday" or "30 November 1837" or "30 November [1837]"
+day_pattern = re.compile(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)', re.IGNORECASE)
+date_pattern = re.compile(r'^\d{1,2}\s+[A-Z][a-z]+\s+[\[\d]', re.IGNORECASE)
 
-# Pattern to match letter end (name followed by city)
-# Matches patterns like "Benjamin Perry\nColumbia" or similar
-end_pattern = re.compile(r'^[A-Z][a-z]+ [A-Z][a-z]+\s*$')
+# Pattern to match signature (name followed by optional city)
+# Name pattern: capitalized first and last name
+name_pattern = re.compile(r'^[A-Z][a-z]+\s+[A-Z]\.?\s*[A-Z][a-z]+\s*$|^[A-Z][a-z]+\s+[A-Z][a-z]+\s*$')
 
 letters = []
 current_letter = []
-in_letter = False
+last_was_name = False
+skip_next = False  # Flag to skip city line after adding it
 
 for i, line in enumerate(content_lines):
-    # Check if this is the start of a new letter
-    if start_pattern.match(line.strip()):
-        # If we were already building a letter, save it
-        if current_letter:
-            letters.append(''.join(current_letter))
-            current_letter = []
-        in_letter = True
-        current_letter.append(line)
-    elif in_letter:
-        current_letter.append(line)
+    # Skip this line if it was already added as a city name
+    if skip_next:
+        skip_next = False
+        continue
+    
+    stripped = line.strip()
+    
+    # Check if this line is a signature (name)
+    is_name = name_pattern.match(stripped)
+    
+    # Check if this is the start of a NEW letter (not embedded within)
+    # Only start new letter if we have a complete previous letter (ended with name)
+    is_start = (day_pattern.match(stripped) or date_pattern.match(stripped))
+    
+    if is_start and last_was_name and current_letter:
+        # We have a complete letter - save it
+        letters.append(''.join(current_letter))
+        current_letter = []
+        last_was_name = False
+    
+    # Add line to current letter
+    current_letter.append(line)
+    
+    # Track if this line was a name (potential end of letter)
+    if is_name:
+        # Check if next line is a city (capitalized, short line)
+        # Also check for blank line followed by city
+        city_line_idx = i + 1
         
-        # Check if this might be the end (person's name)
-        if end_pattern.match(line.strip()):
-            # Look ahead for city name
-            if i + 1 < len(content_lines):
-                next_line = content_lines[i + 1].strip()
-                # If next line looks like a city name (capitalized word(s))
-                if next_line and next_line[0].isupper():
-                    current_letter.append(content_lines[i + 1])
-                    letters.append(''.join(current_letter))
-                    current_letter = []
-                    in_letter = False
+        # Skip blank lines between name and city
+        while city_line_idx < len(content_lines) and content_lines[city_line_idx].strip() == '':
+            current_letter.append(content_lines[city_line_idx])
+            city_line_idx += 1
+        
+        # Now check if we have a city name
+        if city_line_idx < len(content_lines):
+            next_line = content_lines[city_line_idx].strip()
+            if next_line and len(next_line) < 30 and next_line[0].isupper() and not date_pattern.match(next_line) and not day_pattern.match(next_line):
+                # Add the city line
+                current_letter.append(content_lines[city_line_idx])
+                last_was_name = True
+                # Mark to skip this line when we get to it in the main loop
+                if city_line_idx == i + 1:
+                    skip_next = True
 
 # Don't forget the last letter if there is one
 if current_letter:
