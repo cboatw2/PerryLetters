@@ -4,7 +4,7 @@ import os
 import json
 
 app = Flask(__name__)
-DATABASE = "BFPerryLetters.db"
+DATABASE = "BFPerry_Letters_Database/BFPerryLetters.db"
 
 # load year context once at startup
 def load_year_context():
@@ -300,17 +300,6 @@ def worldview_mapping():
         years=years,
         year_context=year_context
     )
-
-# year_context variable as suggested
-year_context = {
-  "1861": {
-    "Personal": ["Letter about family farm"],
-    "South Carolina": ["SC militia mobilizes"],
-    "National": ["Civil War begins"],
-    "International": ["European reaction"]
-  },
-  # ... other years ...
-}
 
 if __name__ == "__main__":
     app.run(debug=True)

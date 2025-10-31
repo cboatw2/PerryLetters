@@ -2,7 +2,8 @@
 #edit the last line of code: 
 #split_letter(30, 21, output_folder) ie: splits Letter 30 after line 21
 #run in terminal
-
+cd /Users/crboatwright/PerryLetters
+sqlite3 BFPerryLetters.db "SELECT name FROM sqlite_master WHERE type='table';"
 import re
 from pathlib import Path
 import shutil
