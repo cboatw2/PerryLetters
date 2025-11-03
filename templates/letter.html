@@ -6,15 +6,13 @@
 <body>
     {% extends "base.html" %}
     {% block content %}
-    <h1>Letter {{ letter['letter_number'] }}</h1>
-    <p><strong>Date:</strong> {{ letter['date'] }}</p>
-    <p><strong>Sent From:</strong> {{ letter['sent_from_location_id'] }}</p>
-    <p><strong>Sent To:</strong> {{ letter['sent_to_location_id'] }}</p>
-    <p><strong>Sender:</strong> {{ letter['sender_id'] }}</p>
-    <p><strong>Recipient:</strong> {{ letter['recipient_id'] }}</p>
-    <p><strong>File:</strong> {{ letter['file_path'] }}</p>
-    <hr>
+
+    <div style="margin: 20px 0; padding: 15px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 5px;">
+      <pre style="white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.6; margin: 0;">{{ letter['text'] }}</pre>
+    </div>
+
     <a href="{{ url_for('index') }}">Back to Letters List</a>
+
     {% endblock %}
 </body>
 </html>

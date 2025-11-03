@@ -4,7 +4,7 @@ import os
 import json
 
 app = Flask(__name__)
-DATABASE = "BFPerry_Letters_Database/BFPerryLetters.db"
+DATABASE = "/Users/crboatwright/PerryLetters/BFPerryLetters.db"
 
 # load year context once at startup
 def load_year_context():
@@ -34,16 +34,58 @@ def close_connection(exception):
 @app.route("/")
 def index():
     cur = get_db().cursor()
-    cur.execute("SELECT * FROM letter ORDER BY letter_number")
+    cur.execute("""
+        SELECT l.*, 
+               sender.name AS sender_name,
+               recipient.name AS recipient_name
+        FROM letter l
+        LEFT JOIN people AS sender ON l.sender_id = sender.person_id
+        LEFT JOIN people AS recipient ON l.recipient_id = recipient.person_id
+        ORDER BY l.letter_number
+    """)
     letters = cur.fetchall()
-    return render_template("index.html", letters=letters)
+    
+    # Read the text content for each letter
+    letters_with_text = []
+    for letter in letters:
+        letter_dict = dict(letter)
+        # Construct the full file path using letter number
+        letter_number = letter['letter_number']
+        file_path = os.path.join(
+            os.path.dirname(__file__), 
+            'BFPerryLettersSeparated', 
+            f'BFPerry_Letter{letter_number}.txt'
+        )
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                letter_dict['text'] = f.read()
+        except FileNotFoundError:
+            letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+        letters_with_text.append(letter_dict)
+    
+    return render_template("index.html", letters=letters_with_text)
 
 @app.route("/letter/<int:letter_id>")
 def letter(letter_id):
     cur = get_db().cursor()
     cur.execute("SELECT * FROM letter WHERE id=?", (letter_id,))
     letter = cur.fetchone()
-    return render_template("letter.html", letter=letter)
+    
+    # Read the letter text file
+    letter_dict = dict(letter)
+    letter_number = letter['letter_number']
+    file_path = os.path.join(
+        os.path.dirname(__file__), 
+        'BFPerryLettersSeparated', 
+        f'BFPerry_Letter{letter_number}.txt'
+    )
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            letter_dict['text'] = f.read()
+    except FileNotFoundError:
+        letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+    
+    return render_template("letter.html", letter=letter_dict)
 
 @app.route("/people")
 def people():
@@ -94,20 +136,45 @@ def locations():
 @app.route("/search")
 def search():
     query = request.args.get("query", "").strip()
+    if not query:
+        return render_template("index.html", letters=[], query="")
+    
     cur = get_db().cursor()
-    # Search by person name or location name
     cur.execute("""
-        SELECT letter.*
-        FROM letter
-        LEFT JOIN people AS sender ON letter.sender_id = sender.person_id
-        LEFT JOIN people AS recipient ON letter.recipient_id = recipient.person_id
-        LEFT JOIN location AS from_loc ON letter.sent_from_location_id = from_loc.location_id
-        LEFT JOIN location AS to_loc ON letter.sent_to_location_id = to_loc.location_id
-        WHERE sender.name LIKE ? OR recipient.name LIKE ? OR from_loc.name LIKE ? OR to_loc.name LIKE ?
-        ORDER BY letter.letter_number
-    """, (f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"))
-    letters = cur.fetchall()
-    return render_template("index.html", letters=letters, query=query)
+        SELECT l.*, 
+               sender.name AS sender_name,
+               recipient.name AS recipient_name
+        FROM letter l
+        LEFT JOIN people AS sender ON l.sender_id = sender.person_id
+        LEFT JOIN people AS recipient ON l.recipient_id = recipient.person_id
+        ORDER BY l.letter_number
+    """)
+    all_letters = cur.fetchall()
+    
+    matching_letters = []
+    query_lower = query.lower()
+    
+    for letter in all_letters:
+        letter_dict = dict(letter)
+        letter_number = letter['letter_number']
+        file_path = os.path.join(
+            os.path.dirname(__file__), 
+            'BFPerryLettersSeparated', 
+            f'BFPerry_Letter{letter_number}.txt'
+        )
+        
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                text = f.read()
+                letter_dict['text'] = text
+                
+                # Search in the letter text (case-insensitive)
+                if query_lower in text.lower():
+                    matching_letters.append(letter_dict)
+        except FileNotFoundError:
+            letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+    
+    return render_template("index.html", letters=matching_letters, query=query)
 
 @app.route("/mentioned_people_over_time")
 def mentioned_people_over_time():

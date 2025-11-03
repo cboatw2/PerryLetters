@@ -4,24 +4,69 @@
 <body>
 {% extends "base.html" %}
 {% block content %}
-<h1>Letters</h1>
-<form method="get" action="{{ url_for('search') }}">
-  <input type="text" name="query" placeholder="Search by person or location">
-  <button type="submit">Search</button>
-</form>
-{% if query %}
-  <h2>Search results for "{{ query }}"</h2>
-{% endif %}
-<ul>
-{% for letter in letters %}
-  <li>
-    <a href="{{ url_for('letter', letter_id=letter['id']) }}">
-      Letter {{ letter['letter_number'] }} ({{ letter['date'] }})
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<a href="{{ url_for('mentioned_people_over_time') }}">Mentioned People Over Time</a>
+<div class="container mt-4">
+  <h1 class="mb-4">B.F. Perry Letters</h1>
+  
+  <div class="card mb-4">
+    <div class="card-body">
+      <form method="get" action="{{ url_for('search') }}" class="d-flex gap-2">
+        <input type="text" name="query" placeholder="Search letters..." class="form-control" value="{{ query or '' }}">
+        <button type="submit" class="btn btn-primary">Search</button>
+        {% if query %}
+          <a href="{{ url_for('index') }}" class="btn btn-secondary">Clear</a>
+        {% endif %}
+      </form>
+    </div>
+  </div>
+
+  {% if query %}
+    <div class="alert alert-info">
+      <strong>Search results for:</strong> "{{ query }}" ({{ letters|length }} letters found)
+    </div>
+  {% endif %}
+
+  <div class="row">
+    {% for letter in letters %}
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <h5 class="card-title">Letter {{ letter['letter_number'] }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ letter['date'] }}</h6>
+            <p class="card-text small mb-1">
+              <strong>From:</strong> {{ letter['sender_name'] or 'Unknown' }}
+            </p>
+            <p class="card-text small mb-3">
+              <strong>To:</strong> {{ letter['recipient_name'] or 'Unknown' }}
+            </p>
+            <a href="{{ url_for('letter', letter_id=letter['id']) }}" class="btn btn-sm btn-outline-primary">
+              Read Letter →
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if not letters %}
+    <div class="alert alert-warning text-center">
+      <p class="mb-0">No letters found.</p>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  .hover-shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  .hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  .card {
+    border-radius: 8px;
+  }
+</style>
 {% endblock %}
 </body>
 </html>
