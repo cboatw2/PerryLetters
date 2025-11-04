@@ -34,6 +34,18 @@ const letterData = {{ letter_data|tojson }};
 const years = {{ years|tojson }};
 const yearContext = {{ year_context|tojson }};
 
+// DEBUG: Check if Washington D.C. data is present - ADD THESE LINES
+console.log("=== DEBUGGING WASHINGTON D.C. ===");
+console.log("Total letters:", letterData.length);
+const dcLetters = letterData.filter(l => l.sent_from && l.sent_from.name === "Washington D.C.");
+console.log("Letters from Washington D.C.:", dcLetters.length);
+if (dcLetters.length > 0) {
+  console.log("First DC letter full object:", dcLetters[0]);
+  console.log("DC letter years:", dcLetters.map(l => l.year));
+}
+console.log("Available years in slider:", years);
+console.log("=== END DEBUG ===");
+
 // basic historic-context renderer (expects "Home","South Carolina","National","International" keys)
 function renderYearContext(year) {
   const ctx = yearContext[year];
@@ -60,9 +72,11 @@ function renderYearContext(year) {
 
 // Leaflet map init - centered on USA with appropriate zoom
 const map = L.map('map').setView([37.8, -96], 4);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  attribution: '© OpenStreetMap contributors'
+
+// Use Esri World Street Map tiles with blue water
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 19,
+  attribution: 'Tiles &copy; Esri'
 }).addTo(map);
 
 let markers = [];
@@ -77,7 +91,14 @@ function buildLocationIndex(letters) {
       const loc = letter[key];
       if (loc && loc.lat && loc.lon) {
         const k = `${loc.lat},${loc.lon}`;
-        idx[k] = idx[k] || { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: icon };
+        if (!idx[k]) {
+          idx[k] = { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: icon };
+        } else {
+          // If entry exists and current icon is blue/red, upgrade from green
+          if (icon !== 'green-circle') {
+            idx[k].defaultIcon = icon;
+          }
+        }
         idx[k].mentions.push({
           letter_number: letter.letter_number,
           date: letter.date,
@@ -89,7 +110,10 @@ function buildLocationIndex(letters) {
     (letter.mentioned || []).forEach(loc => {
       if (loc && loc.lat && loc.lon) {
         const k = `${loc.lat},${loc.lon}`;
-        idx[k] = idx[k] || { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: 'green-circle' };
+        if (!idx[k]) {
+          idx[k] = { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: 'green-circle' };
+        }
+        // Don't downgrade blue/red markers to green - only add the mention
         idx[k].mentions.push({
           letter_number: letter.letter_number,
           date: letter.date,
@@ -98,6 +122,7 @@ function buildLocationIndex(letters) {
       }
     });
   });
+  console.log("Location index:", idx);
   return idx;
 }
 
@@ -118,10 +143,21 @@ function makePopupHtml(locEntry, i) {
   const total = locEntry.mentions.length;
   const prevDisabled = i === 0 ? 'disabled' : '';
   const nextDisabled = i === total - 1 ? 'disabled' : '';
+  
+  // Determine the relationship text based on marker type
+  let relationshipText = '';
+  if (locEntry.defaultIcon === 'blue-dot') {
+    relationshipText = `${total} letter${total > 1 ? 's' : ''} sent from this location`;
+  } else if (locEntry.defaultIcon === 'red-dot') {
+    relationshipText = `${total} letter${total > 1 ? 's' : ''} sent to this location`;
+  } else {
+    relationshipText = `${total} letter${total > 1 ? 's' : ''} mention this location`;
+  }
+  
   return `
     <div>
       <strong>${locEntry.name || 'Unknown'}</strong><br/>
-      <span style="font-size:0.9em; color:#666;">${total} letter${total > 1 ? 's' : ''} mention this location</span><br/>
+      <span style="font-size:0.9em; color:#666;">${relationshipText}</span><br/>
       <a href="${m.file}" target="_blank">View Letter ${m.letter_number}</a><br/>
       <small>${m.date || ''}</small>
       <div style="margin-top:6px; text-align:center;">
@@ -150,6 +186,7 @@ function cycleMention(btn, delta) {
 
 // add aggregated markers to map for given letters
 function addAggregatedMarkers(lettersToShow) {
+  console.log(`Adding markers for ${lettersToShow.length} letters`);
   markers.forEach(m => map.removeLayer(m));
   markers = [];
   Object.keys(markersByLeafletId).forEach(k => delete markersByLeafletId[k]);
@@ -158,6 +195,7 @@ function addAggregatedMarkers(lettersToShow) {
   const bounds = [];
 
   Object.values(index).forEach(locEntry => {
+    console.log(`Creating marker for ${locEntry.name} at ${locEntry.lat}, ${locEntry.lon}`);
     let marker;
     if (locEntry.defaultIcon === 'green-circle') {
       // Mentioned location - use varying opacity based on mention count
@@ -191,11 +229,14 @@ function addAggregatedMarkers(lettersToShow) {
 
   // Fit bounds to show all markers
   if (bounds.length > 0) map.fitBounds(bounds, { padding: [30,30] });
+  console.log(`Created ${markers.length} markers`);
 }
 
 // updateMap chooses letters for the selected year (or All)
 function updateMap(year) {
+  console.log(`Updating map for year: ${year}`);
   const lettersToShow = (year === "All") ? letterData : letterData.filter(l => l.year === year);
+  console.log(`Filtered to ${lettersToShow.length} letters`);
   addAggregatedMarkers(lettersToShow);
 }
 

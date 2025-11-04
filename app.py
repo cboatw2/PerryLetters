@@ -321,16 +321,29 @@ def map_view():
 def worldview_mapping():
     cur = get_db().cursor()
     
-    # Add this debugging
-    cur.execute("SELECT location_id, name FROM location WHERE location_id = 79")
+    # Enhanced debugging
+    cur.execute("SELECT location_id, name, latitude, longitude FROM location WHERE location_id = 79")
     loc_79 = cur.fetchone()
-    print(f"Location 79 in DB: {loc_79}")
+    print(f"Location 79: ID={loc_79['location_id']}, Name={loc_79['name']}, Lat={loc_79['latitude']}, Lon={loc_79['longitude']}")
     
     cur.execute("""
         SELECT COUNT(*) FROM letter 
         WHERE sent_from_location_id = 79
     """)
     print(f"Letters sent from location 79: {cur.fetchone()[0]}")
+    
+    # Check a specific letter with location 79
+    cur.execute("""
+        SELECT l.letter_number, l.sent_from_location_id,
+               from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon
+        FROM letter l
+        LEFT JOIN location AS from_loc ON l.sent_from_location_id = from_loc.location_id
+        WHERE l.sent_from_location_id = 79
+        LIMIT 1
+    """)
+    sample = cur.fetchone()
+    if sample:
+        print(f"Sample letter {sample['letter_number']}: from={sample['sent_from']}, lat={sample['from_lat']}, lon={sample['from_lon']}")
     
     cur.execute("""
         SELECT l.id, l.letter_number, l.date, l.year,
@@ -360,7 +373,7 @@ def worldview_mapping():
         if year.isdigit() and 1842 <= int(year) <= 1882:
             years.add(year)
 
-        letter_data.append({
+        letter_dict = {
             "letter_id": letter["id"],
             "letter_number": letter["letter_number"],
             "date": letter["date"],
@@ -368,7 +381,13 @@ def worldview_mapping():
             "sent_from": {"name": letter["sent_from"], "lat": letter["from_lat"], "lon": letter["from_lon"]},
             "sent_to": {"name": letter["sent_to"], "lat": letter["to_lat"], "lon": letter["to_lon"]},
             "mentioned": mentioned
-        })
+        }
+        
+        # Debug: Print if this letter is from Washington D.C.
+        if letter["sent_from"] == "Washington D.C.":
+            print(f"Letter {letter['letter_number']}: sent_from = {letter_dict['sent_from']}")
+        
+        letter_data.append(letter_dict)
 
     year_context = load_year_context()
     years = ["All"] + sorted(years, key=int)
