@@ -320,6 +320,18 @@ def map_view():
 @app.route("/worldview_mapping")
 def worldview_mapping():
     cur = get_db().cursor()
+    
+    # Add this debugging
+    cur.execute("SELECT location_id, name FROM location WHERE location_id = 79")
+    loc_79 = cur.fetchone()
+    print(f"Location 79 in DB: {loc_79}")
+    
+    cur.execute("""
+        SELECT COUNT(*) FROM letter 
+        WHERE sent_from_location_id = 79
+    """)
+    print(f"Letters sent from location 79: {cur.fetchone()[0]}")
+    
     cur.execute("""
         SELECT l.id, l.letter_number, l.date, l.year,
                from_loc.name AS sent_from, from_loc.latitude AS from_lat, from_loc.longitude AS from_lon,
