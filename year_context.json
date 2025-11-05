@@ -1,21 +1,39 @@
 {
   "1842": {
     "Home": [],
+    "South Carolina": ["Benjamin F. Perry declines renomination for legislature."],
+    "National": ["John Tyler presidency", "Waddy Thompson, Jr. appointed U.S. Minister to Mexico."],
+    "International": []
+  },
+  "1843": {
+    "Home": ["Benjamin and Elizabeth's third child, son Frank, is born.", "Perry is out of debt and owns $17,420 worth of property."],
     "South Carolina": [],
     "National": ["John Tyler presidency"],
     "International": []
   },
+  "1844": {
+    "Home": ["Perry purchases 80 acres of agricultural and timberland in Greenville District and 6 months later purchases an adjoining 120 acres.", "Perry is invited to give address at Pendleton Agricultural Society's 30th anniversary meeting. John C. Calhoun was in attendance."],
+    "South Carolina": ["John C. Calhoun seeks Democratic nomination for president, but loses to James Polk", "Calhoun appointed Secretary of State by President John Tyler"],
+    "National": ["James K. Polk elected president"],
+    "International": []
+  },
   "1845": {
     "Home": [],
-    "South Carolina": [],
+    "South Carolina": ["John C. Calhoun elected to U.S. Senate"],
     "National": ["James K. Polk presidency begins", "U.S. annexes Texas"],
     "International": []
   },
   "1846": {
-    "Home": [],
-    "South Carolina": ["John C. Calhoun encourages adoption of Oregon Treaty"],
+    "Home": ["Perry embarks on his tour to Washington, D.C., New England and Canada. He was distressed over the neglected appearance of southern countryside on his return home."],
+    "South Carolina": ["Work begins on Greenville RR.", "Perry is elected by legislature as a member of the Board of Trustees of South Carolina College.", "John C. Calhoun encourages adoption of Oregon Treaty"],
     "National": ["Wilmot Proviso introduced"],
     "International": ["Oregon Treaty signed by Secretary of State James Buchanan", "Mexican-American War begins"]
+  },
+  "1847": {
+    "Home": ["Benjamin and Elizabeth's fourth child, daughter Anna, is born."],
+    "South Carolina": [],
+    "National": ["Abraham Lincoln elected to U.S. House of Representatives as Whig candidate from Illinois"],
+    "International": []
   },
   "1848": {
     "Home": [],
@@ -24,19 +42,19 @@
     "International": ["Mexican-American War ends"]
   },
   "1849": {
-    "Home": [],
+    "Home": ["Perry ownes twelve enslaved persons"],
     "South Carolina": [],
     "National": ["California requests entrance to Union as free state"],
     "International": []
   },
   "1850": {
-    "Home": [],
+    "Home": ["Perry ownes $31,840 worth of property.", "Perry founds The Southern Patriot newspaper with contributions by Vardry McBee and Waddy Thompson, Jr."],
     "South Carolina": ["John C. Calhoun dies", "Erskine College receives its charter, Presbyterian", "Furman College receives its charter, Baptist"],
     "National": ["Compromise of 1850", "Slave trade abolished in Washington D.C."],
     "International": []
   },
   "1851": {
-    "Home": [],
+    "Home": ["Benjamin and Elizabeth's fifth child, son Hext, is born."],
     "South Carolina": ["Wofford College receives its charter, Methodist"],
     "National": [],
     "International": []
@@ -57,8 +75,17 @@
   "1855": { "Home": [], "South Carolina": ["Greenville Female Baptist College opens"], "National": [], "International": [] },
   "1856": { "Home": [], "South Carolina": ["Newberry College receives its charter, Lutheran"], "National": [], "International": [] },
   "1857": { "Home": [], "South Carolina": [], "National": ["James Buchanan becomes president"], "International": [] },
-  "1859": { "Home": [], "South Carolina": ["Columbia Female College opens, Methodist"], "National": [], "International": [] },
-  "1860": { "Home": [], "South Carolina": ["Due West Female College opens, Associate Reformed Presbyterian"], "National": [], "International": [] },
+  "1859": { 
+    "Home": ["Benjamin and Elizabeth's eldest daughter, Anna, dies of tuberculosis in January"], 
+    "South Carolina": ["Columbia Female College opens, Methodist"], 
+    "National": [], 
+    "International": [] 
+  },
+  "1860": { "Home": ["Benjamin and Elizabeth's son, Frank, dies of tuberculosis in July"], 
+  "South Carolina": ["Due West Female College opens, Associate Reformed Presbyterian"], 
+  "National": [], 
+  "International": [] 
+},
   "1861": {
     "Home": [],
     "South Carolina": ["William Gilmore Simms publishes History of South Carolina"],
@@ -70,17 +97,26 @@
   "1864": { "Home": [], "South Carolina": [], "National": [], "International": [] },
   "1865": {
     "Home": [],
-    "South Carolina": ["Greenville County established", "Greenville occupied by Union forces until May 2nd"],
+    "South Carolina": ["Greenville County established", "Greenville occupied by Union forces until May 2nd","President Andrew Johnson appoints Benajamin F. Perry as provisional governor of South Carolina. He serves from June 30 to December 21, 1865.","South Carolina adopts its fifth state constitution abolished slavery and institued popular election of the governor and presidential electors."],
     "National": ["Civil War ends"],
     "International": []
   },
   "1866": { "Home": [], "South Carolina": ["Severe drought decimates crops"], "National": [], "International": [] },
   "1867": { "Home": [], "South Carolina": [], "National": [], "International": [] },
-  "1868": { "Home": [], "South Carolina": ["DeForest describes Greenville as bankrupt"], "National": [], "International": [] },
+  "1868": { 
+    "Home": [], 
+    "South Carolina": ["DeForest describes Greenville as bankrupt", "South Carolina adopts its sixth state constitution"],
+    "National": [],
+    "International": [] 
+  },
   "1869": { "Home": [], "South Carolina": [], "National": [], "International": [] },
   "1870": { "Home": [], "South Carolina": [], "National": ["15th Amendment ratified"], "International": [] },
   "1871": { "Home": [], "South Carolina": [], "National": [], "International": [] },
-  "1872": { "Home": [], "South Carolina": [], "National": [], "International": [] },
+  "1872": { "Home": ["Benjamin and Elizabeth's son, Hayne, dies of tuberculosis"], 
+  "South Carolina": [], 
+  "National": [], 
+  "International": [] 
+},
   "1873": { "Home": [], "South Carolina": [], "National": ["Panic of 1873 begins"], "International": [] },
   "1874": { "Home": [], "South Carolina": [], "National": [], "International": [] },
   "1875": { "Home": [], "South Carolina": [], "National": [], "International": [] },

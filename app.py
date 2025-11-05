@@ -2,6 +2,9 @@ from flask import Flask, render_template, g, request, redirect, url_for
 import sqlite3
 import os
 import json
+import re
+from collections import Counter
+from datetime import datetime
 
 app = Flask(__name__)
 DATABASE = "/Users/crboatwright/PerryLetters/BFPerryLetters.db"
@@ -398,6 +401,105 @@ def worldview_mapping():
         years=years,
         year_context=year_context
     )
+
+# Load and parse the letters data
+def load_letters():
+    with open('BFPerryLetters_split.txt', 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    letters = []
+    letter_blocks = content.split('---')
+    
+    for block in letter_blocks:
+        if block.strip():
+            letter = {}
+            lines = block.strip().split('\n')
+            for line in lines:
+                if line.startswith('Date:'):
+                    letter['date'] = line.replace('Date:', '').strip()
+                elif line.startswith('From:'):
+                    letter['from'] = line.replace('From:', '').strip()
+                elif line.startswith('To:'):
+                    letter['to'] = line.replace('To:', '').strip()
+                elif line.startswith('Location:'):
+                    letter['location'] = line.replace('Location:', '').strip()
+                elif line.startswith('Content:'):
+                    letter['content'] = line.replace('Content:', '').strip()
+            if letter:
+                letters.append(letter)
+    
+    return letters
+
+@app.route('/letters_split')
+def letters_split():
+    letters = load_letters()
+    return render_template('letters_split.html', letters=letters)
+
+@app.route('/search_split')
+def search_split():
+    query = request.args.get('q', '')
+    letters = load_letters()
+    
+    if query:
+        filtered_letters = []
+        for letter in letters:
+            if (query.lower() in letter.get('content', '').lower() or
+                query.lower() in letter.get('from', '').lower() or
+                query.lower() in letter.get('to', '').lower() or
+                query.lower() in letter.get('location', '').lower()):
+                filtered_letters.append(letter)
+        letters = filtered_letters
+    
+    return render_template('search_split.html', letters=letters, query=query)
+
+@app.route('/visualization_split')
+def visualization_split():
+    letters = load_letters()
+    
+    # Extract years from dates and count them
+    year_counts = Counter()
+    
+    for letter in letters:
+        date_str = letter.get('date', '')
+        # Try to extract year from various date formats
+        year_match = re.search(r'\b(18\d{2}|19\d{2}|20\d{2})\b', date_str)
+        if year_match:
+            year = int(year_match.group(1))
+            year_counts[year] += 1
+    
+    # Sort by year
+    sorted_years = sorted(year_counts.items())
+    years = [str(year) for year, count in sorted_years]
+    counts = [count for year, count in sorted_years]
+    
+    return render_template('visualization_split.html', years=years, counts=counts)
+
+@app.route('/visualization')
+def visualization():
+    cur = get_db().cursor()
+    
+    # Get all letters with their years
+    cur.execute("""
+        SELECT year FROM letter 
+        WHERE year IS NOT NULL AND year != ''
+        ORDER BY year
+    """)
+    letters = cur.fetchall()
+    
+    # Count letters by year
+    from collections import Counter
+    year_counts = Counter()
+    for letter in letters:
+        year = letter['year'].strip()
+        if year.isdigit() and 1842 <= int(year) <= 1882:
+            year_counts[int(year)] += 1
+    
+    # Sort by year
+    sorted_years = sorted(year_counts.items())
+    years = [str(year) for year, count in sorted_years]
+    counts = [count for year, count in sorted_years]
+    
+    return render_template('lettercount.html', years=years, counts=counts)
 
 if __name__ == "__main__":
     app.run(debug=True)
