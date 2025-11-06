@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
 <h2>Worldview Mapping</h2>
+
+<!-- Legend -->
+<div style="position: absolute; top: 80px; right: 20px; z-index: 1000; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); font-family: Arial, sans-serif;">
+  <h4 style="margin: 0 0 10px 0; font-size: 14px; font-weight: bold;">Legend</h4>
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <img src="https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png" style="width: 20px; height: 20px; margin-right: 8px;" alt="Blue dot">
+    <span style="font-size: 13px;">Sent From</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <img src="https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png" style="width: 20px; height: 20px; margin-right: 8px;" alt="Red dot">
+    <span style="font-size: 13px;">Sent To</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <div style="width: 14px; height: 14px; border-radius: 50%; background-color: green; border: 2px solid darkgreen; margin-right: 8px; margin-left: 3px;"></div>
+    <span style="font-size: 13px;">Mentioned Location</span>
+  </div>
+  <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #666;">
+    <em>Size of green circles indicates frequency of mentions</em>
+  </div>
+</div>
+
 <div id="map" style="height: 600px; width:100%;"></div>
 
 <!-- Timeline slider -->
@@ -21,6 +42,9 @@
       <span style="display:inline-block; transform: rotate(-90deg); white-space:nowrap; font-size:0.75em;">{{ y }}</span>
     {% endfor %}
   </div>
+  <div id="letter-count" style="text-align: center; margin-top: 1em; font-size: 1.1em; font-weight: bold; color: #333;">
+    Letters in <span id="count-year"></span>: <span id="count-value"></span>
+  </div>
 </div>
 
 <div id="historic-context" class="alert alert-info"></div>
@@ -34,7 +58,7 @@ const letterData = {{ letter_data|tojson }};
 const years = {{ years|tojson }};
 const yearContext = {{ year_context|tojson }};
 
-// DEBUG: Check if Washington D.C. data is present - ADD THESE LINES
+// DEBUG: Check if Washington D.C. data is present
 console.log("=== DEBUGGING WASHINGTON D.C. ===");
 console.log("Total letters:", letterData.length);
 const dcLetters = letterData.filter(l => l.sent_from && l.sent_from.name === "Washington D.C.");
@@ -126,15 +150,17 @@ function buildLocationIndex(letters) {
   return idx;
 }
 
-// Calculate opacity based on number of mentions
-function getOpacity(mentionCount) {
-  // Map mention count to opacity
-  // 1 mention = 0.3 opacity, more mentions = up to 1.0 opacity
-  const maxMentions = 15; // adjust this threshold as needed
-  const minOpacity = 0.3;
-  const maxOpacity = 1.0;
-  const normalized = Math.min(mentionCount / maxMentions, 1);
-  return minOpacity + (normalized * (maxOpacity - minOpacity));
+// Calculate radius based on number of mentions
+function getRadius(mentionCount) {
+  // Map mention count to radius size
+  // 1 mention = 5px radius, scales up logarithmically
+  const minRadius = 5;
+  const maxRadius = 20;
+  const maxMentions = 20; // adjust this threshold as needed
+  
+  // Use logarithmic scale for better visual distribution
+  const normalized = Math.log(mentionCount + 1) / Math.log(maxMentions + 1);
+  return minRadius + (normalized * (maxRadius - minRadius));
 }
 
 // Popup HTML for a location entry at mention index i
@@ -198,14 +224,14 @@ function addAggregatedMarkers(lettersToShow) {
     console.log(`Creating marker for ${locEntry.name} at ${locEntry.lat}, ${locEntry.lon}`);
     let marker;
     if (locEntry.defaultIcon === 'green-circle') {
-      // Mentioned location - use varying opacity based on mention count
+      // Mentioned location - use varying radius based on mention count
       const mentionCount = locEntry.mentions.length;
-      const opacity = getOpacity(mentionCount);
+      const radius = getRadius(mentionCount);
       marker = L.circleMarker([locEntry.lat, locEntry.lon], { 
-        radius: 7, 
+        radius: radius,            // Variable radius based on mentions
         color: 'darkgreen',        // Dark outline
-        fillColor: 'green',        // Original green fill
-        fillOpacity: opacity,      // Variable opacity based on mentions
+        fillColor: 'green',        // Green fill
+        fillOpacity: 0.6,          // Fixed opacity
         weight: 2
       });
     } else {
@@ -238,18 +264,23 @@ function updateMap(year) {
   const lettersToShow = (year === "All") ? letterData : letterData.filter(l => l.year === year);
   console.log(`Filtered to ${lettersToShow.length} letters`);
   addAggregatedMarkers(lettersToShow);
+  return lettersToShow.length;
 }
 
 // timeline and historic context wiring
 const timeline = document.getElementById('timeline');
 const selectedYear = document.getElementById('selected-year');
 const historicContext = document.getElementById('historic-context');
+const countYear = document.getElementById('count-year');
+const countValue = document.getElementById('count-value');
 
 function updateYearDisplay(idx) {
   const year = years[idx];
   selectedYear.textContent = year;
   historicContext.innerHTML = renderYearContext(year);
-  updateMap(year);
+  const letterCount = updateMap(year);
+  countYear.textContent = year;
+  countValue.textContent = letterCount;
 }
 
 // set up slider events and initialize
@@ -262,6 +293,7 @@ if (years.length > 0) {
 } else {
   selectedYear.textContent = '';
   historicContext.textContent = "No years available.";
+  countValue.textContent = '0';
 }
 </script>
 {% endblock %}
