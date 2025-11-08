@@ -1,53 +1,225 @@
 {% extends "base.html" %}
 {% block content %}
+<style>
+  .worldview-container {
+    display: flex;
+    gap: 20px;
+    height: calc(100vh - 200px);
+  }
+  
+  .sidebar {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    height: fit-content;
+    max-height: 100%;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 8px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .filter-option {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-option input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .filter-option label {
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .filter-buttons button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  
+  .apply-btn {
+    background-color: #8b4513;
+    color: white;
+  }
+  
+  .apply-btn:hover {
+    background-color: #a0522d;
+  }
+  
+  .reset-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .reset-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .map-container {
+    flex: 1;
+    position: relative;
+  }
+  
+  .filter-count {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  select.filter-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+</style>
+
 <h2>Worldview Mapping</h2>
 
-<!-- Legend -->
-<div style="position: absolute; top: 80px; right: 20px; z-index: 1000; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); font-family: Arial, sans-serif;">
-  <h4 style="margin: 0 0 10px 0; font-size: 14px; font-weight: bold;">Legend</h4>
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <img src="https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png" style="width: 20px; height: 20px; margin-right: 8px;" alt="Blue dot">
-    <span style="font-size: 13px;">Sent From</span>
+<div class="worldview-container">
+  <!-- Left Sidebar -->
+  <div class="sidebar">
+    <h3>Filters</h3>
+    
+    <!-- Recipient Filter -->
+    <div class="filter-section">
+      <h4>Sent To (Person)</h4>
+      <select id="filter-recipient" class="filter-select">
+        <option value="all">All Recipients</option>
+      </select>
+    </div>
+    
+    <!-- Location Filters -->
+    <div class="filter-section">
+      <h4>Show Locations</h4>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-sent-from-loc" checked>
+        <label for="filter-sent-from-loc">Sent From Location</label>
+      </div>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-sent-to-loc" checked>
+        <label for="filter-sent-to-loc">Sent To Location</label>
+      </div>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-mentioned-loc" checked>
+        <label for="filter-mentioned-loc">Mentioned Locations</label>
+      </div>
+    </div>
+    
+    <!-- Geographic Scope Filter -->
+    <div class="filter-section">
+      <h4>Geographic Scope</h4>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-south-carolina" checked>
+        <label for="filter-south-carolina">South Carolina</label>
+      </div>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-national" checked>
+        <label for="filter-national">National (US)</label>
+      </div>
+      <div class="filter-option">
+        <input type="checkbox" id="filter-international" checked>
+        <label for="filter-international">International</label>
+      </div>
+    </div>
+    
+    <div class="filter-buttons">
+      <button class="apply-btn" onclick="applyFilters()">Apply Filters</button>
+      <button class="reset-btn" onclick="resetFilters()">Reset</button>
+    </div>
+    
+    <div class="filter-count">
+      <strong>Filtered Letters:</strong> <span id="filtered-count">0</span>
+    </div>
   </div>
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <img src="https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png" style="width: 20px; height: 20px; margin-right: 8px;" alt="Red dot">
-    <span style="font-size: 13px;">Sent To</span>
-  </div>
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <div style="width: 14px; height: 14px; border-radius: 50%; background-color: green; border: 2px solid darkgreen; margin-right: 8px; margin-left: 3px;"></div>
-    <span style="font-size: 13px;">Mentioned Location</span>
-  </div>
-  <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 11px; color: #666;">
-    <em>Size of green circles indicates frequency of mentions</em>
+  
+  <!-- Map Container -->
+  <div class="map-container">
+    <!-- Legend -->
+    <div style="position: absolute; bottom: 120px; left: 20px; z-index: 1000; background: white; padding: 10px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); font-family: Arial, sans-serif;">
+      <h4 style="margin: 0 0 8px 0; font-size: 12px; font-weight: bold;">Legend</h4>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <img src="https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png" style="width: 16px; height: 16px; margin-right: 6px;" alt="Blue dot">
+        <span style="font-size: 11px;">Sent From</span>
+      </div>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <img src="https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png" style="width: 16px; height: 16px; margin-right: 6px;" alt="Red dot">
+        <span style="font-size: 11px;">Sent To</span>
+      </div>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <div style="width: 10px; height: 10px; border-radius: 50%; background-color: green; border: 2px solid darkgreen; margin-right: 6px; margin-left: 3px;"></div>
+        <span style="font-size: 11px;">Mentioned</span>
+      </div>
+      <div style="margin-top: 8px; padding-top: 6px; border-top: 1px solid #ddd; font-size: 9px; color: #666;">
+        <em>Size = frequency</em>
+      </div>
+    </div>
+
+    <div id="map" style="height: 600px; width:100%;"></div>
+
+    <!-- Timeline slider -->
+    <div class="my-3" style="width:100%; max-width:1100px; margin:auto;">
+      <label for="timeline" style="font-weight:bold;">
+        Year: <span id="selected-year"></span>
+      </label>
+      <input
+        type="range"
+        id="timeline"
+        min="0"
+        max="{{ years|length - 1 }}"
+        value="0"
+        style="width:100%; display:block; margin-bottom:0.5em;"
+      >
+      <div id="year-labels" style="display:flex; justify-content:space-between; font-size:0.7em; margin-top:-0.5em;">
+        {% for y in years %}
+          <span style="display:inline-block; transform: rotate(-90deg); white-space:nowrap; font-size:0.75em;">{{ y }}</span>
+        {% endfor %}
+      </div>
+      <div id="letter-count" style="text-align: center; margin-top: 1em; font-size: 1.1em; font-weight: bold; color: #333;">
+        Letters in <span id="count-year"></span>: <span id="count-value"></span>
+      </div>
+    </div>
+
+    <div id="historic-context" class="alert alert-info"></div>
   </div>
 </div>
-
-<div id="map" style="height: 600px; width:100%;"></div>
-
-<!-- Timeline slider -->
-<div class="my-3" style="width:100%; max-width:1100px; margin:auto;">
-  <label for="timeline" style="font-weight:bold;">
-    Year: <span id="selected-year"></span>
-  </label>
-  <input
-    type="range"
-    id="timeline"
-    min="0"
-    max="{{ years|length - 1 }}"
-    value="0"
-    style="width:100%; display:block; margin-bottom:0.5em;"
-  >
-  <div id="year-labels" style="display:flex; justify-content:space-between; font-size:0.7em; margin-top:-0.5em;">
-    {% for y in years %}
-      <span style="display:inline-block; transform: rotate(-90deg); white-space:nowrap; font-size:0.75em;">{{ y }}</span>
-    {% endfor %}
-  </div>
-  <div id="letter-count" style="text-align: center; margin-top: 1em; font-size: 1.1em; font-weight: bold; color: #333;">
-    Letters in <span id="count-year"></span>: <span id="count-value"></span>
-  </div>
-</div>
-
-<div id="historic-context" class="alert alert-info"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -58,19 +230,160 @@ const letterData = {{ letter_data|tojson }};
 const years = {{ years|tojson }};
 const yearContext = {{ year_context|tojson }};
 
-// DEBUG: Check if Washington D.C. data is present
-console.log("=== DEBUGGING WASHINGTON D.C. ===");
-console.log("Total letters:", letterData.length);
-const dcLetters = letterData.filter(l => l.sent_from && l.sent_from.name === "Washington D.C.");
-console.log("Letters from Washington D.C.:", dcLetters.length);
-if (dcLetters.length > 0) {
-  console.log("First DC letter full object:", dcLetters[0]);
-  console.log("DC letter years:", dcLetters.map(l => l.year));
-}
-console.log("Available years in slider:", years);
-console.log("=== END DEBUG ===");
+let currentFilters = {
+  recipient: 'all',
+  locationTypes: {
+    sentFrom: true,
+    sentTo: true,
+    mentioned: true
+  },
+  geographicScope: {
+    southCarolina: true,
+    national: true,
+    international: true
+  }
+};
 
-// basic historic-context renderer (expects "Home","South Carolina","National","International" keys)
+// Extract unique recipients and populate dropdown
+function initializeFilterOptions() {
+  const recipients = new Set();
+  
+  letterData.forEach(letter => {
+    if (letter.recipient) recipients.add(letter.recipient);
+  });
+  
+  const recipientSelect = document.getElementById('filter-recipient');
+  Array.from(recipients).sort().forEach(recipient => {
+    const option = document.createElement('option');
+    option.value = recipient;
+    option.textContent = recipient;
+    recipientSelect.appendChild(option);
+  });
+}
+
+// Determine geographic scope based on location name
+function getGeographicScope(locationName) {
+  if (!locationName) return null;
+  const name = locationName.toLowerCase();
+  
+  // South Carolina
+  if (name.includes('south carolina') || name.includes(', sc')) {
+    return 'southCarolina';
+  }
+  
+  // Check for US states
+  const usStates = [
+    'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', 'connecticut',
+    'delaware', 'florida', 'georgia', 'hawaii', 'idaho', 'illinois', 'indiana', 'iowa',
+    'kansas', 'kentucky', 'louisiana', 'maine', 'maryland', 'massachusetts', 'michigan',
+    'minnesota', 'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'new hampshire',
+    'new jersey', 'new mexico', 'new york', 'north carolina', 'north dakota', 'ohio',
+    'oklahoma', 'oregon', 'pennsylvania', 'rhode island', 'tennessee',
+    'texas', 'utah', 'vermont', 'virginia', 'washington', 'west virginia', 'wisconsin', 'wyoming',
+    'washington d.c.', 'washington, d.c.', 'd.c.'
+  ];
+  
+  const isUS = usStates.some(state => name.includes(state));
+  if (isUS) return 'national';
+  
+  return 'international';
+}
+
+// Apply filters
+function applyFilters() {
+  // Get recipient filter
+  currentFilters.recipient = document.getElementById('filter-recipient').value;
+  
+  // Get location type filters
+  currentFilters.locationTypes.sentFrom = document.getElementById('filter-sent-from-loc').checked;
+  currentFilters.locationTypes.sentTo = document.getElementById('filter-sent-to-loc').checked;
+  currentFilters.locationTypes.mentioned = document.getElementById('filter-mentioned-loc').checked;
+  
+  // Get geographic scope filters
+  currentFilters.geographicScope.southCarolina = document.getElementById('filter-south-carolina').checked;
+  currentFilters.geographicScope.national = document.getElementById('filter-national').checked;
+  currentFilters.geographicScope.international = document.getElementById('filter-international').checked;
+  
+  // Update map with current timeline year
+  const currentYearIndex = parseInt(document.getElementById('timeline').value);
+  updateYearDisplay(currentYearIndex);
+}
+
+// Reset filters
+function resetFilters() {
+  document.getElementById('filter-recipient').value = 'all';
+  
+  document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(cb => {
+    cb.checked = true;
+  });
+  
+  currentFilters = {
+    recipient: 'all',
+    locationTypes: {
+      sentFrom: true,
+      sentTo: true,
+      mentioned: true
+    },
+    geographicScope: {
+      southCarolina: true,
+      national: true,
+      international: true
+    }
+  };
+  
+  applyFilters();
+}
+
+// Filter letters based on current filters
+function filterLetters(letters) {
+  return letters.filter(letter => {
+    // Recipient filter
+    if (currentFilters.recipient !== 'all' && letter.recipient !== currentFilters.recipient) {
+      return false;
+    }
+    
+    // Check if letter has any matching location based on filters
+    let hasMatchingLocation = false;
+    
+    // Check sent_from
+    if (currentFilters.locationTypes.sentFrom && letter.sent_from) {
+      const scope = getGeographicScope(letter.sent_from.name);
+      if (scope && currentFilters.geographicScope[scope]) {
+        hasMatchingLocation = true;
+      }
+    }
+    
+    // Check sent_to
+    if (currentFilters.locationTypes.sentTo && letter.sent_to) {
+      const scope = getGeographicScope(letter.sent_to.name);
+      if (scope && currentFilters.geographicScope[scope]) {
+        hasMatchingLocation = true;
+      }
+    }
+    
+    // Check mentioned locations
+    if (currentFilters.locationTypes.mentioned && letter.mentioned) {
+      letter.mentioned.forEach(loc => {
+        const scope = getGeographicScope(loc.name);
+        if (scope && currentFilters.geographicScope[scope]) {
+          hasMatchingLocation = true;
+        }
+      });
+    }
+    
+    return hasMatchingLocation;
+  });
+}
+
+// Filter locations when building location index based on location type filters
+function shouldIncludeLocation(letter, locationType) {
+  if (locationType === 'sent_from' && !currentFilters.locationTypes.sentFrom) return false;
+  if (locationType === 'sent_to' && !currentFilters.locationTypes.sentTo) return false;
+  if (locationType === 'mentioned' && !currentFilters.locationTypes.mentioned) return false;
+  return true;
+}
+
+// basic historic-context renderer
 function renderYearContext(year) {
   const ctx = yearContext[year];
   if (!ctx) return "No historic context for this year.";
@@ -94,31 +407,31 @@ function renderYearContext(year) {
   return html || "No historic context for this year.";
 }
 
-// Leaflet map init - centered on USA with appropriate zoom
+// Leaflet map init
 const map = L.map('map').setView([37.8, -96], 4);
 
-// Use Esri World Street Map tiles with blue water
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
   maxZoom: 19,
   attribution: 'Tiles &copy; Esri'
 }).addTo(map);
 
 let markers = [];
-const markersByLeafletId = {}; // leaflet id -> marker
+const markersByLeafletId = {};
 
-// Build an index of unique locations (by lat,lon) and collect mentions
+// Build location index with filters applied
 function buildLocationIndex(letters) {
   const idx = {};
   letters.forEach(letter => {
     // sent_from and sent_to
     [['sent_from','blue-dot'], ['sent_to','red-dot']].forEach(([key, icon]) => {
+      if (!shouldIncludeLocation(letter, key)) return;
+      
       const loc = letter[key];
       if (loc && loc.lat && loc.lon) {
         const k = `${loc.lat},${loc.lon}`;
         if (!idx[k]) {
           idx[k] = { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: icon };
         } else {
-          // If entry exists and current icon is blue/red, upgrade from green
           if (icon !== 'green-circle') {
             idx[k].defaultIcon = icon;
           }
@@ -130,47 +443,41 @@ function buildLocationIndex(letters) {
         });
       }
     });
+    
     // mentioned locations
-    (letter.mentioned || []).forEach(loc => {
-      if (loc && loc.lat && loc.lon) {
-        const k = `${loc.lat},${loc.lon}`;
-        if (!idx[k]) {
-          idx[k] = { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: 'green-circle' };
+    if (shouldIncludeLocation(letter, 'mentioned')) {
+      (letter.mentioned || []).forEach(loc => {
+        if (loc && loc.lat && loc.lon) {
+          const k = `${loc.lat},${loc.lon}`;
+          if (!idx[k]) {
+            idx[k] = { name: loc.name, lat: loc.lat, lon: loc.lon, mentions: [], defaultIcon: 'green-circle' };
+          }
+          idx[k].mentions.push({
+            letter_number: letter.letter_number,
+            date: letter.date,
+            file: `/static/BFPerryLettersSeparated/BFPerry_Letter${letter.letter_number}.txt`
+          });
         }
-        // Don't downgrade blue/red markers to green - only add the mention
-        idx[k].mentions.push({
-          letter_number: letter.letter_number,
-          date: letter.date,
-          file: `/static/BFPerryLettersSeparated/BFPerry_Letter${letter.letter_number}.txt`
-        });
-      }
-    });
+      });
+    }
   });
-  console.log("Location index:", idx);
   return idx;
 }
 
-// Calculate radius based on number of mentions
 function getRadius(mentionCount) {
-  // Map mention count to radius size
-  // 1 mention = 5px radius, scales up logarithmically
   const minRadius = 5;
   const maxRadius = 20;
-  const maxMentions = 20; // adjust this threshold as needed
-  
-  // Use logarithmic scale for better visual distribution
+  const maxMentions = 20;
   const normalized = Math.log(mentionCount + 1) / Math.log(maxMentions + 1);
   return minRadius + (normalized * (maxRadius - minRadius));
 }
 
-// Popup HTML for a location entry at mention index i
 function makePopupHtml(locEntry, i) {
   const m = locEntry.mentions[i];
   const total = locEntry.mentions.length;
   const prevDisabled = i === 0 ? 'disabled' : '';
   const nextDisabled = i === total - 1 ? 'disabled' : '';
   
-  // Determine the relationship text based on marker type
   let relationshipText = '';
   if (locEntry.defaultIcon === 'blue-dot') {
     relationshipText = `${total} letter${total > 1 ? 's' : ''} sent from this location`;
@@ -195,7 +502,6 @@ function makePopupHtml(locEntry, i) {
   `;
 }
 
-// global function to cycle mentions (called from popup buttons)
 function cycleMention(btn, delta) {
   const markerId = btn.getAttribute('data-marker-id');
   const currentIndex = parseInt(btn.getAttribute('data-index'), 10);
@@ -210,9 +516,7 @@ function cycleMention(btn, delta) {
   marker.openPopup();
 }
 
-// add aggregated markers to map for given letters
 function addAggregatedMarkers(lettersToShow) {
-  console.log(`Adding markers for ${lettersToShow.length} letters`);
   markers.forEach(m => map.removeLayer(m));
   markers = [];
   Object.keys(markersByLeafletId).forEach(k => delete markersByLeafletId[k]);
@@ -221,17 +525,15 @@ function addAggregatedMarkers(lettersToShow) {
   const bounds = [];
 
   Object.values(index).forEach(locEntry => {
-    console.log(`Creating marker for ${locEntry.name} at ${locEntry.lat}, ${locEntry.lon}`);
     let marker;
     if (locEntry.defaultIcon === 'green-circle') {
-      // Mentioned location - use varying radius based on mention count
       const mentionCount = locEntry.mentions.length;
       const radius = getRadius(mentionCount);
       marker = L.circleMarker([locEntry.lat, locEntry.lon], { 
-        radius: radius,            // Variable radius based on mentions
-        color: 'darkgreen',        // Dark outline
-        fillColor: 'green',        // Green fill
-        fillOpacity: 0.6,          // Fixed opacity
+        radius: radius,
+        color: 'darkgreen',
+        fillColor: 'green',
+        fillOpacity: 0.6,
         weight: 2
       });
     } else {
@@ -253,21 +555,19 @@ function addAggregatedMarkers(lettersToShow) {
     bounds.push([locEntry.lat, locEntry.lon]);
   });
 
-  // Fit bounds to show all markers
   if (bounds.length > 0) map.fitBounds(bounds, { padding: [30,30] });
-  console.log(`Created ${markers.length} markers`);
 }
 
-// updateMap chooses letters for the selected year (or All)
 function updateMap(year) {
-  console.log(`Updating map for year: ${year}`);
-  const lettersToShow = (year === "All") ? letterData : letterData.filter(l => l.year === year);
-  console.log(`Filtered to ${lettersToShow.length} letters`);
+  let lettersToShow = (year === "All") ? letterData : letterData.filter(l => l.year === year);
+  lettersToShow = filterLetters(lettersToShow);
+  
+  document.getElementById('filtered-count').textContent = lettersToShow.length;
+  
   addAggregatedMarkers(lettersToShow);
   return lettersToShow.length;
 }
 
-// timeline and historic context wiring
 const timeline = document.getElementById('timeline');
 const selectedYear = document.getElementById('selected-year');
 const historicContext = document.getElementById('historic-context');
@@ -283,10 +583,11 @@ function updateYearDisplay(idx) {
   countValue.textContent = letterCount;
 }
 
-// set up slider events and initialize
 timeline.addEventListener('input', function() { updateYearDisplay(this.value); });
 
-// set initial labels and init map display
+// Initialize
+initializeFilterOptions();
+
 if (years.length > 0) {
   timeline.max = years.length - 1;
   updateYearDisplay(0);

@@ -1,4 +1,26 @@
 {
+  "All": {
+    "Home": [
+      "Elizabeth Frances Motte Perry (1821-1899) was the wife of Benjamin F. Perry, who served as provisional governor of South Carolina in 1865.",
+      "The Perrys had five children: Anna (d. 1859), Hayne, Frank (d. 1860), Anna (b. 1847), and Hext (b. 1851).",
+      "The family lived in Greenville, South Carolina, where Benjamin practiced law and owned a newspaper."
+    ],
+    "South Carolina": [
+      "South Carolina experienced dramatic political changes from antebellum period through Reconstruction.",
+      "Major institutions founded: Erskine College (1850), Furman College (1850), Wofford College (1851), and several women's colleges.",
+      "The state seceded from the Union and was readmitted during Reconstruction, adopting new constitutions in 1865 and 1868."
+    ],
+    "National": [
+      "Period spans from John Tyler's presidency (1842) through James A. Garfield's presidency (1881).",
+      "Major events include Mexican-American War (1846-1848), Compromise of 1850, Civil War (1861-1865), and Reconstruction (1865-1877).",
+      "Significant legislation: Wilmot Proviso (1846), Compromise of 1850, 15th Amendment (1870), Compromise of 1877."
+    ],
+    "International": [
+      "Oregon Treaty (1846) established U.S.-Canadian border.",
+      "Mexican-American War (1846-1848) resulted in U.S. territorial expansion.",
+      "Period of European colonial expansion and industrial revolution globally."
+    ]
+  },
   "1842": {
     "Home": [],
     "South Carolina": ["Benjamin F. Perry declines renomination for legislature."],

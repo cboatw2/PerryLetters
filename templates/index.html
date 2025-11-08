@@ -35,8 +35,14 @@
             <p class="card-text small mb-1">
               <strong>From:</strong> {{ letter['sender_name'] or 'Unknown' }}
             </p>
-            <p class="card-text small mb-3">
+            <p class="card-text small mb-1">
               <strong>To:</strong> {{ letter['recipient_name'] or 'Unknown' }}
+            </p>
+            <p class="card-text small mb-1">
+              <strong>Sent From:</strong> {{ letter['sent_from_location'] or 'Unknown' }}
+            </p>
+            <p class="card-text small mb-3">
+              <strong>Sent To:</strong> {{ letter['sent_to_location'] or 'Unknown' }}
             </p>
             <a href="{{ url_for('letter', letter_id=letter['id']) }}" class="btn btn-sm btn-outline-primary">
               Read Letter →

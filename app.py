@@ -36,37 +36,30 @@ def close_connection(exception):
 
 @app.route("/")
 def index():
-    cur = get_db().cursor()
-    cur.execute("""
-        SELECT l.*, 
-               sender.name AS sender_name,
-               recipient.name AS recipient_name
+    conn = sqlite3.connect('BFPerryLetters.db')
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    
+    query = '''
+        SELECT 
+            l.*,
+            s.name as sender_name,
+            r.name as recipient_name,
+            loc_from.name as sent_from_location,
+            loc_to.name as sent_to_location
         FROM letter l
-        LEFT JOIN people AS sender ON l.sender_id = sender.person_id
-        LEFT JOIN people AS recipient ON l.recipient_id = recipient.person_id
+        LEFT JOIN people s ON l.sender_id = s.person_id
+        LEFT JOIN people r ON l.recipient_id = r.person_id
+        LEFT JOIN location loc_from ON l.sent_from_location_id = loc_from.location_id
+        LEFT JOIN location loc_to ON l.sent_to_location_id = loc_to.location_id
         ORDER BY l.letter_number
-    """)
-    letters = cur.fetchall()
+    '''
     
-    # Read the text content for each letter
-    letters_with_text = []
-    for letter in letters:
-        letter_dict = dict(letter)
-        # Construct the full file path using letter number
-        letter_number = letter['letter_number']
-        file_path = os.path.join(
-            os.path.dirname(__file__), 
-            'BFPerryLettersSeparated', 
-            f'BFPerry_Letter{letter_number}.txt'
-        )
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                letter_dict['text'] = f.read()
-        except FileNotFoundError:
-            letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
-        letters_with_text.append(letter_dict)
+    cursor.execute(query)
+    letters = [dict(row) for row in cursor.fetchall()]
+    conn.close()
     
-    return render_template("index.html", letters=letters_with_text)
+    return render_template('index.html', letters=letters, query=None)
 
 @app.route("/letter/<int:letter_id>")
 def letter(letter_id):
@@ -142,42 +135,32 @@ def search():
     if not query:
         return render_template("index.html", letters=[], query="")
     
-    cur = get_db().cursor()
-    cur.execute("""
-        SELECT l.*, 
-               sender.name AS sender_name,
-               recipient.name AS recipient_name
+    conn = sqlite3.connect('BFPerryLetters.db')
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    
+    search_query = '''
+        SELECT 
+            l.*,
+            s.name as sender_name,
+            r.name as recipient_name,
+            loc_from.name as sent_from_location,
+            loc_to.name as sent_to_location
         FROM letter l
-        LEFT JOIN people AS sender ON l.sender_id = sender.person_id
-        LEFT JOIN people AS recipient ON l.recipient_id = recipient.person_id
+        LEFT JOIN people s ON l.sender_id = s.person_id
+        LEFT JOIN people r ON l.recipient_id = r.person_id
+        LEFT JOIN location loc_from ON l.sent_from_location_id = loc_from.location_id
+        LEFT JOIN location loc_to ON l.sent_to_location_id = loc_to.location_id
+        WHERE l.content LIKE ? OR s.name LIKE ? OR r.name LIKE ?
         ORDER BY l.letter_number
-    """)
-    all_letters = cur.fetchall()
+    '''
     
-    matching_letters = []
-    query_lower = query.lower()
+    search_term = f'%{query}%'
+    cursor.execute(search_query, (search_term, search_term, search_term))
+    letters = [dict(row) for row in cursor.fetchall()]
+    conn.close()
     
-    for letter in all_letters:
-        letter_dict = dict(letter)
-        letter_number = letter['letter_number']
-        file_path = os.path.join(
-            os.path.dirname(__file__), 
-            'BFPerryLettersSeparated', 
-            f'BFPerry_Letter{letter_number}.txt'
-        )
-        
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                text = f.read()
-                letter_dict['text'] = text
-                
-                # Search in the letter text (case-insensitive)
-                if query_lower in text.lower():
-                    matching_letters.append(letter_dict)
-        except FileNotFoundError:
-            letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
-    
-    return render_template("index.html", letters=matching_letters, query=query)
+    return render_template("index.html", letters=letters, query=query)
 
 @app.route("/mentioned_people_over_time")
 def mentioned_people_over_time():
