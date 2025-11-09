@@ -86,28 +86,59 @@ def preprocess_text(text):
     
     return text
 
+# ADD THIS NEW FUNCTION for historical text
+def get_historical_stopwords():
+    """Create custom stopword list for 19th century letters."""
+    from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+    
+    # Add common letter-specific and 19th century terms
+    custom_stops = set([
+        # Letter formalities
+        'dear', 'dearest', 'sir', 'madam', 'mrs', 'mr', 'miss',
+        'yours', 'sincerely', 'affectionately', 'truly', 
+        'respectfully', 'obediently', 'faithfully',
+        
+        # Common 19th c. epistolary phrases
+        'thee', 'thy', 'thou', 'thine', 'shall', 'ye',
+        
+        # Very common verbs/aux that may not add meaning
+        'received', 'wrote', 'write', 'letter', 'letters',
+        
+        # Time references that appear frequently
+        'day', 'today', 'yesterday', 'tomorrow',
+        
+        # Add names if they dominate (adjust based on your corpus)
+        # 'perry', 'elizabeth', etc.
+    ])
+    
+    return list(ENGLISH_STOP_WORDS.union(custom_stops))
+
 def extract_topics_lda(documents, n_topics=5, n_top_words=10):
     """Extract topics using Latent Dirichlet Allocation (LDA)."""
     
     # Preprocess documents
     processed_docs = [preprocess_text(doc) for doc in documents]
     
-    # Create document-term matrix
+    # Create document-term matrix with improved parameters
     vectorizer = CountVectorizer(
-        max_df=0.95,  # Ignore terms that appear in > 95% of documents
-        min_df=2,      # Ignore terms that appear in < 2 documents
-        max_features=1000,
-        stop_words='english'
+        max_df=0.85,      # Lower threshold - terms in >85% of docs are too common
+        min_df=3,         # Require words in at least 3 letters
+        max_features=500, # Reduce features for focused topics
+        stop_words=get_historical_stopwords(),
+        ngram_range=(1, 2),  # Include bigrams for phrases like "your letter"
+        token_pattern=r'\b[a-z]{3,}\b'  # Only words 3+ characters
     )
     
     doc_term_matrix = vectorizer.fit_transform(processed_docs)
     
-    # Run LDA
+    # Run LDA with adjusted parameters
     lda_model = LatentDirichletAllocation(
         n_components=n_topics,
         random_state=42,
-        max_iter=50,
-        learning_method='online'
+        max_iter=100,        # More iterations for convergence
+        learning_method='batch',  # Better for smaller corpora
+        doc_topic_prior=0.1,      # Lower alpha for more focused topics
+        topic_word_prior=0.01     # Lower beta for more distinct topics
     )
     
     lda_output = lda_model.fit_transform(doc_term_matrix)
@@ -134,21 +165,27 @@ def extract_topics_nmf(documents, n_topics=5, n_top_words=10):
     # Preprocess documents
     processed_docs = [preprocess_text(doc) for doc in documents]
     
-    # Create TF-IDF matrix (NMF works better with TF-IDF)
+    # Create TF-IDF matrix with improved parameters
     vectorizer = TfidfVectorizer(
-        max_df=0.95,
-        min_df=2,
-        max_features=1000,
-        stop_words='english'
+        max_df=0.85,
+        min_df=3,
+        max_features=500,
+        stop_words=get_historical_stopwords(),
+        ngram_range=(1, 2),
+        token_pattern=r'\b[a-z]{3,}\b',
+        sublinear_tf=True  # Use log scaling for term frequency
     )
     
     tfidf_matrix = vectorizer.fit_transform(processed_docs)
     
-    # Run NMF
+    # Run NMF with adjusted parameters
     nmf_model = NMF(
         n_components=n_topics,
         random_state=42,
-        max_iter=500
+        max_iter=1000,
+        alpha_W=0.1,      # Regularization for document-topic matrix
+        alpha_H=0.1,      # Regularization for topic-word matrix
+        l1_ratio=0.5      # Balance between L1 and L2 regularization
     )
     
     nmf_output = nmf_model.fit_transform(tfidf_matrix)
@@ -249,12 +286,15 @@ def main():
     
     print(f"\nProcessing {len(documents)} documents for topic modeling...")
     
-    if len(documents) < 5:
-        print(f"Warning: Only {len(documents)} documents found. Topic modeling works best with more documents.")
+    # Adjust number of topics based on corpus size
+    if len(documents) < 10:
+        n_topics = 3
+    elif len(documents) < 30:
+        n_topics = 5
+    else:
+        n_topics = 7  # More topics for larger corpora
     
-    # Number of topics to extract
-    n_topics = min(5, len(documents))  # Don't try more topics than documents
-    n_top_words = 10
+    n_top_words = 15  # Show more words per topic for better interpretation
     
     print(f"\nRunning topic modeling with {n_topics} topics...")
     
