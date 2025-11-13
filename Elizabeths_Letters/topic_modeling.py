@@ -102,7 +102,8 @@ def get_historical_stopwords():
         'thee', 'thy', 'thou', 'thine', 'shall', 'ye',
         
         # Very common verbs/aux that may not add meaning
-        'received', 'wrote', 'write', 'letter', 'letters',
+        'received', 'wrote', 'write', 'letter', 'letters', 'sent', 'send',
+        'hope', 'hoped', 'know', 'known', 'think',
         
         # Time references that appear frequently
         'day', 'today', 'yesterday', 'tomorrow',
