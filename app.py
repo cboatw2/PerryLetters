@@ -139,6 +139,7 @@ def search():
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     
+    # Get all letters with their metadata
     search_query = '''
         SELECT 
             l.*,
@@ -151,16 +152,52 @@ def search():
         LEFT JOIN people r ON l.recipient_id = r.person_id
         LEFT JOIN location loc_from ON l.sent_from_location_id = loc_from.location_id
         LEFT JOIN location loc_to ON l.sent_to_location_id = loc_to.location_id
-        WHERE l.content LIKE ? OR s.name LIKE ? OR r.name LIKE ?
         ORDER BY l.letter_number
     '''
     
-    search_term = f'%{query}%'
-    cursor.execute(search_query, (search_term, search_term, search_term))
-    letters = [dict(row) for row in cursor.fetchall()]
+    cursor.execute(search_query)
+    all_letters = [dict(row) for row in cursor.fetchall()]
     conn.close()
     
-    return render_template("index.html", letters=letters, query=query)
+    # Filter letters by searching in metadata and file content
+    filtered_letters = []
+    search_lower = query.lower()
+    
+    for letter in all_letters:
+        matched = False
+        
+        # Check metadata fields
+        if (letter.get('sender_name') and search_lower in letter['sender_name'].lower()) or \
+           (letter.get('recipient_name') and search_lower in letter['recipient_name'].lower()) or \
+           (letter.get('sent_from_location') and search_lower in letter['sent_from_location'].lower()) or \
+           (letter.get('sent_to_location') and search_lower in letter['sent_to_location'].lower()) or \
+           (letter.get('date') and search_lower in str(letter['date']).lower()):
+            matched = True
+        
+        # Construct file path using letter_number (same as in /letter/<int:letter_id> route)
+        letter_number = letter.get('letter_number')
+        if letter_number:
+            file_path = os.path.join(
+                os.path.dirname(__file__), 
+                'BFPerryLettersSeparated', 
+                f'BFPerry_Letter{letter_number}.txt'
+            )
+            
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    if search_lower in content.lower():
+                        matched = True
+                    letter['content'] = content
+            except FileNotFoundError:
+                letter['content'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+        else:
+            letter['content'] = "No letter number available"
+        
+        if matched:
+            filtered_letters.append(letter)
+    
+    return render_template("index.html", letters=filtered_letters, query=query)
 
 @app.route("/mentioned_people_over_time")
 def mentioned_people_over_time():
