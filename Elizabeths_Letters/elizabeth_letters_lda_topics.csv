@@ -1,0 +1,884 @@
+letter_number,filename,dominant_topic,topic_strength,topic_mix,preview
+1,Letter_1.txt,5,0.6431241478303499,"T4:0.30, T5:0.64","Letter 1
+
+
+Thursday night, 30 November [1837]
+Charleston
+
+My dear husband
+
+	I have just finished drinking my tea, have left Mamma & the girls & have c..."
+10,Letter_10.txt,4,0.5573618286379907,"T3:0.36, T4:0.56","Letter 10
+
+Saturday morning, 28 November 1840
+Greenville
+
+My dear husband
+
+	I have taken up my pen to write a few lines, as the Mail does not go again..."
+100,Letter_100.txt,4,0.7262628380456518,"T4:0.73, T5:0.22","Letter 100
+
+Monday morning, 3 July 1848
+Greenville
+
+My dear husband
+
+		I received your letter last night, in which you say, you may not be at home til..."
+101,Letter_101.txt,4,0.8594587882354072,"T4:0.86, T5:0.14","Letter 101
+
+Monday morning, 17 July 1848
+Greenville
+
+My dear husband
+
+	            	I did not expect to write to you when you left, but I feel now so ..."
+102,Letter_102.txt,4,0.923885681221013,T4:0.92,"Letter 102
+
+Tuesday morning, 10 October 1848
+Greenville
+
+My dear husband
+
+		I feel as if I must write you a few lines by Genl Thompson, who leaves for..."
+103,Letter_103.txt,4,0.9282291146603429,T4:0.93,"Letter 103
+
+Wednesday afternoon, 11 October 1848
+Greenville
+
+My dear husband
+
+		Mr. Taylor has just sent me the list of boxes showing how many votes y..."
+104,Letter_104.txt,4,0.7655188859115953,"T4:0.77, T5:0.23","Letter 104
+
+Sunday evening, 22 October 1848
+Greenville
+
+My dear husband
+
+		Mrs. Du�   has just paid me a visit, & I am so sorry you did not see her.  ..."
+105,Letter_105.txt,4,0.6928793310877435,"T4:0.69, T5:0.31","Letter 105
+
+Sunday morning, 30 November [1851]
+Greenville
+
+My dear husband
+
+		Today is just such a day as last Sunday, except it is raining more, so n..."
+106,Letter_106.txt,4,0.6818745714893567,"T4:0.68, T5:0.32","Letter 106
+
+Saturday night, 29 March [1852]
+Greenville
+
+My dear husband
+
+	Mr. Elford does not go until Monday but for fear tomorrow I may not have tim..."
+107,Letter_107.txt,5,0.7676372039446816,"T4:0.23, T5:0.77","Letter 107
+
+Wednesday, 1/2 past 12, 24 November 1852
+Greenville
+
+My dear husband
+
+	I take up my pen to write to you, with very little to write about. ..."
+108,Letter_108.txt,5,0.6336949948577106,"T0:0.15, T5:0.63, T6:0.21","Letter 108
+
+Monday afternoon, [1852]
+Greenville
+
+My dear husband
+
+	Mr. Elford called here little while ago, to say he was going to Anderson tomorrow &..."
+109,Letter_109.txt,5,0.8096396081255723,"T0:0.19, T5:0.81","Letter 109
+
+Saturday morning. 10 oclock, 1 January 1853
+Greenville
+
+Dear Anna
+
+
+	I have just received a letter from you, & am very glad to hear.  When..."
+11,Letter_11.txt,4,0.3795961905525457,"T1:0.21, T3:0.30, T4:0.38, T5:0.11","Letter 11
+
+Sunday morning, 6 December 1840
+Greenville
+
+My dear husband
+
+	I am alone & disengaged, therefore will take this opportunity of writing to y..."
+110,Letter_110.txt,0,0.7454254282784782,"T0:0.75, T4:0.25","Letter 110
+
+Wednesday morning, quarter of 7, 4 May [1853]
+Charleston
+
+My dear husband
+
+	It is an hour before breakfast, & as I have nothing to do, I w..."
+111,Letter_111.txt,7,0.9908848587334792,T7:0.99,"Letter 111
+
+Friday afternoon, 24 [22] November 1844
+Greenville
+
+My dear husband
+
+	I �I seat to write you by Col. Town[e]s.  He left this morning with ..."
+12,Letter_12.txt,1,0.5815238231503896,"T1:0.58, T3:0.42","Letter 12
+
+Tuesday night, 8 December 1840
+Greenville
+
+My dear husband
+
+	I told you not to expect to hear from me by Friday�s Mail, but I have changed ..."
+13,Letter_13.txt,3,0.9979810644343576,T3:1.00,"Letter 13
+
+Sunday night, 13 December 1840
+Greenville   
+
+My dear husband
+
+	I have just received a letter from you, and it has given me such pleasure t..."
+14,Letter_14.txt,3,0.9965811976623624,T3:1.00,"Letter 14
+
+Wednesday morning, 16 December 1840
+Greenville
+
+My dear husband
+
+	I have taken up my pen to write you I hope my last letter, though if the ..."
+15,Letter_15.txt,6,0.9976169454973756,T6:1.00,"Letter 15
+
+Wednesday morning, 24 November [1841]
+Greenville
+
+My dear husband
+
+	According to promise I have taken up my pen to write to you , & hope so..."
+16,Letter_16.txt,6,0.3861313606897126,"T4:0.26, T5:0.35, T6:0.39","Letter 16
+
+Wednesday morning, 8 December 1841
+Greenville
+
+My dear husband
+	
+	I am seated up by the fire writing to you.  Delia is making up my bed.  I..."
+17,Letter_17.txt,5,0.6823671444064996,"T5:0.68, T6:0.31","Letter 17
+
+Friday afternoon, 10 December 1841
+Greenville
+
+My dear husband
+
+	I am so afraid you may be uneasy if you do not hear that I am writing to y..."
+18,Letter_18.txt,4,0.6800747110567545,"T4:0.68, T6:0.20","Letter 18
+
+2 May 1842
+Greenville
+
+My dear husband 
+
+	This is washing day & I have charge of the baby.  She has just gone to sleep & I take the opportu..."
+19,Letter_19.txt,5,0.4449406289895751,"T4:0.32, T5:0.44, T6:0.23","Letter 19
+
+Thursday night, 5 May 1842
+Greenville
+
+My dear husband
+
+	It is now past eight oclock.  Margaret has just left me.  She has been here all da..."
+2,Letter_2.txt,6,0.989025489076124,T6:0.99,"Letter 2
+
+18 December [1837]
+Charleston
+
+My dear Sir
+
+	I received a letter from you yesterday and answered it immediately, but in reading my answer to..."
+20,Letter_20.txt,4,0.9977542874758151,T4:1.00,"Letter 20
+
+Sunday night, 27 November [1842]
+[Greenville]
+
+My dear husband
+
+	According to promise I take up my pen to write you a few lines.  The child..."
+21,Letter_21.txt,4,0.4758962065562307,"T3:0.15, T4:0.48, T5:0.38","Letter 21
+
+Tuesday night, 1 December 1842
+Greenville
+
+My dear husband
+
+	Though quite late I have taken up my pen to write to you, for I am afraid I mi..."
+22,Letter_22.txt,4,0.5037686821538372,"T4:0.50, T5:0.42","Letter 22
+
+Sunday night, 4 December 1842
+Greenville
+
+My dear husband
+
+	I have just received your letter by Col. Townes, and read it with must pleasure..."
+23,Letter_23.txt,6,0.9952945175837158,T6:1.00,"Letter 23
+
+Wednesday morning, 6 December 1842
+Greenville
+
+My dear husband
+
+	Contrary to my expectations I am enabled to write to you today.  Margaret ..."
+24,Letter_24.txt,5,0.42348741657105016,"T4:0.29, T5:0.42, T6:0.28","Letter 24
+
+Friday morning, 9 December 1842
+Greenville
+
+My dear husband
+
+	I have a few moments to spare from Margaret, and will devote them to writing ..."
+25,Letter_25.txt,4,0.6069088109616038,"T4:0.61, T5:0.34","Letter 25
+
+Wednesday morning, 29 November 1843
+Greenville
+
+My dear husband
+
+	Though very busy working, I have stopped to write you a few lines, to pre..."
+26,Letter_26.txt,5,0.7546869849323402,"T3:0.24, T5:0.75","Letter 26
+
+Monday morning, 4 December 1843
+Greenville
+
+My dear husband
+
+	I received a letter from you this morning by Col. Townes, & it was only doubl..."
+27,Letter_27.txt,2,0.9981167703573408,T2:1.00,"Letter 27
+
+Thursday morning, 7 December 1843
+Greenville
+
+My dear husband
+	Your very acceptable letter arrived last night.  Talk of punishing me for no..."
+28,Letter_28.txt,4,0.6487405742223166,"T2:0.35, T4:0.65","Letter 28
+
+Monday morning, 11 December 1843
+Greenville
+
+My dear husband
+
+	As you do not seem to know exactly when you will be at home & you will be un..."
+29,Letter_29.txt,4,0.7051114415676849,"T3:0.29, T4:0.71","Letter 29
+
+Monday morning, 20 May 1844
+Greenville
+
+My dear husband
+
+	You see I have broken my promise, (not to write to you).  I am afraid you will be..."
+3,Letter_3.txt,4,0.5205567302632631,"T2:0.21, T4:0.52, T5:0.11, T6:0.14","Letter 3
+
+Friday morning, 29 November [1837]
+Greenville
+
+My dear husband
+
+	I received your letter last Wednesday, and it gave me much pleasure.  A wee..."
+30,Letter_30.txt,4,0.5279899286490083,"T4:0.53, T5:0.33","Letter 30
+
+Monday morning, 27 May 1844
+Monday night
+
+My dear husband
+
+	You have made me so uneasy by not hearing from you last night.   If I were not ..."
+31,Letter_31.txt,3,0.9976567038505588,T3:1.00,"Letter 31
+
+Sunday night, 24 November 1844
+Greenville
+
+My dear husband
+
+	Although tired as I generally am Sunday night, I will not go to bed until I ha..."
+32,Letter_32.txt,4,0.7590414976230497,"T4:0.76, T5:0.16","Letter 32
+
+Wednesday morning, 27 November [1844]
+Greenville
+
+My dear husband
+
+	I am now to write my second letter, before I have heard from you, & I w..."
+33,Letter_33.txt,4,0.5636881674789094,"T0:0.11, T4:0.56, T5:0.33","Letter 33
+
+Friday morning, 29 November [1844]
+Greenville
+
+My dear husband
+
+	Again have I taken my pen in hand to write to you.  Mrs. Thompson has sent..."
+34,Letter_34.txt,4,0.5168321472923615,"T2:0.26, T4:0.52, T5:0.22","Letter 34
+
+Sunday evening, 1 December 1844
+Greenville  
+
+My dear husband
+
+       I have just received a letter from you, which I will answer, along wi..."
+35,Letter_35.txt,2,0.9975241701289324,T2:1.00,"Letter 35
+
+Tuesday night, 3 December 1844
+Greenville
+
+My dear husband
+
+	Again have I seated myself at the desk to write to you, & this time literally ..."
+36,Letter_36.txt,4,0.7534495871141681,"T2:0.25, T4:0.75","Letter 36
+
+Thursday night, 5 December 1844
+Greenville
+
+My dear husband 
+
+	I received your long letter last night, & as I read it, I regretted that I h..."
+37,Letter_37.txt,2,0.9983079861252179,T2:1.00,"Letter 37
+
+Sunday night, 8 December [1844]
+Greenville
+
+My dear husband
+
+	I have just received your letter by Mr. Mauldin.  If you are not an abolition..."
+38,Letter_38.txt,4,0.5506294343668157,"T3:0.11, T4:0.55, T5:0.34","Letter 38
+
+Tuesday night, 10 December 1844
+Greenville
+
+My dear husband
+
+	Again do I write to you at night, because tomorrow I will not have a moment t..."
+39,Letter_39.txt,5,0.4168174430587785,"T2:0.22, T4:0.33, T5:0.42","Letter 39
+
+Wednesday night, 11 December 1844
+Greenville
+
+My dear husband
+
+	I have just received your two letters, one by Mr. Burt, & one by the mail. ..."
+4,Letter_4.txt,6,0.9971164847975327,T6:1.00,"Letter 4
+
+Sunday afternoon, 1 December 1839
+Greenville
+
+My dear husband
+
+	Having rained the whole week, the walking is so bad, I have not been able to..."
+40,Letter_40.txt,5,0.5871763273317917,"T4:0.41, T5:0.59","Letter 40
+
+Sunday night, 19 January 1845
+Greenville
+
+My dear husband
+
+	I will write you a few lines tonight, as I am more at leisure than I will be to..."
+41,Letter_41.txt,4,0.5950329495687232,"T4:0.60, T5:0.40","Letter 41
+
+Friday morning, 24 January 1845
+Greenville
+
+My dear husband
+
+	I received your letter Wednesday night & was delighted to hear from you.  You..."
+42,Letter_42.txt,2,0.9965977591865046,T2:1.00,"Letter 42
+
+Monday morning, 27 January 1845
+Greenville
+
+My dear husband
+
+	I was so disappointed at not hearing from you last night.  I could hardly bel..."
+43,Letter_43.txt,4,0.5551299696884276,"T0:0.15, T4:0.56, T6:0.30","Letter 43
+
+Wednesday morning, 7 May 1845
+Greenville
+
+My dear husband
+
+	As I promised, I must write, but I am so busy I can hardly spare the time.  The..."
+44,Letter_44.txt,4,0.44162516386105155,"T3:0.23, T4:0.44, T5:0.33","Letter 44
+
+Sunday night, 11 May 1845
+Greenville
+
+My dear husband
+
+	I have just received a letter from you.  I am so glad you wrote, for it is such a d..."
+45,Letter_45.txt,4,0.9978174106351972,T4:1.00,"Letter 45
+
+Tuesday night, 17 June 1845
+Greenville
+
+My dear husband
+
+	I met Genl Thompson on the road yesterday as I was walking to Mamma�s, & he asked..."
+46,Letter_46.txt,4,0.9965132098567258,T4:1.00,"Letter 46
+
+Monday night, 13 October 1845
+Greenville
+
+My dear husband
+
+	Mrs. Palmer leaves tomorrow, & I will write a few lines by her.  I hope you wil..."
+47,Letter_47.txt,3,0.9965813399974582,T3:1.00,"Letter 47
+
+Tuesday night, 28 October 1845
+Greenville
+
+My dear husband
+
+	As I promised to write to you I must, & I write tonight, because tomorrow I am..."
+48,Letter_48.txt,4,0.8573062691300275,"T0:0.14, T4:0.86","Letter 48
+
+24 November 1845
+Greenville
+
+My dear husband
+
+	I must write you a few lines to prevent your being uneasy, but I can promise you neither a l..."
+49,Letter_49.txt,4,0.5433847884947457,"T4:0.54, T5:0.45","Letter 49
+
+Tuesday night, 25 November 1845
+Greenville
+
+My dear husband
+
+	I wrote to you yesterday, & as you are so anxious to hear every Mail, I must ..."
+5,Letter_5.txt,4,0.3486061379728772,"T4:0.35, T5:0.31, T6:0.34","Letter 5
+
+Thursday morning, 5 December 1839
+Greenville
+
+My dear husband
+
+	I was disappointed last night in not hearing from you.  I believe no Columbi..."
+50,Letter_50.txt,4,0.6720418764213086,"T4:0.67, T5:0.33","Letter 50
+
+Friday morning, 28 November 1845
+Greenville
+
+My dear husband
+
+	The great event is over, & Susan is married.  We went to the church last nig..."
+51,Letter_51.txt,4,0.8000038807775756,"T4:0.80, T5:0.20","Letter 51
+
+Sunday night, 30 November 1845
+Greenville
+
+My dear husband
+
+	I have just received your letter by Mr. Cox, & it has given me great pleasure...."
+52,Letter_52.txt,4,0.8090535176265854,"T4:0.81, T5:0.17","Letter 52
+
+Tuesday night, 2 December 1845
+Greenville
+
+My dear husband
+
+	I have been waiting near two hours for Willie to copy the postscript which you..."
+53,Letter_53.txt,5,0.45722966579696533,"T3:0.21, T4:0.33, T5:0.46","Letter 53
+
+Thursday night, 4 December 1845
+Greenville   
+
+ My dear husband
+
+	Again I am seated at the desk writing to you.  I have written, I believe ..."
+54,Letter_54.txt,4,0.7557905650977711,"T2:0.16, T4:0.76","Letter 54
+
+Sunday night, 7 December 1845
+Greenville
+
+My dear husband
+
+	I have just received a letter from you, & as usual it has given me great pleasu..."
+55,Letter_55.txt,4,0.6087511052235632,"T3:0.20, T4:0.61, T5:0.19","Letter 55
+
+Wednesday morning, 10 December [1845]
+Greenville
+
+My dear husband  
+
+	I was not able to write you last night, & this morning I am so busy, ..."
+56,Letter_56.txt,4,0.6047971594081725,"T3:0.17, T4:0.60, T5:0.23","Letter 56
+
+Thursday night, 11 December 1845
+Greenville
+
+My dear husband
+
+	I have taken up my pen to write you my last letter.  I will hear twice more ..."
+57,Letter_57.txt,3,0.9974428814867291,T3:1.00,"Letter 57
+
+Thursday night, [26 March 1846]
+Greenville
+
+My dear husband
+
+	I received your letter last night, & was very much pleased to hear from you. ..."
+58,Letter_58.txt,3,0.4300118600015568,"T0:0.21, T3:0.43, T6:0.36","Letter 58
+
+Wednesday morning, 6 May 1846
+Greenville
+
+My dear husband
+
+	I have taken my seat in the library, to perform my promise of writing to you by..."
+59,Letter_59.txt,4,0.5676618028428189,"T3:0.19, T4:0.57, T5:0.24","Letter 59
+
+Monday morning, 11 May 1846
+Greenville
+
+My dear husband
+
+	I do not know whether to be most provoked or uneasy at your silence.  How would y..."
+6,Letter_6.txt,4,0.4549252932130961,"T4:0.45, T5:0.28, T6:0.26","Letter 6
+
+Sunday night, 8 December 1839
+Greenville
+
+My dear husband
+
+	I have just received two letters from you.  There must have been some mistake in..."
+60,Letter_60.txt,4,0.6731638330579075,"T4:0.67, T5:0.32","Letter 60
+
+Friday morning, 3 July 1846
+Greenville
+
+My dear husband
+
+	This is the first day I have sat up, & though weak, I will write you a few lines,..."
+61,Letter_61.txt,5,0.7948471514376583,"T3:0.20, T5:0.79","Letter 61
+
+Monday morning, 6 July 1846
+Greenville
+
+My dear husband
+	
+       I received your letter written at Columbia last night, & it gave me unfeig..."
+62,Letter_62.txt,5,0.9979087130025257,T5:1.00,"Letter 62
+
+Monday morning, 20 July 1846
+Greenville
+
+My dear husband
+
+	I was delighted last night to receive two letters from you.  I wish you would wr..."
+63,Letter_63.txt,5,0.5387339631366601,"T4:0.46, T5:0.54","Letter 63
+
+Friday morning, 24 July 1846
+Greenville
+
+My dear husband
+
+	Again have I taken my seat at your desk in the Library to write to you.  I read ..."
+64,Letter_64.txt,4,0.5251744048270856,"T4:0.53, T5:0.42","Letter 64
+
+Monday morning, 27 July 1846
+Greenville
+
+My dear husband
+
+	I was very much disappointed last night at not hearing from you, but I suppose y..."
+65,Letter_65.txt,5,0.6394123485618091,"T4:0.36, T5:0.64","Letter 65
+
+Wednesday Morning, 29 July 1846
+Greenville
+
+My dear husband
+
+	I do not know how it is, but I feel so cool today whenever I think of you, th..."
+66,Letter_66.txt,5,0.9980040099806545,T5:1.00,"Letter 66
+
+Thursday afternoon, 30 July 1846
+Greenville
+
+My dear husband
+
+	This is the ninth letter I am writing to you, & I am provoked to think you h..."
+67,Letter_67.txt,4,0.8311259046012295,"T4:0.83, T5:0.12","Letter 67
+
+Monday afternoon, 12 October 1846
+Greenville
+
+My dear dear husband
+
+	According to promise I write you how Frank is.  The Doctor this mornin..."
+68,Letter_68.txt,4,0.9362582216049986,T4:0.94,"Letter 68
+
+Wednesday afternoon, 28 October 1846
+Greenville
+
+My dear husband
+
+	I have just done dinner, & I will write you a few lines merely to gratif..."
+69,Letter_69.txt,4,0.8584604948162348,"T4:0.86, T5:0.10","Letter 69
+
+Saturday night, 31 October 1846
+Greenville
+
+My dear husband
+
+	I will now write you a letter & send it by Mr. Elford who goes to Pickens tom..."
+7,Letter_7.txt,5,0.379683851347882,"T2:0.21, T4:0.36, T5:0.38","Letter 7
+
+Thursday afternoon, 12 December 1839
+Greenville
+
+My dear husband
+
+	I received two letters from you last night.  Owing to some mistake in the..."
+70,Letter_70.txt,4,0.643678115779167,"T0:0.29, T4:0.64","Letter 70
+
+Sunday afternoon, 22 November 1846
+Charleston
+
+My dear husband
+
+	I have but a few moments to write to you.  I have not heard from you yet, ..."
+71,Letter_71.txt,4,0.36531158688122134,"T0:0.27, T1:0.12, T4:0.37, T7:0.16","Letter 71
+
+Saturday morning, 28 November 1846
+Charleston
+
+My dear husband
+
+	I have heard from you but once, & this is the third letter I am writing to..."
+72,Letter_72.txt,3,0.5831367154557849,"T0:0.34, T3:0.58","Letter 72
+
+Sunday morning, 29 November [1846]
+Charleston
+
+My dear husband
+
+	I have a few moments to spare before going to church this morning, so will..."
+73,Letter_73.txt,2,0.7137567646078957,"T0:0.28, T2:0.71","Letter 73
+
+Tuesday morning, 1 December 1846
+Charleston
+
+My dear husband
+
+	I received a letter from you last night�third one, & having a few moments to..."
+74,Letter_74.txt,4,0.7485028827943068,"T3:0.17, T4:0.75","Letter 74
+
+Wednesday morning, 2 December 1846
+Charleston
+
+My dear husband
+
+	I wrote to you yesterday, but having a few moments to spare this morning, ..."
+75,Letter_75.txt,2,0.9976800374030443,T2:1.00,"Letter 75
+
+Saturday morning, 5 December 1846
+Charleston
+
+My dear husband
+ 
+ 	I received your welcome letter containing the 25 dollars.  It was several..."
+76,Letter_76.txt,1,0.6108103815911017,"T0:0.38, T1:0.61","Letter 76
+
+Monday afternoon, 7 December [1846]
+Charleston 
+
+My dear husband
+
+	I will write you a few lines, as I have some leisure moments.  All the m..."
+77,Letter_77.txt,1,0.9880026922022648,T1:0.99,"Letter 77
+
+Wednesday morning, 9 December 1846
+Charleston
+
+My dear husband
+
+	I received a letter from you last night, in which you mention that Scarlet..."
+78,Letter_78.txt,5,0.32288286125995674,"T0:0.12, T1:0.20, T2:0.15, T4:0.21, T5:0.32","Letter 78
+
+Wednesday night, 9 December 1846
+Charleston    
+
+My dear husband
+
+	I received a letter from you tonight, & though I wrote to you today, I w..."
+79,Letter_79.txt,4,0.5341571408376057,"T3:0.28, T4:0.53, T5:0.18","Letter 79
+
+Thursday night, [1846]
+Greenville
+
+My dear husband
+
+	I will write you, if it is only a few lines tonight to send by Mr. Town[e]s tomorrow�...."
+8,Letter_8.txt,4,0.6484252390215207,"T1:0.15, T4:0.65, T5:0.20","Letter 8
+
+Sunday night, 15 December 1839
+Greenville
+
+My dear husband
+
+	I have just received a letter from you in which you mention you may perhaps be ..."
+80,Letter_80.txt,4,0.9988666933474349,T4:1.00,"Letter 80
+
+Wednesday, 8 March 1847 
+Rosemonte
+
+My dear husband
+
+	I feel very anxious to write at once to you, to tell all that has passed outwardly & ..."
+81,Letter_81.txt,4,0.8533280639938627,"T2:0.15, T4:0.85","Letter 81
+
+Friday morning.  You must be sure & pass one night here.  If you cannot come for me to go home, you must come one night during the week.  Y..."
+82,Letter_82.txt,4,0.9969921040556943,T4:1.00,"Letter 82
+
+Monday morning, 10 May 1847
+Greenville
+
+My dear husband
+
+	You did not seem particularly anxious to hear from me when you left, but as you m..."
+83,Letter_83.txt,4,0.9906393454121248,T4:0.99,"Letter 83
+
+Wednesday afternoon. 12 May 1847
+Greenville
+
+My dear husband
+
+	I have taken up my pen to write you only a few lines, to contradict some adv..."
+84,Letter_84.txt,4,0.9962316445522608,T4:1.00,"Letter 84
+
+Friday afternoon, 14 May 1847
+Greenville
+
+My dear husband
+
+	Only to prevent your being uneasy, induces me to write now, for I am in the gre..."
+85,Letter_85.txt,4,0.7519938767823142,"T4:0.75, T5:0.16","Letter 85
+
+Monday afternoon, 22 November 1847
+Greenville
+
+My dear husband
+
+	I wrote you a letter which I suppose your received last night, on your arr..."
+86,Letter_86.txt,4,0.6332366162727019,"T4:0.63, T5:0.37","Letter 86
+
+Friday morning, 26 November 1847
+Greenville
+
+My dear husband
+
+	I received your second letter Wednesday night, & was very much pleased to he..."
+87,Letter_87.txt,6,0.997305020877125,T6:1.00,"Letter 87
+
+Wednesday morning, 1 December 1847
+Greenville
+
+My dear Husband
+
+	Again am I seated at the desk to write to you, with literally nothing to w..."
+88,Letter_88.txt,4,0.5282399455088461,"T4:0.53, T5:0.47","Letter 88
+
+Friday morning, 3 December 1847
+Greenville
+
+My dear husband
+
+	Again has the day come around for me to write to you.  I assure you it is a g..."
+89,Letter_89.txt,4,0.7751075922428957,"T4:0.78, T5:0.22","Letter 89
+
+Monday morning, 6 December 1847
+Greenville
+
+My dear husband
+
+	I must write you again.  Willie just put a letter of his in the Post Office t..."
+9,Letter_9.txt,6,0.7076390584403526,"T0:0.28, T6:0.71","Letter 9
+
+Wednesday morning, [25 March 1840]
+Greenville
+
+My dear husband
+
+	I am happy to be able to inform you, that Willy is convalescent.  Dr. Earle..."
+90,Letter_90.txt,4,0.6667507563011157,"T4:0.67, T5:0.33","Letter 90
+
+Wednesday morning, 8 December 1847
+Greenville
+
+My dear husband
+
+	I have just put Fanny asleep, & will embrace the opportunity while she is ..."
+91,Letter_91.txt,4,0.5435153274331668,"T4:0.54, T5:0.37","Letter 91
+
+Friday morning, 10 December 1847
+Greenville
+
+My dear husband
+
+	I hope I am going to write, now, one of my last letters to you, that you wil..."
+92,Letter_92.txt,4,0.7706801529485754,"T4:0.77, T5:0.23","Letter 92
+
+Monday morning, 13 December 1847
+Greenville
+
+My dear husband
+		I received a letter from you last night.  Willie was very much disappointed ..."
+93,Letter_93.txt,4,0.8193674184871669,T4:0.82,"Letter 93
+
+Tuesday night, 14 December 1847
+Greenville
+
+My dear husband
+	
+		I must write you a few lines tonight, because tomorrow Mrs. Arthur & Mamma�..."
+94,Letter_94.txt,4,0.9023669375021233,T4:0.90,"Letter 94
+
+Tuesday night, 28 March 1848
+Greenville
+
+My dear husband
+
+		I will write a few lines to you tonight, as perhaps you may remain long enough ..."
+95,Letter_95.txt,4,0.9402173015281086,T4:0.94,"Letter 95
+
+Saturday night, 1 April 1848
+Greenville
+
+My dear husband
+
+		I will write you a few lines tonight, to send by Mr. Elford tomorrow.  I wrote ..."
+96,Letter_96.txt,4,0.9949916280792422,T4:0.99,"Letter 96
+
+Sunday night, 21 April 1848
+Greenville
+
+My dear husband
+
+		As you have not returned home today, I will write you a few lines, which perhaps..."
+97,Letter_97.txt,4,0.9962110594949865,T4:1.00,"Letter 97
+
+Friday afternoon, 5 May 1848
+Greenville
+
+My dear husband
+
+		I will according to promise, write you a few lines, though I have nothing to wr..."
+98,Letter_98.txt,4,0.9974239074961678,T4:1.00,"Letter 98
+
+Monday morning, 8 May 1848
+Greenville
+
+My dear husband
+
+		Again like a good wife do I take up my pen to write to you.  I wish to prevent yo..."
+99,Letter_99.txt,4,0.9987733534289606,T4:1.00,"Letter 99
+
+Tuesday night, 20 June 1848
+Greenville
+
+My dear husband
+
+		I have just received your letter.  I was so anxious & yet afraid to open it, tha..."
