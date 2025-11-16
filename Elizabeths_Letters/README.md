@@ -115,6 +115,5 @@ Outputs include:
 - All scripts assume you are running them from the `Elizabeths_Letters` directory.
 - Make sure all required data files are present in this folder.
 - Only LDA is used for topic modeling in this workflow.
-- NER filtering is applied automatically if `EFMPerry_NER_entities.csv` is present.
 
 ---
