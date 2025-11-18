@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letter Notes</title>
+    <style>
+        textarea { width: 100%; min-height: 40px; }
+        .letter-block { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+        .letter-title { font-weight: bold; }
+        .save-btn { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Notes for Each Letter</h1>
+    <form method="post">
+        {% for letter in letter_files %}
+        <div class="letter-block">
+            <div class="letter-title">{{ letter }}</div>
+            <textarea name="note_{{ letter }}">{{ notes_data.get(letter, '') }}</textarea>
+        </div>
+        {% endfor %}
+        <button class="save-btn" type="submit">Save All Notes</button>
+    </form>
+</body>
+</html>

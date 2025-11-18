@@ -521,5 +521,29 @@ def visualization():
     
     return render_template('lettercount.html', years=years, counts=counts)
 
+@app.route('/notes', methods=['GET', 'POST'])
+def notes():
+    notes_file = 'letter_notes.json'
+    letters_dir = 'Elizabeths_Letters/EFMPerry_Letters_split'
+    letter_files = sorted([f for f in os.listdir(letters_dir) if f.endswith('.txt')],
+                          key=lambda x: int(re.search(r'(\d+)', x).group(1)))
+    # Load existing notes
+    if os.path.exists(notes_file):
+        with open(notes_file, 'r', encoding='utf-8') as f:
+            notes_data = json.load(f)
+    else:
+        notes_data = {}
+
+    if request.method == 'POST':
+        # Save notes
+        for letter in letter_files:
+            note = request.form.get(f'note_{letter}', '')
+            notes_data[letter] = note
+        with open(notes_file, 'w', encoding='utf-8') as f:
+            json.dump(notes_data, f, indent=2)
+        return redirect(url_for('notes'))
+
+    return render_template('notes.html', letter_files=letter_files, notes_data=notes_data)
+
 if __name__ == "__main__":
     app.run(debug=True)
