@@ -523,10 +523,19 @@ def visualization():
 
 @app.route('/notes', methods=['GET', 'POST'])
 def notes():
+    import os, re, json
+    from flask import request, redirect, url_for, render_template
+    
     notes_file = 'letter_notes.json'
     letters_dir = 'Elizabeths_Letters/EFMPerry_Letters_split'
-    letter_files = sorted([f for f in os.listdir(letters_dir) if f.endswith('.txt')],
-                          key=lambda x: int(re.search(r'(\d+)', x).group(1)))
+    
+    # Get all letter files
+    letter_files = sorted(
+        [f for f in os.listdir(letters_dir) if f.endswith('.txt')],
+        key=lambda x: int(re.search(r'(\d+)', x).group(1))
+    )
+    letter_numbers = [re.search(r'(\d+)', f).group(1) for f in letter_files]
+
     # Load existing notes
     if os.path.exists(notes_file):
         with open(notes_file, 'r', encoding='utf-8') as f:
@@ -534,16 +543,35 @@ def notes():
     else:
         notes_data = {}
 
+    current_letter = None
+
     if request.method == 'POST':
-        # Save notes
-        for letter in letter_files:
-            note = request.form.get(f'note_{letter}', '')
-            notes_data[letter] = note
+        # Save note for the current letter
+        current_letter = request.form.get('current_letter')
+        note_val = request.form.get('note', '')
+        letter_filename = f'Letter_{current_letter}.txt'
+        
+        if note_val.strip():
+            notes_data[letter_filename] = note_val
+        elif letter_filename in notes_data:
+            del notes_data[letter_filename]
+        
         with open(notes_file, 'w', encoding='utf-8') as f:
             json.dump(notes_data, f, indent=2)
-        return redirect(url_for('notes'))
+        
+        # Redirect back to the same letter after saving
+        return redirect(url_for('notes', letter=current_letter))
+    else:
+        # GET: check if a letter is selected via query string
+        current_letter = request.args.get('letter')
 
-    return render_template('notes.html', letter_files=letter_files, notes_data=notes_data)
+    return render_template(
+        'notes.html',
+        letter_files=letter_files,
+        letter_numbers=letter_numbers,
+        notes_data=notes_data,
+        current_letter=current_letter
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)
