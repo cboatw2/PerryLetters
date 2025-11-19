@@ -1,5 +1,4 @@
 {
-  "Letter_1.txt": "Test",
   "Letter_2.txt": "",
   "Letter_3.txt": "",
   "Letter_4.txt": "",
@@ -11,7 +10,6 @@
   "Letter_10.txt": "",
   "Letter_11.txt": "",
   "Letter_12.txt": "",
-  "Letter_13.txt": "test",
   "Letter_14.txt": "",
   "Letter_15.txt": "",
   "Letter_16.txt": "",
@@ -25,7 +23,6 @@
   "Letter_24.txt": "",
   "Letter_25.txt": "",
   "Letter_26.txt": "",
-  "Letter_27.txt": "",
   "Letter_28.txt": "",
   "Letter_29.txt": "",
   "Letter_30.txt": "",
@@ -110,7 +107,6 @@
   "Letter_109.txt": "",
   "Letter_110.txt": "",
   "Letter_111.txt": "",
-  "BFPerry_Letter1.txt": "",
   "BFPerry_Letter2.txt": "",
   "BFPerry_Letter3.txt": "",
   "BFPerry_Letter4.txt": "",
@@ -673,7 +669,7 @@
   "BFPerry_Letter561.txt": "",
   "BFPerry_Letter562.txt": "",
   "BFPerry_Letter563.txt": "",
-  "BFPerry_Letter564.txt": "",
+  "BFPerry_Letter564.txt": "Russia: writes to Frank about rec'ing a letter for Col. Pickens (Minister to Russia) who had received word of Harpers Ferry invasion",
   "BFPerry_Letter565.txt": "",
   "BFPerry_Letter566.txt": "",
   "BFPerry_Letter567.txt": "",
@@ -886,5 +882,6 @@
   "BFPerry_Letter774.txt": "",
   "BFPerry_Letter775.txt": "",
   "BFPerry_Letter776.txt": "",
-  "BFPerry_Letter777.txt": ""
+  "BFPerry_Letter777.txt": "",
+  "Letter_564.txt": "Russia: writes about a letter rec'd from Col. Pickens regarding his hearing of Harpers Ferry"
 }

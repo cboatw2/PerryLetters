@@ -69,39 +69,6 @@
         .letters-list a:hover {
             text-decoration: underline;
         }
-        /* Popup styles */
-        .popup-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 1000;
-        }
-        .popup-content {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 600px;
-            max-height: 80vh;
-            overflow-y: auto;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-        }
-        .popup-close {
-            float: right;
-            font-size: 24px;
-            cursor: pointer;
-            color: #888;
-        }
-        .popup-close:hover {
-            color: #333;
-        }
     </style>
     <script>
         function goToLetter() {
@@ -111,36 +78,9 @@
                 window.location.href = "?letter=" + letter;
             }
         }
-
-        function showNote(letterNum, noteText) {
-            document.getElementById('popup-letter-num').textContent = letterNum;
-            document.getElementById('popup-note-text').textContent = noteText;
-            document.getElementById('popup-overlay').style.display = 'block';
-        }
-
-        function closePopup() {
-            document.getElementById('popup-overlay').style.display = 'none';
-        }
-
-        // Close popup when clicking outside
-        window.onclick = function(event) {
-            var popup = document.getElementById('popup-overlay');
-            if (event.target == popup) {
-                closePopup();
-            }
-        }
     </script>
 </head>
 <body>
-    <!-- Popup overlay -->
-    <div id="popup-overlay" class="popup-overlay">
-        <div class="popup-content">
-            <span class="popup-close" onclick="closePopup()">&times;</span>
-            <h3>Letter <span id="popup-letter-num"></span></h3>
-            <p id="popup-note-text"></p>
-        </div>
-    </div>
-
     <div class="container">
         <div class="sidebar">
             <label for="letter_select"><b>Add/Edit Note for Letter:</b></label>
@@ -162,9 +102,10 @@
                 <ul>
                     {% for letter in letter_files %}
                         {% if notes_data.get(letter) %}
-                            {% set num = letter|replace('.txt','')|replace('Letter_','') %}
+                            {# Extract only the number from the filename #}
+                            {% set num = letter|replace('.txt','')|replace('BFPerry_Letter','') %}
                             <li>
-                                <a onclick="showNote('{{ num }}', {{ notes_data.get(letter)|tojson }})">
+                                <a href="?letter={{ num }}">
                                     Letter {{ num }}
                                 </a>
                             </li>
@@ -179,7 +120,7 @@
                 <input type="hidden" name="current_letter" value="{{ current_letter }}">
                 <button class="save-btn" type="submit">Save Note</button>
                 <div class="note-label">Letter {{ current_letter }}</div>
-                <textarea name="note">{% set fname = 'Letter_' ~ current_letter ~ '.txt' %}{{ notes_data.get(fname, '') }}</textarea>
+                <textarea name="note">{% set fname = 'BFPerry_Letter' ~ current_letter ~ '.txt' %}{{ notes_data.get(fname, '') }}</textarea>
             </form>
             {% else %}
                 <p style="color: #888; font-size: 1.1em;">Select a letter from the left to add or edit a note.</p>

@@ -523,18 +523,15 @@ def visualization():
 
 @app.route('/notes', methods=['GET', 'POST'])
 def notes():
-    import os, re, json
-    from flask import request, redirect, url_for, render_template
-    
     notes_file = 'letter_notes.json'
-    letters_dir = 'Elizabeths_Letters/EFMPerry_Letters_split'
-    
+    letters_dir = '/Users/crboatwright/PerryLetters/BFPerryLettersSeparated'
+
     # Get all letter files
     letter_files = sorted(
         [f for f in os.listdir(letters_dir) if f.endswith('.txt')],
-        key=lambda x: int(re.search(r'(\d+)', x).group(1))
+        key=lambda x: int(''.join(filter(str.isdigit, x)))
     )
-    letter_numbers = [re.search(r'(\d+)', f).group(1) for f in letter_files]
+    letter_numbers = [f.replace('BFPerry_Letter', '').replace('.txt', '') for f in letter_files]
 
     # Load existing notes
     if os.path.exists(notes_file):
@@ -543,27 +540,21 @@ def notes():
     else:
         notes_data = {}
 
-    current_letter = None
-
+    current_letter = request.args.get('letter')
     if request.method == 'POST':
-        # Save note for the current letter
         current_letter = request.form.get('current_letter')
         note_val = request.form.get('note', '')
-        letter_filename = f'Letter_{current_letter}.txt'
-        
+        letter_key = f'BFPerry_Letter{current_letter}.txt'
+
         if note_val.strip():
-            notes_data[letter_filename] = note_val
-        elif letter_filename in notes_data:
-            del notes_data[letter_filename]
-        
+            notes_data[letter_key] = note_val
+        elif letter_key in notes_data:
+            del notes_data[letter_key]
+
         with open(notes_file, 'w', encoding='utf-8') as f:
             json.dump(notes_data, f, indent=2)
-        
-        # Redirect back to the same letter after saving
+
         return redirect(url_for('notes', letter=current_letter))
-    else:
-        # GET: check if a letter is selected via query string
-        current_letter = request.args.get('letter')
 
     return render_template(
         'notes.html',
