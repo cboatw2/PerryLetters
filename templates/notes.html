@@ -102,8 +102,7 @@
                 <ul>
                     {% for letter in letter_files %}
                         {% if notes_data.get(letter) %}
-                            {# Extract only the number from the filename #}
-                            {% set num = letter|replace('.txt','')|replace('BFPerry_Letter','') %}
+                            {% set num = letter|replace('.txt','')|replace('Letter_','') %}
                             <li>
                                 <a href="?letter={{ num }}">
                                     Letter {{ num }}
@@ -120,7 +119,7 @@
                 <input type="hidden" name="current_letter" value="{{ current_letter }}">
                 <button class="save-btn" type="submit">Save Note</button>
                 <div class="note-label">Letter {{ current_letter }}</div>
-                <textarea name="note">{% set fname = 'BFPerry_Letter' ~ current_letter ~ '.txt' %}{{ notes_data.get(fname, '') }}</textarea>
+                <textarea name="note">{% set fname = 'Letter_' ~ current_letter ~ '.txt' %}{{ notes_data.get(fname, '') }}</textarea>
             </form>
             {% else %}
                 <p style="color: #888; font-size: 1.1em;">Select a letter from the left to add or edit a note.</p>
