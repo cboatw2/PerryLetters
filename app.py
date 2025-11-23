@@ -8,10 +8,11 @@ from datetime import datetime
 
 app = Flask(__name__)
 DATABASE = "/Users/crboatwright/PerryLetters/BFPerryLetters.db"
+LETTERS_DIR = '/Users/crboatwright/PerryLetters/data/BFPerryLettersSeparated/Split_Letter_Files'
 
 # load year context once at startup
 def load_year_context():
-    p = os.path.join(os.path.dirname(__file__), "year_context.json")
+    p = os.path.join(os.path.dirname(__file__), "data", "year_context.json")
     try:
         with open(p, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -71,8 +72,7 @@ def letter(letter_id):
     letter_dict = dict(letter)
     letter_number = letter['letter_number']
     file_path = os.path.join(
-        os.path.dirname(__file__), 
-        'BFPerryLettersSeparated', 
+        LETTERS_DIR,  # ✅ Use constant
         f'BFPerry_Letter{letter_number}.txt'
     )
     try:
@@ -174,12 +174,11 @@ def search():
            (letter.get('date') and search_lower in str(letter['date']).lower()):
             matched = True
         
-        # Construct file path using letter_number (same as in /letter/<int:letter_id> route)
+        # Construct file path using letter_number
         letter_number = letter.get('letter_number')
         if letter_number:
             file_path = os.path.join(
-                os.path.dirname(__file__), 
-                'BFPerryLettersSeparated', 
+                LETTERS_DIR,
                 f'BFPerry_Letter{letter_number}.txt'
             )
             
@@ -190,7 +189,9 @@ def search():
                         matched = True
                     letter['content'] = content
             except FileNotFoundError:
-                letter['content'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+                letter['content'] = f"Letter text file not found: {file_path}"
+            except Exception as e:
+                letter['content'] = f"Error reading file: {str(e)}"
         else:
             letter['content'] = "No letter number available"
         
@@ -524,7 +525,7 @@ def visualization():
 @app.route('/notes', methods=['GET', 'POST'])
 def notes():
     notes_file = 'letter_notes.json'
-    letters_dir = '/Users/crboatwright/PerryLetters/BFPerryLettersSeparated'
+    letters_dir = LETTERS_DIR  # ✅ Use constant
 
     # Get all letter files
     letter_files = sorted(
