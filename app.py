@@ -565,5 +565,79 @@ def notes():
         current_letter=current_letter
     )
 
+@app.route("/lettercount")
+def lettercount():
+    import os
+    query = request.args.get("query", "").strip()
+    
+    cur = get_db().cursor()
+    
+    if query:
+        # Search mode: count mentions of the query term by year
+        cur.execute("""
+            SELECT year, COUNT(*) as count 
+            FROM letter 
+            WHERE year IS NOT NULL AND year != ''
+            GROUP BY year 
+            ORDER BY year
+        """)
+        year_data = cur.fetchall()
+        
+        # Count mentions in each year
+        year_counts = {}
+        search_lower = query.lower()
+        
+        for row in year_data:
+            year = str(row['year'])
+            year_counts[year] = 0
+        
+        # Get all letters with years
+        cur.execute("""
+            SELECT letter_number, year 
+            FROM letter 
+            WHERE year IS NOT NULL AND year != ''
+        """)
+        all_letters = cur.fetchall()
+        
+        # Search through letter files
+        for letter in all_letters:
+            letter_number = letter['letter_number']
+            year = str(letter['year'])
+            
+            file_path = os.path.join(
+                LETTERS_DIR,
+                f'BFPerry_Letter{letter_number}.txt'
+            )
+            
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read().lower()
+                    # Count occurrences of search term
+                    mention_count = content.count(search_lower)
+                    if mention_count > 0:
+                        year_counts[year] = year_counts.get(year, 0) + mention_count
+            except FileNotFoundError:
+                continue
+            except Exception:
+                continue
+        
+        years = sorted(year_counts.keys())
+        counts = [year_counts[y] for y in years]
+        
+    else:
+        # Default mode: show letter counts by year
+        cur.execute("""
+            SELECT year, COUNT(*) as count 
+            FROM letter 
+            WHERE year IS NOT NULL AND year != ''
+            GROUP BY year 
+            ORDER BY year
+        """)
+        data = cur.fetchall()
+        years = [str(row['year']) for row in data]
+        counts = [row['count'] for row in data]
+    
+    return render_template("lettercount.html", years=years, counts=counts, query=query)
+
 if __name__ == "__main__":
     app.run(debug=True)
