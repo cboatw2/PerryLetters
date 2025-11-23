@@ -524,8 +524,8 @@ def visualization():
 
 @app.route('/notes', methods=['GET', 'POST'])
 def notes():
-    notes_file = 'letter_notes.json'
-    letters_dir = LETTERS_DIR  # ✅ Use constant
+    notes_file = '/Users/crboatwright/PerryLetters/data/letter_notes.json'  # ✅ Full path to data folder
+    letters_dir = LETTERS_DIR
 
     # Get all letter files
     letter_files = sorted(
