@@ -145,12 +145,9 @@ The application uses SQLite (`BFPerryLetters.db`) with the following main tables
 ### Location Mapping
 
 **Worldview Mapping (`/worldview_mapping`):**
-- Advanced filtering by:
-  - Recipient
-  - Location type (sent from, sent to, mentioned)
-  - Geographic scope (local, regional, national, international)
 - Color-coded markers by location type
 - Historical context for each year from data/year_context.json
+- Click markers for letter details and links
 
 ### People Over Time
 - Visualize how frequently people are mentioned across different time periods
@@ -159,6 +156,7 @@ The application uses SQLite (`BFPerryLetters.db`) with the following main tables
 ### Letter Count Visualization
 - Bar chart showing number of letters per year (1842-1882)
 - Helps identify periods of high correspondence activity
+- Search functionality for filtering letters by sender, recipient, location, or keywords
 
 
 ### `letter_notes.json`
@@ -190,14 +188,6 @@ db = get_db()
 cursor = db.cursor()
 cursor.execute("SELECT * FROM letter")
 results = cursor.fetchall()
-```
-
-### Adding New Routes
-Add new routes in `app.py`:
-```python
-@app.route('/your-route')
-def your_function():
-    return render_template('your_template.html')
 ```
 
 ### Working with Letter Files
@@ -237,11 +227,6 @@ Ensure letter text files are in `BFPerryLettersSeparated/` and follow the naming
 pip install -r requirements.txt --force-reinstall
 ```
 
-### SpaCy Models Not Found
-```bash
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_md
-python -m spacy download en_core_web_lg
 ```
 
 ## Related Projects

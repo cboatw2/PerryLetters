@@ -178,7 +178,7 @@ function makePopupHtml(locEntry, i) {
     <div>
       <strong>${locEntry.name || 'Unknown'}</strong><br/>
       <span style="font-size:0.9em; color:#666;">${relationshipText}</span><br/>
-      <a href="${m.file}" target="_blank">View Letter ${m.letter_number}</a><br/>
+      <a href="/letter/${m.letter_number}" target="_blank">View Letter ${m.letter_number}</a><br/>
       <small>${m.date || ''}</small>
       <div style="margin-top:6px; text-align:center;">
         <button onclick="cycleMention(this, -1)" data-marker-id="${locEntry._leafletId}" data-index="${i}" ${prevDisabled}>&laquo; Prev</button>

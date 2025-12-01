@@ -62,17 +62,20 @@ def index():
     
     return render_template('index.html', letters=letters, query=None)
 
-@app.route("/letter/<int:letter_id>")
-def letter(letter_id):
+@app.route("/letter/<int:letter_number>")
+def letter(letter_number):
     cur = get_db().cursor()
-    cur.execute("SELECT * FROM letter WHERE id=?", (letter_id,))
+    # Change from id to letter_number
+    cur.execute("SELECT * FROM letter WHERE letter_number=?", (letter_number,))
     letter = cur.fetchone()
+    
+    if not letter:
+        return "Letter not found", 404
     
     # Read the letter text file
     letter_dict = dict(letter)
-    letter_number = letter['letter_number']
     file_path = os.path.join(
-        LETTERS_DIR,  # ✅ Use constant
+        LETTERS_DIR,
         f'BFPerry_Letter{letter_number}.txt'
     )
     try:
@@ -80,6 +83,8 @@ def letter(letter_id):
             letter_dict['text'] = f.read()
     except FileNotFoundError:
         letter_dict['text'] = f"Letter text file not found: BFPerry_Letter{letter_number}.txt"
+    except Exception as e:
+        letter_dict['text'] = f"Error reading file: {str(e)}"
     
     return render_template("letter.html", letter=letter_dict)
 

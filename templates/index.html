@@ -44,7 +44,7 @@
             <p class="card-text small mb-3">
               <strong>Sent To:</strong> {{ letter['sent_to_location'] or 'Unknown' }}
             </p>
-            <a href="{{ url_for('letter', letter_id=letter['id']) }}" class="btn btn-sm btn-outline-primary">
+            <a href="{{ url_for('letter', letter_number=letter.letter_number) }}">
               Read Letter →
             </a>
           </div>
