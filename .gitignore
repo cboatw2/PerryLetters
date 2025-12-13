@@ -3,9 +3,9 @@ venv/
 *.pyc
 __pycache__/
 .DS_Store
-*.db
-*.db-journal
-*.db-shm
-*.db-wal
-BFPerryLetters.db
-BFPerry_Letters_Database/*.db
+# *.db
+# *.db-journal
+# *.db-shm
+# *.db-wal
+# BFPerryLetters.db
+# BFPerry_Letters_Database/*.db
